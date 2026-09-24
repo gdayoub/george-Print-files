@@ -1,0 +1,39 @@
+GENGAR SNAP DETAIL KIT — P1S, STANDARD 0.4 MM NOZZLE
+
+This kit has a revised bowl with ten exterior sockets and five colour inserts: two red eyes and three white grin sections. It replaces the earlier fast bowl for this assembly. These inserts do not snap onto the older socket-free bowl.
+
+PRINT ORDER
+1. Open 00_Fit_test_P1S.3mf AS A PROJECT in Bambu Studio. Select the actual PLA profile matching your spool, confirm Textured PEI Plate, and slice. Estimated 11 minutes, 0.80 g. Let both parts cool, then push the split pin into the test socket. It should seat with a modest click and remain held. The mechanical fit has not been physically tested; do this before printing the bowl. If it needs excessive force or is loose, report that result so the pin/socket clearance can be adjusted. Do not scale the bowl or inserts to correct fit.
+2. Print 01_Bowl_P1S.3mf in purple (or your body colour): approximately 2 h 33 min, 105.26 g.
+3. Load red PLA and print 02_Red_eyes_P1S.3mf: both eyes together, approximately 10 min, 0.75 g.
+4. Load white/ivory PLA and print 03_White_grin_P1S.3mf: all three grin sections together, approximately 11 min, 0.98 g.
+
+No AMS is required. Each project is one colour. Estimates include the slicer's start-up allowance but not your manual filament changes. Bowl plus details is approximately 2 h 54 min in total, excluding the fit test. Colour jobs use about 1.74 g for the model; allow additional filament for purging/loading. Nothing has been sent to the printer.
+
+PRINT SETTINGS
+Bowl: 0.28 mm layers, 2 walls, 5% infill.
+Details/test: 0.20 mm layers, 3 walls, 15% infill. The thin detail plates and pins are largely solid.
+No supports, brim, or prime tower. Keep the saved orientations: the flat visible faces of the inserts lie on the bed with pins pointing up. Keep scale at 100%.
+The fit-test socket uses 0.20 mm layers, while the bowl uses 0.28 mm layers, so the coupon is a preliminary clearance check rather than proof of the final printed fit.
+
+ASSEMBLY
+Left and right mean as viewed while looking at the face.
+- The red eyes have taller outer corners and pointed inner corners. Align the two pins with the corresponding upper socket pair. Press along the pin axes, perpendicular to that insert's flat face.
+- Fit the white center grin below the nose. Its top is nearly horizontal.
+- Fit the two white side grin sections with the taller end toward the outside of the smile.
+- Press close to the pins rather than levering the thin plate. Leave the designed small clearance behind each insert. The split pins flex over the socket lip and expand into the blind cavity.
+- The pupil holes and tooth gaps reveal the purple body. No tiny separate pupils or glue are required by the design.
+
+Refer to Assembled.png and Exploded.png. PLA snap pins are intended for initial assembly, not frequent repeated removal. Let printed parts cool before fitting.
+
+DESIGN AND CHECKS
+Each insert has two 3.6 mm split pin necks, 4.2 mm retention heads, 4.0 mm socket throats, and 4.6 mm internal cavities. The sockets are added outside the existing bowl rather than drilled through the washing chamber. The chamber/inlet/drain geometry remains intact.
+All bowl and insert meshes have one connected component and zero non-manifold edges. No insert surface intersects the bowl surface when fully seated in the CAD assembly. 8,640 chamber probes match the original FlowWash. All four P1S projects sliced without a warning message or reported mesh repairs. This is a CAD-checked and sliced prototype, not a physically validated snap fit or water-flow test.
+
+FILES
+The numbered 3MF files are the easiest way to print.
+Individual STL files use millimetres and are already oriented for printing.
+Gengar_Snap_Detail_Kit.blend contains the assembled, editable bowl and separate inserts with colour materials.
+Geometry_checks.json and Slicing_reports.json record the checks and estimates.
+
+Source geometry: the user's FlowWash_Bowl.3mf and gengar_miska_9cm.3mf. Original source metadata credits Helena and tom3Dmodel respectively; their original license terms continue to apply.

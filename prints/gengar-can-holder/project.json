@@ -1,0 +1,18 @@
+{
+  "id": "gengar-can-holder",
+  "title": "Gengar soda can holder",
+  "category": "Drink holders",
+  "recommended_version": "separate-inserts",
+  "preview": "images/assembly-preview.png",
+  "printer": "Bambu Lab P1S",
+  "nozzle_mm": 0.4,
+  "testing": {
+    "user_reports_tested": true,
+    "details_recorded": false,
+    "digital_checks_passed": true
+  },
+  "download_status": "source-license-clarification-pending",
+  "files": [],
+  "original_designer": "tom3Dmodel",
+  "original_license": "Standard Digital File License"
+}

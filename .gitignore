@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+*.gcode
+*.gcode.3mf
+*.tmp
+*.bak
+.env
+.env.*
+__pycache__/

@@ -1,0 +1,19 @@
+{
+  "title": "George Print Files",
+  "projects": [
+    {
+      "id": "gengar-can-holder",
+      "title": "Gengar soda can holder",
+      "path": "prints/gengar-can-holder",
+      "preview": "prints/gengar-can-holder/images/assembly-preview.png",
+      "download_status": "source-license-clarification-pending"
+    },
+    {
+      "id": "gengar-flowwash-snap-kit",
+      "title": "Gengar FlowWash snap-in detail kit",
+      "path": "prints/gengar-flowwash-snap-kit",
+      "preview": "prints/gengar-flowwash-snap-kit/Assembled.png",
+      "status": "cad-checked-sliced-physical-fit-untested"
+    }
+  ]
+}
