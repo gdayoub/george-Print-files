@@ -1,0 +1,16 @@
+{
+  "id": "venom-core-case",
+  "title": "Venom V4 — Puffco Core Case",
+  "status": "cad-checked-sliced-physical-fit-untested",
+  "recommended": "Print/FullColor",
+  "alternative": "Print/SingleColor",
+  "foundation": "Foundations/Core_Case.3mf",
+  "preview": "Previews/00_assembled_perspective.png",
+  "printer": "Bambu Lab P1S",
+  "nozzle_mm": 0.4,
+  "full_color_estimate_hours": 39.7346,
+  "single_color_estimate_hours": 11.2596,
+  "pending_design": "Hulk — two colors, optimized for speed and presentation; not built",
+  "source_designer": "ROADBLOCK",
+  "source_license_metadata": "MakerWorld Exclusive License"
+}

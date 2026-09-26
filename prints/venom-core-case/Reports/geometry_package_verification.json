@@ -1,0 +1,116 @@
+{
+  "01_VENOM_BODY_V4.3mf": {
+    "body": {
+      "size_mm": [
+        160.0,
+        81.0,
+        87.90000380000001
+      ],
+      "print_translation_mm": [
+        128.0,
+        131.5,
+        -11.5
+      ],
+      "parts": [
+        "body_red",
+        "body_black",
+        "ORIGINAL_CASE_BASE_EXACT"
+      ]
+    },
+    "reloaded_geometry_count": 3
+  },
+  "02_VENOM_HEAD_ORIGINAL_LID_V4.3mf": {
+    "head": {
+      "size_mm": [
+        146.55588970536004,
+        86.0,
+        83.3429833078234
+      ],
+      "print_translation_mm": [
+        128.0,
+        128.0,
+        -91.9000019
+      ],
+      "parts": [
+        "head_red",
+        "head_black",
+        "head_pink",
+        "ORIGINAL_CASE_LID_EXACT"
+      ]
+    },
+    "reloaded_geometry_count": 4
+  },
+  "03_VENOM_FEET_STORAGE_V4.3mf": {
+    "bottom": {
+      "size_mm": [
+        94.0,
+        75.5,
+        23.9
+      ],
+      "print_translation_mm": [
+        128.0,
+        131.25,
+        0.0
+      ],
+      "parts": [
+        "base_black",
+        "base_red"
+      ]
+    },
+    "reloaded_geometry_count": 2
+  },
+  "assembled": {
+    "body": {
+      "size_mm": [
+        160.0,
+        81.0,
+        87.90000380000001
+      ],
+      "print_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parts": [
+        "body_red",
+        "body_black",
+        "ORIGINAL_CASE_BASE_EXACT"
+      ]
+    },
+    "head": {
+      "size_mm": [
+        146.55588970536004,
+        86.0,
+        83.3429833078234
+      ],
+      "print_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parts": [
+        "head_red",
+        "head_black",
+        "head_pink",
+        "ORIGINAL_CASE_LID_EXACT"
+      ]
+    },
+    "bottom": {
+      "size_mm": [
+        94.0,
+        75.5,
+        23.9
+      ],
+      "print_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parts": [
+        "base_black",
+        "base_red"
+      ]
+    },
+    "reloaded_geometry_count": 9
+  }
+}

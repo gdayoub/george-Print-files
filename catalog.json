@@ -14,6 +14,15 @@
       "path": "prints/gengar-flowwash-snap-kit",
       "preview": "prints/gengar-flowwash-snap-kit/Assembled.png",
       "status": "cad-checked-sliced-physical-fit-untested"
+    },
+    {
+      "id": "venom-core-case",
+      "title": "Venom V4 — Puffco Core Case",
+      "path": "prints/venom-core-case",
+      "preview": "prints/venom-core-case/Previews/00_assembled_perspective.png",
+      "status": "cad-checked-sliced-physical-fit-untested",
+      "recommended": "prints/venom-core-case/Print/FullColor",
+      "foundation": "prints/venom-core-case/Foundations/Core_Case.3mf"
     }
   ]
 }

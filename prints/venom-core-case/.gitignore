@@ -1,0 +1,14 @@
+# Reproducible caches and local historical backups
+_archive/
+_repo_sync/
+CAD/outputs/
+CAD/speed_work/
+.venv/
+.deps/
+__pycache__/
+*.pyc
+*.log
+*.blend1
+*.blend2
+# Distribution ZIPs duplicate the tracked print projects
+*.zip

@@ -1,0 +1,279 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 126,
+      "sha256": "1ac1f7879cebbf5e3cb558dbae6d68d19c750e6072eab02e22890df513e29780"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 222,
+      "sha256": "57c534fe19b5555a395987353263771d51ffa70b81159947321d1c7ef55c6f4a"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1615,
+      "sha256": "48f42eeef3b8eb4a0a9ae15498fef0a7bea2557088ed7dfe2376a431d702dfda"
+    },
+    {
+      "path": "CAD/Venom_Core_Case_V4_EDITABLE.blend",
+      "bytes": 14664520,
+      "sha256": "14ebfe8f21d769e579605c0c71720bd776ab105aa30882b5ffde8f41238ba08d"
+    },
+    {
+      "path": "CAD/build_venom_v4.py",
+      "bytes": 18881,
+      "sha256": "411f3245c12c38c0da405367d4a9f759c63ad3e682a67b5845226b3ee246661a"
+    },
+    {
+      "path": "CAD/export_geometry.py",
+      "bytes": 5992,
+      "sha256": "88a3c91539298b59a8d9925a269eba482bec5809d30a4c2ece9726c51fd22025"
+    },
+    {
+      "path": "CAD/export_prints.py",
+      "bytes": 998,
+      "sha256": "8ca1226265cd5e35d671d39c7ef199e0ba85a9b8fb0d260c0688033e19d0a388"
+    },
+    {
+      "path": "CAD/parameters.json",
+      "bytes": 1090,
+      "sha256": "9461cce1efe2f0d2fa5744bfa923c4a889241753df509d618477662fff884689"
+    },
+    {
+      "path": "CAD/render_venom_v4.py",
+      "bytes": 4619,
+      "sha256": "3f9342ac1261fc4791ac1bc0609dd70c7fde4bae2ba0318a4be1fb5f1917097c"
+    },
+    {
+      "path": "CAD/requirements.txt",
+      "bytes": 38,
+      "sha256": "08e8fbf4b37d547c38ae0e464183d666defdbbe743fab8deba7e052ad9db78c7"
+    },
+    {
+      "path": "CAD/speed_benchmark.py",
+      "bytes": 5568,
+      "sha256": "3a7f78fdf202fb7aea6eecd1519e9a16f37e3a7130686e1d0cf762c54997131f"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 767,
+      "sha256": "67500fa7b2d055e4abe9bbae80dac0fe7e4a170f37d90b383fa1cbc8ddfaf596"
+    },
+    {
+      "path": "Docs/AGENT_HANDOFF.md",
+      "bytes": 6900,
+      "sha256": "6ed0b5b86a34ff33fe3cebf65ad63da03622a42a8da88581f060e68d8bd71137"
+    },
+    {
+      "path": "Docs/CLEANUP.md",
+      "bytes": 1734,
+      "sha256": "7dbbf418b2cb5dd8f674865bf2dc1c0197736ed9e09621b8fefbdf1e7aa0dee7"
+    },
+    {
+      "path": "Docs/DESIGN.md",
+      "bytes": 5264,
+      "sha256": "4fc135ef4405d2cc5edef40f6c7b08b65a711ba6685cdfb5f9ade5d1526593ea"
+    },
+    {
+      "path": "Docs/HULK_BRIEF.md",
+      "bytes": 2022,
+      "sha256": "64903e2a6ea768a88b7c006232bc12532f636a7195c45645fadec2d5314b7299"
+    },
+    {
+      "path": "Docs/PRINTING.md",
+      "bytes": 5050,
+      "sha256": "3cb286096d3047498a5c19134647b23b7fb2709a8352547e8ce11c3bf010253f"
+    },
+    {
+      "path": "Foundations/Core_Case.3mf",
+      "bytes": 2840279,
+      "sha256": "54da47f6ee094b3d39ab7186b99cc710daf0797e67a420f98887727aad5f7c7e"
+    },
+    {
+      "path": "Foundations/README.md",
+      "bytes": 1531,
+      "sha256": "8ccde6a286f05ea50aeece2dc3a7fecf13f9d171cf2808f24754247f0ead5a77"
+    },
+    {
+      "path": "Foundations/base_exact.npz",
+      "bytes": 3178616,
+      "sha256": "02f152112d231b3a6dc99b549ba9123330e52d4cf846b697f8948832e91b8774"
+    },
+    {
+      "path": "Foundations/inspection.json",
+      "bytes": 78473,
+      "sha256": "646196a72f7f800693478cb632cfdf588235933d80ba59771cb7dfe0cf6ec917"
+    },
+    {
+      "path": "Foundations/joint_alignment.json",
+      "bytes": 3303,
+      "sha256": "e68f46dd43de534c0d922ee4aa6b3288daf873f65fe45fdea751342d8cfd2ecf"
+    },
+    {
+      "path": "Foundations/lid_exact.npz",
+      "bytes": 1902656,
+      "sha256": "25941198ff4c557a3a37a3d63e48376b72e35cb184ce6a5409b29516587c1a15"
+    },
+    {
+      "path": "Previews/00_assembled_perspective.png",
+      "bytes": 1182365,
+      "sha256": "5d1121599a40549c111365278b978141d085106c013373c30094e0e7dafd2850"
+    },
+    {
+      "path": "Previews/01_front.png",
+      "bytes": 1129713,
+      "sha256": "88ff307d7173fec2b4585628c5d10c3d2089b166b9f1ee87791d05671bd97b46"
+    },
+    {
+      "path": "Previews/02_side.png",
+      "bytes": 959242,
+      "sha256": "2e28b64e559a45e167c749a5d9c3ebd840ae92b93b954cae8651fe37cace57e3"
+    },
+    {
+      "path": "Previews/03_back.png",
+      "bytes": 1078740,
+      "sha256": "0c3094bd9455fa83a758543d92dc0bd2b2c946474a72313962d56f1084c4fa47"
+    },
+    {
+      "path": "Previews/04_head_removed.png",
+      "bytes": 1113935,
+      "sha256": "c1b5328afaa43d5214fa7cad6cc7bde7012af225bb896468f648204ac3760fce"
+    },
+    {
+      "path": "Previews/05_bottom_open.png",
+      "bytes": 1108091,
+      "sha256": "96863c34318c8cd31c9adedd1de6daa1015bd72d95af3e35930e5008fa3cc5d2"
+    },
+    {
+      "path": "Previews/06_section.png",
+      "bytes": 968649,
+      "sha256": "5cff5fceca14d0e2294e6da068fc7781a838f553e5c8052b9f50084c67e4c91f"
+    },
+    {
+      "path": "Previews/07_head_underside.png",
+      "bytes": 977732,
+      "sha256": "1a33d299afc04810343518f33b0ad64c6a70e2db58eac70090ea3f9af59386ae"
+    },
+    {
+      "path": "Print/FullColor/01_BODY_FAST_COLOR.3mf",
+      "bytes": 21218508,
+      "sha256": "c3bc4df29d947437a165a2e3f85973c42744adfd9a6815469d38d0ffda25bdf8"
+    },
+    {
+      "path": "Print/FullColor/02_HEAD_FAST_COLOR.3mf",
+      "bytes": 15536683,
+      "sha256": "c4c3dc851dbc65c894f865c65dab72a7d429c967452812316222318f5e6fcece"
+    },
+    {
+      "path": "Print/FullColor/03_FEET_STORAGE_FAST_COLOR.3mf",
+      "bytes": 2772510,
+      "sha256": "9f92a9ca75f34b62f376afbbe66f9aa5ada5c7bf112eda8aa5a942384f86724f"
+    },
+    {
+      "path": "Print/Geometry/01_VENOM_BODY_V4.3mf",
+      "bytes": 5872451,
+      "sha256": "90f0e49b5a01d25243b6b8b7c365e4b378b853d2883e7e8196080fefce01e395"
+    },
+    {
+      "path": "Print/Geometry/02_VENOM_HEAD_ORIGINAL_LID_V4.3mf",
+      "bytes": 4414723,
+      "sha256": "bd4248128997c60a784c45b3bee2a05322308bc706287077d5c3a049d975c185"
+    },
+    {
+      "path": "Print/Geometry/03_VENOM_FEET_STORAGE_V4.3mf",
+      "bytes": 801605,
+      "sha256": "51cb70fb1d4b6282c22dcb325f8fda80b86b47c88d05f0fdec88f3d29b9ab10b"
+    },
+    {
+      "path": "Print/Geometry/ASSEMBLED_VIEW_ONLY.3mf",
+      "bytes": 11087295,
+      "sha256": "674da36b2df745f56d416358e411ceef36a2168c670fa4e905b5c8c4a2db5ada"
+    },
+    {
+      "path": "Print/SingleColor/01_BODY_SINGLE_COLOR.3mf",
+      "bytes": 19033183,
+      "sha256": "294fe7145192764031315c2954668d8a2c85191cfb69eb831e7d30977592db9c"
+    },
+    {
+      "path": "Print/SingleColor/02_HEAD_SINGLE_COLOR.3mf",
+      "bytes": 12191296,
+      "sha256": "d7127730ada581b1b9685e43d9b1dd2e95732521c1e84ce155a56e78229726f5"
+    },
+    {
+      "path": "Print/SingleColor/03_FEET_STORAGE_SINGLE_COLOR.3mf",
+      "bytes": 2348354,
+      "sha256": "1797739e8b90d9ebb8bc94143c4af195703d7509d5fc79ca6e9fc5566981bd1c"
+    },
+    {
+      "path": "Profiles/baseline_process.json",
+      "bytes": 6827,
+      "sha256": "892d460c55eb408dfc1831867d23a029595e7c6c5134f8bd0b6eb41e683f938a"
+    },
+    {
+      "path": "Profiles/fast_body.json",
+      "bytes": 6825,
+      "sha256": "58ce6a1fa754a1b862e1a1fa8639888b785e6b5cc0b7efb0dd9ef1278f665ccf"
+    },
+    {
+      "path": "Profiles/fast_feet.json",
+      "bytes": 6825,
+      "sha256": "97b17a59dc82ecb89b724f004da171ced5e0381d99af3592878598ff0929a6c6"
+    },
+    {
+      "path": "Profiles/fast_head.json",
+      "bytes": 6825,
+      "sha256": "1affd74047fff4fe782fbcbe0105c7adc0d9c05f9ee813ed3b648ea9c16dfa97"
+    },
+    {
+      "path": "Profiles/filament_1.json",
+      "bytes": 6153,
+      "sha256": "e5c5a986524dcbc76e798f98b6515e6f63308dd25b8775e28a2b7972b3efd9af"
+    },
+    {
+      "path": "Profiles/filament_2.json",
+      "bytes": 6153,
+      "sha256": "e6f42ef19008a312dcb56199248833ba13a024a3c46c2c487f3cdae3e12d9969"
+    },
+    {
+      "path": "Profiles/filament_3.json",
+      "bytes": 6153,
+      "sha256": "c797bbd935e3736360a783ac4e8a2d644a09a5a8e5a8810acb6d5e5c3cca315a"
+    },
+    {
+      "path": "Profiles/machine.json",
+      "bytes": 19253,
+      "sha256": "58f44a2646e1de23ac00010ce3cb97accf377ebc180d7fa1ed79452c068f8139"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2163,
+      "sha256": "8e0eb08bf7255177dba51d2f803f6bb403b96cd5ed8a1af3d4d839329226a1c9"
+    },
+    {
+      "path": "Reports/geometry_package_verification.json",
+      "bytes": 1978,
+      "sha256": "c022cd9f00a07b96ab73fb5a1d587f4e1d5cb93a4465e95d6d301b68fe9e0d89"
+    },
+    {
+      "path": "Reports/geometry_validation.json",
+      "bytes": 3299,
+      "sha256": "21d800436ff98d265486ac9068ac702895670649743ed6ea721858e4eeae97f0"
+    },
+    {
+      "path": "Reports/time_comparison.json",
+      "bytes": 2106,
+      "sha256": "18cbf16ee9aa19b19c5e22fcd02ac2b2f280ec6b3707080039b1868cdcc60948"
+    },
+    {
+      "path": "Reports/verification.json",
+      "bytes": 1848,
+      "sha256": "e07710d3caf4b2d6ab75e440b23f88c5cc69b9721a66a56977e00fb7986def70"
+    },
+    {
+      "path": "project.json",
+      "bytes": 622,
+      "sha256": "c774f8091fa74deb78181055f0ddb42402b5ec95828356f922e78a001b2c56d8"
+    }
+  ]
+}

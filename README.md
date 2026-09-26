@@ -2,7 +2,13 @@
 
 A growing gallery of George's 3D printing projects. Each print has its own home for previews, printing instructions, assembly notes, credits, and available files.
 
-## Latest addition
+## Latest addition — Venom V4
+
+[![Venom V4 — render of the actual model](prints/venom-core-case/Previews/00_assembled_perspective.png)](prints/venom-core-case/)
+
+[**Venom V4 — Puffco Core Case**](prints/venom-core-case/) · Original case and matching lid preserved at 100% scale; separate jar storage; optimized full-color and optional single-color P1S projects. Estimated totals: **39 h 44 m full color**, **11 h 16 m single color**. CAD checked and sliced; physical fit untested. Includes `Foundations/Core_Case.3mf`, editable Blender/CAD and agent handoffs. Hulk is a pending brief, not a finished release.
+
+## Gengar FlowWash
 
 [![Gengar FlowWash snap-in kit](prints/gengar-flowwash-snap-kit/Assembled.png)](prints/gengar-flowwash-snap-kit/)
 
@@ -22,6 +28,7 @@ A tall holder for a classic 12 oz soda can, with separate red eyes and a white g
 
 | Print | Category | Files |
 | --- | --- | --- |
+| [Venom V4 — Puffco Core Case](prints/venom-core-case/) | Device cases | Optimized 3MFs, complete foundation, editable CAD and agent handoff |
 | [Gengar soda can holder](prints/gengar-can-holder/) | Drink holders | Public release pending source-license clarification |
 
 ## Each print gets its own area
