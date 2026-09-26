@@ -1,0 +1,83 @@
+{
+  "exit_code": 0,
+  "result": {
+    "error_string": "Success.",
+    "export_time": 7584,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 496,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 5.410422325134277,
+          "Bridge": 390.1479797363281,
+          "Custom": 362.4519348144531,
+          "Flush": 29.0,
+          "Gap infill": 10.81299877166748,
+          "Inner wall": 3471.520751953125,
+          "Internal solid infill": 1013.3140869140625,
+          "Outer wall": 1540.7283935546875,
+          "Overhang wall": 344.9700622558594,
+          "Sparse infill": 860.160400390625,
+          "Support": 2095.751220703125,
+          "Support interface": 151.38040161132812,
+          "Top surface": 129.027587890625,
+          "Travel": 1885.8448486328125,
+          "Undefined": 1870.41357421875
+        },
+        "filament_change_times": 0,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 86.20881652832031,
+            "total_used_g": 86.20881652832031
+          }
+        ],
+        "generate_support_material_time": 8686,
+        "id": 1,
+        "infill_time": 1374,
+        "layer_filament_change": 0,
+        "main_predication": 11872.8671875,
+        "make_perimeters_time": 2881,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 69.0,
+              "height": 74.5,
+              "width": 76.0,
+              "x": 89.99999237060547,
+              "y": 93.49999237060547,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "BODY",
+            "triangle_count": 116126
+          }
+        ],
+        "sliced_time": 22066,
+        "sliced_time_with_cache": 8701,
+        "total_predication": 12277.857421875,
+        "triangle_count": 116126,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 8.0,
+    "wall_loops": 4
+  },
+  "settings": {
+    "layer_mm": 0.2,
+    "walls": 4,
+    "infill": "8% gyroid",
+    "XY_compensation_mm": 0,
+    "supports": "build plate only, exterior",
+    "calibrated_spool_profiles": false
+  },
+  "gcode_summary": {
+    "time": "3h 24m 37s",
+    "filament_g": "86.21",
+    "layers": "372"
+  }
+}

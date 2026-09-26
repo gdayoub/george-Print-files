@@ -1,0 +1,78 @@
+{
+  "exit_code": 0,
+  "result": {
+    "error_string": "Success.",
+    "export_time": 8430,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 223,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 61.97224044799805,
+          "Custom": 362.3633117675781,
+          "Flush": 29.0,
+          "Gap infill": 5.315874099731445,
+          "Inner wall": 1238.06884765625,
+          "Internal solid infill": 112.48775482177734,
+          "Outer wall": 660.2285766601562,
+          "Top surface": 55.65354537963867,
+          "Travel": 170.21368408203125,
+          "Undefined": 154.90394592285156
+        },
+        "filament_change_times": 0,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 28.784339904785156,
+            "total_used_g": 28.784339904785156
+          }
+        ],
+        "generate_support_material_time": 106,
+        "id": 1,
+        "infill_time": 57,
+        "layer_filament_change": 0,
+        "main_predication": 2274.74267578125,
+        "make_perimeters_time": 819,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 59.820831298828125,
+              "height": 51.00022888183594,
+              "width": 59.82063674926758,
+              "x": 98.08968353271484,
+              "y": 98.08958435058594,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "HEAD",
+            "triangle_count": 52836
+          }
+        ],
+        "sliced_time": 2297,
+        "sliced_time_with_cache": 1238,
+        "total_predication": 2679.765625,
+        "triangle_count": 52836,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 8.0,
+    "wall_loops": 4
+  },
+  "settings": {
+    "layer_mm": 0.2,
+    "walls": 4,
+    "infill": "8% gyroid",
+    "XY_compensation_mm": 0,
+    "supports": "build plate only, exterior",
+    "calibrated_spool_profiles": false
+  },
+  "gcode_summary": {
+    "time": "44m 39s",
+    "filament_g": "28.78",
+    "layers": "255"
+  }
+}

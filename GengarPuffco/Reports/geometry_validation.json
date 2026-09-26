@@ -1,0 +1,122 @@
+{
+  "foundation_sha256": "54da47f6ee094b3d39ab7186b99cc710daf0797e67a420f98887727aad5f7c7e",
+  "foundation_scale": [
+    1,
+    1,
+    1
+  ],
+  "base_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      48.2500019
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "lid_transform": [
+    [
+      0.9396926207859084,
+      0.3420201433256687,
+      4.188538737676992e-17,
+      0.0
+    ],
+    [
+      0.3420201433256687,
+      -0.9396926207859084,
+      -1.1507915602278503e-16,
+      0.0
+    ],
+    [
+      0.0,
+      1.2246467991473532e-16,
+      -1.0,
+      92.5001163
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "foundation_base_triangles": 88278,
+  "foundation_lid_triangles": 52836,
+  "new_material_in_original_base_void_mm3": -5.834037939171398e-13,
+  "new_material_in_original_lid_void_mm3": 8.784371798012587e-11,
+  "head_addition_in_original_base_envelope_mm3": 0.0,
+  "head_bond_mm3": 2588.6017380775843,
+  "body_bond_mm3": 4232.226160296291,
+  "shell_base_radial_air_gap_mm": 0.85,
+  "storage_clear_diameter_mm": 50,
+  "storage_clear_height_mm": 16,
+  "bottom_thread_pitch_mm": 3.5,
+  "bottom_thread_radial_clearance_mm": 0.35,
+  "assembled_size_mm": [
+    94.69850156,
+    79.55220026,
+    127.67465149499999
+  ],
+  "new_meshes": {
+    "head_black": {
+      "watertight": true,
+      "winding": true,
+      "positive_volume": true,
+      "triangles": 89202
+    },
+    "eyes_red": {
+      "watertight": true,
+      "winding": true,
+      "positive_volume": true,
+      "triangles": 6616
+    },
+    "grin_pink": {
+      "watertight": true,
+      "winding": true,
+      "positive_volume": true,
+      "triangles": 4552
+    },
+    "body_carrier_black": {
+      "watertight": true,
+      "winding": true,
+      "positive_volume": true,
+      "triangles": 27848
+    },
+    "bottom_cap_red": {
+      "watertight": true,
+      "winding": true,
+      "positive_volume": true,
+      "triangles": 7504
+    }
+  },
+  "combined_components": {
+    "head": 1,
+    "body": 1,
+    "bottom": 1
+  },
+  "physical_fit_verified": false,
+  "physical_seating_angle_verified": false,
+  "validation_scope": "Digital sampled motion and source-geometry checks only; no physical fit claim.",
+  "head_collisions": [],
+  "bottom_collisions": [],
+  "head_straight_lift_overlap_mm3": 0.0,
+  "storage_exit_overlap_mm3": 0.0,
+  "neck_seam_min_axial_gap_mm": 0.8
+}

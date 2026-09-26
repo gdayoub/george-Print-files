@@ -1,0 +1,184 @@
+{
+  "00a_ORIGINAL_BASE_ONLY_P1S.3mf": {
+    "archive_valid": true,
+    "originals": {
+      "ORIGINAL_CASE_BASE_EXACT": {
+        "triangles": 88278,
+        "max_bidirectional_vertex_distance_mm": 5.700000002661909e-06,
+        "rigid_build_scale": true
+      }
+    },
+    "mesh_repairs": {
+      "ORIGINAL_CASE_BASE_EXACT": {
+        "face_count": "88278",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    },
+    "zero_XY_compensation": true,
+    "layer_height_values_mm": []
+  },
+  "00b_ORIGINAL_LID_ONLY_P1S.3mf": {
+    "archive_valid": true,
+    "originals": {
+      "ORIGINAL_CASE_LID_EXACT": {
+        "triangles": 52836,
+        "max_bidirectional_vertex_distance_mm": 4.3554420323232725e-06,
+        "rigid_build_scale": true
+      }
+    },
+    "mesh_repairs": {
+      "ORIGINAL_CASE_LID_EXACT": {
+        "face_count": "52836",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    },
+    "zero_XY_compensation": true,
+    "layer_height_values_mm": []
+  },
+  "01_BODY_EXACT_FOUNDATION_P1S.3mf": {
+    "archive_valid": true,
+    "originals": {
+      "ORIGINAL_CASE_BASE_EXACT": {
+        "triangles": 88278,
+        "max_bidirectional_vertex_distance_mm": 5.700000002661909e-06,
+        "rigid_build_scale": true
+      }
+    },
+    "mesh_repairs": {
+      "body_carrier_black": {
+        "face_count": "27848",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      "ORIGINAL_CASE_BASE_EXACT": {
+        "face_count": "88278",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    },
+    "zero_XY_compensation": true,
+    "layer_height_values_mm": []
+  },
+  "02b_GENGAR_HEAD_SINGLE_COLOR_P1S.3mf": {
+    "archive_valid": true,
+    "originals": {
+      "ORIGINAL_CASE_LID_EXACT": {
+        "triangles": 52836,
+        "max_bidirectional_vertex_distance_mm": 4.3554420323232725e-06,
+        "rigid_build_scale": true
+      }
+    },
+    "mesh_repairs": {
+      "head_black": {
+        "face_count": "89202",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      "eyes_red": {
+        "face_count": "6616",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      "grin_pink": {
+        "face_count": "4552",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      "ORIGINAL_CASE_LID_EXACT": {
+        "face_count": "52836",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    },
+    "zero_XY_compensation": true,
+    "layer_height_values_mm": []
+  },
+  "02_GENGAR_HEAD_COLOR_P1S.3mf": {
+    "archive_valid": true,
+    "originals": {
+      "ORIGINAL_CASE_LID_EXACT": {
+        "triangles": 52836,
+        "max_bidirectional_vertex_distance_mm": 4.3554420323232725e-06,
+        "rigid_build_scale": true
+      }
+    },
+    "mesh_repairs": {
+      "head_black": {
+        "face_count": "89202",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      "eyes_red": {
+        "face_count": "6616",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      "grin_pink": {
+        "face_count": "4552",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      "ORIGINAL_CASE_LID_EXACT": {
+        "face_count": "52836",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    },
+    "zero_XY_compensation": true,
+    "layer_height_values_mm": []
+  },
+  "03_BOTTOM_CAP_P1S.3mf": {
+    "archive_valid": true,
+    "originals": {},
+    "mesh_repairs": {
+      "bottom_cap_red": {
+        "face_count": "7504",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    },
+    "zero_XY_compensation": true,
+    "layer_height_values_mm": []
+  }
+}

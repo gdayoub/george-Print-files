@@ -1,0 +1,242 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 89,
+    "sha256": "48f13daf3b554bed26e209a71d6a25067e0c433008ae64bf889f7760747e2ed4"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 55,
+    "sha256": "6eed985894158e0c97d67287c6b1fba93f31f9b2a4c43674b2a53999eec19d84"
+  },
+  {
+    "path": "PRINT_ESTIMATES.md",
+    "bytes": 1265,
+    "sha256": "a127641919440620288ce2c17b0bd6d0876a8ed801caf1c7d74dc0fccf5fadf5"
+  },
+  {
+    "path": "README.md",
+    "bytes": 6303,
+    "sha256": "0e34230f0674f207801cd2684fc4938d7adf017ecf663cc214ee4434324f0c28"
+  },
+  {
+    "path": "CAD/build_gengar.py",
+    "bytes": 9847,
+    "sha256": "44cce680e37b2a03941c3266089245901404de025b258d9215e50b5601e5b2d1"
+  },
+  {
+    "path": "CAD/export_prints.py",
+    "bytes": 5736,
+    "sha256": "14f3038036dc40e7d0774e20c2fc19326b9eb1ed5bf38a7e209149af4619ecb0"
+  },
+  {
+    "path": "CAD/Gengar_Compact_EDITABLE.blend",
+    "bytes": 14476940,
+    "sha256": "e4d661605d6e96d14c27bb492c467d1fd8166f2e4198c567510d517a958f54dc"
+  },
+  {
+    "path": "CAD/render_gengar.py",
+    "bytes": 2793,
+    "sha256": "06f071d6d491c55b77f30bdac8374759d51e5ee85d06e1eacb99063ffa5c642e"
+  },
+  {
+    "path": "CAD/render_section.py",
+    "bytes": 1383,
+    "sha256": "dacb1e4710128cd17526b50cf07ee60a0b445dcb7b86b2a504cf7067489e4901"
+  },
+  {
+    "path": "CAD/requirements.txt",
+    "bytes": 52,
+    "sha256": "7880cb240d86915fb9048c6dfc42d4d552fe402ea9f20ad30a471bc2506b97eb"
+  },
+  {
+    "path": "CAD/slice_p1s.py",
+    "bytes": 3869,
+    "sha256": "f325165decdf008eaa5538fdd3b79ce539d75bdf3b56f42b27a8f7779f04f456"
+  },
+  {
+    "path": "CAD/verify_native.py",
+    "bytes": 3335,
+    "sha256": "5bab121fa4c5d944fc147be0a27200e990c9d2b4b1aacbef73056bb781a4e62e"
+  },
+  {
+    "path": "Foundations/base_exact.npz",
+    "bytes": 3178616,
+    "sha256": "02f152112d231b3a6dc99b549ba9123330e52d4cf846b697f8948832e91b8774"
+  },
+  {
+    "path": "Foundations/Core_Case.3mf",
+    "bytes": 2840279,
+    "sha256": "54da47f6ee094b3d39ab7186b99cc710daf0797e67a420f98887727aad5f7c7e"
+  },
+  {
+    "path": "Foundations/GengarBowlRef.3mf",
+    "bytes": 19017260,
+    "sha256": "46bcc26db8a9807f3bf673bfd7ac51e2fdfd69efdc58724956eab71b1d422b6f"
+  },
+  {
+    "path": "Foundations/gengar_source.npz",
+    "bytes": 14959544,
+    "sha256": "0ccaf36656fbc726dbb7461accff47762c5b6db03fc1dff379c3e5731dcfc926"
+  },
+  {
+    "path": "Foundations/lid_exact.npz",
+    "bytes": 1902656,
+    "sha256": "25941198ff4c557a3a37a3d63e48376b72e35cb184ce6a5409b29516587c1a15"
+  },
+  {
+    "path": "Previews/01_assembled.png",
+    "bytes": 1406676,
+    "sha256": "1abd3be1916c1ba58ae9b37f118364dff9285f91de7bff412d70f84c370a0ba5"
+  },
+  {
+    "path": "Previews/02_front.png",
+    "bytes": 1395395,
+    "sha256": "912a635389bfeeffb3cce5d75ae3f8218c0130865d9d530dd1b48abf3449b70d"
+  },
+  {
+    "path": "Previews/03_head_removed.png",
+    "bytes": 1378118,
+    "sha256": "62cf0786e952e6dace7e088e98cb972938a29a91a3cfa1258c91d9f4f5ef44ad"
+  },
+  {
+    "path": "Previews/04_bottom_open.png",
+    "bytes": 1399122,
+    "sha256": "88cabf33080c6a89053bc02729cc91a9c78f6c87e8dc6183a3f82e6c92550c2b"
+  },
+  {
+    "path": "Previews/05_section_foundation_highlighted.png",
+    "bytes": 1324428,
+    "sha256": "6e41f62f8cad53055c033f7610861c1c7670e52f65b250301665c8b977d1877b"
+  },
+  {
+    "path": "Print/Geometry/00a_ORIGINAL_BASE_ONLY.3mf",
+    "bytes": 1215587,
+    "sha256": "e686fd2d20643b57a8bc9c01b3f88ed25610ad3598658243ba7047c7a703c3d8"
+  },
+  {
+    "path": "Print/Geometry/00b_ORIGINAL_LID_ONLY.3mf",
+    "bytes": 992761,
+    "sha256": "18fa021272a8ae679c4ece38ea312b79769fd10d2ddc8bab95a0059e944a66d4"
+  },
+  {
+    "path": "Print/Geometry/01_BODY_EXACT_FOUNDATION.3mf",
+    "bytes": 1662614,
+    "sha256": "c4a23a2b235d55b37dc472d33da31b8831f7b9db352cb0549665f218dae65e2e"
+  },
+  {
+    "path": "Print/Geometry/02b_GENGAR_HEAD_SINGLE_COLOR.3mf",
+    "bytes": 2491666,
+    "sha256": "6407911c5948eea487e74b76869f23047d26640b4b7da799b64bca373a70a020"
+  },
+  {
+    "path": "Print/Geometry/02_GENGAR_HEAD_COLOR.3mf",
+    "bytes": 2491656,
+    "sha256": "94e7b324c5f96ac2598ebe3c4422d56c9dabf8c505a9c54adecae651e611be98"
+  },
+  {
+    "path": "Print/Geometry/03_BOTTOM_CAP.3mf",
+    "bytes": 102749,
+    "sha256": "22c361bb5cdbe7f05e8a4c33621deb12ed749ed59a7d93e6409a7bc5e500f48c"
+  },
+  {
+    "path": "Print/Geometry/ASSEMBLED_VIEW_ONLY.3mf",
+    "bytes": 4255056,
+    "sha256": "86cdb8b2cdac4003c85cfa271c50f80d020bc98be3f288811e5d9ccd9de4be77"
+  },
+  {
+    "path": "Print/P1S/00a_ORIGINAL_BASE_ONLY_P1S.3mf",
+    "bytes": 5433397,
+    "sha256": "f6e8e61920b4f38260c968f6f972d8a64f0054bfeb17e8371766660e2dfcd264"
+  },
+  {
+    "path": "Print/P1S/00b_ORIGINAL_LID_ONLY_P1S.3mf",
+    "bytes": 1370154,
+    "sha256": "88b3a23f05a1d5105dd618c80291200e407181a9a735a725f21c1a472abf83aa"
+  },
+  {
+    "path": "Print/P1S/01_BODY_EXACT_FOUNDATION_P1S.3mf",
+    "bytes": 11525895,
+    "sha256": "5e839fc068c16755bc0926584f7bba7b3094debd6a1023499273b1e9a9e553d8"
+  },
+  {
+    "path": "Print/P1S/02b_GENGAR_HEAD_SINGLE_COLOR_P1S.3mf",
+    "bytes": 9714796,
+    "sha256": "2591dba759bf6c5777059c08c047d805fab5e2fa74bf7d38c6d0bc136f500e46"
+  },
+  {
+    "path": "Print/P1S/02_GENGAR_HEAD_COLOR_P1S.3mf",
+    "bytes": 10046556,
+    "sha256": "a661d55ed4c27135e691922199e5b1db586b866d33fd159cb7b642a0c01c5af2"
+  },
+  {
+    "path": "Print/P1S/03_BOTTOM_CAP_P1S.3mf",
+    "bytes": 663750,
+    "sha256": "c0d93347c8bf3ee1994cdd73f15179fd5e0ed8b6698ddea42e26eb9967ce1996"
+  },
+  {
+    "path": "Profiles/baseline_process.json",
+    "bytes": 6827,
+    "sha256": "892d460c55eb408dfc1831867d23a029595e7c6c5134f8bd0b6eb41e683f938a"
+  },
+  {
+    "path": "Profiles/filament_1.json",
+    "bytes": 6153,
+    "sha256": "e5c5a986524dcbc76e798f98b6515e6f63308dd25b8775e28a2b7972b3efd9af"
+  },
+  {
+    "path": "Profiles/machine.json",
+    "bytes": 19253,
+    "sha256": "58f44a2646e1de23ac00010ce3cb97accf377ebc180d7fa1ed79452c068f8139"
+  },
+  {
+    "path": "Reports/00a_ORIGINAL_BASE_ONLY_slice.json",
+    "bytes": 2193,
+    "sha256": "cee2cfe2cb6937862dc3e95ff9792d9df2c5719e8275c8cbf0be60c8a3bcaf1e"
+  },
+  {
+    "path": "Reports/00b_ORIGINAL_LID_ONLY_slice.json",
+    "bytes": 2127,
+    "sha256": "3034ee83ecfcade1aeb63339d3797c5228c5fc27bf782dc0dc573d50b3ac014c"
+  },
+  {
+    "path": "Reports/01_BODY_EXACT_FOUNDATION_slice.json",
+    "bytes": 2316,
+    "sha256": "b6131bf0186e1dbf5490c47daf6b6b9b8a7035536c45d6f7a92a07427a88ee8d"
+  },
+  {
+    "path": "Reports/02b_GENGAR_HEAD_SINGLE_COLOR_slice.json",
+    "bytes": 2311,
+    "sha256": "cc85a056a0367c84dd9550e454078313d2314c64bdea86a43735efaac3ab60cf"
+  },
+  {
+    "path": "Reports/02_GENGAR_HEAD_COLOR_slice.json",
+    "bytes": 2736,
+    "sha256": "907f4692ff2a7237c2fd50eb9ba59ab2701cd0126090e2433cf6f70ab4863550"
+  },
+  {
+    "path": "Reports/03_BOTTOM_CAP_slice.json",
+    "bytes": 2245,
+    "sha256": "855127855fe8770f2569c1d94a6f00fe9c145e5c323532bf1a4d0f5135b9b8f4"
+  },
+  {
+    "path": "Reports/export_verification.json",
+    "bytes": 7566,
+    "sha256": "7418a0f67f12ccb63b5d5267265c3f45762db70edffb2f3ebae2698d436bb78c"
+  },
+  {
+    "path": "Reports/geometry_validation.json",
+    "bytes": 2500,
+    "sha256": "fccd868280030e458c48e9728749fe1ceeaae3a60ac8a8caf07b0c01a09de4eb"
+  },
+  {
+    "path": "Reports/native_verification.json",
+    "bytes": 4926,
+    "sha256": "b88dc937e280bdb1c45ef28937d10fb421ac765b7b0859d659a961dc6375834b"
+  },
+  {
+    "path": "Reports/venom_fit_audit.json",
+    "bytes": 707,
+    "sha256": "0a2658796332160a16d7ad42e8d06785bc661fcb3dad60a5bc75db6c7c226db6"
+  }
+]

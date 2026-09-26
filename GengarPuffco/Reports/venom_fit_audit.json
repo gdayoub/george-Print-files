@@ -1,0 +1,28 @@
+{
+  "base": {
+    "vertex_error_mm": 0.0,
+    "same_triangles": true,
+    "new_material_inside_source_convex_envelope_but_outside_source_solid_mm3": 0.0026225817228938525,
+    "intrusion_bounds": [
+      -27.199998899999994,
+      -26.967306141264277,
+      46.900000000000006,
+      27.199998899999994,
+      28.6385498,
+      90.9000019
+    ]
+  },
+  "lid": {
+    "vertex_error_mm": 0.0,
+    "same_triangles": true,
+    "new_material_inside_source_convex_envelope_but_outside_source_solid_mm3": 0.000579097458508466,
+    "intrusion_bounds": [
+      -28.69839816170913,
+      -28.698439526986096,
+      93.60000190000001,
+      28.69852150154242,
+      28.69842997261102,
+      141.6096230711655
+    ]
+  }
+}

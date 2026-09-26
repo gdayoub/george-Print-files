@@ -1,0 +1,2 @@
+# Preserve the verified artifact package and its SHA-256 manifest byte for byte.
+* -text

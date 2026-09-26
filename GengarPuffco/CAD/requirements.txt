@@ -1,0 +1,6 @@
+numpy
+trimesh
+manifold3d
+scipy
+networkx
+bpy==4.2.23

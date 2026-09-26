@@ -1,0 +1,4 @@
+CAD/outputs/
+CAD/slice_work/
+CAD/*.blend1
+__pycache__/
