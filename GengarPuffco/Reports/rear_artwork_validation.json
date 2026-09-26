@@ -1,0 +1,12 @@
+{
+  "text": "George",
+  "font": "Metal Mania",
+  "theme": "custom mirrored cybersigilism-inspired thorns",
+  "color": "#CE1834",
+  "color_volume": "head_george_red",
+  "placement": "rear (+Y) head, flush with sculpt",
+  "head_color_overlap_mm3": 2.9103830456733704e-11,
+  "combined_decorative_head_components": 1,
+  "font_license": "CAD/Fonts/OFL.txt",
+  "reference_preview": "Previews/07_rear_george.png"
+}

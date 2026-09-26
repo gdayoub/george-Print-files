@@ -1,4 +1,4 @@
-# GengarPuffco - Sculpt V6
+# GengarPuffco - George V7
 
 A clean Gengar-inspired sculpt rebuilt from online visual references around the complete original Puffco case. The exterior has one rounded body, smoothly blended ears and short limbs, rear spikes, and crisp curved eyes and grin. The upper half twists off at the middle seam, with a small screw-on cup recessed underneath.
 
@@ -7,7 +7,7 @@ This replaces the stretched bowl mesh used in earlier revisions. The new exterio
 | Assembly | Width x depth x height |
 |---|---|
 | Complete original foundation | 57.4 x 57.4 x 96.0 mm |
-| **Gengar Sculpt V6** | **142.0 x 108.8 x 125.9 mm** |
+| **Gengar George V7** | **142.0 x 108.8 x 125.9 mm** |
 | Previous Girth V5 | 131.1 x 110.1 x 118.0 mm |
 
 The extra height is in the pointed ears and crown spikes. The case interior, its rigid placement, the original threads, and the small underside cup retain their previous dimensions. The main body closes smoothly over the original lid. The generator limits the assembly to 148 x 122 x 129 mm.
@@ -16,12 +16,16 @@ The extra height is in the pointed ears and crown spikes. The case interior, its
 
 ![Original case at the same scale](Previews/06_size_comparison.png)
 
+![Red George rear wordmark](Previews/07_rear_george.png)
+
+The rear head now carries **George** in Metal Mania lettering with custom mirrored cybersigilism-inspired thorn details, printed in red. The artwork is flush and uses aligned AMS color volumes; the sculpt dimensions, foundation, and threads are unchanged.
+
 ## Closures and color
 
 - **Upper half:** turns counterclockwise viewed from above on the original approximately 2.5 mm-pitch case thread. The nominal horizontal seam is 0.6 mm wide and crosses the grin near the middle of the character.
 - **Underside cup:** a separate 2.5 mm-pitch thread. Turn counterclockwise viewed from underneath. The exposed bottom has scallops for grip.
 - **Compartment:** 32 mm clear diameter x 10 mm clear depth; 2 mm floor; 12 mm cup height. It is a small compartment, not the previous full-width deep cup. Any jar or liner needs to fit inside those dimensions.
-- **Colors:** black character, red eyes, pink grin, red underside cup. The grin crosses the opening seam, so both body and head projects contain color regions.
+- **Colors:** black character, red eyes and rear wordmark, pink grin, red underside cup. The grin crosses the opening seam, so both body and head projects contain color regions.
 - The original head thread has no new alignment stop. The final tightened face alignment requires a physical test.
 
 ## Print files
@@ -34,7 +38,7 @@ Open the native files **as projects** in Bambu Studio and keep their saved orien
 
 For an all-black character, pair `01b_BODY_SINGLE_COLOR_P1S.3mf` with `02b_GENGAR_HEAD_SINGLE_COLOR_P1S.3mf`, plus the red cup. The colored regions are aligned multipart AMS regions, not snap-in inserts.
 
-`Print/Geometry` contains exact unsliced 3MFs. `ASSEMBLED_VIEW_ONLY.3mf` is for inspection, not print-in-place. The editable Blender file and all current previews represent Sculpt V6; earlier revisions remain in Git history.
+`Print/Geometry` contains exact unsliced 3MFs. `ASSEMBLED_VIEW_ONLY.3mf` is for inspection, not print-in-place. The editable Blender file and all current previews represent George V7; earlier revisions remain in Git history.
 
 The included benchmark is P1S / 0.4 mm / textured PEI / 0.20 mm layers / four walls / 8% gyroid / zero XY compensation. Generic PLA uses 220 C nozzle, 55 C bed and 12 mm3/s maximum flow. Choose calibrated profiles for your actual spools and re-slice. Inspect supports and their removal from the lower opening. Estimates are in [PRINT_ESTIMATES.md](PRINT_ESTIMATES.md). No printer job has been sent.
 

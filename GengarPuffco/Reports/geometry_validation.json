@@ -64,7 +64,7 @@
   "head_addition_in_original_base_envelope_mm3": 0.0,
   "head_bond_mm3": 2588.601738077558,
   "body_bond_mm3": 2107.724749977833,
-  "revision": "Sculpt V6: clean reference-led surfaces, crisp face and blended limbs",
+  "revision": "George V7: red cybersigilism rear wordmark on Sculpt V6",
   "shell_base_radial_air_gap_mm": 0.85,
   "head_seam_min_axial_gap_mm": 0.6,
   "storage_clear_diameter_mm": 32,
@@ -81,31 +81,37 @@
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 47770
+      "triangles": 151298
+    },
+    "head_george_red": {
+      "watertight": true,
+      "winding": true,
+      "positive_volume": true,
+      "triangles": 106510
     },
     "head_eyes_red": {
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 5488
+      "triangles": 5816
     },
     "head_grin_pink": {
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 376
+      "triangles": 608
     },
     "body_black": {
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 48864
+      "triangles": 50032
     },
     "body_grin_pink": {
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 1146
+      "triangles": 1746
     },
     "bottom_cap_red": {
       "watertight": true,

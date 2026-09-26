@@ -1,4 +1,4 @@
-"""GengarPuffco Sculpt V6. Clean reference-led character around the exact original case.
+"""GengarPuffco George V7. Clean reference-led character around the exact original case.
 All coordinates millimetres. Front -Y, up Z. Run with numpy/trimesh/manifold3d.
 The upper Gengar half turns with the original lid over the stationary lower half.
 """
@@ -87,9 +87,12 @@ grin_points=bezier((-38,67),(-18,56),(18,56),(38,67))+bezier((38,67),(30,32),(-3
 grin_mask=face_prism(grin_points)
 for x in [-30,-20,-10,0,10,20,30]:grin_mask=grin_mask-box((x-.45,-76,30),(x+.45,-19,70))
 # Color regions are cut directly with matching volumes for exact shared boundaries.
+from rear_sigil import rear_mask
+george_mask=rear_mask()
 parts={}
 for prefix,shape in [('head',head_whole),('body',carrier)]:
- parts[prefix+'_black']=cleaned(shape-eye_mask-grin_mask)
+ parts[prefix+'_black']=cleaned(shape-eye_mask-grin_mask-(george_mask if prefix=='head' else M()))
+ if prefix=='head':parts['head_george_red']=cleaned(shape^george_mask)
  for name,mask in [('eyes_red',eye_mask),('grin_pink',grin_mask)]:
   region=cleaned(shape^mask)
   if region.volume()>.001:parts[prefix+'_'+name]=region
@@ -112,7 +115,7 @@ checks={
  'new_material_in_original_lid_void_mm3':(head_whole^lid_void).volume(),
  'head_addition_in_original_base_envelope_mm3':(head_whole^base_hull).volume(),
  'head_bond_mm3':(head_whole^LS).volume(),'body_bond_mm3':(carrier^BS).volume(),
- 'revision':'Sculpt V6: clean reference-led surfaces, crisp face and blended limbs',
+ 'revision':'George V7: red cybersigilism rear wordmark on Sculpt V6',
  'shell_base_radial_air_gap_mm':.85,'head_seam_min_axial_gap_mm':.6,
  'storage_clear_diameter_mm':32,'storage_clear_height_mm':10,
  'bottom_thread_pitch_mm':pitch,'bottom_thread_radial_clearance_mm':radial,

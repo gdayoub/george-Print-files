@@ -30,6 +30,7 @@ def render(name,location,target,scale):
  if '--only' in sys.argv and name!=sys.argv[sys.argv.index('--only')+1]:return
  cam.location=location;aim(cam,target);cam.data.ortho_scale=scale;s.render.filepath=str(P/name);bpy.ops.render.render(write_still=True)
 render('01_assembled.png',(145,-280,145),(0,0,61),190)
+render('07_rear_george.png',(0,300,108),(0,0,67),180)
 render('02_front.png',(0,-300,62),(0,0,61),180)
 for ob in objects:
  if ob['assembly']=='head':ob.location.x=105;ob.location.z=40
@@ -51,6 +52,6 @@ def label(text,x):
  ob=bpy.data.objects.new('Dimension label',cu);bpy.context.collection.objects.link(ob);ob.location=(x,-37,-8);ob.rotation_euler=(math.pi/2,0,0);cu.materials.append(material('Label ink','#14202E'))
 label('ORIGINAL CASE\n57.4 x 57.4 x 96 mm',-60)
 dimensions=json.loads((R/'Reports/geometry_validation.json').read_text())['assembled_size_mm']
-label('GENGAR SCULPT V6\n'+' x '.join(f'{x:.1f}' for x in dimensions)+' mm',60)
+label('GENGAR GEORGE V7\n'+' x '.join(f'{x:.1f}' for x in dimensions)+' mm',60)
 s.render.resolution_x=1550;s.render.resolution_y=1050
 render('06_size_comparison.png',(0,-320,70),(15,0,55),270)

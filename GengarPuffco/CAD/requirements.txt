@@ -5,3 +5,5 @@ scipy
 networkx
 bpy==4.2.23
 scikit-image
+
+fonttools==4.66.0

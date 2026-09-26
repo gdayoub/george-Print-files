@@ -11,3 +11,7 @@ These are visual references. Their images and any third-party character mesh are
 The eye and grin outlines are Bezier curves cut into the curved exterior as aligned color volumes. The original Puffco base and lid are fitted afterward and retain their exact source geometry under rigid placement. The small underside cup uses a separate thread.
 
 Previews render the exported CAD meshes. They are not image-generation mockups. Black, red and pink are retained for the user's available filament colors.
+
+## George V7 rear artwork
+
+The rear inscription uses [Metal Mania by Open Window](https://github.com/google/fonts/tree/main/ofl/metalmania), with custom mirrored thorn ornament for a cybersigilism-inspired treatment. The font and its SIL Open Font License are retained in `CAD/Fonts`. `CAD/rear_sigil.py` converts the font outlines and ornament into matching red/black printable color volumes. The inscription reads George; Metal Mania uses uppercase-style forms for its lowercase glyphs. The rear render is `Previews/07_rear_george.png`.
