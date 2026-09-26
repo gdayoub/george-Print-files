@@ -1,0 +1,33 @@
+{
+  "revision": "Slim V2",
+  "original_complete_case_mm": [
+    57.4000016,
+    57.3999938,
+    96.0002307
+  ],
+  "current_gengar_mm": [
+    65.71502508213055,
+    61.669239226991465,
+    109.77200016
+  ],
+  "increase_mm": [
+    8.315023482130549,
+    4.269245426991468,
+    13.771769460000002
+  ],
+  "increase_percent": [
+    14.49,
+    7.44,
+    14.35
+  ],
+  "hard_size_limit_mm": [
+    70,
+    70,
+    110
+  ],
+  "source_functional_geometry_scale": 1,
+  "storage_clear_size_mm": [
+    50,
+    6
+  ]
+}

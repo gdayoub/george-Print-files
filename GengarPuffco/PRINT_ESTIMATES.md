@@ -1,22 +1,22 @@
-# Bambu Studio estimates — Gengar Compact
+# Bambu Studio estimates - GengarPuffco Slim V2
 
-Controlled P1S / 0.4 mm / generic PLA estimates. Not measured print times. Re-slice with your calibrated spools.
+Controlled P1S / 0.4 mm / generic PLA estimates, not measured print times. Re-slice with calibrated spools.
 
 | Project | Time | Filament | Changes |
 |---|---:|---:|---:|
-| 00a_ORIGINAL_BASE_ONLY | 1h 31m 2s | 43.0 g | 0 |
-| 00b_ORIGINAL_LID_ONLY | 44m 39s | 28.8 g | 0 |
-| 01_BODY_EXACT_FOUNDATION | 3h 24m 37s | 86.2 g | 0 |
-| 02_GENGAR_HEAD_COLOR | 7h 23m 37s | 139.4 g | 130 |
-| 03_BOTTOM_CAP | 27m 29s | 13.3 g | 0 |
-| 02b_GENGAR_HEAD_SINGLE_COLOR | 2h 44m 2s | 75.3 g | 0 |
+| 00a_ORIGINAL_BASE_ONLY | 1h 30m 38s | 43.0 g | 0 |
+| 00b_ORIGINAL_LID_ONLY | 44m 49s | 28.8 g | 0 |
+| 01_BODY_EXACT_FOUNDATION | 2h 14m 24s | 60.0 g | 0 |
+| 02_GENGAR_HEAD_COLOR | 5h 45m 45s | 105.2 g | 119 |
+| 03_BOTTOM_CAP | 20m 19s | 9.0 g | 0 |
+| 02b_GENGAR_HEAD_SINGLE_COLOR | 1h 30m 41s | 47.9 g | 0 |
 
-Full-color case (body + colored head + cap): **11 h 16 m, 238.9 g**.
+**Full-color case: 8 h 20 m, 174.2 g.**
 
-Single-color-head option (body + all-black head + red cap): **6 h 36 m, 174.8 g**.
+**All-black head option: 4 h 5 m, 116.9 g.**
 
-Foundation-only checks add approximately **2 h 16 m and 71.8 g** if both are needed. These are excluded from case totals.
+Optional original-foundation checks: 2 h 15 m, 71.8 g. These are excluded from case totals.
 
-All six native projects sliced with zero reported warnings. Mesh statistics reported no repairs, removed facets, reversed facets or fixed edges. Original source meshes retain their triangle counts, unit build scale, and maximum native-export vertex difference below 0.000006 mm (serialization precision).
+All six projects sliced without reported warnings or mesh repairs. Exact original triangle counts and unit build scale are retained. Native serialization differences are below 0.00001 mm. All layers remain 0.20 mm; walls are four; XY compensation is zero.
 
-Four walls and 0.20 mm layers are used throughout. XY compensation is zero. Actual support cleanup, fit, face alignment and durability remain untested.
+Physical fit, support removal, face alignment and durability are unverified.

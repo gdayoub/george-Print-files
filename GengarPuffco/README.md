@@ -1,54 +1,58 @@
-# Gengar Compact — original Core Case foundation
+# GengarPuffco — Slim V2
 
-Digital prototype based on your Gengar bowl, with a twist-off Gengar head and an independently opening bottom compartment. Black body/head, red eyes and bottom cap, pink grin. The foundation remains at **100% scale**.
+The **complete original Core Case** sets the size. Gengar is a thin decorative exterior on that case, with no separate torso, neck, arms or feet. This revision replaces the oversized first Gengar version.
 
-The character is approximately **94.7 × 79.5 × 127.7 mm**, versus Venom's **160 × 87 × 175.2 mm**: about **41% narrower and 27% shorter**. The complete original case itself is almost 97 mm tall when assembled; it sets a real lower limit on the size. Only the decorative Gengar bowl is uniformly reduced to 65%. Its face and ears retain their source proportions. A slim new body fits around the original lower case.
+| Assembly | Width × depth × height |
+|---|---|
+| Complete original foundation | 57.4 × 57.4 × 96.0 mm |
+| **Current Gengar Slim V2** | **65.7 × 61.7 × 109.8 mm** |
+| Superseded first Gengar | 94.7 × 79.6 × 127.7 mm |
 
-![Actual model render](Previews/01_assembled.png)
+The new design is about **15% wider, 7% deeper and 14% taller than the original case**. Most of the straight case wall is only 1.45 mm thicker on the outside. The additional height provides shallow bottom storage and small ear tips. The generator rejects designs exceeding 70 × 70 × 110 mm.
 
-## Start with fit
+![Both models at the same scale](Previews/06_size_comparison.png)
 
-Your printed Venom was too tight. The audit found its original base/lid vertices and triangles unchanged in the unsliced exports; it did **not** establish the physical cause of the tightness. Printer calibration, slicing, supports, material and the changed surrounding structure remain possible contributors. We do not infer that this new model's physical fit is proven.
+Black case, red eyes and bottom cap, pink grin. The face, ears and side ridges come from your actual `GengarBowlRef.3mf` mesh, wrapped radially onto the case. Only the decorative mesh changes shape; the original functional case is never scaled.
 
-If you have not already printed the original foundation successfully, use `Print/P1S/00a_ORIGINAL_BASE_ONLY_P1S.3mf` and `00b_ORIGINAL_LID_ONLY_P1S.3mf` first. These contain only the unmodified original meshes. Check full-depth device insertion, removal and the original screw closure after cooling and removing any brim. If your original case is already a known good print, you can skip repeating it and compare the new body directly.
+## Closures and storage
 
-For the new case, print **01_BODY_EXACT_FOUNDATION** before the decorated head. This tests the actual final body/cavity and includes the lower compartment. Check it with the original lid and your device. Then print the bottom cap to check its new coarse thread. The expensive colored head comes last. Never force a tight part or scale the whole assembly to change its fit.
+- **Head:** the decorated upper half twists off on the original approximately 2.5 mm-pitch thread. Turn counterclockwise viewed from above while holding the lower half.
+- **Bottom:** an independent recessed red screw cap opens the shallow accessory compartment. Turn counterclockwise viewed from underneath.
+- **Storage:** 50 mm clear diameter × **6 mm** clear height. It is for small flat accessories, not the previous 30 mm-tall jar placeholder. The shallow depth is deliberate to keep the design close to the original case size.
+- The original head thread is preserved with no added stop. Its final tightened facing direction still requires a physical test.
 
-## Print files
+## Fit first
 
-Open the files under `Print/P1S` **as projects**, keep 100% scale and the saved orientations:
+The earlier printed Venom was reported too tight. Its unsliced source geometry audit found no scaling error, so the physical cause was not established. This revision preserves the original base, lid, device cavity, accessory slots and mating threads at 100% scale. New material is checked against the original internal free space, not just a nominal bore size.
 
-1. `01_BODY_EXACT_FOUNDATION_P1S.3mf` — black; original case base plus compact body, arms and feet.
-2. `02_GENGAR_HEAD_COLOR_P1S.3mf` — black, red, pink; original lid inside the Gengar head. The head is inverted for printing so the original lid cavity faces up. External supports and a brim are used.
-3. `03_BOTTOM_CAP_P1S.3mf` — red; independent lower screw cap.
+If the original foundation has not already been printed successfully, start with `Print/P1S/00a_ORIGINAL_BASE_ONLY_P1S.3mf` and `00b_ORIGINAL_LID_ONLY_P1S.3mf`. These contain only the unmodified original geometry. Check full-depth insertion, removal and closure after cooling. If your original case already fits correctly, skip repeating that test and compare the new body directly.
 
-`02b_GENGAR_HEAD_SINGLE_COLOR_P1S.3mf` is an optional all-black head with the same geometry. It can be used as a simpler prototype or painted afterward. The contrasting face regions in the full-color file are aligned multipart AMS regions, **not** separate snap-in inserts.
+Print the actual new body next, then its bottom cap, before spending filament on the colored head. Never scale the whole assembly to fix a tight fit. Exact CAD dimensions do not establish physical fit with a particular printer, filament, flow setting or support cleanup.
 
-Machine benchmark: P1S, 0.4 mm nozzle, textured PEI; 0.20 mm layers, four walls, 8% gyroid, zero XY contour/hole compensation. Generic PLA profiles at 220°C, bed 55°C and 12 mm³/s are assumptions, not calibration for your red, black or pink spools. Select your actual calibrated profiles and re-slice. Inspect support removal around ears, arms and the outside of the inverted head; the original functional cavity is kept upward. No printer job has been sent.
+## Print projects
 
-`Print/Geometry` contains exact unsliced 3MF exports. `ASSEMBLED_VIEW_ONLY.3mf` is for inspection, **not print-in-place**. Original functional meshes remain separately identifiable in the body and head assemblies. Geometry files store the originals with double-precision coordinates; final exported source vertices and topology are checked against the foundation arrays.
+Open these **as projects** in Bambu Studio. Keep 100% scale and the saved orientation:
 
-## Openings and storage
+1. `Print/P1S/01_BODY_EXACT_FOUNDATION_P1S.3mf` — black, original base with its thin outer skin and shallow storage housing.
+2. `Print/P1S/02_GENGAR_HEAD_COLOR_P1S.3mf` — black/red/pink, original lid with the Gengar exterior. It prints inverted, with the original cavity facing upward.
+3. `Print/P1S/03_BOTTOM_CAP_P1S.3mf` — red, independent lower cap.
 
-- Hold the lower body and turn the whole Gengar head counterclockwise viewed from above. It uses the original approximately 2.5 mm-pitch thread.
-- Turn the recessed red bottom cap counterclockwise viewed from underneath. It uses a separate 3.5 mm-pitch thread, with 0.35 mm modeled radial and 0.22 mm axial clearance.
-- Bottom storage has **50 mm clear diameter × 16 mm clear height**. This is a shallow accessory compartment. **The earlier 46 × 30 mm jar placeholder does not fit.** No actual jar dimensions were supplied for this revision.
-- The head and bottom cap operate independently. The head's final tightened facing direction still needs a physical test; preserving the original threads does not add an alignment stop.
+`02b_GENGAR_HEAD_SINGLE_COLOR_P1S.3mf` is an optional all-black head with identical geometry. The colored face regions are aligned multipart AMS regions, not separate snap-in inserts. Estimates are in [PRINT_ESTIMATES.md](PRINT_ESTIMATES.md).
 
-## Verification and limits
+Benchmark: P1S, 0.4 mm nozzle, textured PEI; 0.20 mm layers, four walls, 8% gyroid, zero XY hole/contour compensation. Generic PLA at 220°C, bed 55°C and 12 mm³/s is a benchmark assumption, not a calibrated profile for your spools. Choose the actual red, black and pink filament profiles and re-slice. Inspect exterior head supports and support removal through the open bottom compartment. No printer job has been sent.
 
-The foundation archive hash is unchanged. Source base: 88,278 triangles; source lid: 52,836 triangles. Exact source mesh identity is checked in the geometry exports after undoing rigid placement. New solids are checked for closed meshes, winding and positive volume; head, body and cap each form one combined connected solid.
+`Print/Geometry` contains exact unsliced 3MFs. `ASSEMBLED_VIEW_ONLY.3mf` is for inspection, not print-in-place. All current files in this folder are Slim V2; the first version is retained in Git history.
 
-New material is checked against the **actual original free space inside each source convex envelope**, not just a guessed bore diameter. The head clears the original base envelope. Both opening paths are sampled every 5° through four turns, followed by a head-lift check and an exit check for a 49 mm-diameter compartment probe. These are digital sampled checks, not physical validation of fit, strength, sealing or support removal.
+## Checked digitally
 
-See `Reports/geometry_validation.json`, `Reports/export_verification.json`, `Reports/*_slice.json`, and `Reports/venom_fit_audit.json`. Actual slicer estimates are summarized in `PRINT_ESTIMATES.md` after slicing.
+The original archive hash is preserved. Both original meshes retain their triangle topology and source vertices under rigid placement in the geometry exports. Native Bambu exports are checked for unit scale, triangle counts, serialization precision and zero XY compensation. New meshes are checked for closed surfaces, consistent winding and positive volume.
 
-## Editable source
+The head, lower case and cap each form one combined connected solid. Both screw-opening paths are sampled every 5° through four full turns, followed by head-lift and compartment-exit checks. New material is tested against free space inside the original source envelopes. Physical fit, face alignment, durability, sealing and support removal remain unverified.
 
-`CAD/Gengar_Compact_EDITABLE.blend` contains the actual assembled meshes and presentation scene. Keep original case objects unchanged. `CAD/build_gengar.py` rebuilds geometry; `export_prints.py` exports checked 3MFs; `render_gengar.py` renders the actual meshes; `slice_p1s.py <path-to-bambu-studio.exe>` produces the native projects. Python dependencies are in `CAD/requirements.txt`. Blender rendering uses `bpy`.
+Reports are in `Reports/`. In the section preview, green highlights the unchanged original case for clarity; it is not a separate filament color.
 
-This project lives in the repository's `GengarPuffco/` folder. Venom is preserved separately. No printer operation was performed.
+## Source and editing
 
-## Source attribution
+`CAD/Gengar_Compact_EDITABLE.blend` contains the current Slim V2 mesh and studio scene. `build_gengar.py` rebuilds it; `export_prints.py` writes checked geometry; `render_gengar.py` creates the previews and size comparison; `render_section.py` creates the cutaway. Run `slice_p1s.py <path-to-bambu-studio.exe>` for native projects, then `verify_native.py`. Dependencies are in `CAD/requirements.txt`.
 
-Original complete `Core_Case.3mf`: ROADBLOCK, “Core Case for Puffco Proxy Core”; embedded MakerWorld Exclusive License metadata retained. Gengar exterior: tom3Dmodel, “Gengar pokemon Bowl,” supplied as `GengarBowlRef.3mf`; embedded Standard Digital File License metadata retained. Both original archives are retained in `Foundations`. This local derivative does not assert additional redistribution rights.
+Original complete case: **ROADBLOCK**, “Core Case for Puffco Proxy Core,” embedded MakerWorld Exclusive License. Gengar bowl: **tom3Dmodel**, “Gengar pokemon Bowl,” embedded Standard Digital File License. Original archives and their metadata are retained in `Foundations`. This derivative does not assert additional redistribution rights.
