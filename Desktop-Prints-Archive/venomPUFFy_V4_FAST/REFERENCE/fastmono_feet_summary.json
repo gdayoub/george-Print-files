@@ -1,0 +1,66 @@
+{
+  "mode": "fastmono",
+  "group": "feet",
+  "exit_code": 0,
+  "error": "Success.",
+  "plates": [
+    {
+      "feature_type_times": {
+        "Bottom surface": 121.12512969970703,
+        "Bridge": 332.97552490234375,
+        "Custom": 362.47052001953125,
+        "Flush": 29.0,
+        "Gap infill": 6.714231491088867,
+        "Inner wall": 867.2190551757812,
+        "Internal solid infill": 976.2557983398438,
+        "Outer wall": 512.723388671875,
+        "Overhang wall": 33.679935455322266,
+        "Sparse infill": 172.72044372558594,
+        "Top surface": 143.12283325195312,
+        "Travel": 223.55905151367188,
+        "Undefined": 208.15606689453125
+      },
+      "filament_change_times": 0,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 33.40367126464844,
+          "total_used_g": 33.40367126464844
+        }
+      ],
+      "generate_support_material_time": 53,
+      "id": 1,
+      "infill_time": 221,
+      "layer_filament_change": 0,
+      "main_predication": 3360.585693359375,
+      "make_perimeters_time": 345,
+      "obj_cached_cnt": 0,
+      "objects": [
+        {
+          "bbox": {
+            "depth": 75.5,
+            "height": 23.899999618530273,
+            "width": 94.0,
+            "x": 80.99999237060547,
+            "y": 90.25,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "BOTTOM_ASSEMBLY",
+          "triangle_count": 45252
+        }
+      ],
+      "sliced_time": 1434,
+      "sliced_time_with_cache": 792,
+      "total_predication": 3765.62255859375,
+      "triangle_count": 45252,
+      "warning_message": ""
+    }
+  ],
+  "gcode_summary": {
+    "time": "1h 2m 45s",
+    "filament_g": "33.40",
+    "layers": "119"
+  }
+}

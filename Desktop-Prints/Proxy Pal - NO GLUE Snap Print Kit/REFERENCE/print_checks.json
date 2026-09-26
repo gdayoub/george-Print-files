@@ -1,0 +1,242 @@
+{
+  "00_FIT_TEST_FIRST": {
+    "estimated_seconds": 936.7947998046875,
+    "estimated_grams": 2.591712236404419,
+    "filament_changes": 0,
+    "warnings": [],
+    "bed_bounds_checked_extrusion_moves": 22533,
+    "model_extrusion_in_central_cup_or_storage_probe": 0,
+    "mesh_import_stats": [
+      {
+        "face_count": "68",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      {
+        "face_count": "1106",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      {
+        "face_count": "2180",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      {
+        "face_count": "1106",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      {
+        "face_count": "2180",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      {
+        "face_count": "3256",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      {
+        "face_count": "68",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      {
+        "face_count": "3254",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    ],
+    "summary": {
+      "time": "15m 36s",
+      "filament_g": "2.59",
+      "layers": "78",
+      "max_height_mm": "15.60"
+    }
+  },
+  "01_RED_BODY": {
+    "estimated_seconds": 15378.70703125,
+    "estimated_grams": 144.66067504882812,
+    "filament_changes": 0,
+    "warnings": [],
+    "bed_bounds_checked_extrusion_moves": 809056,
+    "model_extrusion_in_central_cup_or_storage_probe": 0,
+    "mesh_import_stats": [
+      {
+        "face_count": "48052",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      {
+        "face_count": "7745",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    ],
+    "summary": {
+      "time": "4h 16m 18s",
+      "filament_g": "144.66",
+      "layers": "371",
+      "max_height_mm": "89.00"
+    }
+  },
+  "02_RED_HEAD": {
+    "estimated_seconds": 10571.904296875,
+    "estimated_grams": 73.78382110595703,
+    "filament_changes": 0,
+    "warnings": [],
+    "bed_bounds_checked_extrusion_moves": 604680,
+    "model_extrusion_in_central_cup_or_storage_probe": 0,
+    "mesh_import_stats": [
+      {
+        "face_count": "39238",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    ],
+    "summary": {
+      "time": "2h 56m 11s",
+      "filament_g": "73.78",
+      "layers": "246",
+      "max_height_mm": "59.00"
+    }
+  },
+  "03_BLACK_PARTS": {
+    "estimated_seconds": 5583.4853515625,
+    "estimated_grams": 37.516082763671875,
+    "filament_changes": 0,
+    "warnings": [],
+    "bed_bounds_checked_extrusion_moves": 264711,
+    "model_extrusion_in_central_cup_or_storage_probe": 0,
+    "mesh_import_stats": [
+      {
+        "face_count": "13066",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      {
+        "face_count": "2084",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      {
+        "face_count": "3376",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      {
+        "face_count": "5516",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      {
+        "face_count": "9316",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      {
+        "face_count": "2084",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      {
+        "face_count": "3376",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    ],
+    "summary": {
+      "time": "1h 33m 3s",
+      "filament_g": "37.52",
+      "layers": "142",
+      "max_height_mm": "28.40"
+    }
+  },
+  "04_PINK_TONGUE": {
+    "estimated_seconds": 533.3514404296875,
+    "estimated_grams": 0.4693608283996582,
+    "filament_changes": 0,
+    "warnings": [],
+    "bed_bounds_checked_extrusion_moves": 6961,
+    "model_extrusion_in_central_cup_or_storage_probe": 0,
+    "mesh_import_stats": [
+      {
+        "face_count": "3368",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    ],
+    "summary": {
+      "time": "8m 53s",
+      "filament_g": "0.47",
+      "layers": "29",
+      "max_height_mm": "5.80"
+    }
+  },
+  "totals_excluding_fit_test": {
+    "seconds": 32067.448120117188,
+    "grams": 256.4299397468567
+  },
+  "body_strategy": {
+    "selected": "8% infill; 3 walls",
+    "note": "Earlier hollow-body comparison superseded by correction of shared vertex indices; not a validated final comparison."
+  }
+}

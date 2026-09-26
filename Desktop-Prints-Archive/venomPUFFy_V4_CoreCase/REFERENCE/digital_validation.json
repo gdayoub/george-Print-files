@@ -1,0 +1,141 @@
+{
+  "original_case_sha256": "54da47f6ee094b3d39ab7186b99cc710daf0797e67a420f98887727aad5f7c7e",
+  "original_base_triangles": 88278,
+  "original_lid_triangles": 52836,
+  "original_base_exact_vertex_error_mm": 7.105427357601002e-15,
+  "original_lid_exact_vertex_error_mm": 1.7763568394002505e-14,
+  "original_base_source_watertight": false,
+  "original_lid_source_watertight": true,
+  "source_base_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      73.1500019
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_lid_transform": [
+    [
+      0.9396926207859084,
+      0.3420201433256687,
+      4.188538737676992e-17,
+      0.0
+    ],
+    [
+      0.3420201433256687,
+      -0.9396926207859084,
+      -1.1507915602278503e-16,
+      0.0
+    ],
+    [
+      0.0,
+      1.2246467991473532e-16,
+      -1.0,
+      117.40011630000001
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "original_thread_pitch_mm": 2.5,
+  "bottom_thread_pitch_mm": 4.0,
+  "source_base_addition_bond_mm3": 6135.997319311427,
+  "source_lid_addition_bond_mm3": 1636.6736790603932,
+  "new_material_inside_base_cavity_envelope_mm3": 0.0,
+  "bottom_bond_original_void_overlap_mm3": 0.0,
+  "new_material_inside_lid_cavity_envelope_mm3": 0.0,
+  "closed_head_body_overlap_mm3": 0.0,
+  "closed_bottom_body_overlap_mm3": -9.89411223578044e-15,
+  "original_thread_clearance_retained": true,
+  "physical_fit_verified": false,
+  "odor_seal_verified": false,
+  "head_clocking": "Original thread retained with no added stop. Preview uses a collision-free phase; final printed seating angle is unverified.",
+  "new_meshes": {
+    "body_red": {
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "triangles": 146682
+    },
+    "body_black": {
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "triangles": 109096
+    },
+    "head_red": {
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "triangles": 81318
+    },
+    "head_black": {
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "triangles": 95168
+    },
+    "head_pink": {
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "triangles": 16150
+    },
+    "base_black": {
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "triangles": 28112
+    },
+    "base_red": {
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "triangles": 17140
+    }
+  },
+  "assembled_size_mm": [
+    160.0,
+    87.0,
+    175.2429852078234
+  ],
+  "storage_clear_size_mm": [
+    50,
+    33
+  ],
+  "jar_placeholder_size_mm": [
+    46,
+    30
+  ],
+  "motion_sampling": "Every 5 degrees over four full turns; original head pitch 2.5 mm, storage base 4 mm. Sampled check, not a continuous proof.",
+  "combined_solid_components": {
+    "body": 1,
+    "head": 1,
+    "bottom": 1
+  },
+  "head_motion_collisions": [],
+  "bottom_motion_collisions": [],
+  "jar_exit_overlap_mm3": 0.0,
+  "head_after_thread_disengagement_overlap_mm3": 0.0
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "variant": "A_4top_4bottom_10rect",
+    "minutes": 88.13,
+    "grams": 52.05,
+    "warnings": ""
+  },
+  {
+    "variant": "B_4top_3bottom_8rect",
+    "minutes": 81.99,
+    "grams": 46.99,
+    "warnings": ""
+  },
+  {
+    "variant": "C_4top_3bottom_10adaptive",
+    "minutes": 81.35,
+    "grams": 46.13,
+    "warnings": ""
+  },
+  {
+    "variant": "D_4top_3bottom_8gyroid",
+    "minutes": 83.9,
+    "grams": 46.79,
+    "warnings": ""
+  }
+]

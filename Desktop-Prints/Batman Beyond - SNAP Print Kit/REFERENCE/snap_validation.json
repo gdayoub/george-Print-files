@@ -1,0 +1,313 @@
+{
+  "dimensions_mm": [
+    200,
+    240,
+    5.6
+  ],
+  "base_mm": 4.8,
+  "pocket_floor_mm": 2.4,
+  "red_mm": 3.2,
+  "face_skin_mm": 0.8,
+  "socket_wall_mm": 1.2,
+  "socket_wall_length_mm": 2.4,
+  "post_head_mm": 4.4,
+  "standard_socket_mouth_mm": 4.25,
+  "nominal_radial_deflection_mm": 0.075,
+  "clip_centers": {
+    "ear_left": [
+      [
+        39.9,
+        191.9
+      ],
+      [
+        39.9,
+        172.9
+      ]
+    ],
+    "ear_right": [
+      [
+        159.9,
+        191.9
+      ],
+      [
+        159.9,
+        172.9
+      ]
+    ],
+    "eye_left": [
+      [
+        60.9,
+        130.9
+      ]
+    ],
+    "eye_right": [
+      [
+        138.9,
+        130.9
+      ]
+    ],
+    "chest_emblem": [
+      [
+        99.9,
+        67.9
+      ],
+      [
+        126.9,
+        77.9
+      ]
+    ],
+    "wing_left": [
+      [
+        26.9,
+        52.9
+      ]
+    ],
+    "wing_right": [
+      [
+        172.9,
+        52.9
+      ]
+    ],
+    "boot_left": [
+      [
+        54.9,
+        19.9
+      ]
+    ],
+    "boot_right": [
+      [
+        144.9,
+        19.9
+      ]
+    ]
+  },
+  "parts": {
+    "black_base": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 0.0,
+      "volume_mm3": 127551.68507531505
+    },
+    "black_coupon": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 0.0,
+      "volume_mm3": 8179.520314407346
+    },
+    "standard_ear_left": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 2.042810365310288e-14,
+      "volume_mm3": 1185.5795213651306
+    },
+    "standard_ear_right": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 2.042810365310288e-14,
+      "volume_mm3": 1185.5793897582166
+    },
+    "standard_eye_left": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 1.509903313490213e-14,
+      "volume_mm3": 1367.0998582802551
+    },
+    "standard_eye_right": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 1.509903313490213e-14,
+      "volume_mm3": 1367.7474907284784
+    },
+    "standard_chest_emblem": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 6.217248937900877e-15,
+      "volume_mm3": 4772.651782504027
+    },
+    "standard_wing_left": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 4.440892098500626e-15,
+      "volume_mm3": 1650.7261525456806
+    },
+    "standard_wing_right": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 4.440892098500626e-15,
+      "volume_mm3": 1650.725813800608
+    },
+    "standard_boot_left": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 8.881784197001252e-16,
+      "volume_mm3": 697.2500328919319
+    },
+    "standard_boot_right": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 8.881784197001252e-16,
+      "volume_mm3": 694.9459128548406
+    },
+    "loose_ear_left": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 2.042810365310288e-14,
+      "volume_mm3": 1184.6915520915816
+    },
+    "loose_ear_right": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 2.042810365310288e-14,
+      "volume_mm3": 1184.6914717541158
+    },
+    "loose_eye_left": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 1.509903313490213e-14,
+      "volume_mm3": 1366.6558736434802
+    },
+    "loose_eye_right": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 1.509903313490213e-14,
+      "volume_mm3": 1367.3035317264287
+    },
+    "loose_chest_emblem": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 6.217248937900877e-15,
+      "volume_mm3": 4771.763779813713
+    },
+    "loose_wing_left": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 4.440892098500626e-15,
+      "volume_mm3": 1650.2821465084442
+    },
+    "loose_wing_right": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 4.440892098500626e-15,
+      "volume_mm3": 1650.281829163833
+    },
+    "loose_boot_left": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 8.881784197001252e-16,
+      "volume_mm3": 696.8060268546952
+    },
+    "loose_boot_right": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 8.881784197001252e-16,
+      "volume_mm3": 694.5019324523768
+    },
+    "firm_ear_left": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 2.042810365310288e-14,
+      "volume_mm3": 1186.4674906386797
+    },
+    "firm_ear_right": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 2.042810365310288e-14,
+      "volume_mm3": 1186.4673077623165
+    },
+    "firm_eye_left": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 1.509903313490213e-14,
+      "volume_mm3": 1367.5438429170297
+    },
+    "firm_eye_right": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 1.509903313490213e-14,
+      "volume_mm3": 1368.1914497305286
+    },
+    "firm_chest_emblem": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 6.217248937900877e-15,
+      "volume_mm3": 4773.539734382613
+    },
+    "firm_wing_left": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 4.440892098500626e-15,
+      "volume_mm3": 1651.1701585829176
+    },
+    "firm_wing_right": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 4.440892098500626e-15,
+      "volume_mm3": 1651.1697984373816
+    },
+    "firm_boot_left": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 8.881784197001252e-16,
+      "volume_mm3": 697.6940389291685
+    },
+    "firm_boot_right": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 8.881784197001252e-16,
+      "volume_mm3": 695.3898932573044
+    },
+    "test_red_0": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 8.881784197001252e-16,
+      "volume_mm3": 1088.6819826147514
+    },
+    "test_red_1": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 8.881784197001252e-16,
+      "volume_mm3": 1076.3259623687304
+    },
+    "test_red_2": {
+      "watertight": true,
+      "consistent_winding": true,
+      "connected_bodies": 1,
+      "z_min": 8.881784197001252e-16,
+      "volume_mm3": 1063.9702176964595
+    }
+  },
+  "physical_test": false,
+  "fit_note": "Positive snap retention designed; print fit samples before committing. PLA retention and assembly force unmeasured.",
+  "assembled_at_rest_collisions": false
+}

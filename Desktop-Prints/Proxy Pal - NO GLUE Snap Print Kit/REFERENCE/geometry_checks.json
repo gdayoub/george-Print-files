@@ -1,0 +1,596 @@
+{
+  "source_original_file_unchanged": true,
+  "closure_type": "removable keyed snap-on head and base; no screw threads",
+  "before_body_solid_volume_mm3": 391538.6699829765,
+  "after_body_solid_volume_mm3": 391659.93166218407,
+  "body_CAD_volume_reduction_percent": -0.030970549910902534,
+  "parts": {
+    "RED_body": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 391659.93127016677,
+      "triangles": 48052
+    },
+    "RED_head": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 49728.577118321926,
+      "triangles": 39256
+    },
+    "BLACK_feet_base": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 34152.20891019168,
+      "triangles": 9316
+    },
+    "BLACK_smile": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 529.5385127025069,
+      "triangles": 5516
+    },
+    "BLACK_eye_left": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 1608.964293904354,
+      "triangles": 3376
+    },
+    "BLACK_brow_left": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 149.40054327049413,
+      "triangles": 2084
+    },
+    "BLACK_crest": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 10026.20904751053,
+      "triangles": 13066
+    },
+    "BLACK_eye_right": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 1608.9642997330138,
+      "triangles": 3376
+    },
+    "BLACK_brow_right": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 149.37114862721225,
+      "triangles": 2084
+    },
+    "PINK_tongue": {
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 295.98274730190246,
+      "triangles": 3368
+    }
+  },
+  "interfaces": [
+    {
+      "part": "BLACK_smile",
+      "host": "head",
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -20.0
+        ],
+        [
+          0.0,
+          0.06460125715067208,
+          -0.997911157155061,
+          -52.09630781332642
+        ],
+        [
+          -0.0,
+          0.997911157155061,
+          0.06460125715067208,
+          83.49347504207066
+        ]
+      ],
+      "clip": "detail",
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 6.5
+    },
+    {
+      "part": "BLACK_smile",
+      "host": "head",
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.06460125715067208,
+          -0.997911157155061,
+          -55.98758865232984
+        ],
+        [
+          -0.0,
+          0.997911157155061,
+          0.06460125715067208,
+          79.92204647064209
+        ]
+      ],
+      "clip": "detail",
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 6.5
+    },
+    {
+      "part": "BLACK_smile",
+      "host": "head",
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          20.0
+        ],
+        [
+          0.0,
+          0.06460125715067208,
+          -0.997911157155061,
+          -52.09630781332642
+        ],
+        [
+          -0.0,
+          0.997911157155061,
+          0.06460125715067208,
+          83.49347504207066
+        ]
+      ],
+      "clip": "detail",
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 6.5
+    },
+    {
+      "part": "BLACK_eye_left",
+      "host": "head",
+      "frame": [
+        [
+          0.8309353200445635,
+          0.24054646333200405,
+          -0.5016810668949984,
+          -29.443278779992024
+        ],
+        [
+          -0.556369026728159,
+          0.3592553555142942,
+          -0.7492590310645973,
+          -43.973440470056495
+        ],
+        [
+          0.0,
+          0.9017055996902554,
+          0.43235056549892137,
+          98.31181287250055
+        ]
+      ],
+      "clip": "detail",
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 6.5
+    },
+    {
+      "part": "BLACK_eye_left",
+      "host": "head",
+      "frame": [
+        [
+          0.8309353200445635,
+          0.24054646333200405,
+          -0.5016810668949984,
+          -26.556721220007976
+        ],
+        [
+          -0.556369026728159,
+          0.3592553555142942,
+          -0.7492590310645973,
+          -39.66237620388497
+        ],
+        [
+          0.0,
+          0.9017055996902554,
+          0.43235056549892137,
+          109.13228006878361
+        ]
+      ],
+      "clip": "detail",
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 6.5
+    },
+    {
+      "part": "BLACK_brow_left",
+      "host": "head",
+      "frame": [
+        [
+          0.6882124307451447,
+          0.5534281573169922,
+          -0.46912783423772436,
+          -26.0
+        ],
+        [
+          -0.7255092350672452,
+          0.5249776556664111,
+          -0.4450110233276697,
+          -24.66339825118183
+        ],
+        [
+          0.0,
+          0.6466186942392846,
+          0.7628133875727946,
+          122.52204647064208
+        ]
+      ],
+      "clip": "detail",
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 6.5
+    },
+    {
+      "part": "BLACK_crest",
+      "host": "head",
+      "frame": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.8660254037844387,
+          0.5,
+          4.8807215938688575
+        ],
+        [
+          0.0,
+          0.5,
+          0.8660254037844387,
+          135.50514426187158
+        ]
+      ],
+      "clip": "detail",
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 6.5
+    },
+    {
+      "part": "BLACK_crest",
+      "host": "head",
+      "frame": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -0.8660254037844387,
+          0.5,
+          45.87251448018354
+        ],
+        [
+          0.0,
+          0.5,
+          0.8660254037844387,
+          111.41590334265172
+        ]
+      ],
+      "clip": "detail",
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 6.5
+    },
+    {
+      "part": "BLACK_eye_right",
+      "host": "head",
+      "frame": [
+        [
+          0.8309353200445635,
+          -0.24054646333200405,
+          0.5016810668949984,
+          29.443278779992024
+        ],
+        [
+          0.556369026728159,
+          0.3592553555142942,
+          -0.7492590310645973,
+          -43.973440470056495
+        ],
+        [
+          -0.0,
+          0.9017055996902554,
+          0.43235056549892137,
+          98.31181287250055
+        ]
+      ],
+      "clip": "detail",
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 6.5
+    },
+    {
+      "part": "BLACK_eye_right",
+      "host": "head",
+      "frame": [
+        [
+          0.8309353200445635,
+          -0.24054646333200405,
+          0.5016810668949984,
+          26.556721220007976
+        ],
+        [
+          0.556369026728159,
+          0.3592553555142942,
+          -0.7492590310645973,
+          -39.66237620388497
+        ],
+        [
+          -0.0,
+          0.9017055996902554,
+          0.43235056549892137,
+          109.13228006878361
+        ]
+      ],
+      "clip": "detail",
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 6.5
+    },
+    {
+      "part": "BLACK_brow_right",
+      "host": "head",
+      "frame": [
+        [
+          0.6882124307451447,
+          -0.5534281573169922,
+          0.46912783423772436,
+          26.0
+        ],
+        [
+          0.7255092350672452,
+          0.5249776556664111,
+          -0.4450110233276697,
+          -24.66339825118183
+        ],
+        [
+          -0.0,
+          0.6466186942392846,
+          0.7628133875727946,
+          122.52204647064208
+        ]
+      ],
+      "clip": "detail",
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 6.5
+    },
+    {
+      "part": "PINK_tongue",
+      "host": "body",
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -54.8
+        ],
+        [
+          -0.0,
+          1.0,
+          0.0,
+          72.22204647064208
+        ]
+      ],
+      "clip": "detail",
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 6.5
+    },
+    {
+      "part": "RED_body",
+      "host": "RED_head",
+      "frame": [
+        [
+          -0.0,
+          1.0,
+          0.0,
+          49.5
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          75.92204647064209
+        ]
+      ],
+      "clip": "closure",
+      "angle_degrees": 0,
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 9.5
+    },
+    {
+      "part": "RED_body",
+      "host": "RED_head",
+      "frame": [
+        [
+          -0.766044443118978,
+          -0.6427876096865394,
+          0.0,
+          -31.8179866794837
+        ],
+        [
+          -0.6427876096865394,
+          0.766044443118978,
+          0.0,
+          37.91919993438941
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          75.92204647064209
+        ]
+      ],
+      "clip": "closure",
+      "angle_degrees": 130,
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 9.5
+    },
+    {
+      "part": "RED_body",
+      "host": "RED_head",
+      "frame": [
+        [
+          0.7660444431189779,
+          -0.6427876096865395,
+          0.0,
+          -31.817986679483703
+        ],
+        [
+          -0.6427876096865395,
+          -0.7660444431189779,
+          0.0,
+          -37.919199934389404
+        ],
+        [
+          0.0,
+          -0.0,
+          -1.0,
+          75.92204647064209
+        ]
+      ],
+      "clip": "closure",
+      "angle_degrees": 230,
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 9.5
+    },
+    {
+      "part": "BLACK_feet_base",
+      "host": "RED_body",
+      "frame": [
+        [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0.0,
+          26.870057685088806
+        ],
+        [
+          0.7071067811865476,
+          0.7071067811865476,
+          0.0,
+          26.870057685088806
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          4.5
+        ]
+      ],
+      "clip": "closure",
+      "angle_degrees": 45,
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 9.5
+    },
+    {
+      "part": "BLACK_feet_base",
+      "host": "RED_body",
+      "frame": [
+        [
+          -0.1736481776669303,
+          -0.9848077530122081,
+          0.0,
+          -37.42269461446391
+        ],
+        [
+          -0.9848077530122081,
+          0.1736481776669303,
+          0.0,
+          6.59863075134335
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          4.5
+        ]
+      ],
+      "clip": "closure",
+      "angle_degrees": 170,
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 9.5
+    },
+    {
+      "part": "BLACK_feet_base",
+      "host": "RED_body",
+      "frame": [
+        [
+          0.9659258262890684,
+          0.2588190451025203,
+          0.0,
+          9.835123713895772
+        ],
+        [
+          0.2588190451025203,
+          -0.9659258262890684,
+          0.0,
+          -36.7051813989846
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          4.5
+        ]
+      ],
+      "clip": "closure",
+      "angle_degrees": 285,
+      "deflection_per_prong_mm": 0.2,
+      "free_length_mm": 9.5
+    }
+  ],
+  "seated_collisions": {
+    "BLACK_smile": 4.801053895804944e-15,
+    "BLACK_eye_left": 0.0,
+    "BLACK_brow_left": 1.1102230246251565e-15,
+    "BLACK_crest": 1.5943188368429848e-06,
+    "BLACK_eye_right": 0.0,
+    "BLACK_brow_right": -1.691355389077387e-16,
+    "PINK_tongue": 0.0,
+    "head_body": 0.0,
+    "base_body": 0.0
+  },
+  "physical_testing": "Required: clip coupons first, then cup/jar fit and repeated opening.",
+  "body_strategy": "Solid CAD envelope sliced at 8% infill with three walls",
+  "cup_guard_overlap_mm3": 0.0,
+  "all_new_parts_watertight": true,
+  "all_new_parts_single_solid": true,
+  "insertion_clearance_check": {
+    "method": "0.5 mm samples along straight insertion/removal direction. Barbs geometrically clipped to a compressed envelope; NOT a force, elasticity or fatigue simulation.",
+    "collisions": {
+      "BLACK_smile": [],
+      "BLACK_eye_left": [],
+      "BLACK_brow_left": [],
+      "BLACK_crest": [],
+      "BLACK_eye_right": [],
+      "BLACK_brow_right": [],
+      "PINK_tongue": [],
+      "head_opening": [],
+      "base_opening": []
+    },
+    "passed": true
+  },
+  "source_sha256": "b4eef4a572c2d5ad06dac0f7b08190e719f11ef21ee1fecb9e061a9505f9e225",
+  "source_copy_identical": true
+}

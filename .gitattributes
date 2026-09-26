@@ -5,3 +5,7 @@
 *.stl binary
 *.png binary
 *.zip binary
+
+# Preserve complete Desktop Prints snapshots byte for byte.
+Desktop-Prints/** -text
+Desktop-Prints-Archive/** -text

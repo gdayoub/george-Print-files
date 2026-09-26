@@ -1,0 +1,38 @@
+DEVIL FRUIT - USE ONLY YOUR BLACK AND RED PLA
+
+OPEN THIS FILE AS A PROJECT IN BAMBU STUDIO:
+Devil_Fruit_RED_BLACK_ONLY_NO_GLUE_FAST.3mf
+
+This is the current version for the materials you have.
+Red fruit, black spirals and outline, RED curled stem.
+It prints in one piece with your P1S and AMS. No glue is required.
+
+IN THE PRINT / SEND DIALOG
+Project filament 1 (BLACK) -> AMS A2 (your black PLA)
+Project filament 2 (RED)   -> AMS A3 (your red PLA)
+Do not select A1: that is your Support for PLA spool.
+The project has only TWO filament entries and does not require white.
+If you move spools, map by actual material and color instead of slot number.
+
+Keep the saved scale, face-up orientation, model placement, and prime tower.
+Use your calibrated PLA flow and temperature settings, slice, review,
+and then print with AMS enabled. Printing has not been started for you.
+
+Estimated time: 4 h 0 min.
+Estimated total filament including color-change waste: 139 g.
+These are Bambu Studio estimates, not measured print results.
+The project reloaded and sliced on one plate with no plate warnings,
+no support paths, and only black and red PLA used.
+
+Saved settings: P1S 0.4 mm nozzle; 0.28 mm layers (0.20 mm first layer);
+2 walls; 3 top and bottom layers; 10% gyroid; supports OFF.
+Finished model dimensions remain 213.3 x 240 x 9.6 mm.
+This fast profile has more visible side layer lines and a lighter shell
+than the original 0.20 mm version. It has not been physically test-printed.
+
+The flat back still needs Command strips or suitable mounting tape to
+attach to the wall. Follow the mounting product's instructions.
+
+Older three-color files in this folder require regular white or another
+regular PLA color. The separate-plates project and STLs require glue.
+Use the RED_BLACK_ONLY file above for the current no-glue solution.

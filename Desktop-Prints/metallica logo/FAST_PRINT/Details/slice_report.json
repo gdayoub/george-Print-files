@@ -1,0 +1,153 @@
+[
+  {
+    "file": "01_BOTH_LIGHTNING_TIPS.3mf",
+    "time_minutes": 82.07,
+    "grams": 46.84,
+    "color_changes": 1,
+    "warnings": "",
+    "pieces": [
+      "P01",
+      "P05"
+    ],
+    "min_clearance_mm": 5.077,
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 1,
+        "main_used_g": 34.58794021606445,
+        "total_used_g": 34.720619201660156
+      },
+      {
+        "filament_id": "GFL99",
+        "id": 2,
+        "main_used_g": 11.730417251586914,
+        "total_used_g": 12.119543075561523
+      }
+    ]
+  },
+  {
+    "file": "02_MIDDLE_SECTIONS.3mf",
+    "time_minutes": 145.51,
+    "grams": 87.35,
+    "color_changes": 1,
+    "warnings": "",
+    "pieces": [
+      "P02",
+      "P03"
+    ],
+    "min_clearance_mm": 5.318,
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 1,
+        "main_used_g": 65.68241119384766,
+        "total_used_g": 65.81509399414062
+      },
+      {
+        "filament_id": "GFL99",
+        "id": 2,
+        "main_used_g": 21.150463104248047,
+        "total_used_g": 21.539588928222656
+      }
+    ]
+  },
+  {
+    "file": "03_LAST_SECTION_AND_KEYS_NOMINAL.3mf",
+    "time_minutes": 93.9,
+    "grams": 51.84,
+    "color_changes": 1,
+    "warnings": "",
+    "pieces": [
+      "P04",
+      "KEY",
+      "KEY",
+      "KEY",
+      "KEY",
+      "KEY",
+      "KEY",
+      "KEY",
+      "KEY"
+    ],
+    "min_clearance_mm": 15.186,
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 1,
+        "main_used_g": 39.56395721435547,
+        "total_used_g": 39.69664001464844
+      },
+      {
+        "filament_id": "GFL99",
+        "id": 2,
+        "main_used_g": 11.754717826843262,
+        "total_used_g": 12.143844604492188
+      }
+    ]
+  },
+  {
+    "file": "Alternative_key_fits/03_LAST_SECTION_AND_KEYS_LOOSE.3mf",
+    "time_minutes": 93.41,
+    "grams": 51.74,
+    "color_changes": 1,
+    "warnings": "",
+    "pieces": [
+      "P04",
+      "KEY",
+      "KEY",
+      "KEY",
+      "KEY",
+      "KEY",
+      "KEY",
+      "KEY",
+      "KEY"
+    ],
+    "min_clearance_mm": 15.186,
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 1,
+        "main_used_g": 39.46804428100586,
+        "total_used_g": 39.60072326660156
+      },
+      {
+        "filament_id": "GFL99",
+        "id": 2,
+        "main_used_g": 11.754717826843262,
+        "total_used_g": 12.143844604492188
+      }
+    ]
+  },
+  {
+    "file": "Alternative_key_fits/03_LAST_SECTION_AND_KEYS_SNUG.3mf",
+    "time_minutes": 93.86,
+    "grams": 51.87,
+    "color_changes": 1,
+    "warnings": "",
+    "pieces": [
+      "P04",
+      "KEY",
+      "KEY",
+      "KEY",
+      "KEY",
+      "KEY",
+      "KEY",
+      "KEY",
+      "KEY"
+    ],
+    "min_clearance_mm": 15.186,
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 1,
+        "main_used_g": 39.597930908203125,
+        "total_used_g": 39.73060989379883
+      },
+      {
+        "filament_id": "GFL99",
+        "id": 2,
+        "main_used_g": 11.754717826843262,
+        "total_used_g": 12.143844604492188
+      }
+    ]
+  }
+]

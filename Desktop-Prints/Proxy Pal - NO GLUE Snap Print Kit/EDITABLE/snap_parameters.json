@@ -1,0 +1,37 @@
+{
+  "source_stl": "inputs/ORIGINAL_sleeve_UNCHANGED.stl",
+  "asset_directory": "inputs/character_parts",
+  "source_translation_mm": [
+    0.21245193481445312,
+    4.508655548095703,
+    41.01687602996826
+  ],
+  "body_shell_target_mm": 2.4,
+  "hollow_body": false,
+  "body_strategy": "Solid CAD envelope sliced at 8% infill with three walls",
+  "rib_width_mm": 2.4,
+  "detail_clip": {
+    "width": 2.8,
+    "thickness": 2.0,
+    "length": 10.0,
+    "slot": 0.8,
+    "clearance_per_side": 0.2,
+    "barb_per_side": 0.4
+  },
+  "closure_clip": {
+    "width": 4.0,
+    "thickness": 2.8,
+    "length": 13.0,
+    "slot": 1.2,
+    "clearance_per_side": 0.2,
+    "barb_per_side": 0.4
+  },
+  "body_layer_height_mm": 0.24,
+  "detail_layer_height_mm": 0.2,
+  "jar_estimate_mm": [
+    46,
+    30
+  ],
+  "jar_count_estimate": 1,
+  "note": "New snap-on head and base, authorized by clip/no-glue request. Original sleeve is unchanged. Physical calibration required."
+}

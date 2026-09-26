@@ -1,0 +1,35 @@
+NEXT PRINT — BUTTON HEIGHT CHECK
+
+Only BUTTON_HEIGHT_CHECK_P1S.3mf is needed in Bambu Studio.
+Open AS A PROJECT; keep 100% scale and the saved flat orientations.
+P1S, 0.4 mm nozzle, PLA. The saved plate is Textured PEI; select the
+plate actually installed if different, then re-slice.
+Choose the AMS slot containing your black Creality Hyper PLA. The saved
+profile is Bambu Studio's P1S-compatible Generic PLA High Speed, limited
+to 18 mm3/s. Spool flow calibration has not been performed. One color,
+no swaps. To use red instead, choose Generic PLA and re-slice.
+
+Bambu Studio estimate: 20 min 47 sec, 7.4 g. No supports, no brim.
+Both the base and ruler print together on one plate. This is a measuring
+fixture, not a replacement design for the Gengar holder.
+
+1. Slide the ruler's narrow stem into the base socket until the wider
+   shoulder sits on the socket top. Do not force it.
+2. Seat your cool, switched-off Core, including its existing cup and
+   silicone foot, in the 43.8 mm opening. Keep the device upright.
+3. Turn the power button toward the same direction as the ruler numbers.
+4. Send a straight-on photo showing the button beside the ruler. Keep
+   the camera level with the button to reduce perspective error. Also
+   include the top of the ribbed base below the mouthpiece if visible.
+   Alternatively, report the mark at the button center and the mark at
+   that upper base edge. Marks are 2 mm apart; numbers are 4 mm apart.
+
+The numbers start from the INTERNAL SEAT where the Core foot rests.
+No calipers or separate ruler are needed. The central hole lets you push
+the cool device out gently from below. Do not operate it in this fixture.
+
+This checks button/coverage height, not full-holder retention or thermal
+behavior. The previously tested ring remains accepted; no repeat of that
+same ring is requested. Full Gengar body printing remains pending.
+The existing V4 body plus red inserts estimate is 1 h 47 min 13 sec;
+any geometry revision must be sliced again against the under-2-hour goal.

@@ -1,0 +1,30 @@
+GENGAR - NO GLUE VERSION
+Bambu P1S / 0.4 mm nozzle / Textured PEI plate / 100% scale
+
+1. Print 01_BLACK_BODY_P1S.3mf in BLACK Creality Hyper PLA.
+   About 79 minutes, 44.1 g. It is exactly the same body as V6.
+   If you already printed the V6 body, reuse it.
+
+2. Print 02_RED_PRESS_FIT_P1S.3mf in RED Soyelin Ultra PLA.
+   About 13 minutes, 2.3 g. All five updated face pieces are on one plate.
+   These replace the previous glue-in red pieces.
+
+Choose the matching AMS slot for each job. Total estimate: about 1 hour
+32 minutes and 46.4 g, excluding handling and optional extra calibration.
+
+ASSEMBLY
+Let the parts cool. Remove external supports, including any remnants inside
+the face recesses. With the Core removed, align each red piece with its matching
+recess and press it straight inward with even thumb pressure. Small tapered
+ribs are designed to grip the recess walls. No glue, screws or magnets are used.
+Keep the tiny ribs; they are intentional. Do not hammer or force an insert.
+If a piece will not seat or stays loose, its fit needs adjustment.
+
+The no-glue attachment is designed and slicer-checked, but not physically tested.
+The 43.8 mm Core opening is unchanged. Only the fit ring was tested by you;
+full-holder insertion, button reach and retention remain untested.
+Try the cool/off Core with its button toward the rear center between the ears.
+Lift the device out for charging or cleaning.
+
+Both jobs use 0.20 mm layers and stock PLA starting profiles. If your installed
+plate differs, select the correct plate in Bambu Studio and reslice.

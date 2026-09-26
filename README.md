@@ -2,6 +2,16 @@
 
 A growing gallery of George's 3D printing projects. Each print has its own home for previews, printing instructions, assembly notes, credits, and available files.
 
+## Complete Desktop Prints backup
+
+Saved on September 26, 2026, with original filenames and folder structure:
+
+- [Current Desktop Prints](Desktop-Prints/): all 229 files, including models, slicer projects, previews, source files, and ZIPs.
+- [Archived Desktop Venom packages](Desktop-Prints-Archive/): all 117 files moved aside during the earlier cleanup.
+- [SHA-256 inventory](desktop-prints-manifest.json): sizes and hashes for all 346 files.
+
+These folders preserve every source file. Older versions are retained in the archive; the curated project pages below identify recommended releases. This backup does not imply that every model has been print-tested.
+
 ## Latest addition — Venom V4
 
 [![Venom V4 — render of the actual model](prints/venom-core-case/Previews/00_assembled_perspective.png)](prints/venom-core-case/)

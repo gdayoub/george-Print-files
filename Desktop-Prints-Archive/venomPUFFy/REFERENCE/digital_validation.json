@@ -1,0 +1,297 @@
+{
+  "status": "PLAIN SCREW V3 - no extra hardware; physical fit and odor containment unverified",
+  "units": "mm",
+  "source_sha256": "b4eef4a572c2d5ad06dac0f7b08190e719f11ef21ee1fecb9e061a9505f9e225",
+  "original_source_bounds_mm": [
+    [
+      -23.152099609375,
+      -27.43299102783203,
+      -0.21687602996826172
+    ],
+    [
+      22.727195739746094,
+      18.415679931640625,
+      52.90517044067383
+    ]
+  ],
+  "source_scale": 1,
+  "source_rigid_translation_mm": [
+    0.21245193481445312,
+    4.508655548095703,
+    47.11687602996826
+  ],
+  "source_watertight": false,
+  "source_boundary_edges": 225,
+  "parts": {
+    "body_red": {
+      "triangles": 158420,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "components": 1,
+      "bounds": [
+        [
+          -77.27402250132816,
+          -44.0,
+          11.5
+        ],
+        [
+          77.27402250132816,
+          37.0,
+          112.9220464706421
+        ]
+      ],
+      "volume_mm3": 339356.39520021674
+    },
+    "body_black": {
+      "triangles": 113036,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "components": 14,
+      "bounds": [
+        [
+          -80.0,
+          -42.84336621775676,
+          13.522046470642096
+        ],
+        [
+          80.0,
+          36.97740845080459,
+          94.57367882019848
+        ]
+      ],
+      "volume_mm3": 53887.65064554233
+    },
+    "head_red": {
+      "triangles": 87850,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "components": 5,
+      "bounds": [
+        [
+          -73.27794485268002,
+          -42.93977865821793,
+          100.5220464706421
+        ],
+        [
+          73.27794485268002,
+          43.0,
+          180.2176665825282
+        ]
+      ],
+      "volume_mm3": 61068.11206155686
+    },
+    "head_black": {
+      "triangles": 93204,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "components": 10,
+      "bounds": [
+        [
+          -73.1633867556903,
+          -42.945275717101914,
+          100.5220464706421
+        ],
+        [
+          73.1633867556903,
+          42.69098664664514,
+          183.1650297784655
+        ]
+      ],
+      "volume_mm3": 29647.05548158417
+    },
+    "head_pink": {
+      "triangles": 15638,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "components": 9,
+      "bounds": [
+        [
+          -41.0,
+          -43.0,
+          101.43929778969779
+        ],
+        [
+          41.0,
+          0.0,
+          149.52204646915197
+        ]
+      ],
+      "volume_mm3": 6486.564017302974
+    },
+    "base_black": {
+      "triangles": 28112,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "components": 1,
+      "bounds": [
+        [
+          -47.0,
+          -41.0,
+          0.0
+        ],
+        [
+          47.0,
+          34.5,
+          23.9
+        ]
+      ],
+      "volume_mm3": 59798.71226845632
+    },
+    "base_red": {
+      "triangles": 17140,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "components": 2,
+      "bounds": [
+        [
+          -32.61682050255109,
+          -39.5,
+          3.499999999999999
+        ],
+        [
+          32.61682050255109,
+          -7.5,
+          13.243667921226429
+        ]
+      ],
+      "volume_mm3": 1981.9531521520414
+    }
+  },
+  "checks": {
+    "source_file_unchanged": true,
+    "protected_cup_interior_envelope_overlap_mm3": 0.0,
+    "original_core_included_as_printable_body_component": true,
+    "original_triangles_preserved": 7745,
+    "bonding_band_source_z_mm": [
+      8,
+      35
+    ],
+    "bonding_band_inside_radius_mm": 22.4,
+    "measured_max_original_inner_radius_in_bonding_band_mm": 21.768010637110258,
+    "new_material_margin_outside_original_inner_wall_mm": 0.6319893628897404,
+    "source_original_fit_geometry": "Raw original triangles retained exactly with rigid translation only; no repair/remesh/scale. New material overlaps exterior only within bonding band.",
+    "head_min_z_mm": 100.5220464706421,
+    "body_max_z_mm": 112.9220464706421,
+    "decorative_head_to_body_clearance_by_disjoint_Z_mm": 1.0,
+    "decorative_head_full_360_against_new_collar_bound_mm3": 0.0,
+    "head_overlap_rotational_sleeve_keepout_mm3": 0.0,
+    "head_connection": "New full single-start right-hand 4 mm pitch thread. 2.2 revolutions of modeled male ridge with tapered ends. Not copied from missing original cap.",
+    "face_clocking": "Head and joined feet aligned at modeled seats and terminal stop walls at zero degrees. Physical fit and printed stop strength unverified.",
+    "head_motion_collisions": [],
+    "base_motion_collisions": [],
+    "motion_sampling": "Full model helical motion sampled every 2 degrees over 1440 degrees (16 mm axial travel). Not exhaustive continuous swept-volume proof.",
+    "head_closed_overlap_mm3": -1.1446987444574006e-13,
+    "base_closed_overlap_mm3": -2.8318931343526618e-14,
+    "head_clocking_stop_overlap_at_2deg_overturn_mm3": 0.7455951923369704,
+    "base_clocking_stop_overlap_at_2deg_overturn_mm3": 0.4153830889995211,
+    "thread_pitch_mm": 4.0,
+    "male_ridge_turns": 2.2,
+    "thread_radial_clearance_mm": 0.35,
+    "thread_axial_clearance_each_flank_mm": 0.22,
+    "odor_seal_verified": false,
+    "separate_hardware_required": false,
+    "head_flat_seat_missing_material_mm3": 0.0,
+    "base_flat_seat_missing_material_mm3": 0.0,
+    "color_overlap_mm3": {
+      "body": 0.00863626348507717,
+      "head": 0.011188194243039552,
+      "bottom": 0.003201993175877398
+    },
+    "assembly_solid_component_counts_before_color_partition": {
+      "body": 1,
+      "head": 1,
+      "bottom": 1
+    },
+    "color_export_tolerance_mm": 0.005,
+    "color_export_note": "Negligible Boolean slivers under 0.0001 cubic mm removed from generated decoration only. Original sleeve untouched.",
+    "provisional_jar_overlap_mm3": 3.0009848772660774e-14,
+    "provisional_jar_straight_exit_overlap_mm3": 0.0,
+    "jar_roof_gap_mm": 3.0,
+    "jar_exposed_height_above_base_collar_mm": 16.1,
+    "separator_minimum_mm": 3.6,
+    "tendril_minimum_diameter_mm": 8.4,
+    "wall_thickness": "By construction: 3.2 mm ellipsoid shell offsets, 3.6 mm separator, 2.5 mm minimum base thread-root collar; no exhaustive mesh thickness proof. Check valleys and color interfaces in slicer.",
+    "static_mesh_volume_centroid_xy_mm": [
+      -0.010256259372822051,
+      -3.5090588790043005
+    ],
+    "stable_base": "Flat joined feet; centroid projection checked against circular base radius 32 mm. Physical stability with actual cup/jar remains untested.",
+    "centroid_within_base_disk": true,
+    "embedded_original_vertex_error_mm": 0.0
+  },
+  "dimensions": {
+    "floor_bottom_z": 43.0,
+    "floor_top_z": 46.6,
+    "sleeve_rim_z": 100.0220464706421,
+    "head_seam_z": 100.5220464706421,
+    "storage_clear_ID_mm": 50.0,
+    "storage_clear_height_mm": 33.0,
+    "head_shell_nominal_mm": 3.2
+  },
+  "assembled_size_mm": [
+    160.0,
+    87.0,
+    183.1650297784655
+  ],
+  "assembled_bounds_mm": [
+    [
+      -80.0,
+      -44.0,
+      0.0
+    ],
+    [
+      80.0,
+      43.0,
+      183.1650297784655
+    ]
+  ],
+  "test_prints": {
+    "BASE_01_BODY_RING": {
+      "watertight": true,
+      "winding_consistent": true,
+      "size_mm": [
+        69.0,
+        69.0,
+        14.600000000000009
+      ],
+      "purpose": "Bottom female thread and sealing face; closed fixture roof"
+    },
+    "BASE_02_FEET_RING": {
+      "watertight": true,
+      "winding_consistent": true,
+      "size_mm": [
+        69.0,
+        69.0,
+        15.899999999999999
+      ],
+      "purpose": "Bottom male thread and continuous flat seat; closed fixture floor"
+    },
+    "HEAD_01_BODY_RING": {
+      "watertight": true,
+      "winding_consistent": true,
+      "size_mm": [
+        73.0,
+        73.0,
+        16.400000000000006
+      ],
+      "purpose": "Head male thread and continuous flat seat; closed fixture floor"
+    },
+    "HEAD_02_CAP_RING": {
+      "watertight": true,
+      "winding_consistent": true,
+      "size_mm": [
+        73.0,
+        73.0,
+        15.600000000000005
+      ],
+      "purpose": "Head female thread and sealing face; closed fixture roof"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+DEVIL FRUIT - RED, BLACK AND WHITE
+
+START HERE
+Open Devil_Fruit_P1S_Separate_Plates.3mf in Bambu Studio AS A PROJECT.
+This is the corrected native Bambu project with P1S 0.4 mm settings.
+It contains four separate plates. Print each plate once:
+  Plate 1: Black backing
+  Plate 2: Black spiral overlay
+  Plate 3: Red fruit
+  Plate 4: White curled stem
+Select the appropriate filament for each plate. No filament changes during
+an individual plate are required. Do not scale or auto-orient the parts.
+
+The STL - Individual Parts folder is an alternative for importing parts
+individually. You do not need to import these when using the Bambu project.
+Import STLs as millimeters at 100% scale; all are already face-up at Z=0.
+
+SIZE AND PRINT SETTINGS
+Finished size: 213.3 mm wide x 240 mm tall x 9.6 mm thick.
+Saved settings: 0.20 mm layers, 3 walls, 4 top and bottom layers,
+10% gyroid infill, supports OFF, no brim.
+Use your calibrated filament temperature and flow settings.
+Your black Creality Hyper PLA and red Soyelin Ultra PLA provide two colors;
+use white PLA for the stem.
+Estimated total: about 237 g of PLA and 6 hours 49 minutes across four jobs.
+Actual time and material consumption may differ.
+
+ASSEMBLY
+1. Let all parts cool flat. Remove strings and first-layer flare from
+   mating edges. Dry-fit everything before applying glue.
+2. Seat the red body in the large recess in the black backing.
+3. Test the black overlay over the backing's three square keys. It rests
+   on the red body and the backing rim. Do not force the spiral network.
+4. Test the white stem in its shaped opening. Its face should sit flush
+   with the black outline. Remove the overlay and inserts after testing.
+5. Apply a thin layer or small dots of PLA-compatible adhesive under the
+   red insert and seat it. Avoid thick glue beads that alter the height.
+6. Glue the black overlay to the red body and rim, lowering it over the
+   three keys. Keep it level while the adhesive cures.
+7. Glue the white stem into its opening, keeping glue off visible edges.
+
+This is an aligned glue assembly, not a snap fit. Pocket clearance is
+0.25 mm per side. Keys are 3.8 mm wide; sockets are 4.3 mm wide.
+The key ends intentionally stop 0.2 mm below the black face.
+The black spirals stand 2.4 mm above the red body.
+
+WALL MOUNTING
+The back is completely flat. Place Command strips or suitable mounting
+tape on the broad rear fruit body, distributed across upper and lower
+areas. Follow the adhesive manufacturer's surface preparation, load,
+and removal instructions. No wall hook is needed or supplied.
+
+CHECKS
+All four meshes passed digital manifold, watertightness, and size checks.
+The native project was reloaded and all four plates sliced successfully
+in Bambu Studio with its saved P1S settings, no plate warnings, and no
+filament changes. Physical fit and mounting have not been test-printed.
+
+See Design and Assembly Preview.png for the front, rear, side,
+exploded assembly, and assembled appearance.

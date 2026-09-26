@@ -1,0 +1,62 @@
+[
+  {
+    "name": "RED_body",
+    "path": "ALIGNED_ASSEMBLY/RED_body.stl",
+    "color": "red",
+    "group": "body"
+  },
+  {
+    "name": "RED_head",
+    "path": "ALIGNED_ASSEMBLY/RED_head.stl",
+    "color": "red",
+    "group": "head"
+  },
+  {
+    "name": "BLACK_feet_base",
+    "path": "ALIGNED_ASSEMBLY/BLACK_feet_base.stl",
+    "color": "black",
+    "group": "bottom"
+  },
+  {
+    "name": "BLACK_smile",
+    "path": "ALIGNED_ASSEMBLY/BLACK_smile.stl",
+    "color": "black",
+    "group": "head"
+  },
+  {
+    "name": "BLACK_eye_left",
+    "path": "ALIGNED_ASSEMBLY/BLACK_eye_left.stl",
+    "color": "black",
+    "group": "head"
+  },
+  {
+    "name": "BLACK_brow_left",
+    "path": "ALIGNED_ASSEMBLY/BLACK_brow_left.stl",
+    "color": "black",
+    "group": "head"
+  },
+  {
+    "name": "BLACK_crest",
+    "path": "ALIGNED_ASSEMBLY/BLACK_crest.stl",
+    "color": "black",
+    "group": "head"
+  },
+  {
+    "name": "BLACK_eye_right",
+    "path": "ALIGNED_ASSEMBLY/BLACK_eye_right.stl",
+    "color": "black",
+    "group": "head"
+  },
+  {
+    "name": "BLACK_brow_right",
+    "path": "ALIGNED_ASSEMBLY/BLACK_brow_right.stl",
+    "color": "black",
+    "group": "head"
+  },
+  {
+    "name": "PINK_tongue",
+    "path": "ALIGNED_ASSEMBLY/PINK_tongue.stl",
+    "color": "pink",
+    "group": "body"
+  }
+]

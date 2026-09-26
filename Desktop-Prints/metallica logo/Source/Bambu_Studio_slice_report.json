@@ -1,0 +1,194 @@
+[
+  {
+    "file": "P01_AMS_black_red.3mf",
+    "status": "passed",
+    "time_minutes": 53.2,
+    "filament_g": 29.01,
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 1,
+        "main_used_g": 21.76045036315918,
+        "total_used_g": 21.893129348754883
+      },
+      {
+        "filament_id": "GFL99",
+        "id": 2,
+        "main_used_g": 6.728326797485352,
+        "total_used_g": 7.117453098297119
+      }
+    ],
+    "color_changes": 1,
+    "warnings": "",
+    "walls": 3,
+    "infill_percent": 12.0
+  },
+  {
+    "file": "P02_AMS_black_red.3mf",
+    "status": "passed",
+    "time_minutes": 98.9,
+    "filament_g": 58.2,
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 1,
+        "main_used_g": 44.22871398925781,
+        "total_used_g": 44.361392974853516
+      },
+      {
+        "filament_id": "GFL99",
+        "id": 2,
+        "main_used_g": 13.450275421142578,
+        "total_used_g": 13.839401245117188
+      }
+    ],
+    "color_changes": 1,
+    "warnings": "",
+    "walls": 3,
+    "infill_percent": 12.0
+  },
+  {
+    "file": "P03_AMS_black_red.3mf",
+    "status": "passed",
+    "time_minutes": 90.7,
+    "filament_g": 54.03,
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 1,
+        "main_used_g": 42.322296142578125,
+        "total_used_g": 42.45497512817383
+      },
+      {
+        "filament_id": "GFL99",
+        "id": 2,
+        "main_used_g": 11.182439804077148,
+        "total_used_g": 11.571566581726074
+      }
+    ],
+    "color_changes": 1,
+    "warnings": "",
+    "walls": 3,
+    "infill_percent": 12.0
+  },
+  {
+    "file": "P04_AMS_black_red.3mf",
+    "status": "passed",
+    "time_minutes": 101.0,
+    "filament_g": 59.7,
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 1,
+        "main_used_g": 45.442840576171875,
+        "total_used_g": 45.575523376464844
+      },
+      {
+        "filament_id": "GFL99",
+        "id": 2,
+        "main_used_g": 13.738216400146484,
+        "total_used_g": 14.12734317779541
+      }
+    ],
+    "color_changes": 1,
+    "warnings": "",
+    "walls": 3,
+    "infill_percent": 12.0
+  },
+  {
+    "file": "P05_AMS_black_red.3mf",
+    "status": "passed",
+    "time_minutes": 55.1,
+    "filament_g": 29.44,
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 1,
+        "main_used_g": 22.008607864379883,
+        "total_used_g": 22.141286849975586
+      },
+      {
+        "filament_id": "GFL99",
+        "id": 2,
+        "main_used_g": 6.911984443664551,
+        "total_used_g": 7.301110744476318
+      }
+    ],
+    "color_changes": 1,
+    "warnings": "",
+    "walls": 3,
+    "infill_percent": 12.0
+  },
+  {
+    "file": "00_PRINT_FIRST_fit_test.3mf",
+    "status": "passed",
+    "time_minutes": 28.3,
+    "filament_g": 12.51,
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 1,
+        "main_used_g": 12.512657165527344,
+        "total_used_g": 12.512657165527344
+      }
+    ],
+    "color_changes": 0,
+    "warnings": "",
+    "walls": 4,
+    "infill_percent": 100.0
+  },
+  {
+    "file": "06_KEYS_loose_x8.3mf",
+    "status": "passed",
+    "time_minutes": 17.9,
+    "filament_g": 4.85,
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 1,
+        "main_used_g": 4.847736358642578,
+        "total_used_g": 4.847736358642578
+      }
+    ],
+    "color_changes": 0,
+    "warnings": "",
+    "walls": 4,
+    "infill_percent": 100.0
+  },
+  {
+    "file": "06_KEYS_nominal_x8.3mf",
+    "status": "passed",
+    "time_minutes": 18.4,
+    "filament_g": 4.94,
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 1,
+        "main_used_g": 4.94367790222168,
+        "total_used_g": 4.94367790222168
+      }
+    ],
+    "color_changes": 0,
+    "warnings": "",
+    "walls": 4,
+    "infill_percent": 100.0
+  },
+  {
+    "file": "06_KEYS_snug_x8.3mf",
+    "status": "passed",
+    "time_minutes": 18.4,
+    "filament_g": 4.98,
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 1,
+        "main_used_g": 4.977648735046387,
+        "total_used_g": 4.977648735046387
+      }
+    ],
+    "color_changes": 0,
+    "warnings": "",
+    "walls": 4,
+    "infill_percent": 100.0
+  }
+]

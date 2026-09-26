@@ -1,0 +1,130 @@
+{
+  "01_PRINT_BLACK_SNAP_BASE.3mf": {
+    "estimated_time": "2h 32m 29s",
+    "estimated_g": 92.2,
+    "layers": 24,
+    "infill": "20%",
+    "supports": false,
+    "bed_fit_pass": true,
+    "verified_extrusion_moves": 71728,
+    "features": [
+      "Bottom surface",
+      "Bridge",
+      "Custom",
+      "Floating vertical shell",
+      "Gap infill",
+      "Inner wall",
+      "Internal solid infill",
+      "Outer wall",
+      "Sparse infill",
+      "Top surface"
+    ],
+    "slice_exit_code": 0
+  },
+  "02_PRINT_RED_SNAP_INSERTS_STANDARD.3mf": {
+    "estimated_time": "46m 59s",
+    "estimated_g": 17.75,
+    "layers": 16,
+    "infill": "100%",
+    "supports": false,
+    "bed_fit_pass": true,
+    "verified_extrusion_moves": 45580,
+    "features": [
+      "Bottom surface",
+      "Custom",
+      "Floating vertical shell",
+      "Gap infill",
+      "Inner wall",
+      "Internal solid infill",
+      "Outer wall",
+      "Sparse infill",
+      "Top surface"
+    ],
+    "slice_exit_code": 0
+  },
+  "FIT_TEST_FIRST/01_BLACK_FIT_TEST.3mf": {
+    "estimated_time": "20m 37s",
+    "estimated_g": 8.17,
+    "layers": 24,
+    "infill": "20%",
+    "supports": false,
+    "bed_fit_pass": true,
+    "verified_extrusion_moves": 8205,
+    "features": [
+      "Bottom surface",
+      "Bridge",
+      "Custom",
+      "Floating vertical shell",
+      "Gap infill",
+      "Inner wall",
+      "Internal solid infill",
+      "Outer wall",
+      "Sparse infill",
+      "Top surface"
+    ],
+    "slice_exit_code": 0
+  },
+  "FIT_TEST_FIRST/02_RED_FIT_TESTS.3mf": {
+    "estimated_time": "15m 36s",
+    "estimated_g": 4.0,
+    "layers": 16,
+    "infill": "100%",
+    "supports": false,
+    "bed_fit_pass": true,
+    "verified_extrusion_moves": 9740,
+    "features": [
+      "Bottom surface",
+      "Custom",
+      "Floating vertical shell",
+      "Gap infill",
+      "Inner wall",
+      "Internal solid infill",
+      "Outer wall",
+      "Sparse infill",
+      "Top surface"
+    ],
+    "slice_exit_code": 0
+  },
+  "ALTERNATIVE_RED_FITS/RED_LOOSER_FIT.3mf": {
+    "estimated_time": "47m 0s",
+    "estimated_g": 17.74,
+    "layers": 16,
+    "infill": "100%",
+    "supports": false,
+    "bed_fit_pass": true,
+    "verified_extrusion_moves": 45633,
+    "features": [
+      "Bottom surface",
+      "Custom",
+      "Floating vertical shell",
+      "Gap infill",
+      "Inner wall",
+      "Internal solid infill",
+      "Outer wall",
+      "Sparse infill",
+      "Top surface"
+    ],
+    "slice_exit_code": 0
+  },
+  "ALTERNATIVE_RED_FITS/RED_FIRMER_FIT.3mf": {
+    "estimated_time": "47m 3s",
+    "estimated_g": 17.76,
+    "layers": 16,
+    "infill": "100%",
+    "supports": false,
+    "bed_fit_pass": true,
+    "verified_extrusion_moves": 45744,
+    "features": [
+      "Bottom surface",
+      "Custom",
+      "Floating vertical shell",
+      "Gap infill",
+      "Inner wall",
+      "Internal solid infill",
+      "Outer wall",
+      "Sparse infill",
+      "Top surface"
+    ],
+    "slice_exit_code": 0
+  }
+}

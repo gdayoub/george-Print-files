@@ -1,0 +1,59 @@
+GENGAR V4 — P1S, BLACK + RED PLA
+
+Only the three numbered 3MF files are needed in Bambu Studio.
+Open each AS A PROJECT. Keep 100% scale and the saved orientation.
+
+00_FIT_RING_P1S — user tested the ring and reported it "fits pretty good."
+Keep the 43.8 mm bore. The ring may slide off the top; this does not establish
+retention or full-depth fit. Reprinting the same ring is unnecessary unless
+you change relevant print settings. The saved ring slice is about 9 min, 2.1 g.
+
+01_BODY_FIT_PENDING_P1S — BLACK: about 1 h 35 min, 53.2 g.
+02_RED_DETAILS_P1S — RED, all five inserts: about 12 min, 2.1 g.
+Combined slicer estimate: 1 h 47 min 13 sec, about 55.3 g.
+This is below the requested two-hour PRINT target. Manual loading, cooling,
+support removal and assembly are additional; the fit test is excluded.
+
+FIT IS NOT FINISHED. The preliminary ring result supports keeping the
+43.8 mm opening. Hold off on the full body until button and cup-height
+measurements are confirmed. The 58.8 mm insertion depth and button location
+remain provisional. The rear window is
+12 x 8 mm; its center is 47.8 mm above the internal seat. It has NOT been
+sized or located from a measured Core. A snug fit and full concealment
+cannot be promised from the retailer's overall device dimensions.
+
+Downloaded Core models now supply cup-clearance evidence: Highigan V2
+has a 44.6 mm bore and 54 mm seat-to-rim coverage. Keep the 43.8 mm
+opening that passed your ring trial. These models leave the button exposed
+and do not establish a small button cutout. Use Gengar_NEXT_PRINT in
+Desktop/Prints for the 21-minute height gauge; no calipers are needed.
+The complete insertion path and removal still need a real-device trial.
+
+PRINT SETTINGS
+Confirmed: P1S, AMS, 0.4 mm nozzle. Black: Creality Hyper PLA RFID.
+Red: Soyelin Ultra PLA. Black uses P1S-compatible Generic PLA High Speed
+(18 mm3/s); red uses Generic PLA (12 mm3/s). Textured PEI is saved;
+select your actual plate if different and re-slice. Spool flow calibration
+has not been performed. Select the correct black/red AMS slots per job.
+Body: 0.24 mm layers, 3 walls, 8% gyroid, build-plate tree supports.
+Details: 0.20 mm, 3 walls, no supports. Flat backs face the bed.
+No prime tower or repeated color changes. AMS is optional for these jobs.
+
+ASSEMBLY
+Remove body supports, including the small tips beneath the button-window
+roof. Inspect the entire bore before fitting the device. Dry-fit the two
+eyes and three grin sections in their recessed pockets. Left/right refer
+to the assembled face. Use a small amount of PLA-compatible adhesive on
+the pocket backs only after fit is confirmed. These are seated inserts,
+not validated snap fittings. Let adhesive cure before adding the device.
+Fine assembly clearances are intentional; there are no stand-off blocks.
+The body has a closed back and closed bottom, with one small rear button
+window. The top remains open for insertion and the original mouthpiece.
+Remove the device to charge/service it. PLA remains exterior to the intact
+Core; no printed part replaces its chamber or vapor path. Coverage near the
+chamber and thermal suitability still require verification on the device.
+
+All three projects were sliced/exported by Bambu Studio 2.08.02.61 without
+warnings. No print was sent to the printer. Geometric and slicer checks
+are complete for this provisional model. The ring has user-reported fit;
+full-holder fit and retention are not verified.

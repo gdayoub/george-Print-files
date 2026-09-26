@@ -1,0 +1,402 @@
+{
+  "mesh_checks": [
+    {
+      "file": "KEY_loose.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        36.0,
+        14.7,
+        2.6
+      ],
+      "solid_volume_cm3": 0.502
+    },
+    {
+      "file": "KEY_nominal.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        36.0,
+        14.9,
+        2.6
+      ],
+      "solid_volume_cm3": 0.512
+    },
+    {
+      "file": "KEY_snug.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        36.0,
+        15.0,
+        2.6
+      ],
+      "solid_volume_cm3": 0.515
+    },
+    {
+      "file": "P01_BLACK_base.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        184.968,
+        207.858,
+        6.0
+      ],
+      "solid_volume_cm3": 43.452
+    },
+    {
+      "file": "P01_COMBINED_layer_change_6mm.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        184.968,
+        207.858,
+        7.2
+      ],
+      "solid_volume_cm3": 49.34
+    },
+    {
+      "file": "P01_RED_face.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        173.997,
+        197.46,
+        1.2
+      ],
+      "solid_volume_cm3": 5.888
+    },
+    {
+      "file": "P02_BLACK_base.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        192.294,
+        164.166,
+        6.0
+      ],
+      "solid_volume_cm3": 92.212
+    },
+    {
+      "file": "P02_COMBINED_layer_change_6mm.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        192.294,
+        164.166,
+        7.2
+      ],
+      "solid_volume_cm3": 103.992
+    },
+    {
+      "file": "P02_RED_face.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        189.228,
+        148.972,
+        1.2
+      ],
+      "solid_volume_cm3": 11.78
+    },
+    {
+      "file": "P03_BLACK_base.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        183.8,
+        82.021,
+        6.0
+      ],
+      "solid_volume_cm3": 87.801
+    },
+    {
+      "file": "P03_COMBINED_layer_change_6mm.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        183.8,
+        82.021,
+        7.2
+      ],
+      "solid_volume_cm3": 97.596
+    },
+    {
+      "file": "P03_RED_face.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        183.8,
+        69.816,
+        1.2
+      ],
+      "solid_volume_cm3": 9.795
+    },
+    {
+      "file": "P04_BLACK_base.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        193.739,
+        166.628,
+        6.0
+      ],
+      "solid_volume_cm3": 95.549
+    },
+    {
+      "file": "P04_COMBINED_layer_change_6mm.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        193.739,
+        166.628,
+        7.2
+      ],
+      "solid_volume_cm3": 107.587
+    },
+    {
+      "file": "P04_RED_face.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        190.673,
+        151.298,
+        1.2
+      ],
+      "solid_volume_cm3": 12.038
+    },
+    {
+      "file": "P05_BLACK_base.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        184.516,
+        208.064,
+        6.0
+      ],
+      "solid_volume_cm3": 44.209
+    },
+    {
+      "file": "P05_COMBINED_layer_change_6mm.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        184.516,
+        208.064,
+        7.2
+      ],
+      "solid_volume_cm3": 50.256
+    },
+    {
+      "file": "P05_RED_face.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        173.404,
+        197.672,
+        1.2
+      ],
+      "solid_volume_cm3": 6.047
+    },
+    {
+      "file": "TEST_socket_L.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        29.9,
+        28.0,
+        6.0
+      ],
+      "solid_volume_cm3": 4.36
+    },
+    {
+      "file": "TEST_socket_R.stl",
+      "watertight": true,
+      "outward_winding": true,
+      "positive_volume": true,
+      "extents_mm": [
+        29.9,
+        28.0,
+        6.0
+      ],
+      "solid_volume_cm3": 4.36
+    }
+  ],
+  "joint_interference_mm3": [
+    {
+      "key": 1,
+      "variant": "loose",
+      "volume": 0
+    },
+    {
+      "key": 2,
+      "variant": "loose",
+      "volume": 0
+    },
+    {
+      "key": 3,
+      "variant": "loose",
+      "volume": 0
+    },
+    {
+      "key": 4,
+      "variant": "loose",
+      "volume": 0
+    },
+    {
+      "key": 5,
+      "variant": "loose",
+      "volume": 0
+    },
+    {
+      "key": 6,
+      "variant": "loose",
+      "volume": 0
+    },
+    {
+      "key": 1,
+      "variant": "nominal",
+      "volume": 0
+    },
+    {
+      "key": 2,
+      "variant": "nominal",
+      "volume": 0
+    },
+    {
+      "key": 3,
+      "variant": "nominal",
+      "volume": 0
+    },
+    {
+      "key": 4,
+      "variant": "nominal",
+      "volume": 0
+    },
+    {
+      "key": 5,
+      "variant": "nominal",
+      "volume": 0
+    },
+    {
+      "key": 6,
+      "variant": "nominal",
+      "volume": 0
+    },
+    {
+      "key": 1,
+      "variant": "snug",
+      "volume": 0
+    },
+    {
+      "key": 2,
+      "variant": "snug",
+      "volume": 0
+    },
+    {
+      "key": 3,
+      "variant": "snug",
+      "volume": 0
+    },
+    {
+      "key": 4,
+      "variant": "snug",
+      "volume": 0
+    },
+    {
+      "key": 5,
+      "variant": "snug",
+      "volume": 0
+    },
+    {
+      "key": 6,
+      "variant": "snug",
+      "volume": 0
+    }
+  ],
+  "plate_checks": [
+    {
+      "file": "00_PRINT_FIRST_fit_test.3mf",
+      "valid_xml": true,
+      "all_parts_watertight": true,
+      "fits_256mm_bed_with_margin": true,
+      "objects": 5
+    },
+    {
+      "file": "06_KEYS_loose_x8.3mf",
+      "valid_xml": true,
+      "all_parts_watertight": true,
+      "fits_256mm_bed_with_margin": true,
+      "objects": 8
+    },
+    {
+      "file": "06_KEYS_nominal_x8.3mf",
+      "valid_xml": true,
+      "all_parts_watertight": true,
+      "fits_256mm_bed_with_margin": true,
+      "objects": 8
+    },
+    {
+      "file": "06_KEYS_snug_x8.3mf",
+      "valid_xml": true,
+      "all_parts_watertight": true,
+      "fits_256mm_bed_with_margin": true,
+      "objects": 8
+    },
+    {
+      "file": "P01_AMS_black_red.3mf",
+      "valid_xml": true,
+      "all_parts_watertight": true,
+      "fits_256mm_bed_with_margin": true,
+      "objects": 1
+    },
+    {
+      "file": "P02_AMS_black_red.3mf",
+      "valid_xml": true,
+      "all_parts_watertight": true,
+      "fits_256mm_bed_with_margin": true,
+      "objects": 1
+    },
+    {
+      "file": "P03_AMS_black_red.3mf",
+      "valid_xml": true,
+      "all_parts_watertight": true,
+      "fits_256mm_bed_with_margin": true,
+      "objects": 1
+    },
+    {
+      "file": "P04_AMS_black_red.3mf",
+      "valid_xml": true,
+      "all_parts_watertight": true,
+      "fits_256mm_bed_with_margin": true,
+      "objects": 1
+    },
+    {
+      "file": "P05_AMS_black_red.3mf",
+      "valid_xml": true,
+      "all_parts_watertight": true,
+      "fits_256mm_bed_with_margin": true,
+      "objects": 1
+    }
+  ],
+  "physical_testing": "Not performed. Test coupon required for snap fit; verify strip adhesion on actual PLA and wall."
+}

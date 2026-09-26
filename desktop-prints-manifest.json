@@ -1,0 +1,1741 @@
+{
+  "date": "2026-09-26",
+  "sources": {
+    "Desktop-Prints": "C:\\Users\\george\\Desktop\\Prints",
+    "Desktop-Prints-Archive": "C:\\Users\\george\\Documents\\ChatGPT\\Venom\\_archive\\2026-09-26_cleanup\\desktop_prints"
+  },
+  "file_count": 346,
+  "total_bytes": 847334119,
+  "files": [
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/01_PRINT_BLACK_SNAP_BASE.3mf",
+      "bytes": 566154,
+      "sha256": "0629c4ae2118dfa78b851d901b9f63de911828a4ded96f339e3ed04eddb08592"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/02_PRINT_RED_SNAP_INSERTS_STANDARD.3mf",
+      "bytes": 413121,
+      "sha256": "c19b4d6aa7f917696226e5c54b93176516e74628ce56fd312758b2a0ec195e0b"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/ALTERNATIVE_RED_FITS/RED_FIRMER_FIT.3mf",
+      "bytes": 414345,
+      "sha256": "5d6c2e61ab55184e4cddd76853ffba0f6ae86a3a93516c838137fd106c2216fd"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/ALTERNATIVE_RED_FITS/red_inserts_snap_firm.stl",
+      "bytes": 115384,
+      "sha256": "64bdbe021658f5be13e793464dae33227e01cad5f9abfae79828df06b9b5f634"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/ALTERNATIVE_RED_FITS/red_inserts_snap_loose.stl",
+      "bytes": 115384,
+      "sha256": "66d99071a3737ef0165f2b30abaa4b6f1860a256dba61231c42eeb3a5350b5ab"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/ALTERNATIVE_RED_FITS/RED_LOOSER_FIT.3mf",
+      "bytes": 412970,
+      "sha256": "5753408568adc649db9cff5b7b9e23b2caaf9efc4ed07580b95bcd590b0ec1e4"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/ASSEMBLY_PRESS_LOCATIONS.png",
+      "bytes": 33118,
+      "sha256": "f12d14896ed7f4ec2ca76a07fdd5943e7f17479d040ec1e6d72504f0f241d6d4"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/FINISHED_FRONT.png",
+      "bytes": 5703,
+      "sha256": "6f902cc9e4177fa766fcfe4ef1993c46f3bed1332f0e023f7163c651e607aa2e"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/FIT_TEST_FIRST/01_BLACK_FIT_TEST.3mf",
+      "bytes": 88846,
+      "sha256": "cf516b541b77a0114abf43d1cd409695a5130d5d176e52c5640b842b77bb4b09"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/FIT_TEST_FIRST/02_RED_FIT_TESTS.3mf",
+      "bytes": 95550,
+      "sha256": "7aafca0a04cf35ab49e9e8df0553d3ad6f2d0ca0732ea9466d599e5c150c3b77"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/FIT_TEST_FIRST/black_fit_test.stl",
+      "bytes": 9084,
+      "sha256": "7aabde8bb1189141bbe2b0292e997c2ac119c8a01259e6ef62eefb71b4ba6eb5"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/FIT_TEST_FIRST/red_fit_tests_1loose_2standard_3firm.stl",
+      "bytes": 25284,
+      "sha256": "d7c47f6985a8cbeafe7d9b20d39f4c3f4d2a7a0feaf722d0151375078c593516"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/REFERENCE/fit_test_and_socket_backs.png",
+      "bytes": 772229,
+      "sha256": "dabbf77621d7540d6ed762660c2ba18d68f0187a010070189feb10f2339db15d"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/REFERENCE/retention_checks.json",
+      "bytes": 1649,
+      "sha256": "2355c80920fcfbcc2a5b5761e2fceaaaf73a302d3f8736df158de34d5917c018"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/REFERENCE/slice_checks.json",
+      "bytes": 3113,
+      "sha256": "0a5399da31682820fd835a54b1b154ae80fba0062ceae8d8b838072e9f13ef21"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/REFERENCE/snap_assembled_reference.3mf",
+      "bytes": 31997,
+      "sha256": "51c03147db7076b9ccc092015d901468fb9259587265714f0ace51df60080c65"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/REFERENCE/snap_exploded.png",
+      "bytes": 805215,
+      "sha256": "f5ae1c7efcedcb3eb8d77d06475576b65d37ee6d003f60eb063da04b69f298dd"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/REFERENCE/snap_validation.json",
+      "bytes": 7908,
+      "sha256": "cb60e6bd288b7b60873ca1876c158190a5869110934d17d2ca6ea9a4a2f2512f"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/START_HERE.txt",
+      "bytes": 3898,
+      "sha256": "e735dcbfdbece69998ed379a42ac7d6e205c2e7d6509f64df5bb572ecf0121af"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/STL_BACKUPS/black_base_snap.stl",
+      "bytes": 81484,
+      "sha256": "3d3ce7a944446ac67e015d3a598b7ea7521dab96a96acd522610fd89140a53c2"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/STL_BACKUPS/boot_left_snap.stl",
+      "bytes": 8484,
+      "sha256": "baf3f42d36ca68605a2d725f60bca2d339b37b4c05be83318c9b9b60df027c8a"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/STL_BACKUPS/boot_right_snap.stl",
+      "bytes": 8584,
+      "sha256": "81524c7e9682826fe7406d8f0d2bf998743e1fa29562990cee12c5d2e7f77776"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/STL_BACKUPS/chest_emblem_snap.stl",
+      "bytes": 25484,
+      "sha256": "dea583d2a72efbceec09bcb84d1f85623f91cd32a34592f4bafe7f8347785c53"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/STL_BACKUPS/ear_left_snap.stl",
+      "bytes": 13184,
+      "sha256": "ce25fa790d9fc6a6c86592f2fd212060ca1fcae04a0ea927362ddf49c6c99994"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/STL_BACKUPS/ear_right_snap.stl",
+      "bytes": 12984,
+      "sha256": "8bdca350412838a47363418fd273b3b55da0ad57131280556e316dd8af5cf7c7"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/STL_BACKUPS/eye_left_snap.stl",
+      "bytes": 10384,
+      "sha256": "c1d0f4297154adbdae6eea7d5790c15f9dd9d71e5d32341631bf6150c4d73a2f"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/STL_BACKUPS/eye_right_snap.stl",
+      "bytes": 10384,
+      "sha256": "72350eb52dfe9ef5e7a4b8f24a7a7057438c7c1dec2434c220635aa930447274"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/STL_BACKUPS/red_inserts_snap_standard.stl",
+      "bytes": 115384,
+      "sha256": "e7782bfeeef382c24058aecd660594b4181932bc80f8c91d59037d9c2e2455ce"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/STL_BACKUPS/wing_left_snap.stl",
+      "bytes": 13284,
+      "sha256": "4efff4f5a43df1da0d6c6b5cd7e1c0ab411524d38ea79ed0213bb694c85935d2"
+    },
+    {
+      "path": "Desktop-Prints/Batman Beyond - SNAP Print Kit/STL_BACKUPS/wing_right_snap.stl",
+      "bytes": 13284,
+      "sha256": "e68a6aef86743d3825741cd02c2a564366a09de49610768e79df751585b5523a"
+    },
+    {
+      "path": "Desktop-Prints/Devil Fruit - Red Black White/Design and Assembly Preview.png",
+      "bytes": 268194,
+      "sha256": "9b823dfaa8b6e17ea33c8737c0a55095875f40e42bf8f35674b803108ef007e4"
+    },
+    {
+      "path": "Desktop-Prints/Devil Fruit - Red Black White/Devil_Fruit_P1S_AMS_NO_GLUE.3mf",
+      "bytes": 112424,
+      "sha256": "54d20e7e5013ec115edc713e6429b2201b31d87250f52bd8f770684c55aa72d9"
+    },
+    {
+      "path": "Desktop-Prints/Devil Fruit - Red Black White/Devil_Fruit_P1S_AMS_NO_GLUE_FAST.3mf",
+      "bytes": 123718,
+      "sha256": "d37c0fbf6e244bedd586272c91b37636d87e754a9a73a9990ae0654a032c4ede"
+    },
+    {
+      "path": "Desktop-Prints/Devil Fruit - Red Black White/Devil_Fruit_P1S_Separate_Plates.3mf",
+      "bytes": 125623,
+      "sha256": "29ea6441a72e328dbf68f44a049cf911fb6a41434ab783dfaa948494561a5c63"
+    },
+    {
+      "path": "Desktop-Prints/Devil Fruit - Red Black White/Devil_Fruit_RED_BLACK_ONLY_NO_GLUE_FAST.3mf",
+      "bytes": 112330,
+      "sha256": "f9d184ea72dcefa62aea8e3740b5b8cd3f0872c40e0fcffc12e63e32fefa625a"
+    },
+    {
+      "path": "Desktop-Prints/Devil Fruit - Red Black White/Optional - Glued Version Instructions.txt",
+      "bytes": 2984,
+      "sha256": "a34b66eee99be9a804d6d747e4019c6d1b77e54cf940b23631ceddab773c0f46"
+    },
+    {
+      "path": "Desktop-Prints/Devil Fruit - Red Black White/Red Stem - Two Color Preview.png",
+      "bytes": 1177097,
+      "sha256": "4a83d9ebb02a26377bc1865367eba7a007461b24b070deb2eb365d2a7552f59c"
+    },
+    {
+      "path": "Desktop-Prints/Devil Fruit - Red Black White/START HERE - Printing and Assembly.txt",
+      "bytes": 1863,
+      "sha256": "ec7783f699859ad2fe0a5e63b300194472b236ce40f7cd7988668d7cc576e0e5"
+    },
+    {
+      "path": "Desktop-Prints/Devil Fruit - Red Black White/STL - Individual Parts/01_black_backing.stl",
+      "bytes": 57284,
+      "sha256": "3f0a6d22213c27f79a2753033ae3cdd87c42043487163cc25cd541ea2bde01cc"
+    },
+    {
+      "path": "Desktop-Prints/Devil Fruit - Red Black White/STL - Individual Parts/02_red_fruit.stl",
+      "bytes": 14684,
+      "sha256": "2b415553057795a0a4284af90981ba0999dfe16fa1c32a075ffa7306960c55bd"
+    },
+    {
+      "path": "Desktop-Prints/Devil Fruit - Red Black White/STL - Individual Parts/03_black_spiral_overlay.stl",
+      "bytes": 83284,
+      "sha256": "432ea3e7273a65c596f02da8a5e0ec25823d32dd04cf4e88a65af9d407441386"
+    },
+    {
+      "path": "Desktop-Prints/Devil Fruit - Red Black White/STL - Individual Parts/04_white_curled_stem.stl",
+      "bytes": 10284,
+      "sha256": "01b978458674ea0f491c11768399bb15cabf5dbce48502e3cf486ef77de9570c"
+    },
+    {
+      "path": "Desktop-Prints/Devil_Fruit_240mm_Print_Kit.zip",
+      "bytes": 7118697,
+      "sha256": "076375d17cab465b697920fea68e09789efe566b20bdf5452620322b96dd6f15"
+    },
+    {
+      "path": "Desktop-Prints/Gengar_Cupholder/01_BODY_Purple_P1S.3mf",
+      "bytes": 4885105,
+      "sha256": "bc495c1932093b0f86bd5d87f1fe048d97079e8a67d1600e69a6deca7081a763"
+    },
+    {
+      "path": "Desktop-Prints/Gengar_Cupholder/02_EYES_Red_P1S.3mf",
+      "bytes": 171376,
+      "sha256": "eee34bb4941f6258ad2e787afd4e9dda8d055d2ce9999ef7bc1dc59c1474ce3a"
+    },
+    {
+      "path": "Desktop-Prints/Gengar_Cupholder/03_TEETH_White_P1S.3mf",
+      "bytes": 232161,
+      "sha256": "b748c1f14ca7f8601da27297f16ec68ba685f95f647d5a47987c1623a5c87391"
+    },
+    {
+      "path": "Desktop-Prints/Gengar_Cupholder/Gengarcup_v1.3mf",
+      "bytes": 3964275,
+      "sha256": "b0f04a2528d40f460c4ee47a6d0b83ea2b3b610420b8b8a7e8dd00cee4c28969"
+    },
+    {
+      "path": "Desktop-Prints/Gengar_Cupholder/INSTRUCTIONS/Assembly_preview.png",
+      "bytes": 1750717,
+      "sha256": "d1d5616854cecf84126a2d87a2194513c691afca1ceb8c8fc3298c04f7e6a5f5"
+    },
+    {
+      "path": "Desktop-Prints/Gengar_Cupholder/INSTRUCTIONS/START_HERE.txt",
+      "bytes": 2530,
+      "sha256": "edc7e22474d3e6f4ce6aba11f23db4df3caaf63fee67106f36d46a58eac42ce6"
+    },
+    {
+      "path": "Desktop-Prints/Gengar_Cupholder/INSTRUCTIONS/Validation.json",
+      "bytes": 480,
+      "sha256": "e8dd22ab5d19f6f65225e4b3e89a09cb5dbe26adfde4fbaeb6b4c2f045f0003d"
+    },
+    {
+      "path": "Desktop-Prints/Gengar_Cupholder/READ_ME_FIRST.txt",
+      "bytes": 844,
+      "sha256": "a72c337fd0627777481ef2b0a21331583afafac0ae9495f355a435c8eb47a024"
+    },
+    {
+      "path": "Desktop-Prints/Gengar_Cupholder/STL_ALTERNATIVES/01_Purple_Body.stl",
+      "bytes": 14476784,
+      "sha256": "ee2cebeff0869980a5f5b26a3f1a0ed55045e170a9f5478d6da04c789d0e8ac3"
+    },
+    {
+      "path": "Desktop-Prints/Gengar_Cupholder/STL_ALTERNATIVES/02_Red_Eyes.stl",
+      "bytes": 462084,
+      "sha256": "5512beeacd66338815677ba6d7adac3de5c0a5495c7947607da81288038fd21a"
+    },
+    {
+      "path": "Desktop-Prints/Gengar_Cupholder/STL_ALTERNATIVES/03_White_Grin.stl",
+      "bytes": 623484,
+      "sha256": "459bec0fd1287e7a7f3a680cc4df798dbe7d0782aca093ad9d78b9f041932897"
+    },
+    {
+      "path": "Desktop-Prints/Gengar_NEXT_PRINT/BUTTON_HEIGHT_CHECK_P1S.3mf",
+      "bytes": 273222,
+      "sha256": "0342a3ae295e99b6268da87e1659d7b2fcf34788499f92a2c9a1da473dce08ab"
+    },
+    {
+      "path": "Desktop-Prints/Gengar_NEXT_PRINT/START_HERE.txt",
+      "bytes": 2058,
+      "sha256": "bb1bac9fc576d07d1b159712f245a5c09bc0f88860757d790e6aa82544f1c520"
+    },
+    {
+      "path": "Desktop-Prints/legobox/Black_Buttons.3mf",
+      "bytes": 78086,
+      "sha256": "4ddae1940589fd6fcc6764a3ed2a0c7908eb100d088615791f88f176babbde89"
+    },
+    {
+      "path": "Desktop-Prints/legobox/Square_Storage_Box_Black_Buttons.3mf",
+      "bytes": 771194,
+      "sha256": "2ac62543b620946548b340bdd021c2712ec22b175a5bfc2b68b76fc65d363bf8"
+    },
+    {
+      "path": "Desktop-Prints/legobox/Yellow_Box.3mf",
+      "bytes": 75312,
+      "sha256": "656ba10ecdf8e9980a3fcd4806870585a2682dbeec183f00e9010c5bd198802d"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Bambu_Plates/00_PRINT_FIRST_fit_test.3mf",
+      "bytes": 199092,
+      "sha256": "bd8ee37da7c8306f04d9c40317b375f3256e19d93e928a524102cb57fd636df9"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Bambu_Plates/06_KEYS_loose_x8.3mf",
+      "bytes": 139376,
+      "sha256": "3425fd178fb5c638fbaa5c9f08373cb1d9e36c3fa1c69060fc4e3fb11a0fcc30"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Bambu_Plates/06_KEYS_nominal_x8.3mf",
+      "bytes": 142848,
+      "sha256": "f41b150323f1b5575421f29a26a652c4f7d91027fca1236441ac1982f9da56e1"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Bambu_Plates/06_KEYS_snug_x8.3mf",
+      "bytes": 142939,
+      "sha256": "cfbaae8b334f9735994e01f0ec5eedc3f255b20e2af98892d2546ca1cb542b35"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Bambu_Plates/P01_AMS_black_red.3mf",
+      "bytes": 410330,
+      "sha256": "658e1550d766851268c7b048bfa067903c6b8a605aea1b4e34521689614590a3"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Bambu_Plates/P02_AMS_black_red.3mf",
+      "bytes": 725584,
+      "sha256": "34d6b3ecddd526ef2243e523b60f9fa7357f7067446af9fd842149dafda1720d"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Bambu_Plates/P03_AMS_black_red.3mf",
+      "bytes": 546923,
+      "sha256": "48e48645a30464fd180dc1377c5f746b0ae9e883f58dd94a8aed57b39857d5e1"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Bambu_Plates/P04_AMS_black_red.3mf",
+      "bytes": 797478,
+      "sha256": "5b69c89dfc3235cefca274a21f0e11857ea08339eebdfd04f28735ed65ffe8ef"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Bambu_Plates/P05_AMS_black_red.3mf",
+      "bytes": 452079,
+      "sha256": "10058be7bfd5edada504e27f87b2555ce8ce8f2bab88a2dcb961fb656ee90dbb"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Design_preview.png",
+      "bytes": 33081,
+      "sha256": "e03d47808f03f744eb68e68ed4aa5d248a66c521d225159355dde1586b9048cf"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/00_PRINT_FIRST_fit_test.3mf",
+      "bytes": 199092,
+      "sha256": "bd8ee37da7c8306f04d9c40317b375f3256e19d93e928a524102cb57fd636df9"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/01_BOTH_LIGHTNING_TIPS.3mf",
+      "bytes": 350425,
+      "sha256": "799740b09a72f48decf52a56e2d6a4bf818a274e943f89fc7fa987bc1816a527"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/02_MIDDLE_SECTIONS.3mf",
+      "bytes": 575420,
+      "sha256": "dd5b78b455b08cdb435cc1bee6be8773480f2a3f6533b8fa8fe156194a8ecb9c"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/03_LAST_SECTION_AND_KEYS_NOMINAL.3mf",
+      "bytes": 509961,
+      "sha256": "bfc7eae2f7c514aba64278c3f680322689c9afa7a20aacd68066655482895957"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/Alternative_key_fits/03_LAST_SECTION_AND_KEYS_LOOSE.3mf",
+      "bytes": 507357,
+      "sha256": "52c2f15cc1e863c6011aff6ea7e86900e2651a2b5f20302ffe3203edf9d8dada"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/Alternative_key_fits/03_LAST_SECTION_AND_KEYS_SNUG.3mf",
+      "bytes": 510214,
+      "sha256": "af5193c3b5ac487d95b1a4a22c985091eeed7e01cdc8575415152a2b3c5884cf"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/Details/comparison.json",
+      "bytes": 445,
+      "sha256": "ba5ca1cc09d23b69ca6a8cd651249d171a80ca53cb3bdc2148c0684894e52cea"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/Details/optimized_process.json",
+      "bytes": 8208,
+      "sha256": "308b0e2c7bfa801d86f2378a65fdee0518f16894d89d291d87922c720d705750"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/Details/plate_layouts.json",
+      "bytes": 42094,
+      "sha256": "f0dc370edee8dd9802b0441caac0f06ae2ca9674ade05e2253b20b8ec1692adc"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/Details/profile_comparison.json",
+      "bytes": 470,
+      "sha256": "66f0c7a4a27a87a41683dcad1732f6d15ff429ec00f355baa3c3167bd33bc1b3"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/Details/slice_report.json",
+      "bytes": 3230,
+      "sha256": "5bc3ea3bae6cfae40eb5a96535cdc6bf25ce7ab93efbddb66c00e63f8ec12135"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/Fast_plate_layout.png",
+      "bytes": 56081,
+      "sha256": "b008a81a778d9c88c293d5e9e05f6c6cac5e221b26901d6515a15947f852931b"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/Fit_test_map.png",
+      "bytes": 34515,
+      "sha256": "c306f13a8ba2e808ceda2a1cc4a20f774f3ef2a6c5e2ac8ff0a668675f6941e3"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/Front_assembly_map.png",
+      "bytes": 50986,
+      "sha256": "4ceccc96c05db31f0c350e74b10d3d79061f2c6344cb2a4b169202278377313b"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/README.txt",
+      "bytes": 2408,
+      "sha256": "81dd6b2fdb16aea51dd87c6897820d8e4695fdf77bb8f9e16dc306b4072d9ca9"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/Rear_assembly_map.png",
+      "bytes": 51747,
+      "sha256": "936879e7aff20bfab80514019df58074e5f6baf79d0fde3d33d6936b6d3f9a8d"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/FAST_PRINT/START_HERE.html",
+      "bytes": 6687,
+      "sha256": "44decf37b64e4fa0cfd3ed75c24cc814939dc576d716a9ce155c785dc023a97b"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Fit_test_map.png",
+      "bytes": 34515,
+      "sha256": "c306f13a8ba2e808ceda2a1cc4a20f774f3ef2a6c5e2ac8ff0a668675f6941e3"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Front_assembly_map.png",
+      "bytes": 50986,
+      "sha256": "4ceccc96c05db31f0c350e74b10d3d79061f2c6344cb2a4b169202278377313b"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Metallica_900mm.blend",
+      "bytes": 847677,
+      "sha256": "d780afef74200b926fb501b362fb53e1d275dbbbc16b0547e0237e5abd5b14d0"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/READ_THIS_FOR_FASTER_PRINTS.txt",
+      "bytes": 461,
+      "sha256": "c8a59e196693c9a748e930c3b3446675b70460386d150122b2c5bb1a7f420472"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/README.txt",
+      "bytes": 1125,
+      "sha256": "e379309d35360016a4064b6c1b85f2403b6cee2413dc4b9413b7ceb117652d74"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Rear_assembly_map.png",
+      "bytes": 51747,
+      "sha256": "936879e7aff20bfab80514019df58074e5f6baf79d0fde3d33d6936b6d3f9a8d"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Source/Bambu_Studio_slice_report.json",
+      "bytes": 4408,
+      "sha256": "cdb62084dab043bed0405c0716e82bb07a783c4cfd809c7daef491f186faabaa"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Source/build_blender_model.py",
+      "bytes": 21811,
+      "sha256": "4505915687274da53693b118bfdfd2681b273cdc65dbc42f3093c74ceb218408"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Source/manifest.json",
+      "bytes": 54944,
+      "sha256": "207b17aa11c4749eefaa79df49ea068ac6f19cb84ebec1dfa3269c3a76420f88"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Source/Metallica_wordmark_2008.svg",
+      "bytes": 4403,
+      "sha256": "b2f7e71a74baabe31f6a87aab565c298bc4afb816c9130e1f553c11fd2871d72"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/Source/validation_report.json",
+      "bytes": 8434,
+      "sha256": "85965a6bfac7c9a9f715c6fcbedc63bb33ed1c8cae539f60a595e4dd4351a5f7"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/START_HERE.html",
+      "bytes": 192184,
+      "sha256": "cbc5ea8e82b59974b41916a68b97ae4a56ce5a8796b3ef8e36be252a4c017e25"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/KEY_loose.stl",
+      "bytes": 7884,
+      "sha256": "1afe44029067379c6d6cf0a0348cf6eca91df74c4532e7ee8ff10f642cbd9b9c"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/KEY_nominal.stl",
+      "bytes": 7884,
+      "sha256": "7baaca8b5eaa7a7132bcfd57a427ef92ece383961f97a33d9ffefae2f63074aa"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/KEY_snug.stl",
+      "bytes": 7884,
+      "sha256": "89b4b1cedc21367246ef4f2c65e33587c0b90a978184cbc8f26eec5ef5589f62"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/P01_BLACK_base.stl",
+      "bytes": 5184,
+      "sha256": "74e54e7985d83084bcf517ae4fad927848f54870d462d3ab0bb38390244eb14c"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/P01_COMBINED_layer_change_6mm.stl",
+      "bytes": 6284,
+      "sha256": "954ee4516246adaf1ed552dd1d193806a7fd7d34462b956838db93b91dbcd9d7"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/P01_RED_face.stl",
+      "bytes": 884,
+      "sha256": "50e5f27cf9bb3ed8d628a6625fdafd4c8a17098bfcb480affa5ba84fa815bd6b"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/P02_BLACK_base.stl",
+      "bytes": 27384,
+      "sha256": "f2516aa25edba7b875b3ef917eea8dec889bdcf310265ed0621bd2598e101a81"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/P02_COMBINED_layer_change_6mm.stl",
+      "bytes": 45384,
+      "sha256": "87808d99f09ed6e012d125307cb30eb9318f861b88e0dfefebf3f6a1adfe4a5b"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/P02_RED_face.stl",
+      "bytes": 17484,
+      "sha256": "b9135817c44d03fcf09b53532b1b16ed6fe884227d04884748935525ca50b68d"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/P03_BLACK_base.stl",
+      "bytes": 15484,
+      "sha256": "3bb42d7170a0e1ef815601d77de2fd974a64d9369e835ba39acae8ae401db3af"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/P03_COMBINED_layer_change_6mm.stl",
+      "bytes": 22084,
+      "sha256": "dcd56d6872a635decd5a9185452ccd6397702b91ca1ea4bb4ff189473ec7dbdc"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/P03_RED_face.stl",
+      "bytes": 6484,
+      "sha256": "298f3d188275427faf957bae84a156998860e5e5586110d3c2139c27fb0478d7"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/P04_BLACK_base.stl",
+      "bytes": 29584,
+      "sha256": "b691bd69f7ff504f10f6e906c293d879aef04ff110bb0a336d39844bb7bbdd12"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/P04_COMBINED_layer_change_6mm.stl",
+      "bytes": 75384,
+      "sha256": "0f9aab8ce8de4f6ec0f24aef9d9df5009f74566a744996a58bb0b8706991770e"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/P04_RED_face.stl",
+      "bytes": 45484,
+      "sha256": "c697030efd83029ff3c0e813572a6f37034db77078fd3c7fabea6169ab2fde48"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/P05_BLACK_base.stl",
+      "bytes": 5384,
+      "sha256": "62f36926e54b0576ab9d112f2f41feca505315da5a90a2d025123054870957a7"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/P05_COMBINED_layer_change_6mm.stl",
+      "bytes": 6584,
+      "sha256": "88ef64d2a4a2153cbec73b77391cad98269b727560684b084be63f31fa2872af"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/P05_RED_face.stl",
+      "bytes": 1084,
+      "sha256": "c5e964fe5c057d0ad725d1a6c54bdc673a74c40a179c2a941188ec8874fdc549"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/TEST_socket_L.stl",
+      "bytes": 4584,
+      "sha256": "1ab46512b7cc6b8b166022e36faa06e82678337d8802cfd6317ab36e317a5047"
+    },
+    {
+      "path": "Desktop-Prints/metallica logo/STL/TEST_socket_R.stl",
+      "bytes": 4584,
+      "sha256": "2e0bdd9ff4c68c7c742681724ecb85853565a92a52d39b485cceab0bf506b5e6"
+    },
+    {
+      "path": "Desktop-Prints/PRINT_GENGAR_MATCHED_FIT/01_BLACK_BODY_MATCHED_FIT_P1S.3mf",
+      "bytes": 6463535,
+      "sha256": "cacd995f12b98a16aa30b3e861688a633a5c5b7189056c6e09fdb1ddacb12864"
+    },
+    {
+      "path": "Desktop-Prints/PRINT_GENGAR_MATCHED_FIT/02_RED_PRESS_FIT_P1S.3mf",
+      "bytes": 455262,
+      "sha256": "2532d83967ae18d4fd4a1655d3e736d56a1d84753a69bfa7dd3f40aad7890c29"
+    },
+    {
+      "path": "Desktop-Prints/PRINT_GENGAR_MATCHED_FIT/START_HERE.txt",
+      "bytes": 1781,
+      "sha256": "491d63cf474a1b507eff1f3c8216deb5b1309d85c901b3066143018e5ec72f9a"
+    },
+    {
+      "path": "Desktop-Prints/PRINT_GENGAR_NO_GLUE/01_BLACK_BODY_P1S.3mf",
+      "bytes": 6449725,
+      "sha256": "68834ed2c7d19efe9181f92f3cd209699aac88911e9e571f42c8788bc4059800"
+    },
+    {
+      "path": "Desktop-Prints/PRINT_GENGAR_NO_GLUE/02_RED_PRESS_FIT_P1S.3mf",
+      "bytes": 456625,
+      "sha256": "e6f72a622b8c27315a855f305540abf34634b4b68bed2132874379882017ed84"
+    },
+    {
+      "path": "Desktop-Prints/PRINT_GENGAR_NO_GLUE/START_HERE.txt",
+      "bytes": 1590,
+      "sha256": "e9988744d4ca29906b526607d26fdbd80b73f1291ae8cc90e695a48dc26a8ccc"
+    },
+    {
+      "path": "Desktop-Prints/PRINT_GENGAR_V5/01_BLACK_BODY_P1S.3mf",
+      "bytes": 6414608,
+      "sha256": "ad19592208113567d3004973b4bbcc8af842ca137978d1bf3fe5c11b957d26b8"
+    },
+    {
+      "path": "Desktop-Prints/PRINT_GENGAR_V5/02_RED_DETAILS_P1S.3mf",
+      "bytes": 170848,
+      "sha256": "a7675e77f58299253d2c5b1ccb1103e6bf9cbee38b19fe5e6a63be657814ac48"
+    },
+    {
+      "path": "Desktop-Prints/PRINT_GENGAR_V5/START_HERE.txt",
+      "bytes": 1705,
+      "sha256": "8e2720c053d3e2eb6582162e7a53585ddda3364ccb77eb0439a7624a2d99fe5c"
+    },
+    {
+      "path": "Desktop-Prints/PRINT_GENGAR_V6/01_BLACK_BODY_P1S.3mf",
+      "bytes": 6449725,
+      "sha256": "68834ed2c7d19efe9181f92f3cd209699aac88911e9e571f42c8788bc4059800"
+    },
+    {
+      "path": "Desktop-Prints/PRINT_GENGAR_V6/02_RED_DETAILS_P1S.3mf",
+      "bytes": 365601,
+      "sha256": "3ffd6b56b0e81645d5f9dbece9730bd83d267b4b9c8d82f754b99f3e95f05edf"
+    },
+    {
+      "path": "Desktop-Prints/PRINT_GENGAR_V6/START_HERE.txt",
+      "bytes": 1275,
+      "sha256": "9c17e7ecf41737f6911d0683e393bc8b12eff759849438231e363e1be5e2d758"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/00_PRINT_FIT_TEST_FIRST.3mf",
+      "bytes": 274379,
+      "sha256": "f7c5e81c7d2bb4a4b01927b6f7b14a745459c51d4a0f76eb37910f57fe840b67"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/01_RED_BODY.3mf",
+      "bytes": 8512899,
+      "sha256": "0f9537c12db0c42f858d674fea67358bd3d2dd8efcd1d70d18f3c85b39947a2a"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/02_RED_HEAD.3mf",
+      "bytes": 7460060,
+      "sha256": "5d38def6bfc6f8d82fbc6a5e51ace25d97b3a85a2bf7eb2ab69f3a754958a5a3"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/03_BLACK_PARTS.3mf",
+      "bytes": 3412120,
+      "sha256": "b48637bd624629c52358fcd400d06b0111ac65c033fecfda00a7b406df53a3af"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/04_PINK_TONGUE.3mf",
+      "bytes": 158503,
+      "sha256": "e8a68e260c9b887f77913e6b4bb5f6a6f602bf889f18ba9defe46bb0d847e33c"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/EDITABLE/build_snap_print_kit.py",
+      "bytes": 14670,
+      "sha256": "0cf51a1549334e7829e1ab1c4d425550ca76f7e02a5011494ddb97ad2ce5d2ef"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/EDITABLE/inputs/character_parts/00_original_core_UNCHANGED.stl",
+      "bytes": 387334,
+      "sha256": "b4eef4a572c2d5ad06dac0f7b08190e719f11ef21ee1fecb9e061a9505f9e225"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/EDITABLE/inputs/character_parts/01_red_exterior_added_to_core.stl",
+      "bytes": 2362784,
+      "sha256": "af6873cc0c6c4ecacd81bcab8d43699b06efa0b1b1794bee76b15ea177f347b2"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/EDITABLE/inputs/character_parts/02_pink_tongue.stl",
+      "bytes": 160084,
+      "sha256": "e7d8d4885c45328bd7bf5a3a75a40e0cb697169575f5a3255d2af1f30321e9a7"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/EDITABLE/inputs/character_parts/03_red_head_shell.stl",
+      "bytes": 993184,
+      "sha256": "5f55d6d29b2c04efbdb6c68f5e53664b43860198954c41d3ea42e3bb446fe79c"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/EDITABLE/inputs/character_parts/04_black_head_details.stl",
+      "bytes": 1415984,
+      "sha256": "6d236dff098d70e17377c65f36159530f4c8e6afab740ade829f0f600880c667"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/EDITABLE/inputs/character_parts/05_black_feet_storage_base.stl",
+      "bytes": 455084,
+      "sha256": "b240a42e32a35af0e93b178769e4488be3342b230391405cf2f8cde49fea8b0c"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/EDITABLE/inputs/ORIGINAL_sleeve_UNCHANGED.stl",
+      "bytes": 387334,
+      "sha256": "b4eef4a572c2d5ad06dac0f7b08190e719f11ef21ee1fecb9e061a9505f9e225"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/EDITABLE/Proxy_Pal_SNAP_EDITABLE.blend",
+      "bytes": 3283870,
+      "sha256": "242d7f38ff9f805725caf98688eb27e5a8d5dedc75ad4363e00e20e12e7ea0fa"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/EDITABLE/render_snap_kit.py",
+      "bytes": 5481,
+      "sha256": "8b894a3b9f85dda14f6cff76f555ed9b33cb2cfcb81731aa68583e85af5b4087"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/EDITABLE/requirements.txt",
+      "bytes": 66,
+      "sha256": "9ecabdf192336faa64e55de9bf4decb59c83b7013e3f94b5dbf6f0e776b49095"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/EDITABLE/snap_parameters.json",
+      "bytes": 988,
+      "sha256": "25713145c900c9f43dd450deb7d3e04b0c8196a4d6dabe175e9e9be536d0b62e"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/EDITABLE/verify_snap_kit.py",
+      "bytes": 2952,
+      "sha256": "c9930c5d07c51716833cd1ce9b40a817b40b16cb919c609ff75269d6a1dd747b"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/01_ASSEMBLED.png",
+      "bytes": 1436996,
+      "sha256": "2f815b81328e4c744ca75f43c65e210f4180087d3cafea3e306f1ba2e4f7aada"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/02_EXPLODED_NO_GLUE.png",
+      "bytes": 1468269,
+      "sha256": "6700d93c2cc0352f4e9371026ca125084ee5c64413192eb25ad8c77cb1a1242f"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/03_SECTION.png",
+      "bytes": 1397037,
+      "sha256": "0138027ca114aa4f6704d4a75eefbb901ff5393b156889eff02b3d9efcdfad00"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/ALIGNED_ASSEMBLY/BLACK_brow_left.stl",
+      "bytes": 104284,
+      "sha256": "9400d7178922a318dd66150bc564b977d9d786289499c2d1f0624cfa426b405e"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/ALIGNED_ASSEMBLY/BLACK_brow_right.stl",
+      "bytes": 104284,
+      "sha256": "ca3d45ada3a867a9415cead6184f396c5b503d5b19a7d6ab4610737a879ae104"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/ALIGNED_ASSEMBLY/BLACK_crest.stl",
+      "bytes": 653384,
+      "sha256": "d99183e689e562e66aa521457288404ff143b9c9c196aff4c555120b484a42a1"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/ALIGNED_ASSEMBLY/BLACK_eye_left.stl",
+      "bytes": 168884,
+      "sha256": "71ae4626b60ec02cd5ea17ab180542b629775ccf4c6a1187a90d3ebbedd51ba8"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/ALIGNED_ASSEMBLY/BLACK_eye_right.stl",
+      "bytes": 168884,
+      "sha256": "8e201b29c5c8bed2707e61ad8b668ead08e1aadede513a38cb2daf62b1cdbfbe"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/ALIGNED_ASSEMBLY/BLACK_feet_base.stl",
+      "bytes": 465884,
+      "sha256": "95b3d2e272de77296628edf5ef3d1a1b1a7962deb3f54035e6e21b4a3ddd3b37"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/ALIGNED_ASSEMBLY/BLACK_smile.stl",
+      "bytes": 275884,
+      "sha256": "a36ceead5a2b75b369d4ae61ea02688dbc54a6f5346880f489154575c27d9b40"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/ALIGNED_ASSEMBLY/ORIGINAL_core_aligned.stl",
+      "bytes": 387334,
+      "sha256": "dc63bb97e726fe351ed01cb85ad0f39e4ab9187f9a47fb7333fb8614f048a557"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/ALIGNED_ASSEMBLY/PINK_tongue.stl",
+      "bytes": 168484,
+      "sha256": "89c544aa9ea0c8dbd4a032dd4a6ec313e47394e01ec667e913ea9bbbda99eb64"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/ALIGNED_ASSEMBLY/RED_body.stl",
+      "bytes": 2402684,
+      "sha256": "47d9b544489e84ef6b7b6377744babc2025f3edee642ff6f2c5135cd93bad85e"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/ALIGNED_ASSEMBLY/RED_head.stl",
+      "bytes": 1962884,
+      "sha256": "5512b7771a9a180ccc8c24330d3600aeca7685a345d2f16e6c082ebb49e6a917"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/assembly_review.3mf",
+      "bytes": 2058895,
+      "sha256": "22e9e00e7bd6b9979cc99327ff39c883b2c5480a00cf4940da829f952b128257"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/geometry_checks.json",
+      "bytes": 13254,
+      "sha256": "c435e0f9c9616118f72a5113833d975208cdd6b344e46fb1b872c86176730406"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/manifest.json",
+      "bytes": 1348,
+      "sha256": "84e93c481d5da6a763ace22f198c5851f10faeb55c69af7de33977cd7645f494"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/ORIGINAL_sleeve_UNCHANGED.stl",
+      "bytes": 387334,
+      "sha256": "b4eef4a572c2d5ad06dac0f7b08190e719f11ef21ee1fecb9e061a9505f9e225"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/print_checks.json",
+      "bytes": 6550,
+      "sha256": "51917619f650df32a335f779881e379a6d8e27da2975c4d8fe8a106000080586"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/SHA256_files.json",
+      "bytes": 6573,
+      "sha256": "3f62e09b1492210d3e33b71ac4264e9ebfbb0b5ecfa8625105baeb358ed0bba2"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/slicing_reports.json",
+      "bytes": 16407,
+      "sha256": "d594e2f17713ccda2e398e9ab17a9516bed0bcb312ad6816fed796a3c4b7c284"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/REFERENCE/SNAP_KIT_PREVIEW.png",
+      "bytes": 973328,
+      "sha256": "cc2b91afeab465ea2523b0bfec27520ad139fa405f7ffb7d2f493b99d394936c"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/START_HERE.md",
+      "bytes": 6654,
+      "sha256": "5b219429098ccaa76422f3d8c5447d1bfbad154e6d851086be7bbbbc3a943dff"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/BLACK_brow_left.stl",
+      "bytes": 104284,
+      "sha256": "9584177b54fcf200dff87aabae05668fd04f51f09ffcc38f1caf9b9db0009cc6"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/BLACK_brow_right.stl",
+      "bytes": 104284,
+      "sha256": "7dee3564cfc0df8cd37363906f704c1fb58f7eaf15793dd045b38d306ee4ecd1"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/BLACK_crest.stl",
+      "bytes": 653384,
+      "sha256": "9ae9fafb539cf16422f238f59a29a7ce8bb5f8af3dcd8c4db3b3102fb0efb7d1"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/BLACK_eye_left.stl",
+      "bytes": 168884,
+      "sha256": "4bb72389ab87c100c7fc177107fa8761f45bf0a178e2229784fb820aff77a963"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/BLACK_eye_right.stl",
+      "bytes": 168884,
+      "sha256": "ffce92f3b8a25e7431deff889527112dcf2315d36fd46d14cd9b54416c0a1f2e"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/BLACK_feet_base.stl",
+      "bytes": 465884,
+      "sha256": "6435c38170f885b5cdbe33771d4b8c58420a1a4e983455dbcf219ac33f7d1134"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/BLACK_smile.stl",
+      "bytes": 275884,
+      "sha256": "fb0da2f484c391a048e1f305d277d5f2c87ef33d013162b50f540446f3b117c7"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/FIT_TEST_COUPONS/closure_pin.stl",
+      "bytes": 3484,
+      "sha256": "902eff8a45e25c449d7eab8fec668b9efba1df4c23ece58953aab2875089d199"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/FIT_TEST_COUPONS/closure_socket_1.stl",
+      "bytes": 55384,
+      "sha256": "9016dd5c319fbd09851b1c7d62c8be99a867d6fbbb49890de4f225cce0c97870"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/FIT_TEST_COUPONS/closure_socket_2.stl",
+      "bytes": 109084,
+      "sha256": "c333042c0590f59dc29fb26f397d91ca002fe4ac26610fcb61698649c6dd20fd"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/FIT_TEST_COUPONS/closure_socket_3.stl",
+      "bytes": 162884,
+      "sha256": "4449ba1494cdc1d66a2e610b060d20298ca88bbbbad1982d8f3c5626257ab091"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/FIT_TEST_COUPONS/detail_pin.stl",
+      "bytes": 3484,
+      "sha256": "9ed6c4a0de6f138b531208a72aa3202d4c739c2408f4dd7b801d693d73ece4fd"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/FIT_TEST_COUPONS/detail_socket_1.stl",
+      "bytes": 55384,
+      "sha256": "9337d54c045485331123e7cb9191ec77ff9f89b2cc905803f803532e5fb53c1c"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/FIT_TEST_COUPONS/detail_socket_2.stl",
+      "bytes": 109084,
+      "sha256": "732a2ed4e26049814251eaa01cf94df58bd05b3de2eae78c8eb13a8c71bd2ddf"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/FIT_TEST_COUPONS/detail_socket_3.stl",
+      "bytes": 162784,
+      "sha256": "fea46aeb6860dd76b219a2484dec651d8cb795506556988218df61d3dec8f5d2"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/PINK_tongue.stl",
+      "bytes": 168484,
+      "sha256": "4600c5e62e663a0c3b8cca0dd492c10c4be2bd01ac424e30c1bc7f8e799218d3"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/RED_body_with_original_core.3mf",
+      "bytes": 842703,
+      "sha256": "945aea609459c9fa6a7d01dfa4736e5676e9d84853652f25fdf9b045c49a9ba5"
+    },
+    {
+      "path": "Desktop-Prints/Proxy Pal - NO GLUE Snap Print Kit/STL_BACKUPS/RED_head.stl",
+      "bytes": 1962884,
+      "sha256": "eafd42d8fd2a36c6161d9ca25045f5a93d562f10b89d17c7ecbe06b198aab55c"
+    },
+    {
+      "path": "Desktop-Prints/Proxy_Gengar_V4_P1S/00_FIT_RING_P1S.3mf",
+      "bytes": 68823,
+      "sha256": "4b3b20d1fa22be6a6c5fc2d1d837c3f1cf05b2802cce2d74d0362c0f70de5ab6"
+    },
+    {
+      "path": "Desktop-Prints/Proxy_Gengar_V4_P1S/01_BODY_FIT_PENDING_P1S.3mf",
+      "bytes": 6645860,
+      "sha256": "d55d1a7024715d284144014957c8f57b108cb4535df2b2d3a6780173ede92a20"
+    },
+    {
+      "path": "Desktop-Prints/Proxy_Gengar_V4_P1S/02_RED_DETAILS_P1S.3mf",
+      "bytes": 170889,
+      "sha256": "2c7ac885aefb08b10e8ec89d643acf84a5c33b62f6470193ca9ef9f427b2f332"
+    },
+    {
+      "path": "Desktop-Prints/Proxy_Gengar_V4_P1S/START_HERE.txt",
+      "bytes": 3504,
+      "sha256": "93dfc3fd3b5c31b70013f9f127089381c9333819cb5bfe7f85db4cba81910de5"
+    },
+    {
+      "path": "Desktop-Prints/RefrenceModels/chunkyzard.3mf",
+      "bytes": 3049141,
+      "sha256": "69d3a99ed512289aaa30b9bfa972fd5bc1bb10f38ebad75638f5f3ca5ad1e173"
+    },
+    {
+      "path": "Desktop-Prints/RefrenceModels/FlowWash_Bowl.3mf",
+      "bytes": 2512041,
+      "sha256": "93a8f06600f535998e4dc33cb674a30782ac9e4e69d40d17654a086099c8d8c0"
+    },
+    {
+      "path": "Desktop-Prints/RefrenceModels/GengarBowlRef.3mf",
+      "bytes": 19017260,
+      "sha256": "46bcc26db8a9807f3bf673bfd7ac51e2fdfd69efdc58724956eab71b1d422b6f"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/00_Fit_test_P1S.3mf",
+      "bytes": 82803,
+      "sha256": "f298d8de7f8c5fd57c7fdec9bf1cb13080f37674ddc92d196a9f5f9926635d64"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/01_Bowl_P1S.3mf",
+      "bytes": 8849655,
+      "sha256": "67ddf26b8ae7a1607a1c2d7b0cf9a58c6813f622ffed366fd84ffe0d8449e1d2"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/02_Red_eyes_P1S.3mf",
+      "bytes": 115692,
+      "sha256": "2d639a8294e5fcb2da5509b8b6ea4c2e581d6bccf3e2c1762ef6d34ff22ce23f"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/03_White_grin_P1S.3mf",
+      "bytes": 143509,
+      "sha256": "31b56a7b2462728c080d3fea0c41dda0659928cfad5c3b0c96923b8a77ab2708"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/Assembled.png",
+      "bytes": 1157686,
+      "sha256": "76427e33851ad62031888f09f59fa1a75ecc4fb7948afb12b8b0808a5ce9e832"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/Bowl_with_snap_sockets_mm.stl",
+      "bytes": 14779384,
+      "sha256": "18cd696b9bbf1dc64aa05e3c6573a88f17503a47d41f2c04c968f7b76c072447"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/Exploded.png",
+      "bytes": 1172367,
+      "sha256": "37e0780e4bde7861b7c07c4ba4f57b5b0f5bcf4e5d36b058487f792fdfc8ae69"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/Eye_left_mm.stl",
+      "bytes": 60684,
+      "sha256": "133460315e147a28dd60839ced1fefde983f7ae707ef5fec8b81f0a61d45980a"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/Eye_right_mm.stl",
+      "bytes": 60584,
+      "sha256": "b53c50d9f11cb2bd584b692d48c75367d27e3e64d65bc1ab1bd841b97f83a7f6"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/Gengar_Snap_Detail_Kit.blend",
+      "bytes": 70105216,
+      "sha256": "7ceec8acbfebbe08d29c3cf7a9bbf4d904ab34382f9a4fcd0e35e7676c94ee77"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/Geometry_checks.json",
+      "bytes": 4219,
+      "sha256": "f687e230e48bb7e3372d4bf548e67341821ffee58464a4e7ff0e5daeb8973f72"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/Grin_center_mm.stl",
+      "bytes": 52884,
+      "sha256": "fac0dc5a9dcd06e451363ffb9db1988e48c93a9c7b7c6782954c9ac2e11bdf59"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/Grin_left_mm.stl",
+      "bytes": 53484,
+      "sha256": "67636b317ddc85a853633481fc0ef7d3cadc5a6f1a11df23baf9e211b3f45741"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/Grin_right_mm.stl",
+      "bytes": 53484,
+      "sha256": "abda034d7822f36d4f670c4136192e8d54ef03d85145f01e84564cde1a6100d7"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/Slicing_reports.json",
+      "bytes": 9532,
+      "sha256": "ad4e151382022b19256c517432cba3b58bce58d614308133b5dfefbcc2aafe94"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/START_HERE.txt",
+      "bytes": 4089,
+      "sha256": "9523c0a05065004dc9dcb6e7ff185f94854cb7ac491559972cc2309d1d119eb6"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/Test_button_mm.stl",
+      "bytes": 25284,
+      "sha256": "144fb5e8c868f438c2777878bc47cb268397606c83017589207779d8e63aac41"
+    },
+    {
+      "path": "Desktop-Prints/Snap_detail_kit/Test_socket_mm.stl",
+      "bytes": 24684,
+      "sha256": "362cca319422897ac5044210b0a3b8ad60640523ea5897a6fbc88767e410a4e2"
+    },
+    {
+      "path": "Desktop-Prints/Venom/Docs/AGENT_HANDOFF.md",
+      "bytes": 6900,
+      "sha256": "6ed0b5b86a34ff33fe3cebf65ad63da03622a42a8da88581f060e68d8bd71137"
+    },
+    {
+      "path": "Desktop-Prints/Venom/Docs/HULK_BRIEF.md",
+      "bytes": 2022,
+      "sha256": "64903e2a6ea768a88b7c006232bc12532f636a7195c45645fadec2d5314b7299"
+    },
+    {
+      "path": "Desktop-Prints/Venom/Docs/PRINTING.md",
+      "bytes": 5105,
+      "sha256": "250b00b14f99ced662fb934268d3e3f5db3d40c9f3f1254900b146d3680f114a"
+    },
+    {
+      "path": "Desktop-Prints/Venom/Foundations/Core_Case.3mf",
+      "bytes": 2840279,
+      "sha256": "54da47f6ee094b3d39ab7186b99cc710daf0797e67a420f98887727aad5f7c7e"
+    },
+    {
+      "path": "Desktop-Prints/Venom/Foundations/README.md",
+      "bytes": 538,
+      "sha256": "7be613ddd1200c5ff40ffbbf0e96888b1ec5f50481c142bc0ada874e360e31af"
+    },
+    {
+      "path": "Desktop-Prints/Venom/FullColor/01_BODY_FAST_COLOR.3mf",
+      "bytes": 21218508,
+      "sha256": "c3bc4df29d947437a165a2e3f85973c42744adfd9a6815469d38d0ffda25bdf8"
+    },
+    {
+      "path": "Desktop-Prints/Venom/FullColor/02_HEAD_FAST_COLOR.3mf",
+      "bytes": 15536683,
+      "sha256": "c4c3dc851dbc65c894f865c65dab72a7d429c967452812316222318f5e6fcece"
+    },
+    {
+      "path": "Desktop-Prints/Venom/FullColor/03_FEET_STORAGE_FAST_COLOR.3mf",
+      "bytes": 2772510,
+      "sha256": "9f92a9ca75f34b62f376afbbe66f9aa5ada5c7bf112eda8aa5a942384f86724f"
+    },
+    {
+      "path": "Desktop-Prints/Venom/Previews/00_assembled_perspective.png",
+      "bytes": 1182365,
+      "sha256": "5d1121599a40549c111365278b978141d085106c013373c30094e0e7dafd2850"
+    },
+    {
+      "path": "Desktop-Prints/Venom/Previews/04_head_removed.png",
+      "bytes": 1113935,
+      "sha256": "c1b5328afaa43d5214fa7cad6cc7bde7012af225bb896468f648204ac3760fce"
+    },
+    {
+      "path": "Desktop-Prints/Venom/Previews/06_section.png",
+      "bytes": 968649,
+      "sha256": "5cff5fceca14d0e2294e6da068fc7781a838f553e5c8052b9f50084c67e4c91f"
+    },
+    {
+      "path": "Desktop-Prints/Venom/SingleColor/01_BODY_SINGLE_COLOR.3mf",
+      "bytes": 19033183,
+      "sha256": "294fe7145192764031315c2954668d8a2c85191cfb69eb831e7d30977592db9c"
+    },
+    {
+      "path": "Desktop-Prints/Venom/SingleColor/02_HEAD_SINGLE_COLOR.3mf",
+      "bytes": 12191296,
+      "sha256": "d7127730ada581b1b9685e43d9b1dd2e95732521c1e84ce155a56e78229726f5"
+    },
+    {
+      "path": "Desktop-Prints/Venom/SingleColor/03_FEET_STORAGE_SINGLE_COLOR.3mf",
+      "bytes": 2348354,
+      "sha256": "1797739e8b90d9ebb8bc94143c4af195703d7509d5fc79ca6e9fc5566981bd1c"
+    },
+    {
+      "path": "Desktop-Prints/Venom/START_HERE.md",
+      "bytes": 1225,
+      "sha256": "a4cae9b3b70f265528688b3ad326498572b92a36c6865857411eceec91239754"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/01_SCREW_TESTS_V3.3mf",
+      "bytes": 391540,
+      "sha256": "924137a4e7d0f57b3e08ae91501c95cdcbcc055a43ac15fbd55cc6df5e8a3b75"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/02_BODY_PLAIN_SCREW_V3.3mf",
+      "bytes": 5277231,
+      "sha256": "cd85bdd79ea0eeda48fc8efe0fd9dc6f0d4d64573472c7548e0c011d752b9fce"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/03_HEAD_PLAIN_SCREW_V3.3mf",
+      "bytes": 3642748,
+      "sha256": "0559aac4e0b81fc49922ea1627172340bdb3de43a135cf16a80395d2fec76652"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/04_FEET_BASE_PLAIN_SCREW_V3.3mf",
+      "bytes": 833106,
+      "sha256": "51cb8070436b27bb014e5d09c7b3038dd6d0e568b32528c57de70261d54b962b"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/PREVIEWS/00_assembled_perspective.png",
+      "bytes": 1198255,
+      "sha256": "5cde16aea12cb7b7ea9ec00b98fe5e3bdbe48b89ee5133c1d3a94b2257bca04c"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/PREVIEWS/01_front.png",
+      "bytes": 1148759,
+      "sha256": "3c3967bd9e96d35374ab53608241cf66a821d4e74b420bb587fc1d40c84e18e2"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/PREVIEWS/02_side.png",
+      "bytes": 969731,
+      "sha256": "19d333077127f3796a35de5b9d3d898a7b10b27116d176386f7734a44ff9659f"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/PREVIEWS/03_back.png",
+      "bytes": 1093603,
+      "sha256": "ea2031c0cf6b85a0d4ac28060f59e9df62ceaad8c6a331f3e796f43a73b1d9cf"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/PREVIEWS/04_head_removed.png",
+      "bytes": 1126537,
+      "sha256": "170f17fc2b257ab5d49767113f3fe1af89a394617f02d2e496cc5575442ffc3d"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/PREVIEWS/05_bottom_open.png",
+      "bytes": 1120309,
+      "sha256": "e88402a21a9e68cd3c17e80d310a9f1569e3591611a583e74ff6ac453f23365c"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/PREVIEWS/06_section.png",
+      "bytes": 987937,
+      "sha256": "1aba48ed39b95ea3b7da60a43ced6c08c1f75ef81ebdfe3d8530800effe351dc"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/PREVIEWS/07_head_underside.png",
+      "bytes": 975472,
+      "sha256": "e50f2c7629a1831d821309eaf2f565f89149e0941d796727f9613d121c45be6d"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/PREVIEWS/08_test_rings.png",
+      "bytes": 1034417,
+      "sha256": "a4ab125312bd2651df50e793bc27f424f3f3ca22c5b24f775a8638d8179452f3"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/PREVIEWS/Symbiote_Core_V3_overview.jpg",
+      "bytes": 476708,
+      "sha256": "4bdc5302c7691c8bf560397c595b1b47a6023d612f88ac0fe088fc722583e642"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/PROCESS_PRESETS/SCREW_TEST_020.json",
+      "bytes": 679,
+      "sha256": "741bfdc434f77badbe0233bf23b1de33457ffcaee49983a72bac61867b4484e9"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/REFERENCE/ASSEMBLED_VIEW_ONLY.3mf",
+      "bytes": 9748791,
+      "sha256": "904a49118b6d3c7f811ed966075a617f0223f04f7fbfb2c609f6bc5175697c64"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/REFERENCE/digital_validation.json",
+      "bytes": 8695,
+      "sha256": "cab7078274a2ee217009a35944cf18dc28db3b52c5185a8f53e64a51a13c6bf6"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/REFERENCE/ORIGINAL_sleeve_UNCHANGED.stl",
+      "bytes": 387334,
+      "sha256": "b4eef4a572c2d5ad06dac0f7b08190e719f11ef21ee1fecb9e061a9505f9e225"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/REFERENCE/package_verification.json",
+      "bytes": 2469,
+      "sha256": "391f1d1311adfad5694f80b059280721d9dc3ccd34307184d8fd2e76977a0730"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/SOURCE/build_symbiote.py",
+      "bytes": 26826,
+      "sha256": "70343eb1d174261c5673d71eb5900d8d18b023fbbc76d392d59ad20d55ef273f"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/SOURCE/package_print_kit.py",
+      "bytes": 13664,
+      "sha256": "a10e2a636fe771de7018e65a32026da5f2916cc25ccd75a5691932a21e4682e4"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/SOURCE/parameters.json",
+      "bytes": 1443,
+      "sha256": "f00a9f11b2c2cc8b49d8fd05ddc78c3062fa8ff6f9d7c13655311ded96b0bc7a"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/SOURCE/render_symbiote.py",
+      "bytes": 5356,
+      "sha256": "3e557de1750b85785966129658c059f767ceb0b41e7562820d78e11044f4a0e7"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/SOURCE/requirements.txt",
+      "bytes": 43,
+      "sha256": "b7948b04ce97ccc157fdf3af1283503cf7fcb1a517099cdd56ae31010a0c8248"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/SOURCE/Symbiote_Core_EDITABLE.blend",
+      "bytes": 12025249,
+      "sha256": "7f25d92f9c67189c3166d8e1c5e0fef28c6ad356b98bea8079ed24d4b6a64181"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/START_HERE.md",
+      "bytes": 4704,
+      "sha256": "ea9deeee9d316f93662cddc1ee8ff9a15b3c8bfaca413098b7782af1a8d789a6"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/STL_BACKUPS/body/body_black.stl",
+      "bytes": 33089127,
+      "sha256": "23cf42e123a2acfb0153ea07cafc87007bb1ad51ca71008a086651721cad850f"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/STL_BACKUPS/body/body_red.stl",
+      "bytes": 46027527,
+      "sha256": "04784ba1983cfa14ec56ab3cf7024523dc7d8e96424e52a044552b178cd1fc4d"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/STL_BACKUPS/body/ORIGINAL_CORE_PRINTS_WITH_BODY.stl",
+      "bytes": 2245113,
+      "sha256": "b9dcf6ba35fcb2dcb881b408b90c0ab2e25a0e7fd41fa0c61b87d5a043e48a3f"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/STL_BACKUPS/bottom/base_black.stl",
+      "bytes": 7974736,
+      "sha256": "a3aba7bee3f437bfe337ad988cdd192e31e61386ca45be90a91a8b3070bbbb93"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/STL_BACKUPS/bottom/base_red.stl",
+      "bytes": 4997262,
+      "sha256": "af77897b2c73dce911c2f5ddbc1d4c9bd5a7dde8806d906f61a9e8d2dac8613a"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/STL_BACKUPS/head/head_black.stl",
+      "bytes": 27145315,
+      "sha256": "1ef575d1f4b2cc203170c721b0891f13458c44ef29dc3c5074dbaa252b517d1c"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/STL_BACKUPS/head/head_pink.stl",
+      "bytes": 4553713,
+      "sha256": "980433b08b47c8f3ed6ce0584db85103b85a399d2dc0f30d52e4fba49401bf9c"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/STL_BACKUPS/head/head_red.stl",
+      "bytes": 25372531,
+      "sha256": "05068169cf9519a628c26ddeb40fdc4c53a65f61fcca88ed352ed599a4f94dc7"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/TEST_PRINT_FIRST/BASE_01_BODY_RING.stl",
+      "bytes": 2776518,
+      "sha256": "2d0b26d25ae20a2de96b253982f054c4c979901be6ae7e3624129a84873fc4d1"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/TEST_PRINT_FIRST/BASE_02_FEET_RING.stl",
+      "bytes": 1750921,
+      "sha256": "5cf72d07658130450bab055b4698662946f2c7c87fb503e3b4de1737bb38a7e2"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/TEST_PRINT_FIRST/BLACK_1_TEST_PART_V3.3mf",
+      "bytes": 81021,
+      "sha256": "048aaa99a07e1e91698e7ff8841edfa3dac188ac15fe17a4b1ac4a1d74fbf068"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/TEST_PRINT_FIRST/HEAD_01_BODY_RING.stl",
+      "bytes": 1981074,
+      "sha256": "83809c3d7e8999398bd804dfca5aac017cea7c2a53533476dd2960720bd9b2a1"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/TEST_PRINT_FIRST/HEAD_02_CAP_RING.stl",
+      "bytes": 2359521,
+      "sha256": "65680c3a6d722596202d4679b7893f2ce6a83fe0a38c3a33561252b8b794bfbe"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/TEST_PRINT_FIRST/RED_3_TEST_PARTS_V3.3mf",
+      "bytes": 311508,
+      "sha256": "643998c3f3c7789a82fc7091583c57acfdd6776841c2ebad2c746b32bc29bf60"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy/VIEW_MODEL.html",
+      "bytes": 1462,
+      "sha256": "622ff980586b10cb6a8741da8509b68bf836af05efbab2ae4a5d37b08cf282c7"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/01_VENOM_BODY_V4.3mf",
+      "bytes": 5872451,
+      "sha256": "90f0e49b5a01d25243b6b8b7c365e4b378b853d2883e7e8196080fefce01e395"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/02_VENOM_HEAD_ORIGINAL_LID_V4.3mf",
+      "bytes": 4414723,
+      "sha256": "bd4248128997c60a784c45b3bee2a05322308bc706287077d5c3a049d975c185"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/03_VENOM_FEET_STORAGE_V4.3mf",
+      "bytes": 801605,
+      "sha256": "51cb70fb1d4b6282c22dcb325f8fda80b86b47c88d05f0fdec88f3d29b9ab10b"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/PREVIEWS/00_assembled_perspective.png",
+      "bytes": 1182365,
+      "sha256": "5d1121599a40549c111365278b978141d085106c013373c30094e0e7dafd2850"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/PREVIEWS/01_front.png",
+      "bytes": 1129713,
+      "sha256": "88ff307d7173fec2b4585628c5d10c3d2089b166b9f1ee87791d05671bd97b46"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/PREVIEWS/02_side.png",
+      "bytes": 959242,
+      "sha256": "2e28b64e559a45e167c749a5d9c3ebd840ae92b93b954cae8651fe37cace57e3"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/PREVIEWS/03_back.png",
+      "bytes": 1078740,
+      "sha256": "0c3094bd9455fa83a758543d92dc0bd2b2c946474a72313962d56f1084c4fa47"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/PREVIEWS/04_head_removed.png",
+      "bytes": 1113935,
+      "sha256": "c1b5328afaa43d5214fa7cad6cc7bde7012af225bb896468f648204ac3760fce"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/PREVIEWS/05_bottom_open.png",
+      "bytes": 1108091,
+      "sha256": "96863c34318c8cd31c9adedd1de6daa1015bd72d95af3e35930e5008fa3cc5d2"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/PREVIEWS/06_section.png",
+      "bytes": 968649,
+      "sha256": "5cff5fceca14d0e2294e6da068fc7781a838f553e5c8052b9f50084c67e4c91f"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/PREVIEWS/07_head_underside.png",
+      "bytes": 977732,
+      "sha256": "1a33d299afc04810343518f33b0ad64c6a70e2db58eac70090ea3f9af59386ae"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/REFERENCE/ASSEMBLED_VIEW_ONLY.3mf",
+      "bytes": 11087295,
+      "sha256": "674da36b2df745f56d416358e411ceef36a2168c670fa4e905b5c8c4a2db5ada"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/REFERENCE/base_exact.npz",
+      "bytes": 3178616,
+      "sha256": "02f152112d231b3a6dc99b549ba9123330e52d4cf846b697f8948832e91b8774"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/REFERENCE/Core_Case_ORIGINAL.3mf",
+      "bytes": 2840279,
+      "sha256": "54da47f6ee094b3d39ab7186b99cc710daf0797e67a420f98887727aad5f7c7e"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/REFERENCE/digital_validation.json",
+      "bytes": 3438,
+      "sha256": "6bf0a99c0fe69c66950fd8358011d3fa87565d1bbe7d537c8fb5aed0866b22fe"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/REFERENCE/inspection.json",
+      "bytes": 81924,
+      "sha256": "0e7e9c7ff0b6916e915babd429a1a6702dbc1749fe43e13c6df301a70330d50d"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/REFERENCE/joint_alignment.json",
+      "bytes": 3618,
+      "sha256": "55154d38a21213f16830b6ef2bfb24b0bf065d50308451f740331e013b6cec4e"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/REFERENCE/lid_exact.npz",
+      "bytes": 1902656,
+      "sha256": "25941198ff4c557a3a37a3d63e48376b72e35cb184ce6a5409b29516587c1a15"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/REFERENCE/package_verification.json",
+      "bytes": 2092,
+      "sha256": "9f240315021bcbf6d3835288b55e646992bc5ff3680b9defb6a1eb8207c4016f"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/SOURCE/build_venom_v4.py",
+      "bytes": 19297,
+      "sha256": "9d9993f9e81b3c4f83ee483b8e5d0463275e1ca1d4f772f573ad8d8307c54d9c"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/SOURCE/package_v4.py",
+      "bytes": 7996,
+      "sha256": "97ce70c1447a720c3af6a222a96cd610745e2e997f981d5b1781dedffd4484c5"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/SOURCE/parameters.json",
+      "bytes": 1121,
+      "sha256": "d7a144352fdf07ae4cadcf648e9f12d1652dbe44a4d79f63ae3e5bbd78862a8a"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/SOURCE/render_venom_v4.py",
+      "bytes": 4695,
+      "sha256": "601341405e4499524ac4d30d91ab621117b3626c949aa783436306bce06344e9"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/SOURCE/requirements.txt",
+      "bytes": 43,
+      "sha256": "b7948b04ce97ccc157fdf3af1283503cf7fcb1a517099cdd56ae31010a0c8248"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/SOURCE/Venom_Core_Case_V4_EDITABLE.blend",
+      "bytes": 14664520,
+      "sha256": "14ebfe8f21d769e579605c0c71720bd776ab105aa30882b5ffde8f41238ba08d"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/START_HERE.md",
+      "bytes": 5250,
+      "sha256": "4e71c99b1d833b3b820c9a01b1db2d5f02ef7d8cf777ad6ea00e817e8cc694dc"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/STL_BACKUPS/body/body_black.stl",
+      "bytes": 31945005,
+      "sha256": "71622dd221ad0cbf8e20c9f2eb66a75e29ef948568753a547cc67395c4f35bdb"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/STL_BACKUPS/body/body_red.stl",
+      "bytes": 42617922,
+      "sha256": "9b4de0cfb826c270244196b60670e07688e509ac68fe7540a88ea367d6d2af26"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/STL_BACKUPS/body/ORIGINAL_CASE_BASE_EXACT.stl",
+      "bytes": 21631649,
+      "sha256": "e5d455617f8a83643eecab4aed242bd21e3d9ba97d1c47df22460b3841ebebfb"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/STL_BACKUPS/bottom/base_black.stl",
+      "bytes": 7974736,
+      "sha256": "a3aba7bee3f437bfe337ad988cdd192e31e61386ca45be90a91a8b3070bbbb93"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/STL_BACKUPS/bottom/base_red.stl",
+      "bytes": 4997262,
+      "sha256": "af77897b2c73dce911c2f5ddbc1d4c9bd5a7dde8806d906f61a9e8d2dac8613a"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/STL_BACKUPS/head/head_black.stl",
+      "bytes": 27813077,
+      "sha256": "8d1f223003a80226023f89ca0981625631936df18d60bb518df3d21dcf737f4d"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/STL_BACKUPS/head/head_pink.stl",
+      "bytes": 4714061,
+      "sha256": "b60e15fc3950accb98bd7d870600da8252d822404357f9738d9f9e7d58428f2c"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/STL_BACKUPS/head/head_red.stl",
+      "bytes": 23684026,
+      "sha256": "eef329c670f45763fd036fdc3f9a50f65e7484e7970301fcd230064965cf2843"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/STL_BACKUPS/head/ORIGINAL_CASE_LID_EXACT.stl",
+      "bytes": 15612129,
+      "sha256": "16e3f4785435e6cb94b5db562a75723cc0ede1cbee3dc52632eeea70af27c0d9"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_CoreCase/VIEW_MODEL.html",
+      "bytes": 1084,
+      "sha256": "8792f9770e115fbdcd979aa1b6c9c4b138f9bfe7ee05624e9c7e9f778e39a7b5"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/01_BODY_FAST_COLOR.3mf",
+      "bytes": 21218508,
+      "sha256": "c3bc4df29d947437a165a2e3f85973c42744adfd9a6815469d38d0ffda25bdf8"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/02_HEAD_FAST_COLOR.3mf",
+      "bytes": 15536683,
+      "sha256": "c4c3dc851dbc65c894f865c65dab72a7d429c967452812316222318f5e6fcece"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/03_FEET_STORAGE_FAST_COLOR.3mf",
+      "bytes": 2772510,
+      "sha256": "9f92a9ca75f34b62f376afbbe66f9aa5ada5c7bf112eda8aa5a942384f86724f"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/OPTIONAL_SINGLE_COLOR/01_BODY_SINGLE_COLOR.3mf",
+      "bytes": 19033183,
+      "sha256": "294fe7145192764031315c2954668d8a2c85191cfb69eb831e7d30977592db9c"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/OPTIONAL_SINGLE_COLOR/02_HEAD_SINGLE_COLOR.3mf",
+      "bytes": 12191296,
+      "sha256": "d7127730ada581b1b9685e43d9b1dd2e95732521c1e84ce155a56e78229726f5"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/OPTIONAL_SINGLE_COLOR/03_FEET_STORAGE_SINGLE_COLOR.3mf",
+      "bytes": 2348354,
+      "sha256": "1797739e8b90d9ebb8bc94143c4af195703d7509d5fc79ca6e9fc5566981bd1c"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/PREVIEWS/fast_body.png",
+      "bytes": 52014,
+      "sha256": "8b0cba47684b2f299ac0483c6305362e5d425848182442411f0d7598478a03d0"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/PREVIEWS/fast_feet.png",
+      "bytes": 14145,
+      "sha256": "fed72fcdce92a21b31711f73719da621178a8b7632578955c51f5b629d760392"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/PREVIEWS/fast_head.png",
+      "bytes": 31018,
+      "sha256": "4692c9708250a7f521b5c6f711002ab9d8310c1f29f65bf73d8a225107c2a48f"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/PREVIEWS/fastmono_body.png",
+      "bytes": 55202,
+      "sha256": "d236bfe8ef2a518d65133d211a31d4a85c7e74fd7fb45f2e6bb55f6af254318a"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/PREVIEWS/fastmono_feet.png",
+      "bytes": 13361,
+      "sha256": "99e8aaf2af954ee316f0029129f3d0be1e0fabfe1adca8059635e3b120a662d5"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/PREVIEWS/fastmono_head.png",
+      "bytes": 28328,
+      "sha256": "7729d680e8dfa7d51f25212c2d8a21b42eeda35cde681cf39b1f42b9ce761c64"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/Core_Case_ORIGINAL.3mf",
+      "bytes": 2840279,
+      "sha256": "54da47f6ee094b3d39ab7186b99cc710daf0797e67a420f98887727aad5f7c7e"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fast_body_process.json",
+      "bytes": 6824,
+      "sha256": "f9d995171b1dc301ac69beb81ad6f38cc321485967f7af85118446f696d3b9c8"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fast_body_result.json",
+      "bytes": 2724,
+      "sha256": "3aeeaf5aa533bef82c85afe03608ff5f627135ce0375aee11e0d9e0cb04cb7f5"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fast_body_summary.json",
+      "bytes": 2166,
+      "sha256": "e31e2ad885eb5a17ee86558424f7ad2677014f6aef13ab6b109f1fc7d67bdb32"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fast_feet_process.json",
+      "bytes": 6824,
+      "sha256": "ca3a63013185474ef20f0275090bf1311ca0b2875587ab33b105fb84ec0907a8"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fast_feet_result.json",
+      "bytes": 2563,
+      "sha256": "0a874a521240b7c06e839efdbe00615247cd06a191dd761c885fd33f03ecbd8a"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fast_feet_summary.json",
+      "bytes": 2029,
+      "sha256": "1d0dc9a99ad422fdf51b445393ee41e1fe4bfe3131e9519194b015dc38cbc1f4"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fast_head_process.json",
+      "bytes": 6824,
+      "sha256": "465fd63d454974adfabebae74548d06427045d4742b0c8ce392abcc47fa8195e"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fast_head_result.json",
+      "bytes": 2938,
+      "sha256": "a280de9d05cf6fbd729f41160525269f3cd243e5236beb66bb9a472344a806ee"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fast_head_summary.json",
+      "bytes": 2338,
+      "sha256": "3f2e51ed648954cbfc7a3f5f7453c5a585b9fba9ecbaeb2bf84bb0d26c33fedc"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fastmono_body_process.json",
+      "bytes": 6832,
+      "sha256": "3d41e0be9655c782424c17991ccf76504b182a5594b0c9f30bd394c7bcb6f0e6"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fastmono_body_result.json",
+      "bytes": 2440,
+      "sha256": "ecd84073ce13ede7d433d055329d8baeb167b7709ab1e8ed80288904b640f3e7"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fastmono_body_summary.json",
+      "bytes": 1945,
+      "sha256": "a6cc29997844ce3871baa2d89087552f609e2a7d0af981edd39cd7c7e88c27b2"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fastmono_feet_process.json",
+      "bytes": 6832,
+      "sha256": "f2601c3d4cacfadb67bbf4556b0cf6635774f45857cdab16479c78627ff42d82"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fastmono_feet_result.json",
+      "bytes": 2286,
+      "sha256": "0be01c7f7d2505f13e90ba3d5cfea5d15e101cdc261355374f840be3c47e46aa"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fastmono_feet_summary.json",
+      "bytes": 1814,
+      "sha256": "ba739543ba180aadd89908f80e51713f84847aa6f6c63242f7eaac7e90d094b5"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fastmono_head_process.json",
+      "bytes": 6832,
+      "sha256": "844176ab6db4fe1f2c6f04c18f093b9a368a23391229ec031a64860311fc41c0"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fastmono_head_result.json",
+      "bytes": 2419,
+      "sha256": "1d7cd3eddc8bfb7f187e57616a32d4cf22e0e6aaf37c7c61534c2d36f8859a16"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/fastmono_head_summary.json",
+      "bytes": 1930,
+      "sha256": "e9b3e4c99bf46556c08c8b655bbc275f5cb98d83a9b690234825b54e7019d7bd"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/filament_1.json",
+      "bytes": 6152,
+      "sha256": "640087b6462bc8764dec67294398295bc3fa38313123450303de8c98cb9f7f55"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/filament_2.json",
+      "bytes": 6152,
+      "sha256": "f3ed6e48e601e0cb01491a03422a81345db7fd3130968d7272a3d608eacdcf35"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/filament_3.json",
+      "bytes": 6152,
+      "sha256": "8d31329adac73d51dfcd418422c8b791327c64e2bb58d6b7c918820cbb7a116a"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/machine.json",
+      "bytes": 19252,
+      "sha256": "1d8240a21c1feeb5c4700dbed2198cd13be0d5470343f19baf387154fac71f6d"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/time_comparison.json",
+      "bytes": 2183,
+      "sha256": "5b9852e55e60d6cae6e13d93cda7c277d96f68e2ba901971a1184bbce0d017b8"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/REFERENCE/verification.json",
+      "bytes": 1914,
+      "sha256": "0351fda75be75fd2850c9ec3bbdd636e49a4de8877af9e9d014a1b2812f18a32"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/SOURCE/package_fast_print.py",
+      "bytes": 4395,
+      "sha256": "1205e87f86dd8d6d3609aa3be9b4a25a0bbe814a039a0b65f20a1922d0a15f71"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/SOURCE/speed_benchmark.py",
+      "bytes": 5607,
+      "sha256": "2a909a8e053eb412db8a6138c6995777780bd4e2858d6335ceff9162d6e6c5f7"
+    },
+    {
+      "path": "Desktop-Prints-Archive/venomPUFFy_V4_FAST/START_HERE.md",
+      "bytes": 5064,
+      "sha256": "15a8b39746da95b66e5675e5f1b39ad43e4c43293e07c8cc6aae7562bb431b33"
+    }
+  ]
+}

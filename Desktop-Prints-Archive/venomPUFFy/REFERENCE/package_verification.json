@@ -1,0 +1,122 @@
+{
+  "source_sha256": "b4eef4a572c2d5ad06dac0f7b08190e719f11ef21ee1fecb9e061a9505f9e225",
+  "source_byte_identical": true,
+  "assemblies": {
+    "body": {
+      "file": "02_BODY_PLAIN_SCREW_V3.3mf",
+      "parts": 3,
+      "bed_translation_mm": [
+        128.0,
+        131.5,
+        -11.5
+      ],
+      "size_mm": [
+        160.0,
+        81.0,
+        101.4220464706421
+      ],
+      "bounds_on_bed_mm": [
+        [
+          48.0,
+          87.5,
+          0.0
+        ],
+        [
+          208.0,
+          168.5,
+          101.4220464706421
+        ]
+      ],
+      "original_source_included": true
+    },
+    "head": {
+      "file": "03_HEAD_PLAIN_SCREW_V3.3mf",
+      "parts": 3,
+      "bed_translation_mm": [
+        128.0,
+        128.0,
+        -100.5220464706421
+      ],
+      "size_mm": [
+        146.55588970536004,
+        86.0,
+        82.64298330782341
+      ],
+      "bounds_on_bed_mm": [
+        [
+          54.72205514731998,
+          85.0,
+          0.0
+        ],
+        [
+          201.27794485268004,
+          171.0,
+          82.64298330782341
+        ]
+      ],
+      "original_source_included": false
+    },
+    "bottom": {
+      "file": "04_FEET_BASE_PLAIN_SCREW_V3.3mf",
+      "parts": 2,
+      "bed_translation_mm": [
+        128.0,
+        131.25,
+        0.0
+      ],
+      "size_mm": [
+        94.0,
+        75.5,
+        23.9
+      ],
+      "bounds_on_bed_mm": [
+        [
+          81.0,
+          90.25,
+          0.0
+        ],
+        [
+          175.0,
+          165.75,
+          23.9
+        ]
+      ],
+      "original_source_included": false
+    }
+  },
+  "coupons": {
+    "HEAD_01_BODY_RING": {
+      "watertight": true,
+      "size_mm": [
+        73.0,
+        73.0,
+        16.400000000000006
+      ]
+    },
+    "HEAD_02_CAP_RING": {
+      "watertight": true,
+      "size_mm": [
+        73.0,
+        73.0,
+        15.600000000000005
+      ]
+    },
+    "BASE_01_BODY_RING": {
+      "watertight": true,
+      "size_mm": [
+        69.0,
+        69.0,
+        14.600000000000009
+      ]
+    },
+    "BASE_02_FEET_RING": {
+      "watertight": true,
+      "size_mm": [
+        69.0,
+        69.0,
+        15.899999999999999
+      ]
+    }
+  },
+  "slicer_status": "Unsliced. Generic 3MF geometry reloaded; Bambu part-extruder metadata included but native Bambu UI import and support layout not verified."
+}

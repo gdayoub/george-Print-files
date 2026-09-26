@@ -1,0 +1,81 @@
+{
+  "mode": "fast",
+  "group": "head",
+  "exit_code": 0,
+  "error": "Success.",
+  "plates": [
+    {
+      "feature_type_times": {
+        "Bridge": 546.6903076171875,
+        "Custom": 362.6461486816406,
+        "Flush": 45192.44140625,
+        "Gap infill": 7.330892562866211,
+        "Inner wall": 4846.56689453125,
+        "Internal solid infill": 2651.74072265625,
+        "Outer wall": 3492.814208984375,
+        "Overhang wall": 618.4341430664062,
+        "Prime tower": 7593.83837890625,
+        "Sparse infill": 181.28155517578125,
+        "Support": 2936.517333984375,
+        "Support interface": 276.9518127441406,
+        "Support transition": 376.71087646484375,
+        "Top surface": 173.39369201660156,
+        "Travel": 10449.5869140625,
+        "Undefined": 10434.2724609375
+      },
+      "filament_change_times": 544,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 111.84253692626953,
+          "total_used_g": 208.55068969726562
+        },
+        {
+          "filament_id": "GFA00",
+          "id": 2,
+          "main_used_g": 29.956693649291992,
+          "total_used_g": 68.34207916259766
+        },
+        {
+          "filament_id": "GFA00",
+          "id": 3,
+          "main_used_g": 7.722590446472168,
+          "total_used_g": 60.18545150756836
+        }
+      ],
+      "generate_support_material_time": 2389,
+      "id": 1,
+      "infill_time": 2273,
+      "layer_filament_change": 0,
+      "main_predication": 26552.19921875,
+      "make_perimeters_time": 2074,
+      "obj_cached_cnt": 0,
+      "objects": [
+        {
+          "bbox": {
+            "depth": 164.4418487548828,
+            "height": 83.34297180175781,
+            "width": 164.4418487548828,
+            "x": 45.7790641784668,
+            "y": 45.779075622558594,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "HEAD_ASSEMBLY",
+          "triangle_count": 245472
+        }
+      ],
+      "sliced_time": 12418,
+      "sliced_time_with_cache": 4898,
+      "total_predication": 79714.7734375,
+      "triangle_count": 245472,
+      "warning_message": ""
+    }
+  ],
+  "gcode_summary": {
+    "time": "22h 8m 34s",
+    "filament_g": "208.55,68.34,60.19",
+    "layers": "356"
+  }
+}

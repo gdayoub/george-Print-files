@@ -1,0 +1,75 @@
+BATMAN BEYOND — SNAP TOGETHER, NO GLUE
+
+USE THIS KIT, NOT THE EARLIER GLUE-FIT MODEL.
+P1S / 0.4 mm nozzle / 0.2 mm layers / Textured PEI Plate
+200 mm wide x 240 mm tall x 5.6 mm assembled depth.
+
+FIRST: PRINT THE SMALL FIT TEST
+Inside FIT_TEST_FIRST, open and print these two projects:
+  01_BLACK_FIT_TEST.3mf — black PLA, approximately 21 minutes.
+  02_RED_FIT_TESTS.3mf — red PLA, approximately 16 minutes.
+The three black pockets are identical. The red tiles are identified
+by square notches along one edge:
+  ONE notch = looser socket.
+  TWO notches = STANDARD socket (start here).
+  THREE notches = firmer socket.
+Let everything cool. Flip a red tile so its socket faces the black
+catch. Press it straight into any pocket, supporting the base below.
+Choose the fit that seats with moderate finger pressure and stays
+retained when gently lifted. Do not force a tight tile. If none seats
+and holds cleanly, adjust the fit before printing the large red set.
+These PLA clips are for initial assembly and occasional removal,
+not repeated clicking/fidgeting. Physical performance is untested.
+
+THEN: PRINT THE TWO NUMBERED MAIN FILES
+  01_PRINT_BLACK_SNAP_BASE.3mf
+    Creality Hyper PLA black: about 2 h 32 min / 92.2 g.
+  02_PRINT_RED_SNAP_INSERTS_STANDARD.3mf
+    Soyelin Ultra PLA red: about 47 min / 17.8 g.
+    All NINE red inserts are on the plate. Print the red job ONCE.
+Total main-kit estimate: about 3 h 19 min / 110 g.
+
+If your fit test favors another socket size, use RED_LOOSER_FIT.3mf
+or RED_FIRMER_FIT.3mf from ALTERNATIVE_RED_FITS INSTEAD OF the
+standard red job. The same black base works with all three choices.
+
+OPEN AND PRINT
+Open each 3MF as a project in Bambu Studio. P1S, placement and sliced
+toolpaths are included. Confirm your loaded filament/AMS slot and
+Textured PEI Plate. Re-slice if you change plate or filament settings.
+Profiles use Generic PLA; temperatures/flow are not spool-calibrated.
+Keep the saved orientations and 100% scale. No supports or color
+changes are required. Do not auto-orient the red pieces.
+
+ASSEMBLY
+Black prints rear-down, catches UP. Red prints show-face DOWN with
+sockets UP; flip red pieces after removal from the plate.
+Align the matching pixel outlines and sockets, then press each catch
+location shown in ASSEMBLY_PRESS_LOCATIONS.png. There are twelve
+hidden catches across the nine inserts. No glue or extra pins.
+Rear surface remains completely flat for mounting tape.
+
+WHAT CHANGED FOR SNAPS
+The black base remains 4.8 mm thick. Pockets are now 2.4 mm deep,
+with a continuous 2.4 mm black floor. Red parts are 3.2 mm thick,
+including a flat 0.8 mm show-face skin, and project 0.8 mm above black.
+Hidden square catches have 45-degree ramps. Four flexible 1.2 mm
+socket walls bend around each catch. Visible front pixel art is
+unchanged. Hidden ramps replace the earlier all-vertical connector
+geometry so the parts can lock while printing without supports.
+The faster black job uses 20% infill and ordinary INTERNAL infill
+bridges. Red inserts use solid infill and no bridge toolpaths.
+
+CHECKED
+All component meshes: watertight, manifold and single connected solids.
+Assembly: no at-rest collisions; a 0.4 mm rigid withdrawal intersects
+each catch, verifying modeled positive retention rather than friction
+alone. This geometric check does not measure real snap force or strain.
+All six projects successfully sliced, with no support toolpaths and
+model extrusion paths inside the P1S bed/exclusion limits.
+Print the fit test: no physical snap or durability test has been done.
+
+STL_BACKUPS is for custom slicing/replacements only. The combined red
+STL duplicates the individual inserts; do not print every STL together.
+REFERENCE contains inspection results and the assembled reference;
+do not use the assembled reference as a separate-parts print job.

@@ -1,0 +1,79 @@
+{
+  "baseline": {
+    "body": {
+      "seconds": 70693.6171875,
+      "display_time": "19h 38m 13s",
+      "filament_g": 332.72428131103516,
+      "filament_changes": 370,
+      "warning_message": ""
+    },
+    "head": {
+      "seconds": 94672.234375,
+      "display_time": "1d 2h 17m 52s",
+      "filament_g": 375.04100799560547,
+      "filament_changes": 636,
+      "warning_message": ""
+    },
+    "feet": {
+      "seconds": 10332.9541015625,
+      "display_time": "2h 52m 12s",
+      "filament_g": 56.70403003692627,
+      "filament_changes": 48,
+      "warning_message": ""
+    },
+    "total_seconds": 175698.8056640625,
+    "total_filament_g": 764.4693193435669
+  },
+  "fast": {
+    "body": {
+      "seconds": 53701.34375,
+      "display_time": "14h 55m 1s",
+      "filament_g": 288.4506645202637,
+      "filament_changes": 284,
+      "warning_message": ""
+    },
+    "head": {
+      "seconds": 79714.7734375,
+      "display_time": "22h 8m 34s",
+      "filament_g": 337.07822036743164,
+      "filament_changes": 544,
+      "warning_message": ""
+    },
+    "feet": {
+      "seconds": 9628.5419921875,
+      "display_time": "2h 40m 28s",
+      "filament_g": 53.70761966705322,
+      "filament_changes": 48,
+      "warning_message": ""
+    },
+    "total_seconds": 143044.6591796875,
+    "total_filament_g": 679.2365045547485
+  },
+  "fastmono": {
+    "body": {
+      "seconds": 20925.849609375,
+      "display_time": "5h 48m 45s",
+      "filament_g": 177.79095458984375,
+      "filament_changes": 0,
+      "warning_message": ""
+    },
+    "head": {
+      "seconds": 15842.9189453125,
+      "display_time": "4h 24m 2s",
+      "filament_g": 147.30592346191406,
+      "filament_changes": 0,
+      "warning_message": ""
+    },
+    "feet": {
+      "seconds": 3765.62255859375,
+      "display_time": "1h 2m 45s",
+      "filament_g": 33.40367126464844,
+      "filament_changes": 0,
+      "warning_message": ""
+    },
+    "total_seconds": 40534.39111328125,
+    "total_filament_g": 358.50054931640625
+  },
+  "color_time_reduction_percent": 18.58529792559318,
+  "mono_time_reduction_percent": 76.92961488265132
+}

@@ -1,0 +1,32 @@
+GENGAR - FIT MEASURED FROM YOUR KOFFING CORE FILE - NO GLUE
+Bambu P1S / 0.4 mm nozzle / Textured PEI plate / 100% scale
+
+1. Print 01_BLACK_BODY_MATCHED_FIT_P1S.3mf in BLACK Creality Hyper PLA.
+   About 79 minutes, 43.6 g. This replaces the previous black body.
+   Opening: 43.92 x 44.21 mm; cup coverage above the seat: 51 mm.
+
+2. Print 02_RED_PRESS_FIT_P1S.3mf in RED Soyelin Ultra PLA.
+   About 13 minutes, 2.3 g. All five face pieces are on one plate.
+   These are unchanged from the previous NO_GLUE pack; reuse them if printed.
+
+Choose the matching AMS slot for each job. Total estimate: about 1 hour
+32 minutes, 45.9 g. Handling and optional extra calibration are additional.
+
+ASSEMBLY
+Let parts cool and remove external supports, including remnants in face recesses.
+With the Core removed, align each red insert and press it straight into its
+matching recess using even thumb pressure. Keep the tiny grip ribs. No glue,
+screws or magnets are specified. Do not hammer or force an insert; if it will
+not seat or stays loose, its fit needs adjustment.
+
+Try the cool/off intact Core cup in the holder, button toward the rear center
+between the ears. Check full seating and button reach. Lift out for charging
+and cleaning. Printed parts do not replace the Core cup or vapor path.
+
+The cavity dimensions now come from your KoffingCore_colored.3mf, whose creator
+reports Proxy V1 and V2 compatibility. The Gengar holds the cup upright.
+This specific Gengar's full fit, retention and red attachment remain physically
+untested. The previously tested 43.8 mm ring is supporting evidence only.
+
+Both jobs use 0.20 mm layers and stock PLA starting profiles. If your plate
+differs from Textured PEI, select the correct plate in Bambu Studio and reslice.

@@ -1,0 +1,19 @@
+{
+  "body_size_mm": [
+    142.63526916503906,
+    119.81855773925781,
+    144.96644592285156
+  ],
+  "body_watertight": true,
+  "inserts_watertight": true,
+  "insert_count": 3,
+  "side_clearance_mm": 0.25,
+  "back_clearance_mm": 0.25,
+  "pocket_unchanged": true,
+  "can_insertion_clear": true,
+  "insert_body_collision": false,
+  "single_color_projects": 3,
+  "prime_towers_enabled": false,
+  "export_roundtrips_passed": true,
+  "physically_test_printed": false
+}

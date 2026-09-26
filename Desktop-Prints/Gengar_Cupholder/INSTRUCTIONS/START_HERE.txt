@@ -1,0 +1,24 @@
+GENGAR FAST PRINT - SEPARATE COLOR INSERTS
+
+USE THESE THREE PROJECTS, ONE AT A TIME:
+01_BODY_Purple_P1S.3mf - purple body with matching face recesses.
+02_EYES_Red_P1S.3mf - both red eye inserts, already laid flat.
+03_TEETH_White_P1S.3mf - one white grin insert, already laid flat.
+
+Open each as its own project in Bambu Studio and slice separately. Do not combine the three colors on a single plate for print-by-layer. Each project uses only one filament, and prime towers are disabled. An AMS is not required: you can change filament between the three print jobs.
+
+P1S STARTING SETTINGS
+Designed for the stock 0.4 mm nozzle. Body: 0.20 mm layers, 3 walls, 12% gyroid, tree auto supports. Eyes/grin: 0.16 mm layers, 3 walls, 12% gyroid, supports disabled. Generic PLA and textured PEI are starting profiles; select your actual filament, plate and nozzle. Print every file at 100% scale in millimeters. Review the body supports beneath arms and overhangs before printing. STL copies are included as a fallback; these do not contain printer settings.
+
+ASSEMBLY
+1. Let the prints cool and remove any supports or brim. Keep the insert backs flat.
+2. Dry-fit the eyes and grin into the matching front recesses. The eye shapes are mirrored. Side clearance is 0.25 mm per side, with a 0.25 mm space behind the inserts. These are glue-in pieces, not snap fits. Lightly sand a tight edge if your printer's fit requires it.
+3. Apply a small amount of plastic-compatible glue to the recesses and seat each piece with its sculpted face outward. Follow the glue's curing instructions.
+4. Use a fine black acrylic paint pen for the pupil slits, tooth separation grooves and outlines. The preview shows the printed pieces before adding black paint. White teeth print as a single connected grin, so there are only three inserts to attach.
+
+The earlier small finger recesses and tall Gengar body are retained. The deep can pocket remains 69.2 mm wide and 112 mm deep. Overall dimensions are approximately 142.64 x 119.82 x 144.97 mm.
+
+VALIDATION
+Body and all inserts are watertight solids. Re-imports of all STL and 3MF files passed. Insert/body collision checks passed with designed fitting clearance. A 66.2 mm diameter can has a clear vertical insertion path. Actual print time must come from your slicer. Fit and strength have not been physically test-printed.
+
+Original model provided by the user: gengar_miska_9cm.3mf. Original designer metadata: tom3Dmodel. Original license metadata: Standard Digital File License.

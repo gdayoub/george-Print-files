@@ -1,0 +1,30 @@
+GENGAR V5 - PRINT THESE TWO FILES
+Bambu P1S / 0.4 mm nozzle / Textured PEI plate / 100% scale
+
+1. Open 01_BLACK_BODY_P1S.3mf in Bambu Studio.
+   Select your BLACK Creality Hyper PLA AMS slot in the print dialog.
+   Estimate: 1 hour 31 minutes, 49.8 g (supports included).
+
+2. Open 02_RED_DETAILS_P1S.3mf.
+   Select your RED Soyelin Ultra PLA AMS slot in the print dialog.
+   Estimate: 12 minutes, 2.1 g. All five face inserts are on one plate.
+
+Total slicer estimate: 1 hour 43 minutes, 51.9 g.
+Two single-color jobs keep this under two hours without repeated AMS color swaps.
+Estimates exclude unloading, assembly and optional extra printer calibration.
+
+Remove the body's external tree supports. The inside cavity has no supports.
+Try the cool/off Core in the body before gluing the five red inserts into their
+matching face recesses. Use a tiny amount of suitable PLA glue on each insert's
+back; keep glue out of the holder's device cavity. These are seated/glued inserts.
+Point the power button toward the open rear center between the ears.
+The collar ends below the upper controls. Lift out the device for charging/cleaning.
+
+The opening remains 43.8 mm, matching the ring you reported fitted well.
+The complete holder and retention have not been physically tested; do not force it.
+No further gauge print is required before trying this body.
+
+Saved settings: black Generic PLA High Speed (18 mm3/s); red Generic PLA (12 mm3/s).
+Both use 220 C nozzle / 55 C textured plate as stock starting settings.
+The black preset name contains X1C; the saved printer is verified as P1S 0.4 mm.
+If your installed plate differs, select the matching plate in Bambu Studio and reslice.

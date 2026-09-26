@@ -1,0 +1,15 @@
+{
+  "baseline_includes": "Five main panels plus 8 nominal keys; excludes fit coupon in both totals",
+  "old_minutes": 417.3,
+  "new_minutes": 321.48,
+  "minutes_saved": 95.82,
+  "time_reduction_percent": 23.0,
+  "old_grams": 235.32,
+  "new_grams": 186.03,
+  "filament_reduction_percent": 20.9,
+  "old_plates": 6,
+  "new_plates": 3,
+  "fit_test_unchanged": true,
+  "geometry_unchanged": true,
+  "physical_testing": "not performed"
+}

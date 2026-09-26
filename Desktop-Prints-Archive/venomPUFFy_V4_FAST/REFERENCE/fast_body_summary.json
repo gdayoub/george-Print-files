@@ -1,0 +1,76 @@
+{
+  "mode": "fast",
+  "group": "body",
+  "exit_code": 0,
+  "error": "Success.",
+  "plates": [
+    {
+      "feature_type_times": {
+        "Bottom surface": 38.56279373168945,
+        "Bridge": 540.1251220703125,
+        "Custom": 362.7574768066406,
+        "Flush": 23245.849609375,
+        "Gap infill": 16.652175903320312,
+        "Inner wall": 6988.23095703125,
+        "Internal solid infill": 2865.834716796875,
+        "Outer wall": 4015.17822265625,
+        "Overhang wall": 591.8110961914062,
+        "Prime tower": 3880.108154296875,
+        "Sparse infill": 1211.80419921875,
+        "Support": 2563.108642578125,
+        "Support interface": 117.47942352294922,
+        "Support transition": 177.81248474121094,
+        "Top surface": 208.34689331054688,
+        "Travel": 6925.0712890625,
+        "Undefined": 6909.62939453125
+      },
+      "filament_change_times": 284,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 1,
+          "main_used_g": 160.82763671875,
+          "total_used_g": 226.63201904296875
+        },
+        {
+          "filament_id": "GFA00",
+          "id": 2,
+          "main_used_g": 32.64558410644531,
+          "total_used_g": 61.81864547729492
+        }
+      ],
+      "generate_support_material_time": 2888,
+      "id": 1,
+      "infill_time": 2192,
+      "layer_filament_change": 0,
+      "main_predication": 26199.099609375,
+      "make_perimeters_time": 3155,
+      "obj_cached_cnt": 0,
+      "objects": [
+        {
+          "bbox": {
+            "depth": 81.0,
+            "height": 87.9000015258789,
+            "width": 160.0,
+            "x": 47.9999885559082,
+            "y": 87.5,
+            "z": 0.0
+          },
+          "id": 5,
+          "name": "BODY_ASSEMBLY",
+          "triangle_count": 344056
+        }
+      ],
+      "sliced_time": 15917,
+      "sliced_time_with_cache": 7003,
+      "total_predication": 53701.34375,
+      "triangle_count": 344056,
+      "warning_message": ""
+    }
+  ],
+  "gcode_summary": {
+    "time": "14h 55m 1s",
+    "filament_g": "226.63,61.82",
+    "layers": "350"
+  }
+}

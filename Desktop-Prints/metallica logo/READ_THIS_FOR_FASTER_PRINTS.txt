@@ -1,0 +1,10 @@
+FASTER PRINT VERSION IS READY
+
+Open FAST_PRINT\START_HERE.html in this folder.
+
+The optimized version uses THREE production plates including connectors.
+Estimated time: 5 h 21 min instead of 6 h 57 min (about 23% faster).
+Same full-size logo and snap-connector geometry. Original files remain available.
+
+Print the fit test first, then plates 01, 02 and ONE version of 03.
+Plate 03 already includes the keys. Do not also print the original separate key plate.
