@@ -1,4 +1,4 @@
-# Bambu Studio estimates - GengarPuffco Bowl V4
+# Bambu Studio estimates - GengarPuffco Girth V5
 
 Controlled P1S / 0.4 mm / generic PLA estimates, not measured print times. Re-slice with calibrated spools.
 
@@ -6,15 +6,15 @@ Controlled P1S / 0.4 mm / generic PLA estimates, not measured print times. Re-sl
 |---|---:|---:|---:|
 | 00a_ORIGINAL_BASE_ONLY | 1h 30m 56s | 43.0 g | 0 |
 | 00b_ORIGINAL_LID_ONLY | 44m 50s | 28.8 g | 0 |
-| 01_BODY_EXACT_FOUNDATION | 5h 32m 45s | 128.1 g | 60 |
-| 02_GENGAR_HEAD_COLOR | 7h 20m 42s | 160.9 g | 109 |
+| 01_BODY_EXACT_FOUNDATION | 7h 8m 43s | 192.0 g | 60 |
+| 02_GENGAR_HEAD_COLOR | 9h 20m 56s | 221.4 g | 109 |
 | 03_BOTTOM_CAP | 15m 57s | 5.3 g | 0 |
-| 01b_BODY_SINGLE_COLOR | 3h 9m 37s | 92.2 g | 0 |
-| 02b_GENGAR_HEAD_SINGLE_COLOR | 3h 19m 30s | 104.5 g | 0 |
+| 01b_BODY_SINGLE_COLOR | 4h 44m 19s | 155.8 g | 0 |
+| 02b_GENGAR_HEAD_SINGLE_COLOR | 5h 17m 24s | 163.4 g | 0 |
 
-**Full-color case: 13 h 9 m, 294.3 g.**
+**Full-color case: 16 h 45 m, 418.7 g.**
 
-**All-black character with red cup: 6 h 45 m, 201.9 g.**
+**All-black character with red cup: 10 h 17 m, 324.5 g.**
 
 **Optional original-foundation checks: 2 h 15 m, 71.8 g.**
 

@@ -13,5 +13,5 @@ for e in json.loads((R/'CAD/outputs/manifest.json').read_text()):
  mesh=cut.to_mesh64();me=bpy.data.meshes.new(e['name']+'_section');me.from_pydata(np.asarray(mesh.vert_properties)[:,:3].tolist(),[],np.asarray(mesh.tri_verts).tolist());me.update();mat=ob.data.materials[0];ob.data=me;me.materials.append(mat)
  if e['name'].startswith('ORIGINAL'):
   mat.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value=(.06,.45,.34,1)
-s=bpy.context.scene;cam=s.camera;cam.location=(110,-320,151);cam.rotation_euler=(Vector((0,5,61))-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.ortho_scale=160
+s=bpy.context.scene;cam=s.camera;cam.location=(110,-320,151);cam.rotation_euler=(Vector((0,5,61))-cam.location).to_track_quat('-Z','Y').to_euler();cam.data.ortho_scale=200
 s.render.filepath=str(R/'Previews/05_section_foundation_highlighted.png');bpy.ops.render.render(write_still=True)

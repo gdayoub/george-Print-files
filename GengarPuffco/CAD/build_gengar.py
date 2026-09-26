@@ -1,4 +1,4 @@
-"""GengarPuffco Bowl V4. One continuous source-bowl character split across the middle.
+"""GengarPuffco Girth V5. One continuous source-bowl character split across the middle.
 All coordinates millimetres. Front -Y, up Z. Run with numpy/trimesh/manifold3d.
 The upper Gengar half turns with the original lid over the stationary lower half.
 """
@@ -42,7 +42,7 @@ base_void=base_hull-BS;lid_void=lid_hull-LS
 print('Loading and simplifying bowl EXTERIOR only',flush=True)
 d=np.load(REF/'gengar_source.npz');gv=d['vertices'].copy();gf=d['faces']
 # Reshape the entire source character around the original case, not just its head.
-XY=.62
+XY=.90
 source_z=np.array([-45.9650002,-35.,-30.,12.,32.,45.9650002])
 case_z=np.array([0.,22.,45.,83.,111.,118.])
 zmap=PchipInterpolator(source_z,case_z)
@@ -56,7 +56,7 @@ np.savez_compressed(OUT/'bowl_transformed.npz',vertices=gv,faces=gf)
 print('Closing bowl crown and splitting continuous character',flush=True)
 # Close the bowl opening below its ears. The source forehead and crown spikes
 # remain visible above this shallow curved roof.
-crown=sphere((0,0,110),(36.,31.,7.))
+crown=sphere((0,0,108),(51.,46.,9.))
 whole=gengar+cyl(31.2,0,110)+crown
 head_bottom=59.3;body_top=58.7
 head_whole=whole^box((-100,-100,head_bottom),(100,100,140))
@@ -93,7 +93,7 @@ def face_prism(points):
  pts=[(float(xmap(x,z)),float(zmap(z))) for x,z in points]
  area=sum(a[0]*b[1]-b[0]*a[1] for a,b in zip(pts,pts[1:]+pts[:1]))
  if area<0:pts=pts[::-1]
- return M.extrude(CS([pts]),24).transform([[1,0,0,0],[0,0,1,-48],[0,1,0,0]])
+ return M.extrude(CS([pts]),36).transform([[1,0,0,0],[0,0,1,-67],[0,1,0,0]])
 eyes=[]
 for s in [-1,1]:
  eyes.append(face_prism([(s*26,10),(s*27,2),(s*25,-5),(s*19,-9),(s*13,-8),(s*7,-4)]))
@@ -101,10 +101,10 @@ eye_mask=union(eyes)
 # Preserve dark pupils in the source relief, rather than invent tiny loose parts.
 for s in [-1,1]:
  z=float(zmap(-.5))
- eye_mask=eye_mask-sphere((float(xmap(s*16,-.5)),-36,z),(1.5,8,3.2))
+ eye_mask=eye_mask-sphere((float(xmap(s*16,-.5)),-54,z),(1.9,10,3.2))
 grin_mask=face_prism([(-29,-8),(-22,-12),(-10,-15),(0,-16),(10,-15),(22,-12),(29,-8),(25,-20),(17,-26),(0,-29),(-17,-26),(-25,-20)])
 # Keep black tooth divisions as broad grooves, matching the bowl's grin rhythm.
-for x in [-22,-11,0,11,22]:grin_mask=grin_mask-box((float(xmap(x,-20))-.4,-49,20),(float(xmap(x,-20))+.4,-24,78))
+for x in [-22,-11,0,11,22]:grin_mask=grin_mask-box((float(xmap(x,-20))-.5,-68,20),(float(xmap(x,-20))+.5,-31,78))
 parts={}
 for prefix,shape in [('head',head_whole),('body',carrier)]:
  parts[prefix+'_black']=cleaned(shape-eye_mask-grin_mask)
@@ -130,7 +130,7 @@ checks={
  'new_material_in_original_lid_void_mm3':(head_whole^lid_void).volume(),
  'head_addition_in_original_base_envelope_mm3':(head_whole^base_hull).volume(),
  'head_bond_mm3':(head_whole^LS).volume(),'body_bond_mm3':(carrier^BS).volume(),
- 'revision':'Bowl V4: continuous original character, middle split and recessed small cup',
+ 'revision':'Girth V5: broad Gengar silhouette, unchanged height and original internal fit',
  'shell_base_radial_air_gap_mm':.85,'head_seam_min_axial_gap_mm':.6,
  'storage_clear_diameter_mm':32,'storage_clear_height_mm':10,
  'bottom_thread_pitch_mm':pitch,'bottom_thread_radial_clearance_mm':radial,
@@ -140,24 +140,26 @@ checks={
  'physical_fit_verified':False,'physical_seating_angle_verified':False,
  'validation_scope':'Digital sampled motion and source-geometry checks only; no physical fit claim.',
  'head_collisions':[],'bottom_collisions':[]}
+fixed_lower=body_complete+cap
+fixed_upper=body_complete+head_complete
 print('Checking motion (5-degree samples, four turns)',flush=True)
 for a in range(0,1441,5):
  h=head_complete.rotate((0,0,a)).translate((0,0,a*2.5/360))
- v=(h^(body_complete+cap)).volume()
+ v=(h^fixed_lower).volume()
  if v>.001:checks['head_collisions'].append([a,v])
  b=cap.rotate((0,0,-a)).translate((0,0,-a*pitch/360))
- v=(b^(body_complete+head_complete)).volume()
+ v=(b^fixed_upper).volume()
  if v>.001:checks['bottom_collisions'].append([a,v])
  if a%180==0:print('Motion',a,flush=True)
-checks['head_straight_lift_overlap_mm3']=max((head_complete.translate((0,0,float(z)))^(body_complete+cap)).volume() for z in range(10,141,5))
+checks['head_straight_lift_overlap_mm3']=max((head_complete.translate((0,0,float(z)))^fixed_lower).volume() for z in range(10,141,5))
 storage_probe=cyl(15.5,2.2,11.8)
-checks['storage_exit_overlap_mm3']=max((storage_probe.translate((0,0,float(z)))^(body_complete+head_complete)).volume() for z in range(-50,1,2))
+checks['storage_exit_overlap_mm3']=max((storage_probe.translate((0,0,float(z)))^fixed_upper).volume() for z in range(-50,1,2))
 (ROOT/'Reports'/'geometry_validation.json').write_text(json.dumps(checks,indent=2))
 print(json.dumps({k:v for k,v in checks.items() if k not in ['base_transform','lid_transform','new_meshes']},indent=2),flush=True)
 assert all(x['watertight'] and x['winding'] and x['positive_volume'] for x in checks['new_meshes'].values())
 assert checks['head_bond_mm3']>10 and checks['body_bond_mm3']>10
 assert all(v==1 for v in checks['combined_components'].values())
-assert checks['assembled_size_mm'][0]<=91 and checks['assembled_size_mm'][1]<=80 and checks['assembled_size_mm'][2]<=119
+assert checks['assembled_size_mm'][0]<=133 and checks['assembled_size_mm'][1]<=112 and checks['assembled_size_mm'][2]<=119
 assert not checks['head_collisions'] and not checks['bottom_collisions']
 assert all(abs(checks[k])<.001 for k in ['new_material_in_original_base_void_mm3','new_material_in_original_lid_void_mm3','head_addition_in_original_base_envelope_mm3','head_straight_lift_overlap_mm3','storage_exit_overlap_mm3'])
 print('GEOMETRY CHECKS PASSED',flush=True)

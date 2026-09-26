@@ -1,4 +1,4 @@
-# GengarPuffco - Bowl V4
+# GengarPuffco - Girth V5
 
 One continuous Gengar made from the supplied bowl, reshaped around the complete original Puffco case. The bowl's existing feet, cheeks, side spikes, forehead and ears form the whole character. Its upper half twists off at a middle seam across the grin. A small screw-on cup is recessed into the underside.
 
@@ -7,10 +7,10 @@ The face is kept compact while the surrounding bowl geometry accommodates the ta
 | Assembly | Width x depth x height |
 |---|---|
 | Complete original foundation | 57.4 x 57.4 x 96.0 mm |
-| **Gengar Bowl V4** | **90.3 x 75.9 x 118.0 mm** |
-| Previous Rounded V3 | 84.5 x 71.7 x 122.9 mm |
+| **Gengar Girth V5** | **131.1 x 110.1 x 118.0 mm** |
+| Previous Bowl V4 | 90.3 x 75.9 x 118.0 mm |
 
-The character is slightly wider and about 5 mm shorter than V3. The complete foundation sits 14 mm above the underside to make room for the small cup. Its internal geometry and original threads remain at 100% scale. The generator limits this revision to 91 x 80 x 119 mm.
+The character is about **45% wider and 45% deeper than V4, at the same height**. The wider cheeks, grin and belly give the continuous bowl silhouette substantially more girth. The complete foundation sits 14 mm above the underside to make room for the small cup. Its internal geometry and original threads remain at 100% scale. The generator limits this revision to 133 x 112 x 119 mm.
 
 ![Current character](Previews/01_assembled.png)
 
@@ -34,7 +34,7 @@ Open the native files **as projects** in Bambu Studio and keep their saved orien
 
 For an all-black character, pair `01b_BODY_SINGLE_COLOR_P1S.3mf` with `02b_GENGAR_HEAD_SINGLE_COLOR_P1S.3mf`, plus the red cup. The colored regions are aligned multipart AMS regions, not snap-in inserts.
 
-`Print/Geometry` contains exact unsliced 3MFs. `ASSEMBLED_VIEW_ONLY.3mf` is for inspection, not print-in-place. The editable Blender file and all current previews represent Bowl V4; earlier revisions remain in Git history.
+`Print/Geometry` contains exact unsliced 3MFs. `ASSEMBLED_VIEW_ONLY.3mf` is for inspection, not print-in-place. The editable Blender file and all current previews represent Girth V5; earlier revisions remain in Git history.
 
 The included benchmark is P1S / 0.4 mm / textured PEI / 0.20 mm layers / four walls / 8% gyroid / zero XY compensation. Generic PLA uses 220 C nozzle, 55 C bed and 12 mm3/s maximum flow. Choose calibrated profiles for your actual spools and re-slice. Inspect supports and their removal from the lower opening. Estimates are in [PRINT_ESTIMATES.md](PRINT_ESTIMATES.md). No printer job has been sent.
 

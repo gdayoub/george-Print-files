@@ -54,7 +54,7 @@
     },
     "mesh_repairs": {
       "body_black": {
-        "face_count": "46624",
+        "face_count": "78576",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -62,7 +62,7 @@
         "backwards_edges": "0"
       },
       "body_grin_pink": {
-        "face_count": "2758",
+        "face_count": "5278",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -92,7 +92,7 @@
     },
     "mesh_repairs": {
       "body_black": {
-        "face_count": "46624",
+        "face_count": "78576",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -100,7 +100,7 @@
         "backwards_edges": "0"
       },
       "body_grin_pink": {
-        "face_count": "2758",
+        "face_count": "5278",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -130,7 +130,7 @@
     },
     "mesh_repairs": {
       "head_black": {
-        "face_count": "88848",
+        "face_count": "121774",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -138,7 +138,7 @@
         "backwards_edges": "0"
       },
       "head_eyes_red": {
-        "face_count": "9406",
+        "face_count": "10722",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -146,7 +146,7 @@
         "backwards_edges": "0"
       },
       "head_grin_pink": {
-        "face_count": "2794",
+        "face_count": "4354",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -176,7 +176,7 @@
     },
     "mesh_repairs": {
       "head_black": {
-        "face_count": "88848",
+        "face_count": "121774",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -184,7 +184,7 @@
         "backwards_edges": "0"
       },
       "head_eyes_red": {
-        "face_count": "9406",
+        "face_count": "10722",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -192,7 +192,7 @@
         "backwards_edges": "0"
       },
       "head_grin_pink": {
-        "face_count": "2794",
+        "face_count": "4354",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
