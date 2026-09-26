@@ -22,7 +22,7 @@
       0.0,
       0.0,
       1.0,
-      36.2500019
+      50.2500019
     ],
     [
       0.0,
@@ -48,7 +48,7 @@
       0.0,
       1.2246467991473532e-16,
       -1.0,
-      80.5001163
+      94.5001163
     ],
     [
       0.0,
@@ -59,53 +59,53 @@
   ],
   "foundation_base_triangles": 88278,
   "foundation_lid_triangles": 52836,
-  "new_material_in_original_base_void_mm3": -1.1291927628153932e-13,
-  "new_material_in_original_lid_void_mm3": 9.983131160576922e-11,
+  "new_material_in_original_base_void_mm3": 7.66738997199588e-13,
+  "new_material_in_original_lid_void_mm3": 5.553905809034597e-11,
   "head_addition_in_original_base_envelope_mm3": 0.0,
   "head_bond_mm3": 2588.6017380775834,
-  "body_bond_mm3": 2683.0063848734108,
-  "revision": "Slim V2: foundation-sized shell, no separate torso",
+  "body_bond_mm3": 2633.8802281932403,
+  "revision": "Rounded V3: fuller Gengar body and deeper removable cup",
   "shell_base_radial_air_gap_mm": 0.85,
   "head_seam_min_axial_gap_mm": 0.6,
   "storage_clear_diameter_mm": 50,
-  "storage_clear_height_mm": 6,
-  "bottom_thread_pitch_mm": 2.5,
+  "storage_clear_height_mm": 18,
+  "bottom_thread_pitch_mm": 3.5,
   "bottom_thread_radial_clearance_mm": 0.35,
   "assembled_size_mm": [
-    65.71502508213055,
-    61.669239226991465,
-    109.77200016
+    84.500201392,
+    71.71982164770364,
+    122.874651495
   ],
   "new_meshes": {
     "head_black": {
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 26428
+      "triangles": 84570
     },
     "eyes_red": {
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 4152
+      "triangles": 7682
     },
     "grin_pink": {
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 1308
+      "triangles": 4404
     },
     "body_carrier_black": {
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 11462
+      "triangles": 41416
     },
     "bottom_cap_red": {
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 7012
+      "triangles": 8256
     }
   },
   "combined_components": {

@@ -10,39 +10,29 @@
     "sha256": "6eed985894158e0c97d67287c6b1fba93f31f9b2a4c43674b2a53999eec19d84"
   },
   {
-    "path": "PRINT_ESTIMATES.md",
-    "bytes": 1044,
-    "sha256": "63efbff61946ac319aeeb277550751ce55b95047be334be7fdff3140dfff8089"
-  },
-  {
-    "path": "README.md",
-    "bytes": 5791,
-    "sha256": "610a992361509fec430ccdb275b7aca30545b4a3d0a3ec2aaaed17f7469c5ea9"
-  },
-  {
     "path": "CAD/build_gengar.py",
-    "bytes": 10219,
-    "sha256": "3935ef17223584b1c0ac0df7c4ceac4dc06a971430dafb8942e294de9d4c0e7f"
+    "bytes": 10675,
+    "sha256": "3344afcd4f8d8e60b4f3236c1bbec8904215e1bfbc04d93a57b12a2ec5b2f3cf"
   },
   {
     "path": "CAD/export_prints.py",
-    "bytes": 5736,
-    "sha256": "14f3038036dc40e7d0774e20c2fc19326b9eb1ed5bf38a7e209149af4619ecb0"
+    "bytes": 5801,
+    "sha256": "66433faec9f2350bd79e8be4c2e9728df2d5227c10e271af376c5323cc293d63"
   },
   {
     "path": "CAD/Gengar_Compact_EDITABLE.blend",
-    "bytes": 10208584,
-    "sha256": "0658cd3c531e1c28d70ab2b41beafeef3c6df65305640f76efebf4e67df32f43"
+    "bytes": 15006856,
+    "sha256": "e76a003dd77c4be6a83f27cac55974080b3e31793361125cd061151b65ffc4be"
   },
   {
     "path": "CAD/render_gengar.py",
-    "bytes": 3927,
-    "sha256": "352267de865c943f9f98cf7bb004237ae0611cc126a393ed38c630f21064ca5c"
+    "bytes": 4131,
+    "sha256": "35aed842a4fd83c473f25e777671109397d22f2c5349856b89988ab9de34670a"
   },
   {
     "path": "CAD/render_section.py",
     "bytes": 1383,
-    "sha256": "28ad491c04ed5342112b3c59f936ad97efea669454d2e5445cb6a350fad279ba"
+    "sha256": "b0945fc834581df70b2145d473ff25eb8dbb447df9e6b0c9ab1f487d52db032b"
   },
   {
     "path": "CAD/requirements.txt",
@@ -70,14 +60,14 @@
     "sha256": "54da47f6ee094b3d39ab7186b99cc710daf0797e67a420f98887727aad5f7c7e"
   },
   {
-    "path": "Foundations/GengarBowlRef.3mf",
-    "bytes": 19017260,
-    "sha256": "46bcc26db8a9807f3bf673bfd7ac51e2fdfd69efdc58724956eab71b1d422b6f"
-  },
-  {
     "path": "Foundations/gengar_source.npz",
     "bytes": 14959544,
     "sha256": "0ccaf36656fbc726dbb7461accff47762c5b6db03fc1dff379c3e5731dcfc926"
+  },
+  {
+    "path": "Foundations/GengarBowlRef.3mf",
+    "bytes": 19017260,
+    "sha256": "46bcc26db8a9807f3bf673bfd7ac51e2fdfd69efdc58724956eab71b1d422b6f"
   },
   {
     "path": "Foundations/lid_exact.npz",
@@ -86,98 +76,103 @@
   },
   {
     "path": "Previews/01_assembled.png",
-    "bytes": 1322559,
-    "sha256": "5479199a0a3c76780903e4a84d70e9c15479670f5dfed76543291237a759c8a6"
+    "bytes": 1395160,
+    "sha256": "0af680e4090a2534acc769943cc60865eb499645ca44ca975ce81bc67f097fc1"
   },
   {
     "path": "Previews/02_front.png",
-    "bytes": 1306560,
-    "sha256": "ca0267ac50daa6f2643d6e3571ae7746b13bea09f9566f6321f639aaa06272c1"
+    "bytes": 1374331,
+    "sha256": "bef6ccd408b6c6734a724ba135d71991543e1ae52a07e91ba5e250d95f3ba2e5"
   },
   {
     "path": "Previews/03_head_removed.png",
-    "bytes": 1315455,
-    "sha256": "c3f01c3f870a2fc99a2b554eb2a057b9be54517b35c4a43e0785179d9628cc5c"
+    "bytes": 1374072,
+    "sha256": "77c54fddfebba22519f11869940c60f6371bbbfc0d6ea5353f68101d0ba59503"
   },
   {
     "path": "Previews/04_bottom_open.png",
-    "bytes": 1310260,
-    "sha256": "ed776c2cc127fe150af8f6c24f365eda817156188c465283ec513bf710f21d4c"
+    "bytes": 1364170,
+    "sha256": "21c2f359fec3ef1b052001d02c5a602b5bb3657bf5e0198f854b9c3a63ce6f70"
   },
   {
     "path": "Previews/05_section_foundation_highlighted.png",
-    "bytes": 1310815,
-    "sha256": "6dcc875570098361b52e615037b05f0f54970e9303e9b2c92d0e662329019e7d"
+    "bytes": 1335558,
+    "sha256": "325b7988c3dcba597cd7d96d33a033c285f2086d8d028078504e0120345ecad4"
   },
   {
     "path": "Previews/06_size_comparison.png",
-    "bytes": 1597647,
-    "sha256": "fb07293fc65a8d9c960a2010aeed80003da0e03dfc96a03de3e18baa3394a9a8"
+    "bytes": 1645520,
+    "sha256": "6e46279a6c4cf8852ef213f7e62862c757fc0626dd08dc88202da2d4ad3aa5f7"
   },
   {
     "path": "Print/Geometry/00a_ORIGINAL_BASE_ONLY.3mf",
-    "bytes": 1220027,
-    "sha256": "5e62f95799e332760c1b537d427f43d8c9d28f2356b7b49e3ca0b6c8c44aa5d4"
+    "bytes": 1214961,
+    "sha256": "11f8470c9f8bb2c10561d67b5accc872cc3fa162747157268e4730057b3be5c6"
   },
   {
     "path": "Print/Geometry/00b_ORIGINAL_LID_ONLY.3mf",
-    "bytes": 999548,
-    "sha256": "2092fc2954d5802b9d9ca9c4f34642270b629b8942942559be1013eeab28b073"
+    "bytes": 992512,
+    "sha256": "3f1a69550021bcab6564aa141bedbd9e8ea3d7601c68c682adeeaa46c2d0fdef"
   },
   {
     "path": "Print/Geometry/01_BODY_EXACT_FOUNDATION.3mf",
-    "bytes": 1379277,
-    "sha256": "545152ddf24bca302157c4b21f9a42fcdd89b2ca210b393f947770b565fe3d13"
-  },
-  {
-    "path": "Print/Geometry/02b_GENGAR_HEAD_SINGLE_COLOR.3mf",
-    "bytes": 1570747,
-    "sha256": "3d23d88256af9d59c4d65467ce68bdd7b2ec97c86faab7c5c2d28f712fcfed9a"
+    "bytes": 1915770,
+    "sha256": "9d0b5973f3dd950cc82ac4aedab259123d6b996f7c253ef54ecb081662f2470d"
   },
   {
     "path": "Print/Geometry/02_GENGAR_HEAD_COLOR.3mf",
-    "bytes": 1570745,
-    "sha256": "901b448d9bb76cb545d3859975b81eaad34a09b60a06fd1636c66ff224d16d71"
+    "bytes": 2471083,
+    "sha256": "c191e970fb6b3276f7af4cd2dd780770bf3ceefec3b33529d98f81030963673f"
+  },
+  {
+    "path": "Print/Geometry/02b_GENGAR_HEAD_SINGLE_COLOR.3mf",
+    "bytes": 2471085,
+    "sha256": "1d4d2758bf1e51ec21f116f008e5bce7126d8fbf6f834cebfa8e05f3d4cd9984"
   },
   {
     "path": "Print/Geometry/03_BOTTOM_CAP.3mf",
-    "bytes": 88648,
-    "sha256": "41a39f3dbc0daaceecab2be9b5af2be66dfa2b443004f6a65e02d7f498ae0e0a"
+    "bytes": 107293,
+    "sha256": "c78c845f8e1db92368d38405ac4e81a0678d7bfb781605c97fea67dac3b57e63"
   },
   {
     "path": "Print/Geometry/ASSEMBLED_VIEW_ONLY.3mf",
-    "bytes": 3037614,
-    "sha256": "d6dc60a899b591d908fb7a1aa0fde17c78118f8fe6f53fd69876a897bc50e711"
+    "bytes": 4492257,
+    "sha256": "5aee18cb1228d03bda1492d5db3614e1858353ebdba785bb5e78fb32552618fb"
   },
   {
     "path": "Print/P1S/00a_ORIGINAL_BASE_ONLY_P1S.3mf",
-    "bytes": 5421110,
-    "sha256": "68eb4c1cf8f7843594e4a30ea5ec6b9b3a17190353972cf1b67795571c9fd541"
+    "bytes": 5433399,
+    "sha256": "61ba8e903e9feba1bf59fc40435c66139efcbff7c63baf547b6211db62e83dc7"
   },
   {
     "path": "Print/P1S/00b_ORIGINAL_LID_ONLY_P1S.3mf",
-    "bytes": 1375038,
-    "sha256": "44dfddfdfc7cd46f9570f810d34dd3f5fa5c569a20c16911f437561a08631432"
+    "bytes": 1370153,
+    "sha256": "612a057d7a801f524d7e588948dee3b22feea13d74094fab3c248f0e98c8ca0b"
   },
   {
     "path": "Print/P1S/01_BODY_EXACT_FOUNDATION_P1S.3mf",
-    "bytes": 7601456,
-    "sha256": "bc2b3ec2924643b663f1aeaa5a708cb74bc7a6ddd17e04acad1c35a969a7a244"
-  },
-  {
-    "path": "Print/P1S/02b_GENGAR_HEAD_SINGLE_COLOR_P1S.3mf",
-    "bytes": 5196806,
-    "sha256": "94477410bbdda07a9cb379e3ea6b363c3cf8822fd831180adcf192ecf8758ca5"
+    "bytes": 12210158,
+    "sha256": "df4e18c863608aff0e967e7aced9f15c38ae6e9eeb4ba424b0751395ea925c97"
   },
   {
     "path": "Print/P1S/02_GENGAR_HEAD_COLOR_P1S.3mf",
-    "bytes": 5596266,
-    "sha256": "3314470e65983a28beb806b8ada28abd97c7f875b7ddb86079ddf72da6973ae9"
+    "bytes": 7872510,
+    "sha256": "ea7b950def98b5a4845606751bed31461e1580ce43e400273f974cc55f6a39b4"
+  },
+  {
+    "path": "Print/P1S/02b_GENGAR_HEAD_SINGLE_COLOR_P1S.3mf",
+    "bytes": 7425518,
+    "sha256": "78b6722527ed80d4f53e4ca23a22173f0a17dc7664dfb980ad9bbd408964e3f4"
   },
   {
     "path": "Print/P1S/03_BOTTOM_CAP_P1S.3mf",
-    "bytes": 419556,
-    "sha256": "51ee4c9240fa8a9ec0bd2f83d638f2279cda5a74bbe89700f7caebc43d76654f"
+    "bytes": 1143026,
+    "sha256": "4ea36e54f8a141fa34198304df93eb8cc002c7695d6afa7bd7a2bcbe71eafad2"
+  },
+  {
+    "path": "PRINT_ESTIMATES.md",
+    "bytes": 1167,
+    "sha256": "b9cd99fb67cf7ee2ff24c53b7b5b73975f320b25ef66e9f6cfb3c41c564811c5"
   },
   {
     "path": "Profiles/baseline_process.json",
@@ -195,54 +190,59 @@
     "sha256": "58f44a2646e1de23ac00010ce3cb97accf377ebc180d7fa1ed79452c068f8139"
   },
   {
+    "path": "README.md",
+    "bytes": 6145,
+    "sha256": "0bf1456b4903e3dea543f98bc6b0243891b720aa828afaae2591e550718b27e4"
+  },
+  {
     "path": "Reports/00a_ORIGINAL_BASE_ONLY_slice.json",
-    "bytes": 2214,
-    "sha256": "2906ee1240851c0fddd183dc840da5887d591c1b8124a037d03d6c8243ada6f5"
+    "bytes": 2193,
+    "sha256": "b6bd648fc68cd5d30e4b230c6c24c9435fb1305789eea0b30eb7f57d58596b7b"
   },
   {
     "path": "Reports/00b_ORIGINAL_LID_ONLY_slice.json",
-    "bytes": 2129,
-    "sha256": "ffaf1032c4457bf9322f6f67c63956fd1aa14aa943b85eab5ca24afdc16282cd"
+    "bytes": 2127,
+    "sha256": "0f724743f2c52a9c46610b5317d75ac8dd4a2423c9ffbc245698004f2263bb0a"
   },
   {
     "path": "Reports/01_BODY_EXACT_FOUNDATION_slice.json",
     "bytes": 2326,
-    "sha256": "8e86256a609ec18607c4491679e76f9e0b518e658287c88cb963d57bd69a239b"
-  },
-  {
-    "path": "Reports/02b_GENGAR_HEAD_SINGLE_COLOR_slice.json",
-    "bytes": 2303,
-    "sha256": "d01d5bb0fa6d8f769f1355af3914767cb1b64c609bcdb77797ce0b8f34f8bd72"
+    "sha256": "66d41fddc746a0bb86833aa64147feaaa5d930fb918e0054f8e0e13e84b39c47"
   },
   {
     "path": "Reports/02_GENGAR_HEAD_COLOR_slice.json",
-    "bytes": 2725,
-    "sha256": "99884c6d1053c6043a9e2ccf8058d0f570c7a0ab08aa6715db31c13ea32a7f90"
+    "bytes": 2711,
+    "sha256": "02e7c3caeaf3eea89a511b0e0f6c699de4cae6c754a3f0ee2f63b571d5d7c425"
+  },
+  {
+    "path": "Reports/02b_GENGAR_HEAD_SINGLE_COLOR_slice.json",
+    "bytes": 2304,
+    "sha256": "1731cd37b8e3f3941ccb6accb774dadd29bbcb6de0442464b79cf4bbe311d9cc"
   },
   {
     "path": "Reports/03_BOTTOM_CAP_slice.json",
-    "bytes": 2168,
-    "sha256": "410166295454f18a6e28a5ea4be3f1f03e6ddbcd02ff5d1cd17adcaea2a5dfa1"
+    "bytes": 2224,
+    "sha256": "8e9dfb18bdba7fafd268d5e450bf54d78fb1404b3010378d6e60d5851006b09a"
   },
   {
     "path": "Reports/export_verification.json",
-    "bytes": 7648,
-    "sha256": "e13c50b04373072ef45aef399c92b8703fdf6e8eb21e4b9d6090c02e3be5b493"
+    "bytes": 7650,
+    "sha256": "a5a8874f889b5b970a56fb38f8cc6c086d3b7bbb444492126e6609e01b164e5b"
   },
   {
     "path": "Reports/geometry_validation.json",
-    "bytes": 2576,
-    "sha256": "9a0649f2687441c584f1a8c7245362df1b82d0c42c87da36f98b9cbef4974b17"
+    "bytes": 2574,
+    "sha256": "788bb9a27bf12927aee4409aa26269308ae3c128524b28fcd5a43969777aeb27"
   },
   {
     "path": "Reports/native_verification.json",
-    "bytes": 4923,
-    "sha256": "70e4ed88d0085db10dd2238a90236bbd62c090544c75f2515522eea3043239b4"
+    "bytes": 4926,
+    "sha256": "6fcfe63e2b0ca95874070bc3e03d33b611a8947cea2ece8c3d47ee5a1312c68c"
   },
   {
     "path": "Reports/size_comparison.json",
-    "bytes": 503,
-    "sha256": "d01ebcfe179fd80d2e86ee8f65fa7f22ba3a58c912e0d47f89178ba18347fec4"
+    "bytes": 504,
+    "sha256": "1bcbbcd6a7f34286f8e3c65541adf1e09a4d499c5222c42de0db133c30c5004f"
   },
   {
     "path": "Reports/venom_fit_audit.json",

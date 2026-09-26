@@ -4,7 +4,7 @@
     "originals": {
       "ORIGINAL_CASE_BASE_EXACT": {
         "triangles": 88278,
-        "max_bidirectional_vertex_distance_mm": 8.999999998593466e-07,
+        "max_bidirectional_vertex_distance_mm": 5.700000002661909e-06,
         "rigid_build_scale": true
       }
     },
@@ -26,7 +26,7 @@
     "originals": {
       "ORIGINAL_CASE_LID_EXACT": {
         "triangles": 52836,
-        "max_bidirectional_vertex_distance_mm": 4.224208558591494e-06,
+        "max_bidirectional_vertex_distance_mm": 4.3554420323232725e-06,
         "rigid_build_scale": true
       }
     },
@@ -48,13 +48,13 @@
     "originals": {
       "ORIGINAL_CASE_BASE_EXACT": {
         "triangles": 88278,
-        "max_bidirectional_vertex_distance_mm": 8.999999998593466e-07,
+        "max_bidirectional_vertex_distance_mm": 5.700000002661909e-06,
         "rigid_build_scale": true
       }
     },
     "mesh_repairs": {
       "body_carrier_black": {
-        "face_count": "11462",
+        "face_count": "41416",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -78,13 +78,13 @@
     "originals": {
       "ORIGINAL_CASE_LID_EXACT": {
         "triangles": 52836,
-        "max_bidirectional_vertex_distance_mm": 4.224208558625894e-06,
+        "max_bidirectional_vertex_distance_mm": 4.3554420323232725e-06,
         "rigid_build_scale": true
       }
     },
     "mesh_repairs": {
       "head_black": {
-        "face_count": "26428",
+        "face_count": "84570",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -92,7 +92,7 @@
         "backwards_edges": "0"
       },
       "eyes_red": {
-        "face_count": "4152",
+        "face_count": "7682",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -100,7 +100,7 @@
         "backwards_edges": "0"
       },
       "grin_pink": {
-        "face_count": "1308",
+        "face_count": "4404",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -124,13 +124,13 @@
     "originals": {
       "ORIGINAL_CASE_LID_EXACT": {
         "triangles": 52836,
-        "max_bidirectional_vertex_distance_mm": 4.224208558625894e-06,
+        "max_bidirectional_vertex_distance_mm": 4.3554420323232725e-06,
         "rigid_build_scale": true
       }
     },
     "mesh_repairs": {
       "head_black": {
-        "face_count": "26428",
+        "face_count": "84570",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -138,7 +138,7 @@
         "backwards_edges": "0"
       },
       "eyes_red": {
-        "face_count": "4152",
+        "face_count": "7682",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -146,7 +146,7 @@
         "backwards_edges": "0"
       },
       "grin_pink": {
-        "face_count": "1308",
+        "face_count": "4404",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -170,7 +170,7 @@
     "originals": {},
     "mesh_repairs": {
       "bottom_cap_red": {
-        "face_count": "7012",
+        "face_count": "8256",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",

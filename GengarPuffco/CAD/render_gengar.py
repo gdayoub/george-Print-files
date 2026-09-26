@@ -26,9 +26,10 @@ s.view_settings.view_transform='AgX';s.render.image_settings.file_format='PNG'
 bpy.ops.wm.save_as_mainfile(filepath=str(R/'CAD/Gengar_Compact_EDITABLE.blend'))
 def render(name,location,target,scale):
  if '--comparison-only' in sys.argv and name!='06_size_comparison.png':return
+ if '--only' in sys.argv and name!=sys.argv[sys.argv.index('--only')+1]:return
  cam.location=location;aim(cam,target);cam.data.ortho_scale=scale;s.render.filepath=str(P/name);bpy.ops.render.render(write_still=True)
-render('01_assembled.png',(145,-280,135),(0,0,55),145)
-render('02_front.png',(0,-300,56),(0,0,55),140)
+render('01_assembled.png',(145,-280,145),(0,0,61),160)
+render('02_front.png',(0,-300,62),(0,0,61),150)
 for ob in objects:
  if ob['assembly']=='head':ob.location.x=75;ob.location.z=40
 render('03_head_removed.png',(170,-320,180),(30,0,70),220)
@@ -36,18 +37,19 @@ for ob in objects:
  if ob['assembly']=='head':ob.location=(0,0,0)
  if ob['assembly']=='bottom':ob.location.z=-30
 plane.location.z=-30.2
-render('04_bottom_open.png',(155,-280,60),(0,0,40),160)
+render('04_bottom_open.png',(155,-280,70),(0,0,46),190)
 
 # Both designs at the same real-world scale, standing on the same plane.
 plane.location.z=-.12;plane.hide_render=True
 for ob in objects:ob.location=(44,0,0)
 for name in ['ORIGINAL_CASE_BASE_EXACT','ORIGINAL_CASE_LID_EXACT']:
  source=bpy.data.objects[name];ob=source.copy();ob.data=source.data.copy();bpy.context.collection.objects.link(ob)
- ob.name='COMPARISON_'+name;ob.location=(-44,0,-10);ob.data.materials.clear();ob.data.materials.append(material('Foundation reference','#8B9CAB'))
+ ob.name='COMPARISON_'+name;ob.location=(-44,0,-24);ob.data.materials.clear();ob.data.materials.append(material('Foundation reference','#8B9CAB'))
 def label(text,x):
  cu=bpy.data.curves.new('Dimension label','FONT');cu.body=text;cu.align_x='CENTER';cu.size=3.7;cu.space_line=1.3
  ob=bpy.data.objects.new('Dimension label',cu);bpy.context.collection.objects.link(ob);ob.location=(x,-37,-8);ob.rotation_euler=(math.pi/2,0,0);cu.materials.append(material('Label ink','#14202E'))
 label('ORIGINAL CASE\n57.4 x 57.4 x 96 mm',-44)
-label('GENGAR SLIM V2\n65.7 x 61.7 x 109.8 mm',44)
+dimensions=json.loads((R/'Reports/geometry_validation.json').read_text())['assembled_size_mm']
+label('GENGAR ROUNDED V3\n'+' x '.join(f'{x:.1f}' for x in dimensions)+' mm',44)
 s.render.resolution_x=1550;s.render.resolution_y=1050
-render('06_size_comparison.png',(0,-320,65),(0,0,49),205)
+render('06_size_comparison.png',(0,-320,70),(0,0,55),225)

@@ -5,6 +5,7 @@ R=Path(__file__).resolve().parent.parent;O=R/'CAD/outputs';D=R/'Print/Geometry';
 manifest=json.loads((O/'manifest.json').read_text());checks=json.loads((R/'Reports/geometry_validation.json').read_text())
 assert not checks['head_collisions'] and not checks['bottom_collisions']
 assert all(x['watertight'] for x in checks['new_meshes'].values())
+assert all(v==1 for v in checks['combined_components'].values())
 meshes={}
 for e in manifest:
  a=np.load(O/e['file']);meshes[e['name']]=trimesh.Trimesh(a['vertices'],a['faces'],process=False)

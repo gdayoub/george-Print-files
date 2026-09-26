@@ -1,24 +1,25 @@
-# GengarPuffco — Slim V2
+# GengarPuffco — Rounded V3
 
-The **complete original Core Case** sets the size. Gengar is a thin decorative exterior on that case, with no separate torso, neck, arms or feet. This revision replaces the oversized first Gengar version.
+A fuller Gengar silhouette around the **complete original Core Case**: rounded belly, tucked hands, short feet, red eyes and a pink grin. The head twists off, and the deeper red bottom cap is a removable storage cup. The functional foundation remains at its original size.
 
 | Assembly | Width × depth × height |
 |---|---|
 | Complete original foundation | 57.4 × 57.4 × 96.0 mm |
-| **Current Gengar Slim V2** | **65.7 × 61.7 × 109.8 mm** |
+| **Current Gengar Rounded V3** | **84.5 × 71.7 × 122.9 mm** |
+| Previous Slim V2 | 65.7 × 61.7 × 109.8 mm |
 | Superseded first Gengar | 94.7 × 79.6 × 127.7 mm |
 
-The new design is about **15% wider, 7% deeper and 14% taller than the original case**. Most of the straight case wall is only 1.45 mm thicker on the outside. The additional height provides shallow bottom storage and small ear tips. The generator rejects designs exceeding 70 × 70 × 110 mm.
+The body is deliberately wider than Slim V2. Overall it is **27.1 mm wider, 14.3 mm deeper and 26.9 mm taller than the complete original case**. The original case starts 24 mm above the bottom to accommodate the deeper cup; the ear tips add about 2.9 mm above its lid. The generator limits the assembly to 85 × 80 × 124 mm. This added height is the tradeoff for usable storage underneath the unchanged foundation.
 
 ![Both models at the same scale](Previews/06_size_comparison.png)
 
-Black case, red eyes and bottom cap, pink grin. The face, ears and side ridges come from your actual `GengarBowlRef.3mf` mesh, wrapped radially onto the case. Only the decorative mesh changes shape; the original functional case is never scaled.
+Black case, red eyes and bottom cap, pink grin. The face, ears and side ridges come from your actual `GengarBowlRef.3mf` mesh, with a rounded lower body and short feet added around the foundation. Only the decorative mesh changes shape; the original functional case is never scaled.
 
 ## Closures and storage
 
 - **Head:** the decorated upper half twists off on the original approximately 2.5 mm-pitch thread. Turn counterclockwise viewed from above while holding the lower half.
-- **Bottom:** an independent recessed red screw cap opens the shallow accessory compartment. Turn counterclockwise viewed from underneath.
-- **Storage:** 50 mm clear diameter × **6 mm** clear height. It is for small flat accessories, not the previous 30 mm-tall jar placeholder. The shallow depth is deliberate to keep the design close to the original case size.
+- **Bottom:** an independent red screw cup opens the deeper accessory compartment. Turn counterclockwise viewed from underneath.
+- **Storage:** 50 mm clear diameter × **18 mm** clear height, three times the previous 6 mm depth. The cup has a 3 mm floor and a 21 mm overall height. A nominal 50 mm cavity is not a guarantee that a particular 50 mm jar will fit; a specific jar has not been measured.
 - The original head thread is preserved with no added stop. Its final tightened facing direction still requires a physical test.
 
 ## Fit first
@@ -33,15 +34,15 @@ Print the actual new body next, then its bottom cap, before spending filament on
 
 Open these **as projects** in Bambu Studio. Keep 100% scale and the saved orientation:
 
-1. `Print/P1S/01_BODY_EXACT_FOUNDATION_P1S.3mf` — black, original base with its thin outer skin and shallow storage housing.
+1. `Print/P1S/01_BODY_EXACT_FOUNDATION_P1S.3mf` — black, original base surrounded by the fuller body, hands, feet and deeper storage housing.
 2. `Print/P1S/02_GENGAR_HEAD_COLOR_P1S.3mf` — black/red/pink, original lid with the Gengar exterior. It prints inverted, with the original cavity facing upward.
-3. `Print/P1S/03_BOTTOM_CAP_P1S.3mf` — red, independent lower cap.
+3. `Print/P1S/03_BOTTOM_CAP_P1S.3mf` — red, independent removable storage cup.
 
 `02b_GENGAR_HEAD_SINGLE_COLOR_P1S.3mf` is an optional all-black head with identical geometry. The colored face regions are aligned multipart AMS regions, not separate snap-in inserts. Estimates are in [PRINT_ESTIMATES.md](PRINT_ESTIMATES.md).
 
 Benchmark: P1S, 0.4 mm nozzle, textured PEI; 0.20 mm layers, four walls, 8% gyroid, zero XY hole/contour compensation. Generic PLA at 220°C, bed 55°C and 12 mm³/s is a benchmark assumption, not a calibrated profile for your spools. Choose the actual red, black and pink filament profiles and re-slice. Inspect exterior head supports and support removal through the open bottom compartment. No printer job has been sent.
 
-`Print/Geometry` contains exact unsliced 3MFs. `ASSEMBLED_VIEW_ONLY.3mf` is for inspection, not print-in-place. All current files in this folder are Slim V2; the first version is retained in Git history.
+`Print/Geometry` contains exact unsliced 3MFs. `ASSEMBLED_VIEW_ONLY.3mf` is for inspection, not print-in-place. All current files in this folder are Rounded V3; earlier versions are retained in Git history.
 
 ## Checked digitally
 
@@ -53,6 +54,6 @@ Reports are in `Reports/`. In the section preview, green highlights the unchange
 
 ## Source and editing
 
-`CAD/Gengar_Compact_EDITABLE.blend` contains the current Slim V2 mesh and studio scene. `build_gengar.py` rebuilds it; `export_prints.py` writes checked geometry; `render_gengar.py` creates the previews and size comparison; `render_section.py` creates the cutaway. Run `slice_p1s.py <path-to-bambu-studio.exe>` for native projects, then `verify_native.py`. Dependencies are in `CAD/requirements.txt`.
+`CAD/Gengar_Compact_EDITABLE.blend` contains the current Rounded V3 mesh and studio scene. `build_gengar.py` rebuilds it; `export_prints.py` writes checked geometry; `render_gengar.py` creates the previews and size comparison; `render_section.py` creates the cutaway. Run `slice_p1s.py <path-to-bambu-studio.exe>` for native projects, then `verify_native.py`. Dependencies are in `CAD/requirements.txt`.
 
 Original complete case: **ROADBLOCK**, “Core Case for Puffco Proxy Core,” embedded MakerWorld Exclusive License. Gengar bowl: **tom3Dmodel**, “Gengar pokemon Bowl,” embedded Standard Digital File License. Original archives and their metadata are retained in `Foundations`. This derivative does not assert additional redistribution rights.
