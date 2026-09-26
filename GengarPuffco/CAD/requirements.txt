@@ -4,3 +4,4 @@ manifold3d
 scipy
 networkx
 bpy==4.2.23
+scikit-image

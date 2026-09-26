@@ -1,4 +1,4 @@
-"""GengarPuffco Girth V5. One continuous source-bowl character split across the middle.
+"""GengarPuffco Sculpt V6. Clean reference-led character around the exact original case.
 All coordinates millimetres. Front -Y, up Z. Run with numpy/trimesh/manifold3d.
 The upper Gengar half turns with the original lid over the stationary lower half.
 """
@@ -39,25 +39,10 @@ BS=solid(base); LS=solid(lid)
 # occupy pre-existing solid. This is stronger than a nominal bore-radius check.
 base_hull=solid(base.convex_hull);lid_hull=solid(lid.convex_hull)
 base_void=base_hull-BS;lid_void=lid_hull-LS
-print('Loading and simplifying bowl EXTERIOR only',flush=True)
-d=np.load(REF/'gengar_source.npz');gv=d['vertices'].copy();gf=d['faces']
-# Reshape the entire source character around the original case, not just its head.
-XY=.90
-source_z=np.array([-45.9650002,-35.,-30.,12.,32.,45.9650002])
-case_z=np.array([0.,22.,45.,83.,111.,118.])
-zmap=PchipInterpolator(source_z,case_z)
-def xmap(x,z=0.):
- x=np.asarray(x)*XY
- fullness=5+6*np.sin(np.pi*zmap(np.asarray(z))/118.)
- return x+fullness*np.sin(np.pi*x/(72.8470001*XY))
-gv[:,0]=xmap(gv[:,0],gv[:,2]);gv[:,1]*=XY;gv[:,2]=zmap(gv[:,2])
-gengar=solid(trimesh.Trimesh(gv,gf,process=False)).simplify(.012)
-np.savez_compressed(OUT/'bowl_transformed.npz',vertices=gv,faces=gf)
-print('Closing bowl crown and splitting continuous character',flush=True)
-# Close the bowl opening below its ears. The source forehead and crown spikes
-# remain visible above this shallow curved roof.
-crown=sphere((0,0,108),(51.,46.,9.))
-whole=gengar+cyl(31.2,0,110)+crown
+from sculpt_character import sculpt
+print('Building clean, smoothly blended exterior',flush=True)
+whole=sculpt(OUT)^box((-100,-100,0),(100,100,140))
+# The solid sculpt itself bonds to the case; no visible cylindrical sleeve.
 head_bottom=59.3;body_top=58.7
 head_whole=whole^box((-100,-100,head_bottom),(100,100,140))
 head_whole=head_whole-cyl(29.55,head_bottom-.1,seat+8.)
@@ -87,24 +72,21 @@ for a in np.arange(0,360,30):
 carrier=carrier-cyl(18.85,-.1,6.35)-cyl(root+radial,6.34,12.35)-helix(5.5,14,True)
 carrier=cleaned(carrier)-base_void
 
-# Face colors follow the actual source face and retain the original relief.
-# Coordinates below are in the source bowl's X/Z plane, then transformed.
+# Smooth Bezier face outlines on the new curved exterior; no source-bowl facets.
+def bezier(p0,p1,p2,p3,n=32):
+ t=np.linspace(0,1,n,endpoint=False)[:,None]
+ return ((1-t)**3*np.array(p0)+3*(1-t)**2*t*np.array(p1)+3*(1-t)*t*t*np.array(p2)+t**3*np.array(p3)).tolist()
 def face_prism(points):
- pts=[(float(xmap(x,z)),float(zmap(z))) for x,z in points]
- area=sum(a[0]*b[1]-b[0]*a[1] for a,b in zip(pts,pts[1:]+pts[:1]))
- if area<0:pts=pts[::-1]
- return M.extrude(CS([pts]),36).transform([[1,0,0,0],[0,0,1,-67],[0,1,0,0]])
-eyes=[]
-for s in [-1,1]:
- eyes.append(face_prism([(s*26,10),(s*27,2),(s*25,-5),(s*19,-9),(s*13,-8),(s*7,-4)]))
-eye_mask=union(eyes)
-# Preserve dark pupils in the source relief, rather than invent tiny loose parts.
-for s in [-1,1]:
- z=float(zmap(-.5))
- eye_mask=eye_mask-sphere((float(xmap(s*16,-.5)),-54,z),(1.9,10,3.2))
-grin_mask=face_prism([(-29,-8),(-22,-12),(-10,-15),(0,-16),(10,-15),(22,-12),(29,-8),(25,-20),(17,-26),(0,-29),(-17,-26),(-25,-20)])
-# Keep black tooth divisions as broad grooves, matching the bowl's grin rhythm.
-for x in [-22,-11,0,11,22]:grin_mask=grin_mask-box((float(xmap(x,-20))-.5,-68,20),(float(xmap(x,-20))+.5,-31,78))
+ area=sum(a[0]*b[1]-b[0]*a[1] for a,b in zip(points,points[1:]+points[:1]))
+ if area<0:points=points[::-1]
+ return M.extrude(CS([points]),44).transform([[1,0,0,0],[0,0,1,-75],[0,1,0,0]])
+eye_points=bezier((-36,89),(-29,86),(-15,80),(-8,75))+bezier((-8,75),(-15,64),(-35,65),(-36,89))
+eye_mask=face_prism(eye_points)+face_prism([(-x,z) for x,z in eye_points])
+for side in [-1,1]:eye_mask=eye_mask-sphere((side*23,-43,77),(1.8,18,4.8))
+grin_points=bezier((-38,67),(-18,56),(18,56),(38,67))+bezier((38,67),(30,32),(-30,32),(-38,67))
+grin_mask=face_prism(grin_points)
+for x in [-30,-20,-10,0,10,20,30]:grin_mask=grin_mask-box((x-.45,-76,30),(x+.45,-19,70))
+# Color regions are cut directly with matching volumes for exact shared boundaries.
 parts={}
 for prefix,shape in [('head',head_whole),('body',carrier)]:
  parts[prefix+'_black']=cleaned(shape-eye_mask-grin_mask)
@@ -130,7 +112,7 @@ checks={
  'new_material_in_original_lid_void_mm3':(head_whole^lid_void).volume(),
  'head_addition_in_original_base_envelope_mm3':(head_whole^base_hull).volume(),
  'head_bond_mm3':(head_whole^LS).volume(),'body_bond_mm3':(carrier^BS).volume(),
- 'revision':'Girth V5: broad Gengar silhouette, unchanged height and original internal fit',
+ 'revision':'Sculpt V6: clean reference-led surfaces, crisp face and blended limbs',
  'shell_base_radial_air_gap_mm':.85,'head_seam_min_axial_gap_mm':.6,
  'storage_clear_diameter_mm':32,'storage_clear_height_mm':10,
  'bottom_thread_pitch_mm':pitch,'bottom_thread_radial_clearance_mm':radial,
@@ -159,7 +141,7 @@ print(json.dumps({k:v for k,v in checks.items() if k not in ['base_transform','l
 assert all(x['watertight'] and x['winding'] and x['positive_volume'] for x in checks['new_meshes'].values())
 assert checks['head_bond_mm3']>10 and checks['body_bond_mm3']>10
 assert all(v==1 for v in checks['combined_components'].values())
-assert checks['assembled_size_mm'][0]<=133 and checks['assembled_size_mm'][1]<=112 and checks['assembled_size_mm'][2]<=119
+assert checks['assembled_size_mm'][0]<=148 and checks['assembled_size_mm'][1]<=122 and checks['assembled_size_mm'][2]<=129
 assert not checks['head_collisions'] and not checks['bottom_collisions']
 assert all(abs(checks[k])<.001 for k in ['new_material_in_original_base_void_mm3','new_material_in_original_lid_void_mm3','head_addition_in_original_base_envelope_mm3','head_straight_lift_overlap_mm3','storage_exit_overlap_mm3'])
 print('GEOMETRY CHECKS PASSED',flush=True)

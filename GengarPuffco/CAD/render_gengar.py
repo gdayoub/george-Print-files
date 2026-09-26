@@ -8,12 +8,13 @@ bpy.ops.wm.read_factory_settings(use_empty=True)
 def material(name,color):
  m=bpy.data.materials.new(name);m.use_nodes=True
  rgb=tuple((int(color.lstrip('#')[i:i+2],16)/255)**2.2 for i in (0,2,4))
- m.diffuse_color=(*rgb,1);p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*rgb,1);p.inputs['Roughness'].default_value=.45;return m
+ m.diffuse_color=(*rgb,1);p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*rgb,1);p.inputs['Roughness'].default_value=.6;return m
 manifest=json.loads((O/'manifest.json').read_text());objects=[]
 for e in manifest:
  a=np.load(O/e['file']);me=bpy.data.meshes.new(e['name']);me.from_pydata(a['vertices'].tolist(),[],a['faces'].tolist());me.update()
  ob=bpy.data.objects.new(e['name'],me);bpy.context.collection.objects.link(ob);ob.data.materials.append(material(e['name'],e['color']));ob['assembly']=e['group'];objects.append(ob)
- for p in me.polygons:p.use_smooth=not e['name'].startswith('ORIGINAL') and abs(p.normal.z)<.98
+ for p in me.polygons:p.use_smooth=not e['name'].startswith('ORIGINAL')
+ if not e['name'].startswith('ORIGINAL'):me.set_sharp_from_angle(angle=math.radians(35))
 def aim(o,p):o.rotation_euler=(Vector(p)-o.location).to_track_quat('-Z','Y').to_euler()
 s=bpy.context.scene;s.render.engine='CYCLES';s.cycles.samples=48;s.cycles.use_denoising=True
 s.render.resolution_x=1200;s.render.resolution_y=1100;s.render.resolution_percentage=100
@@ -50,6 +51,6 @@ def label(text,x):
  ob=bpy.data.objects.new('Dimension label',cu);bpy.context.collection.objects.link(ob);ob.location=(x,-37,-8);ob.rotation_euler=(math.pi/2,0,0);cu.materials.append(material('Label ink','#14202E'))
 label('ORIGINAL CASE\n57.4 x 57.4 x 96 mm',-60)
 dimensions=json.loads((R/'Reports/geometry_validation.json').read_text())['assembled_size_mm']
-label('GENGAR GIRTH V5\n'+' x '.join(f'{x:.1f}' for x in dimensions)+' mm',60)
+label('GENGAR SCULPT V6\n'+' x '.join(f'{x:.1f}' for x in dimensions)+' mm',60)
 s.render.resolution_x=1550;s.render.resolution_y=1050
 render('06_size_comparison.png',(0,-320,70),(15,0,55),270)

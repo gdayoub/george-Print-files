@@ -1,16 +1,16 @@
-# GengarPuffco - Girth V5
+# GengarPuffco - Sculpt V6
 
-One continuous Gengar made from the supplied bowl, reshaped around the complete original Puffco case. The bowl's existing feet, cheeks, side spikes, forehead and ears form the whole character. Its upper half twists off at a middle seam across the grin. A small screw-on cup is recessed into the underside.
+A clean Gengar-inspired sculpt rebuilt from online visual references around the complete original Puffco case. The exterior has one rounded body, smoothly blended ears and short limbs, rear spikes, and crisp curved eyes and grin. The upper half twists off at the middle seam, with a small screw-on cup recessed underneath.
 
-The face is kept compact while the surrounding bowl geometry accommodates the taller case. The crown closes the original bowl opening below the ear tips. There is no separate added torso or extra set of limbs.
+This replaces the stretched bowl mesh used in earlier revisions. The new exterior is generated from smooth implicit surfaces; the face uses Bezier outlines and matching color volumes. References and construction notes are in [DESIGN_REFERENCES.md](DESIGN_REFERENCES.md). The original bowl file remains archived in `Foundations` but does not generate this exterior.
 
 | Assembly | Width x depth x height |
 |---|---|
 | Complete original foundation | 57.4 x 57.4 x 96.0 mm |
-| **Gengar Girth V5** | **131.1 x 110.1 x 118.0 mm** |
-| Previous Bowl V4 | 90.3 x 75.9 x 118.0 mm |
+| **Gengar Sculpt V6** | **142.0 x 108.8 x 125.9 mm** |
+| Previous Girth V5 | 131.1 x 110.1 x 118.0 mm |
 
-The character is about **45% wider and 45% deeper than V4, at the same height**. The wider cheeks, grin and belly give the continuous bowl silhouette substantially more girth. The complete foundation sits 14 mm above the underside to make room for the small cup. Its internal geometry and original threads remain at 100% scale. The generator limits this revision to 133 x 112 x 119 mm.
+The extra height is in the pointed ears and crown spikes. The case interior, its rigid placement, the original threads, and the small underside cup retain their previous dimensions. The main body closes smoothly over the original lid. The generator limits the assembly to 148 x 122 x 129 mm.
 
 ![Current character](Previews/01_assembled.png)
 
@@ -34,7 +34,7 @@ Open the native files **as projects** in Bambu Studio and keep their saved orien
 
 For an all-black character, pair `01b_BODY_SINGLE_COLOR_P1S.3mf` with `02b_GENGAR_HEAD_SINGLE_COLOR_P1S.3mf`, plus the red cup. The colored regions are aligned multipart AMS regions, not snap-in inserts.
 
-`Print/Geometry` contains exact unsliced 3MFs. `ASSEMBLED_VIEW_ONLY.3mf` is for inspection, not print-in-place. The editable Blender file and all current previews represent Girth V5; earlier revisions remain in Git history.
+`Print/Geometry` contains exact unsliced 3MFs. `ASSEMBLED_VIEW_ONLY.3mf` is for inspection, not print-in-place. The editable Blender file and all current previews represent Sculpt V6; earlier revisions remain in Git history.
 
 The included benchmark is P1S / 0.4 mm / textured PEI / 0.20 mm layers / four walls / 8% gyroid / zero XY compensation. Generic PLA uses 220 C nozzle, 55 C bed and 12 mm3/s maximum flow. Choose calibrated profiles for your actual spools and re-slice. Inspect supports and their removal from the lower opening. Estimates are in [PRINT_ESTIMATES.md](PRINT_ESTIMATES.md). No printer job has been sent.
 
@@ -52,6 +52,6 @@ In the section preview, green highlights the unchanged original case for clarity
 
 ## Sources and regeneration
 
-`CAD/Gengar_Compact_EDITABLE.blend` contains the current mesh and studio scene. Run `build_gengar.py`, `export_prints.py`, `render_gengar.py`, and `render_section.py`. Run `slice_p1s.py <path-to-bambu-studio.exe>` for native projects, then `verify_native.py`. Dependencies are in `CAD/requirements.txt`.
+`CAD/Gengar_Compact_EDITABLE.blend` contains the current mesh and studio scene. `sculpt_character.py` generates and caches the decorative exterior. Run `build_gengar.py`, `export_prints.py`, `render_gengar.py`, and `render_section.py`. Run `slice_p1s.py <path-to-bambu-studio.exe>` for native projects, then `verify_native.py`. Dependencies are in `CAD/requirements.txt`.
 
 Original complete case: **ROADBLOCK**, "Core Case for Puffco Proxy Core," embedded MakerWorld Exclusive License. Gengar bowl: **tom3Dmodel**, "Gengar pokemon Bowl," embedded Standard Digital File License. Original archives and metadata are retained in `Foundations`. This derivative does not assert additional redistribution rights.
