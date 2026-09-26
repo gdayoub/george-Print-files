@@ -1,6 +1,6 @@
-"""GengarPuffco Rounded V3. Fuller character body and a deeper removable cup.
+"""GengarPuffco Bowl V4. One continuous source-bowl character split across the middle.
 All coordinates millimetres. Front -Y, up Z. Run with numpy/trimesh/manifold3d.
-The complete Gengar shell turns with the original lid over a stationary case base.
+The upper Gengar half turns with the original lid over the stationary lower half.
 """
 from pathlib import Path
 import json, math, hashlib
@@ -29,7 +29,7 @@ def load_exact(name):
  d=np.load(REF/(name+'_exact.npz'));return trimesh.Trimesh(d['vertices'],d['faces'],process=False)
 
 base=load_exact('base'); lid=load_exact('lid')
-base_shift=24.-base.bounds[0,2]
+base_shift=14.-base.bounds[0,2]
 base_T=trimesh.transformations.translation_matrix([0,0,base_shift]);base.apply_transform(base_T)
 seat=base_shift+18.75
 lid_T=trimesh.transformations.rotation_matrix(math.radians(20),[0,0,1])@trimesh.transformations.rotation_matrix(math.pi,[1,0,0])
@@ -41,89 +41,80 @@ base_hull=solid(base.convex_hull);lid_hull=solid(lid.convex_hull)
 base_void=base_hull-BS;lid_void=lid_hull-LS
 print('Loading and simplifying bowl EXTERIOR only',flush=True)
 d=np.load(REF/'gengar_source.npz');gv=d['vertices'].copy();gf=d['faces']
-# Keep the bowl's broad cheeks, ears and side spikes. Modest independent Z
-# accommodation fits the original lid; no cylindrical radial compression.
-gv[:,:2]*=.58
-gv[:,2]=93.+gv[:,2]*.65
+# Reshape the entire source character around the original case, not just its head.
+XY=.62
+source_z=np.array([-45.9650002,-35.,-30.,12.,32.,45.9650002])
+case_z=np.array([0.,22.,45.,83.,111.,118.])
+zmap=PchipInterpolator(source_z,case_z)
+def xmap(x,z=0.):
+ x=np.asarray(x)*XY
+ fullness=5+6*np.sin(np.pi*zmap(np.asarray(z))/118.)
+ return x+fullness*np.sin(np.pi*x/(72.8470001*XY))
+gv[:,0]=xmap(gv[:,0],gv[:,2]);gv[:,1]*=XY;gv[:,2]=zmap(gv[:,2])
 gengar=solid(trimesh.Trimesh(gv,gf,process=False)).simplify(.012)
 np.savez_compressed(OUT/'bowl_transformed.npz',vertices=gv,faces=gf)
-print('Forming protective shell and compact lower compartment',flush=True)
-# The thin upper skin clears the original male-thread band. It bonds only
-# outside the original lid, with the exact original internal free space guarded.
-head_bottom=64.
-top_z=np.array([116.5,118.,120.,121.,122.,122.4])
-top_r=np.array([30.4,30.4,30.2,28.5,18.,0.])
-top_samples=np.linspace(top_z[0],top_z[-1],65)
-skull=M.revolve(CS([[(0,116.5)]+list(zip(PchipInterpolator(top_z,top_r)(top_samples),top_samples))]),N)
-raw=(gengar+cyl(30.4,head_bottom,117.8)+skull)^box((-80,-80,head_bottom),(80,80,130))
-raw=raw-cyl(29.55,head_bottom-.1,seat+8.0)
-raw=raw-cyl(28.42,seat+7.99,lid.bounds[1,2]-.25)
-head_whole=raw
-# No additions inside source free space; the original lid remains a separate
-# exact component in geometry exports, not a repaired/remeshed substitute.
+print('Closing bowl crown and splitting continuous character',flush=True)
+# Close the bowl opening below its ears. The source forehead and crown spikes
+# remain visible above this shallow curved roof.
+crown=sphere((0,0,110),(36.,31.,7.))
+whole=gengar+cyl(31.2,0,110)+crown
+head_bottom=59.3;body_top=58.7
+head_whole=whole^box((-100,-100,head_bottom),(100,100,140))
+head_whole=head_whole-cyl(29.55,head_bottom-.1,seat+8.)
+head_whole=head_whole-cyl(28.42,seat+7.99,lid.bounds[1,2]-.25)
 head_whole=cleaned(head_whole)-lid_void
+carrier=whole^box((-100,-100,0),(100,100,body_top))
+carrier=carrier-cyl(28.42,14,body_top+.1)-base_void
 
 # Coarse independent bottom thread; fully separate from the foundation thread.
-pitch=3.5; root=26.8; depth=1.35;radial=.35;axial=.22;phase=15.0
+pitch=2.5; root=17.5; depth=.9;radial=.3;axial=.18;phase=7.0
 def helix(z0,z1,female=False):
  a0=360*(z0-phase)/pitch;a1=360*(z1-phase)/pitch
  angles=np.linspace(a0,a1,int((a1-a0)/3)+1);v=[];f=[]
  for a in angles:
   z=phase+a*pitch/360;t=1 if female else min(1,max(.02,(a-a0)/100),max(.02,(a1-a)/100))
   ac=axial if female else 0;rc=radial if female else 0
-  for r,h in [(root-.3,z-1.0-ac),(root+depth*t+rc,z-.34-ac),(root+depth*t+rc,z+.34+ac),(root-.3,z+1.0+ac)]:v.append((r*math.cos(math.radians(a)),r*math.sin(math.radians(a)),h))
+  for r,h in [(root-.3,z-.8-ac),(root+depth*t+rc,z-.27-ac),(root+depth*t+rc,z+.27+ac),(root-.3,z+.8+ac)]:v.append((r*math.cos(math.radians(a)),r*math.sin(math.radians(a)),h))
  for i in range(len(angles)-1):
   for j in range(4):
    a=i*4+j;b=i*4+(j+1)%4;c=(i+1)*4+(j+1)%4;d=(i+1)*4+j;f.extend([(a,b,c),(a,c,d)])
  f.extend([(0,2,1),(0,3,2)]);e=(len(angles)-1)*4;f.extend([(e,e+1,e+2),(e,e+2,e+3)])
  t=trimesh.Trimesh(v,f,process=True);t.fix_normals();return solid(t)
-cap=cyl(29.5,0,3)+(cyl(29.5,2.8,12)-cyl(25,3,12.1))+(cyl(root,11.8,21.0)-cyl(25,11.7,21.1))+helix(15,19.5)
-# The cap is now a real removable cup, 18 mm clear depth when closed.
-# Exposed scallops at the bottom are reachable between the fixed feet.
+# Small underside cup, tucked inside the original bowl's base silhouette.
+cap=cyl(18.5,0,2)+(cyl(18.5,1.8,6)-cyl(16,2,6.1))+(cyl(root,5.8,12)-cyl(16,5.7,12.1))+helix(7,10.7)
 for a in np.arange(0,360,30):
- cap=cap-cyl(1.9,.5,2.5).translate((30.0*math.cos(math.radians(a)),30.0*math.sin(math.radians(a)),0))
-carrier=cyl(33,12.35,24.25)-cyl(25,-1,21)
-carrier=carrier-cyl(root+radial,12.34,21.35)-helix(10,25,True)
-carrier=carrier-base_void
-# A single plump lower silhouette directly around the original case. Its wide
-# belly, tucked hands and short feet complement the head; there is no neck.
-zs=np.array([12.35,22,38,49,58,63.4]);rs=np.array([33,36,38.0,37.5,34.2,32.0])
-sample=np.linspace(zs[0],zs[-1],80)
-profile=[(0,zs[0])]+list(zip(PchipInterpolator(zs,rs)(sample),sample))+[(0,zs[-1])]
-belly=M.revolve(CS([profile]),N).scale((1,.94,1))
-belly=belly-cyl(28.42,24,80)-cyl(30.2,-1,24.01)
-hands=[];feet=[]
-for side in [-1,1]:
- hands.append(sphere((side*34,-3,47),(7.5,10,11)))
- foot=sphere((side*19,-13,7),(18,23,10))
- foot=foot^box((-80,-80,0),(80,80,16))
- feet.append(foot-cyl(30.2,-1,17))
-carrier=(carrier+belly+union(hands+feet))-base_void
+ cap=cap-cyl(1.2,.5,4.5).translate((19.*math.cos(math.radians(a)),19.*math.sin(math.radians(a)),0))
+carrier=carrier-cyl(18.85,-.1,6.35)-cyl(root+radial,6.34,12.35)-helix(5.5,14,True)
+carrier=cleaned(carrier)-base_void
 
 # Face colors follow the actual source face and retain the original relief.
 # Coordinates below are in the source bowl's X/Z plane, then transformed.
 def face_prism(points):
- pts=[(x*.58,93.+z*.65) for x,z in points]
+ pts=[(float(xmap(x,z)),float(zmap(z))) for x,z in points]
  area=sum(a[0]*b[1]-b[0]*a[1] for a,b in zip(pts,pts[1:]+pts[:1]))
  if area<0:pts=pts[::-1]
- return M.extrude(CS([pts]),19).transform([[1,0,0,0],[0,0,1,-44],[0,1,0,0]])
+ return M.extrude(CS([pts]),24).transform([[1,0,0,0],[0,0,1,-48],[0,1,0,0]])
 eyes=[]
 for s in [-1,1]:
  eyes.append(face_prism([(s*26,10),(s*27,2),(s*25,-5),(s*19,-9),(s*13,-8),(s*7,-4)]))
 eye_mask=union(eyes)
 # Preserve dark pupils in the source relief, rather than invent tiny loose parts.
 for s in [-1,1]:
- z=93.-.5*.65
- eye_mask=eye_mask-sphere((s*16*.58,-34,z),(1.2,7,2.8))
+ z=float(zmap(-.5))
+ eye_mask=eye_mask-sphere((float(xmap(s*16,-.5)),-36,z),(1.5,8,3.2))
 grin_mask=face_prism([(-29,-8),(-22,-12),(-10,-15),(0,-16),(10,-15),(22,-12),(29,-8),(25,-20),(17,-26),(0,-29),(-17,-26),(-25,-20)])
 # Keep black tooth divisions as broad grooves, matching the bowl's grin rhythm.
-for x in [-22,-11,0,11,22]:grin_mask=grin_mask-box((x*.58-.4,-45,72),(x*.58+.4,-25,90))
-red=cleaned(head_whole^eye_mask);pink=cleaned(head_whole^grin_mask)
-black=head_whole-eye_mask-grin_mask
-parts={'head_black':black,'eyes_red':red,'grin_pink':pink,'body_carrier_black':cleaned(carrier)-base_void,'bottom_cap_red':cleaned(cap)}
+for x in [-22,-11,0,11,22]:grin_mask=grin_mask-box((float(xmap(x,-20))-.4,-49,20),(float(xmap(x,-20))+.4,-24,78))
+parts={}
+for prefix,shape in [('head',head_whole),('body',carrier)]:
+ parts[prefix+'_black']=cleaned(shape-eye_mask-grin_mask)
+ for name,mask in [('eyes_red',eye_mask),('grin_pink',grin_mask)]:
+  region=cleaned(shape^mask)
+  if region.volume()>.001:parts[prefix+'_'+name]=region
+parts['bottom_cap_red']=cleaned(cap)
 meshes={n:mesh(s) for n,s in parts.items()}
 meshes['ORIGINAL_CASE_BASE_EXACT']=base;meshes['ORIGINAL_CASE_LID_EXACT']=lid
-groups={n:('body' if n in ['body_carrier_black','ORIGINAL_CASE_BASE_EXACT'] else 'bottom' if n=='bottom_cap_red' else 'head') for n in meshes}
+groups={n:('body' if n.startswith('body_') or n=='ORIGINAL_CASE_BASE_EXACT' else 'bottom' if n=='bottom_cap_red' else 'head') for n in meshes}
 manifest=[]
 for n,m in meshes.items():
  np.savez_compressed(OUT/(n+'.npz'),vertices=m.vertices,faces=m.faces)
@@ -139,9 +130,9 @@ checks={
  'new_material_in_original_lid_void_mm3':(head_whole^lid_void).volume(),
  'head_addition_in_original_base_envelope_mm3':(head_whole^base_hull).volume(),
  'head_bond_mm3':(head_whole^LS).volume(),'body_bond_mm3':(carrier^BS).volume(),
- 'revision':'Rounded V3: fuller Gengar body and deeper removable cup',
+ 'revision':'Bowl V4: continuous original character, middle split and recessed small cup',
  'shell_base_radial_air_gap_mm':.85,'head_seam_min_axial_gap_mm':.6,
- 'storage_clear_diameter_mm':50,'storage_clear_height_mm':18,
+ 'storage_clear_diameter_mm':32,'storage_clear_height_mm':10,
  'bottom_thread_pitch_mm':pitch,'bottom_thread_radial_clearance_mm':radial,
  'assembled_size_mm':trimesh.util.concatenate(list(meshes.values())).extents.tolist(),
  'new_meshes':{n:{'watertight':bool(m.is_watertight),'winding':bool(m.is_winding_consistent),'positive_volume':bool(m.volume>0),'triangles':len(m.faces)} for n,m in meshes.items() if not n.startswith('ORIGINAL')},
@@ -159,14 +150,14 @@ for a in range(0,1441,5):
  if v>.001:checks['bottom_collisions'].append([a,v])
  if a%180==0:print('Motion',a,flush=True)
 checks['head_straight_lift_overlap_mm3']=max((head_complete.translate((0,0,float(z)))^(body_complete+cap)).volume() for z in range(10,141,5))
-storage_probe=cyl(24.5,3.2,20.8)
+storage_probe=cyl(15.5,2.2,11.8)
 checks['storage_exit_overlap_mm3']=max((storage_probe.translate((0,0,float(z)))^(body_complete+head_complete)).volume() for z in range(-50,1,2))
 (ROOT/'Reports'/'geometry_validation.json').write_text(json.dumps(checks,indent=2))
 print(json.dumps({k:v for k,v in checks.items() if k not in ['base_transform','lid_transform','new_meshes']},indent=2),flush=True)
 assert all(x['watertight'] and x['winding'] and x['positive_volume'] for x in checks['new_meshes'].values())
 assert checks['head_bond_mm3']>10 and checks['body_bond_mm3']>10
 assert all(v==1 for v in checks['combined_components'].values())
-assert checks['assembled_size_mm'][0]<=85 and checks['assembled_size_mm'][1]<=80 and checks['assembled_size_mm'][2]<=124
+assert checks['assembled_size_mm'][0]<=91 and checks['assembled_size_mm'][1]<=80 and checks['assembled_size_mm'][2]<=119
 assert not checks['head_collisions'] and not checks['bottom_collisions']
 assert all(abs(checks[k])<.001 for k in ['new_material_in_original_base_void_mm3','new_material_in_original_lid_void_mm3','head_addition_in_original_base_envelope_mm3','head_straight_lift_overlap_mm3','storage_exit_overlap_mm3'])
 print('GEOMETRY CHECKS PASSED',flush=True)

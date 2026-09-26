@@ -57,6 +57,7 @@ def export(filename,entries,assembled=False,mono=False,custom=None):
    report[n]={'scale':1,'max_source_vertex_error_mm':err,'triangles_identical':True}
  reports[filename]=report
 for g,fn in [('body','01_BODY_EXACT_FOUNDATION.3mf'),('head','02_GENGAR_HEAD_COLOR.3mf'),('bottom','03_BOTTOM_CAP.3mf')]:export(fn,[e for e in manifest if e['group']==g])
+export('01b_BODY_SINGLE_COLOR.3mf',[e for e in manifest if e['group']=='body'],mono=True)
 export('02b_GENGAR_HEAD_SINGLE_COLOR.3mf',[e for e in manifest if e['group']=='head'],mono=True)
 export('ASSEMBLED_VIEW_ONLY.3mf',manifest,assembled=True)
 # Full-height unmodified foundation base/lid test: no decorative material.

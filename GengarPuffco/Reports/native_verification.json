@@ -26,13 +26,51 @@
     "originals": {
       "ORIGINAL_CASE_LID_EXACT": {
         "triangles": 52836,
-        "max_bidirectional_vertex_distance_mm": 4.3554420323232725e-06,
+        "max_bidirectional_vertex_distance_mm": 4.301986538070321e-06,
         "rigid_build_scale": true
       }
     },
     "mesh_repairs": {
       "ORIGINAL_CASE_LID_EXACT": {
         "face_count": "52836",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    },
+    "zero_XY_compensation": true,
+    "layer_height_values_mm": []
+  },
+  "01b_BODY_SINGLE_COLOR_P1S.3mf": {
+    "archive_valid": true,
+    "originals": {
+      "ORIGINAL_CASE_BASE_EXACT": {
+        "triangles": 88278,
+        "max_bidirectional_vertex_distance_mm": 5.700000002661909e-06,
+        "rigid_build_scale": true
+      }
+    },
+    "mesh_repairs": {
+      "body_black": {
+        "face_count": "46624",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      "body_grin_pink": {
+        "face_count": "2758",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      "ORIGINAL_CASE_BASE_EXACT": {
+        "face_count": "88278",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -53,8 +91,16 @@
       }
     },
     "mesh_repairs": {
-      "body_carrier_black": {
-        "face_count": "41416",
+      "body_black": {
+        "face_count": "46624",
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      },
+      "body_grin_pink": {
+        "face_count": "2758",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -78,29 +124,29 @@
     "originals": {
       "ORIGINAL_CASE_LID_EXACT": {
         "triangles": 52836,
-        "max_bidirectional_vertex_distance_mm": 4.3554420323232725e-06,
+        "max_bidirectional_vertex_distance_mm": 4.301986538070321e-06,
         "rigid_build_scale": true
       }
     },
     "mesh_repairs": {
       "head_black": {
-        "face_count": "84570",
+        "face_count": "88848",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
         "facets_reversed": "0",
         "backwards_edges": "0"
       },
-      "eyes_red": {
-        "face_count": "7682",
+      "head_eyes_red": {
+        "face_count": "9406",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
         "facets_reversed": "0",
         "backwards_edges": "0"
       },
-      "grin_pink": {
-        "face_count": "4404",
+      "head_grin_pink": {
+        "face_count": "2794",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -124,29 +170,29 @@
     "originals": {
       "ORIGINAL_CASE_LID_EXACT": {
         "triangles": 52836,
-        "max_bidirectional_vertex_distance_mm": 4.3554420323232725e-06,
+        "max_bidirectional_vertex_distance_mm": 4.301986538070321e-06,
         "rigid_build_scale": true
       }
     },
     "mesh_repairs": {
       "head_black": {
-        "face_count": "84570",
+        "face_count": "88848",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
         "facets_reversed": "0",
         "backwards_edges": "0"
       },
-      "eyes_red": {
-        "face_count": "7682",
+      "head_eyes_red": {
+        "face_count": "9406",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
         "facets_reversed": "0",
         "backwards_edges": "0"
       },
-      "grin_pink": {
-        "face_count": "4404",
+      "head_grin_pink": {
+        "face_count": "2794",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -170,7 +216,7 @@
     "originals": {},
     "mesh_repairs": {
       "bottom_cap_red": {
-        "face_count": "8256",
+        "face_count": "8264",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",

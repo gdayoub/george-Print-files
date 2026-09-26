@@ -17,7 +17,10 @@ for path in (R/'Print/P1S').glob('*.3mf'):
    resource=next(o for o in rt.findall('m:resources/m:object',N) if o.get('id')==ob.get('id'))
    for part in ob.findall('part'):
     md={a.get('key'):a.get('value') for a in part.findall('metadata')};name=md.get('name','');stat=part.find('mesh_stat')
-    if stat is not None:report['mesh_repairs'][name]=stat.attrib
+    if stat is not None:
+     report['mesh_repairs'][name]=stat.attrib
+     assert all(int(value)==0 for key,value in stat.attrib.items() if key!='face_count'),(path,name,stat.attrib)
+     if name in checks['new_meshes']:assert int(stat.get('face_count'))==checks['new_meshes'][name]['triangles'],(path,name)
     if not name.startswith('ORIGINAL'):continue
     comp=next(c for c in resource.findall('m:components/m:component',N) if c.get('objectid')==part.get('id'))
     sub=E.fromstring(z.read(comp.get(P+'path').lstrip('/')));o=next(o for o in sub.findall('m:resources/m:object',N) if o.get('id')==part.get('id'));me=o.find('m:mesh',N)

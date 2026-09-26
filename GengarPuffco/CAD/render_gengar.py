@@ -44,12 +44,12 @@ plane.location.z=-.12;plane.hide_render=True
 for ob in objects:ob.location=(44,0,0)
 for name in ['ORIGINAL_CASE_BASE_EXACT','ORIGINAL_CASE_LID_EXACT']:
  source=bpy.data.objects[name];ob=source.copy();ob.data=source.data.copy();bpy.context.collection.objects.link(ob)
- ob.name='COMPARISON_'+name;ob.location=(-44,0,-24);ob.data.materials.clear();ob.data.materials.append(material('Foundation reference','#8B9CAB'))
+ ob.name='COMPARISON_'+name;ob.location=(-44,0,-14);ob.data.materials.clear();ob.data.materials.append(material('Foundation reference','#8B9CAB'))
 def label(text,x):
  cu=bpy.data.curves.new('Dimension label','FONT');cu.body=text;cu.align_x='CENTER';cu.size=3.7;cu.space_line=1.3
  ob=bpy.data.objects.new('Dimension label',cu);bpy.context.collection.objects.link(ob);ob.location=(x,-37,-8);ob.rotation_euler=(math.pi/2,0,0);cu.materials.append(material('Label ink','#14202E'))
 label('ORIGINAL CASE\n57.4 x 57.4 x 96 mm',-44)
 dimensions=json.loads((R/'Reports/geometry_validation.json').read_text())['assembled_size_mm']
-label('GENGAR ROUNDED V3\n'+' x '.join(f'{x:.1f}' for x in dimensions)+' mm',44)
+label('GENGAR BOWL V4\n'+' x '.join(f'{x:.1f}' for x in dimensions)+' mm',44)
 s.render.resolution_x=1550;s.render.resolution_y=1050
 render('06_size_comparison.png',(0,-320,70),(0,0,55),225)

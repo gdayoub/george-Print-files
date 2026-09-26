@@ -2,77 +2,77 @@
   "exit_code": 0,
   "result": {
     "error_string": "Success.",
-    "export_time": 1484,
+    "export_time": 2086,
     "layer_height": 0.20000000298023224,
     "plate_index": 0,
-    "prepare_time": 316,
+    "prepare_time": 337,
     "return_code": 0,
     "sliced_plates": [
       {
         "feature_type_times": {
-          "Bridge": 247.4452362060547,
-          "Custom": 362.7567138671875,
-          "Flush": 11982.0830078125,
-          "Gap infill": 4.733057022094727,
-          "Inner wall": 2516.6865234375,
-          "Internal solid infill": 620.3863525390625,
-          "Outer wall": 1225.050048828125,
-          "Overhang wall": 383.8262939453125,
-          "Prime tower": 2479.403564453125,
-          "Sparse infill": 535.9402465820312,
-          "Support": 380.9715270996094,
-          "Support interface": 184.31494140625,
-          "Top surface": 97.30912780761719,
-          "Travel": 2776.76953125,
-          "Undefined": 2761.34375
+          "Bridge": 305.47064208984375,
+          "Custom": 362.7979431152344,
+          "Flush": 9926.6279296875,
+          "Gap infill": 12.919841766357422,
+          "Inner wall": 4403.75390625,
+          "Internal solid infill": 964.8279418945312,
+          "Outer wall": 1810.6800537109375,
+          "Overhang wall": 581.1151123046875,
+          "Prime tower": 2401.317138671875,
+          "Sparse infill": 1302.8594970703125,
+          "Support": 1032.70263671875,
+          "Support interface": 171.32994079589844,
+          "Top surface": 181.3072052001953,
+          "Travel": 3002.602783203125,
+          "Undefined": 2987.135498046875
         },
-        "filament_change_times": 130,
+        "filament_change_times": 109,
         "filaments": [
           {
             "filament_id": "GFA00",
             "id": 1,
-            "main_used_g": 58.710540771484375,
-            "total_used_g": 81.51700592041016
+            "main_used_g": 103.08224487304688,
+            "total_used_g": 124.97930908203125
           },
           {
             "filament_id": "GFA00",
             "id": 2,
-            "main_used_g": 1.0799212455749512,
-            "total_used_g": 17.538293838500977
+            "main_used_g": 2.1614456176757812,
+            "total_used_g": 19.1561279296875
           },
           {
             "filament_id": "GFA00",
             "id": 3,
-            "main_used_g": 1.2209031581878662,
-            "total_used_g": 23.75365447998047
+            "main_used_g": 2.0843920707702637,
+            "total_used_g": 16.765504837036133
           }
         ],
-        "generate_support_material_time": 872,
+        "generate_support_material_time": 1772,
         "id": 1,
-        "infill_time": 411,
+        "infill_time": 734,
         "layer_filament_change": 0,
-        "main_predication": 8943.0146484375,
-        "make_perimeters_time": 992,
+        "main_predication": 13738.7373046875,
+        "make_perimeters_time": 1502,
         "obj_cached_cnt": 0,
         "objects": [
           {
             "bbox": {
-              "depth": 108.1141357421875,
-              "height": 58.87464904785156,
-              "width": 110.31218719482422,
-              "x": 75.50389862060547,
-              "y": 73.969970703125,
+              "depth": 75.88056182861328,
+              "height": 58.9984130859375,
+              "width": 90.3216323852539,
+              "x": 82.83889770507812,
+              "y": 90.05973052978516,
               "z": 0.0
             },
             "id": 5,
             "name": "HEAD",
-            "triangle_count": 149492
+            "triangle_count": 153884
           }
         ],
-        "sliced_time": 4805,
-        "sliced_time_with_cache": 2356,
-        "total_predication": 23780.802734375,
-        "triangle_count": 149492,
+        "sliced_time": 8371,
+        "sliced_time_with_cache": 4113,
+        "total_predication": 26442.982421875,
+        "triangle_count": 153884,
         "warning_message": ""
       }
     ],
@@ -88,8 +88,8 @@
     "calibrated_spool_profiles": false
   },
   "gcode_summary": {
-    "time": "6h 36m 20s",
-    "filament_g": "81.52,17.54,23.75",
-    "layers": "294"
+    "time": "7h 20m 42s",
+    "filament_g": "124.98,19.16,16.77",
+    "layers": "295"
   }
 }

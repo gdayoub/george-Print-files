@@ -22,7 +22,7 @@
       0.0,
       0.0,
       1.0,
-      50.2500019
+      40.2500019
     ],
     [
       0.0,
@@ -48,7 +48,7 @@
       0.0,
       1.2246467991473532e-16,
       -1.0,
-      94.5001163
+      84.5001163
     ],
     [
       0.0,
@@ -59,53 +59,59 @@
   ],
   "foundation_base_triangles": 88278,
   "foundation_lid_triangles": 52836,
-  "new_material_in_original_base_void_mm3": 7.66738997199588e-13,
-  "new_material_in_original_lid_void_mm3": 5.553905809034597e-11,
+  "new_material_in_original_base_void_mm3": 2.220446049250313e-16,
+  "new_material_in_original_lid_void_mm3": 9.948389306170844e-11,
   "head_addition_in_original_base_envelope_mm3": 0.0,
-  "head_bond_mm3": 2588.6017380775834,
-  "body_bond_mm3": 2633.8802281932403,
-  "revision": "Rounded V3: fuller Gengar body and deeper removable cup",
+  "head_bond_mm3": 2588.601738077559,
+  "body_bond_mm3": 2107.724749977598,
+  "revision": "Bowl V4: continuous original character, middle split and recessed small cup",
   "shell_base_radial_air_gap_mm": 0.85,
   "head_seam_min_axial_gap_mm": 0.6,
-  "storage_clear_diameter_mm": 50,
-  "storage_clear_height_mm": 18,
-  "bottom_thread_pitch_mm": 3.5,
-  "bottom_thread_radial_clearance_mm": 0.35,
+  "storage_clear_diameter_mm": 32,
+  "storage_clear_height_mm": 10,
+  "bottom_thread_pitch_mm": 2.5,
+  "bottom_thread_radial_clearance_mm": 0.3,
   "assembled_size_mm": [
-    84.500201392,
-    71.71982164770364,
-    122.874651495
+    90.32163292129951,
+    75.880560248,
+    117.99841426667943
   ],
   "new_meshes": {
     "head_black": {
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 84570
+      "triangles": 88848
     },
-    "eyes_red": {
+    "head_eyes_red": {
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 7682
+      "triangles": 9406
     },
-    "grin_pink": {
+    "head_grin_pink": {
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 4404
+      "triangles": 2794
     },
-    "body_carrier_black": {
+    "body_black": {
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 41416
+      "triangles": 46624
+    },
+    "body_grin_pink": {
+      "watertight": true,
+      "winding": true,
+      "positive_volume": true,
+      "triangles": 2758
     },
     "bottom_cap_red": {
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 8256
+      "triangles": 8264
     }
   },
   "combined_components": {

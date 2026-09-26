@@ -2,40 +2,40 @@
   "exit_code": 0,
   "result": {
     "error_string": "Success.",
-    "export_time": 1232,
+    "export_time": 460,
     "layer_height": 0.20000000298023224,
     "plate_index": 0,
-    "prepare_time": 253,
+    "prepare_time": 104,
     "return_code": 0,
     "sliced_plates": [
       {
         "feature_type_times": {
-          "Bottom surface": 61.97224044799805,
-          "Custom": 362.3633117675781,
+          "Bottom surface": 61.97221755981445,
+          "Custom": 362.5809020996094,
           "Flush": 29.0,
-          "Gap infill": 5.315874099731445,
-          "Inner wall": 1238.06884765625,
-          "Internal solid infill": 112.48775482177734,
-          "Outer wall": 660.2285766601562,
-          "Top surface": 55.65354537963867,
-          "Travel": 170.21368408203125,
-          "Undefined": 154.90394592285156
+          "Gap infill": 5.214933395385742,
+          "Inner wall": 1238.1431884765625,
+          "Internal solid infill": 112.48785400390625,
+          "Outer wall": 661.9788818359375,
+          "Top surface": 55.65438461303711,
+          "Travel": 178.92822265625,
+          "Undefined": 163.48402404785156
         },
         "filament_change_times": 0,
         "filaments": [
           {
             "filament_id": "GFA00",
             "id": 1,
-            "main_used_g": 28.784339904785156,
-            "total_used_g": 28.784339904785156
+            "main_used_g": 28.784320831298828,
+            "total_used_g": 28.784320831298828
           }
         ],
-        "generate_support_material_time": 176,
+        "generate_support_material_time": 53,
         "id": 1,
-        "infill_time": 99,
+        "infill_time": 32,
         "layer_filament_change": 0,
-        "main_predication": 2274.74267578125,
-        "make_perimeters_time": 835,
+        "main_predication": 2285.23486328125,
+        "make_perimeters_time": 411,
         "obj_cached_cnt": 0,
         "objects": [
           {
@@ -52,9 +52,9 @@
             "triangle_count": 52836
           }
         ],
-        "sliced_time": 3379,
-        "sliced_time_with_cache": 1981,
-        "total_predication": 2679.765625,
+        "sliced_time": 1260,
+        "sliced_time_with_cache": 751,
+        "total_predication": 2690.341064453125,
         "triangle_count": 52836,
         "warning_message": ""
       }
@@ -71,7 +71,7 @@
     "calibrated_spool_profiles": false
   },
   "gcode_summary": {
-    "time": "44m 39s",
+    "time": "44m 50s",
     "filament_g": "28.78",
     "layers": "255"
   }
