@@ -50,6 +50,57 @@
     "layer_height_values_mm": [],
     "zero_XY_compensation": true
   },
+  "01_RED_BODY_FAST_AMS_P1S.3mf": {
+    "archive_valid": true,
+    "parts": {
+      "body_black": {
+        "extruder": 1,
+        "color": "red",
+        "triangles": 48566,
+        "repairs": {
+          "edges_fixed": 0,
+          "degenerate_facets": 0,
+          "facets_removed": 0,
+          "facets_reversed": 0,
+          "backwards_edges": 0
+        }
+      },
+      "body_grin_pink": {
+        "extruder": 2,
+        "color": "black",
+        "triangles": 1746,
+        "repairs": {
+          "edges_fixed": 0,
+          "degenerate_facets": 0,
+          "facets_removed": 0,
+          "facets_reversed": 0,
+          "backwards_edges": 0
+        }
+      },
+      "ORIGINAL_CASE_BASE_EXACT": {
+        "extruder": 1,
+        "color": "red",
+        "triangles": 88278,
+        "repairs": {
+          "edges_fixed": 0,
+          "degenerate_facets": 0,
+          "facets_removed": 0,
+          "facets_reversed": 0,
+          "backwards_edges": 0
+        }
+      }
+    },
+    "originals": {
+      "ORIGINAL_CASE_BASE_EXACT": {
+        "triangles": 88278,
+        "max_bidirectional_vertex_distance_mm": 5.700000002661909e-06,
+        "rigid_build_scale": true
+      }
+    },
+    "warnings": [],
+    "layer_height_values_mm": [],
+    "zero_XY_compensation": true
+  },
   "02_RED_HEAD_AMS_P1S.3mf": {
     "archive_valid": true,
     "parts": {
@@ -121,6 +172,102 @@
         "rigid_build_scale": true
       }
     },
+    "warnings": [],
+    "layer_height_values_mm": [],
+    "zero_XY_compensation": true
+  },
+  "02_RED_HEAD_FAST_AMS_P1S.3mf": {
+    "archive_valid": true,
+    "parts": {
+      "head_black": {
+        "extruder": 1,
+        "color": "red",
+        "triangles": 151298,
+        "repairs": {
+          "edges_fixed": 0,
+          "degenerate_facets": 0,
+          "facets_removed": 0,
+          "facets_reversed": 0,
+          "backwards_edges": 0
+        }
+      },
+      "head_george_red": {
+        "extruder": 2,
+        "color": "black",
+        "triangles": 106510,
+        "repairs": {
+          "edges_fixed": 0,
+          "degenerate_facets": 0,
+          "facets_removed": 0,
+          "facets_reversed": 0,
+          "backwards_edges": 0
+        }
+      },
+      "head_eyes_red": {
+        "extruder": 2,
+        "color": "black",
+        "triangles": 5816,
+        "repairs": {
+          "edges_fixed": 0,
+          "degenerate_facets": 0,
+          "facets_removed": 0,
+          "facets_reversed": 0,
+          "backwards_edges": 0
+        }
+      },
+      "head_grin_pink": {
+        "extruder": 2,
+        "color": "black",
+        "triangles": 608,
+        "repairs": {
+          "edges_fixed": 0,
+          "degenerate_facets": 0,
+          "facets_removed": 0,
+          "facets_reversed": 0,
+          "backwards_edges": 0
+        }
+      },
+      "ORIGINAL_CASE_LID_EXACT": {
+        "extruder": 1,
+        "color": "red",
+        "triangles": 52836,
+        "repairs": {
+          "edges_fixed": 0,
+          "degenerate_facets": 0,
+          "facets_removed": 0,
+          "facets_reversed": 0,
+          "backwards_edges": 0
+        }
+      }
+    },
+    "originals": {
+      "ORIGINAL_CASE_LID_EXACT": {
+        "triangles": 52836,
+        "max_bidirectional_vertex_distance_mm": 4.301986538070321e-06,
+        "rigid_build_scale": true
+      }
+    },
+    "warnings": [],
+    "layer_height_values_mm": [],
+    "zero_XY_compensation": true
+  },
+  "03_BLACK_DAB_HOLDER_FAST_P1S.3mf": {
+    "archive_valid": true,
+    "parts": {
+      "bottom_cap_red": {
+        "extruder": 1,
+        "color": "black",
+        "triangles": 8198,
+        "repairs": {
+          "edges_fixed": 0,
+          "degenerate_facets": 0,
+          "facets_removed": 0,
+          "facets_reversed": 0,
+          "backwards_edges": 0
+        }
+      }
+    },
+    "originals": {},
     "warnings": [],
     "layer_height_values_mm": [],
     "zero_XY_compensation": true

@@ -1,0 +1,91 @@
+{
+  "exit_code": 0,
+  "result": {
+    "error_string": "Success.",
+    "export_time": 2327,
+    "layer_height": 0.2800000011920929,
+    "plate_index": 0,
+    "prepare_time": 579,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bridge": 552.8353881835938,
+          "Custom": 362.5874938964844,
+          "Flush": 14952.4423828125,
+          "Gap infill": 11.76460075378418,
+          "Inner wall": 4135.99755859375,
+          "Internal solid infill": 1443.089111328125,
+          "Outer wall": 2312.388916015625,
+          "Overhang wall": 505.3254699707031,
+          "Prime tower": 2476.77783203125,
+          "Sparse infill": 1202.9615478515625,
+          "Support": 1740.8837890625,
+          "Support interface": 176.16854858398438,
+          "Top surface": 287.48931884765625,
+          "Travel": 4223.58056640625,
+          "Undefined": 4208.3046875
+        },
+        "filament_change_times": 178,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 104.4189224243164,
+            "total_used_g": 152.5658416748047
+          },
+          {
+            "filament_id": "GFA00",
+            "id": 2,
+            "main_used_g": 20.75354766845703,
+            "total_used_g": 36.909767150878906
+          }
+        ],
+        "generate_support_material_time": 2050,
+        "id": 1,
+        "infill_time": 512,
+        "layer_filament_change": 0,
+        "main_predication": 16553.5859375,
+        "make_perimeters_time": 934,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 166.37411499023438,
+              "height": 66.93748474121094,
+              "width": 166.20790100097656,
+              "x": 40.22553253173828,
+              "y": 49.42581558227539,
+              "z": 0.0
+            },
+            "id": 5,
+            "name": "HEAD",
+            "triangle_count": 317068
+          }
+        ],
+        "sliced_time": 6777,
+        "sliced_time_with_cache": 3016,
+        "total_predication": 34359.0859375,
+        "triangle_count": 317068,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 5.0,
+    "wall_loops": 3
+  },
+  "filament_order": [
+    "red",
+    "black"
+  ],
+  "settings": {
+    "layer_mm": 0.28,
+    "walls": 3,
+    "infill": "5% gyroid",
+    "XY_compensation_mm": 0
+  },
+  "gcode_summary": {
+    "time": "9h 32m 39s",
+    "filament_g": "152.57,36.91",
+    "layers": "239"
+  }
+}

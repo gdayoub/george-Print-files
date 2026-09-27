@@ -16,6 +16,16 @@ Open these native projects separately in Bambu Studio and retain their saved ori
 2. `P1S/02_RED_HEAD_AMS_P1S.3mf`
 3. `P1S/03_BLACK_DAB_HOLDER_P1S.3mf`
 
+For a much shorter print, use the draft set instead:
+
+1. `P1S/01_RED_BODY_FAST_AMS_P1S.3mf`
+2. `P1S/02_RED_HEAD_FAST_AMS_P1S.3mf`
+3. `P1S/03_BLACK_DAB_HOLDER_FAST_P1S.3mf`
+
+The fast projects use 0.28 mm layers, three walls, 5% gyroid infill, and purge into infill/support. They preserve the model dimensions and color layout, with slightly more visible layer lines and less impact resistance than the quality set.
+
+The fast set is estimated at **16 h 13 m** and **361.3 g**, saving about **5 h 13 m** and 62 g. It uses about 290.2 g red and 71.1 g black. The body has 64 color changes and the head has 178.
+
 Load red in AMS slot 1 and black in slot 2, or confirm Bambu Studio maps those colors to the slots where those filaments are loaded. The body and head use automatic tree supports and prime towers. Remove supports before assembly.
 
 `Geometry/ASSEMBLED_RED_BLACK_VIEW_ONLY.3mf` is for visual inspection and is not a print-in-place project. The three individual Geometry files are unsliced alternatives.
@@ -26,6 +36,6 @@ The controlled slicer estimate for all three pieces is **21 h 26 m** and **423.3
 
 These files are digitally sliced and checked, but physical fit and final tightened head alignment still require a test print. The V8 body and enlarged holder are a matched pair.
 
-Regenerate with `python build_ams_variant.py <path-to-bambu-studio.exe>` after rebuilding the source GengarPuffco project. `render_red_variant.py` creates the color preview from the actual CAD meshes.
+Regenerate with `python build_ams_variant.py <path-to-bambu-studio.exe>` after rebuilding the source GengarPuffco project. Add `--fast` to generate the draft set. `render_red_variant.py` creates the color preview from the actual CAD meshes.
 
 Validation details are in `Reports/native_verification.json`. All three native archives sliced without warnings or mesh repairs; the original foundation remains at unit scale and within 0.00001 mm of its exact source vertices after rigid placement.

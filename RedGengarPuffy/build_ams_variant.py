@@ -25,6 +25,13 @@ JOBS = {
     "02_RED_HEAD_AMS": "02_GENGAR_HEAD_COLOR.3mf",
     "03_BLACK_DAB_HOLDER": "03_BOTTOM_CAP.3mf",
 }
+FAST = "--fast" in sys.argv
+if FAST:
+    JOBS = {
+        "01_RED_BODY_FAST_AMS": "01_BODY_EXACT_FOUNDATION.3mf",
+        "02_RED_HEAD_FAST_AMS": "02_GENGAR_HEAD_COLOR.3mf",
+        "03_BLACK_DAB_HOLDER_FAST": "03_BOTTOM_CAP.3mf",
+    }
 
 
 def is_black_accent(name):
@@ -65,10 +72,11 @@ def remap_archive(source, target, holder=False):
 
 for output_name, source_name in JOBS.items():
     remap_archive(SOURCE / "Print" / "Geometry" / source_name, GEOMETRY / f"{output_name}.3mf", holder=output_name.startswith("03_"))
-remap_archive(
-    SOURCE / "Print" / "Geometry" / "ASSEMBLED_VIEW_ONLY.3mf",
-    GEOMETRY / "ASSEMBLED_RED_BLACK_VIEW_ONLY.3mf",
-)
+if not FAST:
+    remap_archive(
+        SOURCE / "Print" / "Geometry" / "ASSEMBLED_VIEW_ONLY.3mf",
+        GEOMETRY / "ASSEMBLED_RED_BLACK_VIEW_ONLY.3mf",
+    )
 
 if len(sys.argv) < 2:
     print("Geometry generated. Pass the Bambu Studio executable to also create native AMS projects.")
@@ -83,15 +91,15 @@ for job in JOBS:
     machine = json.loads((profiles / "machine.json").read_text())
     process = json.loads((profiles / "baseline_process.json").read_text())
     process.update({
-        "name": "RedGengarPuffy AMS 0.20",
-        "print_settings_id": "RedGengarPuffy AMS 0.20",
-        "layer_height": "0.20",
-        "initial_layer_print_height": "0.2",
-        "wall_loops": "4",
-        "sparse_infill_density": "8%",
+        "name": "RedGengarPuffy Fast AMS 0.28" if FAST else "RedGengarPuffy AMS 0.20",
+        "print_settings_id": "RedGengarPuffy Fast AMS 0.28" if FAST else "RedGengarPuffy AMS 0.20",
+        "layer_height": "0.28" if FAST else "0.20",
+        "initial_layer_print_height": "0.24" if FAST else "0.2",
+        "wall_loops": "3" if FAST else "4",
+        "sparse_infill_density": "5%" if FAST else "8%",
         "sparse_infill_pattern": "gyroid",
-        "top_shell_layers": "6",
-        "bottom_shell_layers": "6",
+        "top_shell_layers": "5" if FAST else "6",
+        "bottom_shell_layers": "5" if FAST else "6",
         "top_shell_thickness": "1.2",
         "bottom_shell_thickness": "1.2",
         "enable_prime_tower": "1" if job.endswith("AMS") else "0",
@@ -99,7 +107,7 @@ for job in JOBS:
         "enable_support": "1" if job.endswith("AMS") else "0",
         "support_type": "tree(auto)",
         "support_style": "default",
-        "support_threshold_angle": "25",
+        "support_threshold_angle": "30" if FAST else "25",
         "support_on_build_plate_only": "1",
         "support_top_z_distance": "0.2",
         "support_bottom_z_distance": "0.2",
@@ -110,7 +118,7 @@ for job in JOBS:
         "xy_hole_compensation": "0",
         "xy_contour_compensation": "0",
         "enable_arc_fitting": "0",
-        "flush_into_infill": "0",
+        "flush_into_infill": "1" if FAST else "0",
         "flush_into_support": "1",
     })
     machine_path = work / "machine.json"
@@ -148,7 +156,7 @@ for job in JOBS:
         "exit_code": result.returncode,
         "result": detail,
         "filament_order": ["red", "black"],
-        "settings": {"layer_mm": 0.2, "walls": 4, "infill": "8% gyroid", "XY_compensation_mm": 0},
+        "settings": {"layer_mm": 0.28 if FAST else 0.2, "walls": 3 if FAST else 4, "infill": "5% gyroid" if FAST else "8% gyroid", "XY_compensation_mm": 0},
     }
     if result.returncode == 0 and target.exists():
         with zipfile.ZipFile(target) as archive:
@@ -167,4 +175,4 @@ for job in JOBS:
         raise RuntimeError(f"Slice failed for {job}; inspect {work / 'slicer.log'}")
     summaries[job] = report["gcode_summary"]
     print(job, report["gcode_summary"], flush=True)
-(REPORTS / "slice_summary.json").write_text(json.dumps(summaries, indent=2))
+(REPORTS / ("slice_summary_fast.json" if FAST else "slice_summary.json")).write_text(json.dumps(summaries, indent=2))

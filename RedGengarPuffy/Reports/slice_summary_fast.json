@@ -1,0 +1,17 @@
+{
+  "01_RED_BODY_FAST_AMS": {
+    "time": "6h 8m 15s",
+    "filament_g": "137.64,17.46",
+    "layers": "263"
+  },
+  "02_RED_HEAD_FAST_AMS": {
+    "time": "9h 32m 39s",
+    "filament_g": "152.57,36.91",
+    "layers": "239"
+  },
+  "03_BLACK_DAB_HOLDER_FAST": {
+    "time": "32m 6s",
+    "filament_g": "16.74",
+    "layers": "68"
+  }
+}

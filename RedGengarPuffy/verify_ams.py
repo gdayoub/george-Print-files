@@ -95,7 +95,7 @@ for path in sorted((ROOT / "P1S").glob("*.3mf")):
         gcode = archive.read("Metadata/plate_1.gcode").decode(errors="replace")
         heights = [float(item) for item in re.findall(r"; layer height: ([0-9.]+)", gcode)]
         if heights:
-            assert max(heights) <= 0.20001
+            assert max(heights) <= (0.28001 if "FAST" in path.name else 0.20001)
         report["layer_height_values_mm"] = sorted(set(heights))
         report["zero_XY_compensation"] = True
         reports[path.name] = report
