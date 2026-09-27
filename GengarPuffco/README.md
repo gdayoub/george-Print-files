@@ -1,16 +1,16 @@
-# GengarPuffco - George V7
+# GengarPuffco - Wide Holder V8
 
-A clean Gengar-inspired sculpt rebuilt from online visual references around the complete original Puffco case. The exterior has one rounded body, smoothly blended ears and short limbs, rear spikes, and crisp curved eyes and grin. The upper half twists off at the middle seam, with a small screw-on cup recessed underneath.
+A clean Gengar-inspired sculpt rebuilt from online visual references around the complete original Puffco case. The exterior has one rounded body, smoothly blended ears and short limbs, rear spikes, and crisp curved eyes and grin. The upper half twists off at the middle seam, with a wider screw-on cup recessed underneath.
 
 This replaces the stretched bowl mesh used in earlier revisions. The new exterior is generated from smooth implicit surfaces; the face uses Bezier outlines and matching color volumes. References and construction notes are in [DESIGN_REFERENCES.md](DESIGN_REFERENCES.md). The original bowl file remains archived in `Foundations` but does not generate this exterior.
 
 | Assembly | Width x depth x height |
 |---|---|
 | Complete original foundation | 57.4 x 57.4 x 96.0 mm |
-| **Gengar George V7** | **142.0 x 108.8 x 125.9 mm** |
+| **Gengar Wide Holder V8** | **142.0 x 108.8 x 133.0 mm** |
 | Previous Girth V5 | 131.1 x 110.1 x 118.0 mm |
 
-The extra height is in the pointed ears and crown spikes. The case interior, its rigid placement, the original threads, and the small underside cup retain their previous dimensions. The main body closes smoothly over the original lid. The generator limits the assembly to 148 x 122 x 129 mm.
+The holder is now **57.4 mm outside diameter x 19.05 mm (3/4 inch) overall height**, matching the original foundation diameter. Its inside space is **50.6 mm diameter x 17.05 mm deep**, with a 2 mm floor. The extra 7.05 mm of depth extends below the foundation; the lower body and feet blend down to the same floor. Total character height is now 133.0 mm. The original foundation placement, device cavity and head thread retain their dimensions. The generator limits the assembly to 148 x 122 x 136 mm.
 
 ![Current character](Previews/01_assembled.png)
 
@@ -18,15 +18,19 @@ The extra height is in the pointed ears and crown spikes. The case interior, its
 
 ![Red George rear wordmark](Previews/07_rear_george.png)
 
-The rear head now carries **George** in Metal Mania lettering with custom mirrored cybersigilism-inspired thorn details, printed in red. The artwork is flush and uses aligned AMS color volumes; the sculpt dimensions, foundation, and threads are unchanged.
+The rear head now carries **George** in Metal Mania lettering with custom mirrored cybersigilism-inspired thorn details, printed in red. The artwork is flush and uses aligned AMS color volumes; the rear artwork and upper sculpt are retained from V7.
 
 ## Closures and color
 
 - **Upper half:** turns counterclockwise viewed from above on the original approximately 2.5 mm-pitch case thread. The nominal horizontal seam is 0.6 mm wide and crosses the grin near the middle of the character.
 - **Underside cup:** a separate 2.5 mm-pitch thread. Turn counterclockwise viewed from underneath. The exposed bottom has scallops for grip.
-- **Compartment:** 32 mm clear diameter x 10 mm clear depth; 2 mm floor; 12 mm cup height. It is a small compartment, not the previous full-width deep cup. Any jar or liner needs to fit inside those dimensions.
+- **Compartment:** 50.6 mm clear diameter x 17.05 mm clear depth; 2 mm floor; 19.05 mm overall cup height. Outside diameter is 57.4 mm. Any jar or liner needs to fit inside the clear dimensions.
 - **Colors:** black character, red eyes and rear wordmark, pink grin, red underside cup. The grin crosses the opening seam, so both body and head projects contain color regions.
 - The original head thread has no new alignment stop. The final tightened face alignment requires a physical test.
+
+![Wider bottom holder removed](Previews/04_bottom_open.png)
+
+**V8 changes the bottom cup and its mating body socket. Use the V8 body and cup together; the old V7 cup is not compatible with the wider socket.**
 
 ## Print files
 
@@ -34,11 +38,11 @@ Open the native files **as projects** in Bambu Studio and keep their saved orien
 
 1. `Print/P1S/01_BODY_EXACT_FOUNDATION_P1S.3mf` - lower half, original case base, black/pink grin regions, recessed cup socket.
 2. `Print/P1S/02_GENGAR_HEAD_COLOR_P1S.3mf` - upper half, original case lid, black/red/pink regions. Prints inverted, with the original cavity upward.
-3. `Print/P1S/03_BOTTOM_CAP_P1S.3mf` - small red underside cup.
+3. `Print/P1S/03_BOTTOM_CAP_P1S.3mf` - wide red underside cup.
 
 For an all-black character, pair `01b_BODY_SINGLE_COLOR_P1S.3mf` with `02b_GENGAR_HEAD_SINGLE_COLOR_P1S.3mf`, plus the red cup. The colored regions are aligned multipart AMS regions, not snap-in inserts.
 
-`Print/Geometry` contains exact unsliced 3MFs. `ASSEMBLED_VIEW_ONLY.3mf` is for inspection, not print-in-place. The editable Blender file and all current previews represent George V7; earlier revisions remain in Git history.
+`Print/Geometry` contains exact unsliced 3MFs. `ASSEMBLED_VIEW_ONLY.3mf` is for inspection, not print-in-place. The editable Blender file and all current previews represent Wide Holder V8; earlier revisions remain in Git history.
 
 The included benchmark is P1S / 0.4 mm / textured PEI / 0.20 mm layers / four walls / 8% gyroid / zero XY compensation. Generic PLA uses 220 C nozzle, 55 C bed and 12 mm3/s maximum flow. Choose calibrated profiles for your actual spools and re-slice. Inspect supports and their removal from the lower opening. Estimates are in [PRINT_ESTIMATES.md](PRINT_ESTIMATES.md). No printer job has been sent.
 

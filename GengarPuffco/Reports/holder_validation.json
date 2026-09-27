@@ -1,0 +1,16 @@
+{
+  "outside_size_mm": [
+    57.4,
+    57.4,
+    19.05
+  ],
+  "inside_nominal_diameter_mm": 50.6,
+  "inside_nominal_depth_mm": 17.05,
+  "floor_thickness_mm": 2,
+  "clear_space_probe_diameter_mm": 50.4,
+  "clear_space_probe_depth_mm": 16.85,
+  "probe_overlap_mm3": 0.0,
+  "nominal_cylindrical_capacity_ml": 34.28587980989876,
+  "requires_matching_V8_body_socket": true,
+  "physical_fit_verified": false
+}

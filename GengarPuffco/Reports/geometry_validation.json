@@ -63,18 +63,22 @@
   "new_material_in_original_lid_void_mm3": 9.948389306170844e-11,
   "head_addition_in_original_base_envelope_mm3": 0.0,
   "head_bond_mm3": 2588.601738077558,
-  "body_bond_mm3": 2107.724749977833,
-  "revision": "George V7: red cybersigilism rear wordmark on Sculpt V6",
+  "body_bond_mm3": 2107.72474997765,
+  "revision": "Wide Holder V8: foundation-width 57.4 x 19.05 mm bottom cup",
   "shell_base_radial_air_gap_mm": 0.85,
   "head_seam_min_axial_gap_mm": 0.6,
-  "storage_clear_diameter_mm": 32,
-  "storage_clear_height_mm": 10,
+  "storage_clear_diameter_mm": 50.6,
+  "storage_clear_height_mm": 17.05,
+  "storage_outer_diameter_mm": 57.4,
+  "storage_overall_height_mm": 19.05,
+  "storage_floor_mm": 2.0,
+  "assembly_floor_z_mm": -7.050000000000001,
   "bottom_thread_pitch_mm": 2.5,
   "bottom_thread_radial_clearance_mm": 0.3,
   "assembled_size_mm": [
     141.98238190097155,
     108.83240168165632,
-    125.93748467516228
+    132.98748467516228
   ],
   "new_meshes": {
     "head_black": {
@@ -105,7 +109,7 @@
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 50032
+      "triangles": 48566
     },
     "body_grin_pink": {
       "watertight": true,
@@ -117,7 +121,7 @@
       "watertight": true,
       "winding": true,
       "positive_volume": true,
-      "triangles": 8264
+      "triangles": 8198
     }
   },
   "combined_components": {

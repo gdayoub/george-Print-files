@@ -54,7 +54,7 @@
     },
     "mesh_repairs": {
       "body_black": {
-        "face_count": "50032",
+        "face_count": "48566",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -92,7 +92,7 @@
     },
     "mesh_repairs": {
       "body_black": {
-        "face_count": "50032",
+        "face_count": "48566",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",
@@ -232,7 +232,7 @@
     "originals": {},
     "mesh_repairs": {
       "bottom_cap_red": {
-        "face_count": "8264",
+        "face_count": "8198",
         "edges_fixed": "0",
         "degenerate_facets": "0",
         "facets_removed": "0",

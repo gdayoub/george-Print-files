@@ -15,3 +15,7 @@ Previews render the exported CAD meshes. They are not image-generation mockups. 
 ## George V7 rear artwork
 
 The rear inscription uses [Metal Mania by Open Window](https://github.com/google/fonts/tree/main/ofl/metalmania), with custom mirrored thorn ornament for a cybersigilism-inspired treatment. The font and its SIL Open Font License are retained in `CAD/Fonts`. `CAD/rear_sigil.py` converts the font outlines and ornament into matching red/black printable color volumes. The inscription reads George; Metal Mania uses uppercase-style forms for its lowercase glyphs. The rear render is `Previews/07_rear_george.png`.
+
+## Wide Holder V8
+
+The underside cup now matches the original foundation outside diameter (57.4 mm) and is 19.05 mm overall height. Clear storage is 50.6 mm diameter by 17.05 mm deep. The bottom thread and body socket were widened together. The lower 24 mm of the decorative sculpt is smoothly extended downward by up to 7.05 mm so both feet and the cup share a level floor. The original case geometry, placement, upper character shape and George artwork are preserved.

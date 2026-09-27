@@ -1,4 +1,4 @@
-"""GengarPuffco George V7. Clean reference-led character around the exact original case.
+"""GengarPuffco Wide Holder V8. Clean reference-led character around the exact original case.
 All coordinates millimetres. Front -Y, up Z. Run with numpy/trimesh/manifold3d.
 The upper Gengar half turns with the original lid over the stationary lower half.
 """
@@ -42,17 +42,26 @@ base_void=base_hull-BS;lid_void=lid_hull-LS
 from sculpt_character import sculpt
 print('Building clean, smoothly blended exterior',flush=True)
 whole=sculpt(OUT)^box((-100,-100,0),(100,100,140))
+# Add holder depth below the foundation; blend the lower body/feet down to
+# the same floor so the character keeps its stance rather than a pedestal.
+cup_height=19.05; cup_top=12.; cup_bottom=cup_top-cup_height
+cup_radius=28.7; cup_inner=25.3; cup_floor=2.
+lower=mesh(whole)
+lower.vertices=np.array(lower.vertices,copy=True)
+factor=np.clip(1-lower.vertices[:,2]/24.,0,1)
+lower.vertices[:,2]+=cup_bottom*factor**2
+whole=solid(lower)
 # The solid sculpt itself bonds to the case; no visible cylindrical sleeve.
 head_bottom=59.3;body_top=58.7
 head_whole=whole^box((-100,-100,head_bottom),(100,100,140))
 head_whole=head_whole-cyl(29.55,head_bottom-.1,seat+8.)
 head_whole=head_whole-cyl(28.42,seat+7.99,lid.bounds[1,2]-.25)
 head_whole=cleaned(head_whole)-lid_void
-carrier=whole^box((-100,-100,0),(100,100,body_top))
+carrier=whole^box((-100,-100,cup_bottom),(100,100,body_top))
 carrier=carrier-cyl(28.42,14,body_top+.1)-base_void
 
 # Coarse independent bottom thread; fully separate from the foundation thread.
-pitch=2.5; root=17.5; depth=.9;radial=.3;axial=.18;phase=7.0
+pitch=2.5; root=27.5; depth=.9;radial=.3;axial=.18;phase=7.0
 def helix(z0,z1,female=False):
  a0=360*(z0-phase)/pitch;a1=360*(z1-phase)/pitch
  angles=np.linspace(a0,a1,int((a1-a0)/3)+1);v=[];f=[]
@@ -65,11 +74,11 @@ def helix(z0,z1,female=False):
    a=i*4+j;b=i*4+(j+1)%4;c=(i+1)*4+(j+1)%4;d=(i+1)*4+j;f.extend([(a,b,c),(a,c,d)])
  f.extend([(0,2,1),(0,3,2)]);e=(len(angles)-1)*4;f.extend([(e,e+1,e+2),(e,e+2,e+3)])
  t=trimesh.Trimesh(v,f,process=True);t.fix_normals();return solid(t)
-# Small underside cup, tucked inside the original bowl's base silhouette.
-cap=cyl(18.5,0,2)+(cyl(18.5,1.8,6)-cyl(16,2,6.1))+(cyl(root,5.8,12)-cyl(16,5.7,12.1))+helix(7,10.7)
+# Foundation-width cup: 57.4 mm outside diameter, 19.05 mm overall height.
+cap=cyl(cup_radius,cup_bottom,cup_bottom+cup_floor)+(cyl(cup_radius,cup_bottom+cup_floor-.2,6)-cyl(cup_inner,cup_bottom+cup_floor,6.1))+(cyl(root,5.8,cup_top)-cyl(cup_inner,5.7,cup_top+.1))+helix(7,10.7)
 for a in np.arange(0,360,30):
- cap=cap-cyl(1.2,.5,4.5).translate((19.*math.cos(math.radians(a)),19.*math.sin(math.radians(a)),0))
-carrier=carrier-cyl(18.85,-.1,6.35)-cyl(root+radial,6.34,12.35)-helix(5.5,14,True)
+ cap=cap-cyl(1.2,cup_bottom+.5,4.5).translate(((cup_radius+.5)*math.cos(math.radians(a)),(cup_radius+.5)*math.sin(math.radians(a)),0))
+carrier=carrier-cyl(cup_radius+.35,cup_bottom-.1,6.35)-cyl(root+radial,6.34,12.35)-helix(5.5,14,True)
 carrier=cleaned(carrier)-base_void
 
 # Smooth Bezier face outlines on the new curved exterior; no source-bowl facets.
@@ -115,9 +124,11 @@ checks={
  'new_material_in_original_lid_void_mm3':(head_whole^lid_void).volume(),
  'head_addition_in_original_base_envelope_mm3':(head_whole^base_hull).volume(),
  'head_bond_mm3':(head_whole^LS).volume(),'body_bond_mm3':(carrier^BS).volume(),
- 'revision':'George V7: red cybersigilism rear wordmark on Sculpt V6',
+ 'revision':'Wide Holder V8: foundation-width 57.4 x 19.05 mm bottom cup',
  'shell_base_radial_air_gap_mm':.85,'head_seam_min_axial_gap_mm':.6,
- 'storage_clear_diameter_mm':32,'storage_clear_height_mm':10,
+ 'storage_clear_diameter_mm':cup_inner*2,'storage_clear_height_mm':cup_height-cup_floor,
+ 'storage_outer_diameter_mm':cup_radius*2,'storage_overall_height_mm':cup_height,'storage_floor_mm':cup_floor,
+ 'assembly_floor_z_mm':cup_bottom,
  'bottom_thread_pitch_mm':pitch,'bottom_thread_radial_clearance_mm':radial,
  'assembled_size_mm':trimesh.util.concatenate(list(meshes.values())).extents.tolist(),
  'new_meshes':{n:{'watertight':bool(m.is_watertight),'winding':bool(m.is_winding_consistent),'positive_volume':bool(m.volume>0),'triangles':len(m.faces)} for n,m in meshes.items() if not n.startswith('ORIGINAL')},
@@ -137,14 +148,14 @@ for a in range(0,1441,5):
  if v>.001:checks['bottom_collisions'].append([a,v])
  if a%180==0:print('Motion',a,flush=True)
 checks['head_straight_lift_overlap_mm3']=max((head_complete.translate((0,0,float(z)))^fixed_lower).volume() for z in range(10,141,5))
-storage_probe=cyl(15.5,2.2,11.8)
+storage_probe=cyl(cup_inner-.5,cup_bottom+cup_floor+.2,cup_top-.2)
 checks['storage_exit_overlap_mm3']=max((storage_probe.translate((0,0,float(z)))^fixed_upper).volume() for z in range(-50,1,2))
 (ROOT/'Reports'/'geometry_validation.json').write_text(json.dumps(checks,indent=2))
 print(json.dumps({k:v for k,v in checks.items() if k not in ['base_transform','lid_transform','new_meshes']},indent=2),flush=True)
 assert all(x['watertight'] and x['winding'] and x['positive_volume'] for x in checks['new_meshes'].values())
 assert checks['head_bond_mm3']>10 and checks['body_bond_mm3']>10
 assert all(v==1 for v in checks['combined_components'].values())
-assert checks['assembled_size_mm'][0]<=148 and checks['assembled_size_mm'][1]<=122 and checks['assembled_size_mm'][2]<=129
+assert checks['assembled_size_mm'][0]<=148 and checks['assembled_size_mm'][1]<=122 and checks['assembled_size_mm'][2]<=136
 assert not checks['head_collisions'] and not checks['bottom_collisions']
 assert all(abs(checks[k])<.001 for k in ['new_material_in_original_base_void_mm3','new_material_in_original_lid_void_mm3','head_addition_in_original_base_envelope_mm3','head_straight_lift_overlap_mm3','storage_exit_overlap_mm3'])
 print('GEOMETRY CHECKS PASSED',flush=True)
