@@ -25,12 +25,19 @@ JOBS = {
     "02_RED_HEAD_AMS": "02_GENGAR_HEAD_COLOR.3mf",
     "03_BLACK_DAB_HOLDER": "03_BOTTOM_CAP.3mf",
 }
-FAST = "--fast" in sys.argv
+ULTRA = "--ultra" in sys.argv
+FAST = "--fast" in sys.argv or ULTRA
 if FAST:
     JOBS = {
         "01_RED_BODY_FAST_AMS": "01_BODY_EXACT_FOUNDATION.3mf",
         "02_RED_HEAD_FAST_AMS": "02_GENGAR_HEAD_COLOR.3mf",
         "03_BLACK_DAB_HOLDER_FAST": "03_BOTTOM_CAP.3mf",
+    }
+if ULTRA:
+    JOBS = {
+        "01_RED_BODY_ULTRAFAST_AMS": "01_BODY_EXACT_FOUNDATION.3mf",
+        "02_RED_HEAD_ULTRAFAST_AMS": "02_GENGAR_HEAD_COLOR.3mf",
+        "03_BLACK_DAB_HOLDER_ULTRAFAST": "03_BOTTOM_CAP.3mf",
     }
 
 
@@ -91,23 +98,23 @@ for job in JOBS:
     machine = json.loads((profiles / "machine.json").read_text())
     process = json.loads((profiles / "baseline_process.json").read_text())
     process.update({
-        "name": "RedGengarPuffy Fast AMS 0.28" if FAST else "RedGengarPuffy AMS 0.20",
-        "print_settings_id": "RedGengarPuffy Fast AMS 0.28" if FAST else "RedGengarPuffy AMS 0.20",
+        "name": "RedGengarPuffy Ultrafast AMS 0.28" if ULTRA else "RedGengarPuffy Fast AMS 0.28" if FAST else "RedGengarPuffy AMS 0.20",
+        "print_settings_id": "RedGengarPuffy Ultrafast AMS 0.28" if ULTRA else "RedGengarPuffy Fast AMS 0.28" if FAST else "RedGengarPuffy AMS 0.20",
         "layer_height": "0.28" if FAST else "0.20",
         "initial_layer_print_height": "0.24" if FAST else "0.2",
-        "wall_loops": "3" if FAST else "4",
-        "sparse_infill_density": "5%" if FAST else "8%",
+        "wall_loops": "2" if ULTRA else "3" if FAST else "4",
+        "sparse_infill_density": "3%" if ULTRA else "5%" if FAST else "8%",
         "sparse_infill_pattern": "gyroid",
-        "top_shell_layers": "5" if FAST else "6",
-        "bottom_shell_layers": "5" if FAST else "6",
+        "top_shell_layers": "4" if ULTRA else "5" if FAST else "6",
+        "bottom_shell_layers": "4" if ULTRA else "5" if FAST else "6",
         "top_shell_thickness": "1.2",
         "bottom_shell_thickness": "1.2",
-        "enable_prime_tower": "1" if job.endswith("AMS") else "0",
+        "enable_prime_tower": "0" if ULTRA else "1" if job.endswith("AMS") else "0",
         "print_sequence": "by layer",
         "enable_support": "1" if job.endswith("AMS") else "0",
         "support_type": "tree(auto)",
         "support_style": "default",
-        "support_threshold_angle": "30" if FAST else "25",
+        "support_threshold_angle": "35" if ULTRA else "30" if FAST else "25",
         "support_on_build_plate_only": "1",
         "support_top_z_distance": "0.2",
         "support_bottom_z_distance": "0.2",
@@ -120,6 +127,8 @@ for job in JOBS:
         "enable_arc_fitting": "0",
         "flush_into_infill": "1" if FAST else "0",
         "flush_into_support": "1",
+        "flush_multiplier": "0.55" if ULTRA else "1",
+        "flush_multiplier_fast": "0.70" if ULTRA else "1.2",
     })
     machine_path = work / "machine.json"
     process_path = work / "process.json"
@@ -156,7 +165,7 @@ for job in JOBS:
         "exit_code": result.returncode,
         "result": detail,
         "filament_order": ["red", "black"],
-        "settings": {"layer_mm": 0.28 if FAST else 0.2, "walls": 3 if FAST else 4, "infill": "5% gyroid" if FAST else "8% gyroid", "XY_compensation_mm": 0},
+        "settings": {"layer_mm": 0.28 if FAST else 0.2, "walls": 2 if ULTRA else 3 if FAST else 4, "infill": "3% gyroid" if ULTRA else "5% gyroid" if FAST else "8% gyroid", "XY_compensation_mm": 0, "prime_tower": not ULTRA},
     }
     if result.returncode == 0 and target.exists():
         with zipfile.ZipFile(target) as archive:
@@ -175,4 +184,4 @@ for job in JOBS:
         raise RuntimeError(f"Slice failed for {job}; inspect {work / 'slicer.log'}")
     summaries[job] = report["gcode_summary"]
     print(job, report["gcode_summary"], flush=True)
-(REPORTS / ("slice_summary_fast.json" if FAST else "slice_summary.json")).write_text(json.dumps(summaries, indent=2))
+(REPORTS / ("slice_summary_ultrafast.json" if ULTRA else "slice_summary_fast.json" if FAST else "slice_summary.json")).write_text(json.dumps(summaries, indent=2))

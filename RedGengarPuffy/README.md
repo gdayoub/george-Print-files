@@ -26,6 +26,14 @@ The fast projects use 0.28 mm layers, three walls, 5% gyroid infill, and purge i
 
 The fast set is estimated at **16 h 13 m** and **361.3 g**, saving about **5 h 13 m** and 62 g. It uses about 290.2 g red and 71.1 g black. The body has 64 color changes and the head has 178.
 
+An additional `ULTRAFAST` set removes the prime tower, uses two walls and 3% infill, and reduces the purge multiplier. It is the shortest version while keeping automatic AMS colors. Use it for a display piece; the normal or fast set is stronger and gives cleaner color transitions.
+
+1. `P1S/01_RED_BODY_ULTRAFAST_AMS_P1S.3mf`
+2. `P1S/02_RED_HEAD_ULTRAFAST_AMS_P1S.3mf`
+3. `P1S/03_BLACK_DAB_HOLDER_ULTRAFAST_P1S.3mf`
+
+The ultrafast set is estimated at **14 h 26 m** and **304.1 g**, saving about seven hours and 119 g from the quality set. It uses about 248.5 g red and 55.6 g black. Reduced purging can leave slight dark or red tinting at some transitions, so confirm the preview and increase the flush multiplier in Bambu Studio if the actual filaments bleed into each other.
+
 Load red in AMS slot 1 and black in slot 2, or confirm Bambu Studio maps those colors to the slots where those filaments are loaded. The body and head use automatic tree supports and prime towers. Remove supports before assembly.
 
 `Geometry/ASSEMBLED_RED_BLACK_VIEW_ONLY.3mf` is for visual inspection and is not a print-in-place project. The three individual Geometry files are unsliced alternatives.
@@ -36,6 +44,6 @@ The controlled slicer estimate for all three pieces is **21 h 26 m** and **423.3
 
 These files are digitally sliced and checked, but physical fit and final tightened head alignment still require a test print. The V8 body and enlarged holder are a matched pair.
 
-Regenerate with `python build_ams_variant.py <path-to-bambu-studio.exe>` after rebuilding the source GengarPuffco project. Add `--fast` to generate the draft set. `render_red_variant.py` creates the color preview from the actual CAD meshes.
+Regenerate with `python build_ams_variant.py <path-to-bambu-studio.exe>` after rebuilding the source GengarPuffco project. Add `--fast` for the draft set or `--ultra` for the shortest AMS set. `render_red_variant.py` creates the color preview from the actual CAD meshes.
 
 Validation details are in `Reports/native_verification.json`. All three native archives sliced without warnings or mesh repairs; the original foundation remains at unit scale and within 0.00001 mm of its exact source vertices after rigid placement.
