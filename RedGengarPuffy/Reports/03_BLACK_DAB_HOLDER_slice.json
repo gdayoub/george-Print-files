@@ -1,0 +1,81 @@
+{
+  "exit_code": 0,
+  "result": {
+    "error_string": "Success.",
+    "export_time": 407,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 39,
+    "return_code": 0,
+    "sliced_plates": [
+      {
+        "feature_type_times": {
+          "Bottom surface": 70.47492980957031,
+          "Custom": 362.2673645019531,
+          "Flush": 29.0,
+          "Gap infill": 5.543157577514648,
+          "Inner wall": 702.3126831054688,
+          "Internal solid infill": 333.8890380859375,
+          "Outer wall": 273.6659240722656,
+          "Overhang wall": 21.870691299438477,
+          "Top surface": 56.969207763671875,
+          "Travel": 165.9356689453125,
+          "Undefined": 150.70896911621094
+        },
+        "filament_change_times": 0,
+        "filaments": [
+          {
+            "filament_id": "GFA00",
+            "id": 1,
+            "main_used_g": 16.953460693359375,
+            "total_used_g": 16.953460693359375
+          }
+        ],
+        "generate_support_material_time": 35,
+        "id": 1,
+        "infill_time": 27,
+        "layer_filament_change": 0,
+        "main_predication": 1601.2525634765625,
+        "make_perimeters_time": 305,
+        "obj_cached_cnt": 0,
+        "objects": [
+          {
+            "bbox": {
+              "depth": 66.49691772460938,
+              "height": 19.049999237060547,
+              "width": 66.49691009521484,
+              "x": 94.75153350830078,
+              "y": 94.75154113769531,
+              "z": 1.7763568394002505e-15
+            },
+            "id": 5,
+            "name": "BOTTOM",
+            "triangle_count": 8198
+          }
+        ],
+        "sliced_time": 1196,
+        "sliced_time_with_cache": 819,
+        "total_predication": 2006.2625732421875,
+        "triangle_count": 8198,
+        "warning_message": ""
+      }
+    ],
+    "sparse_infill_density": 8.0,
+    "wall_loops": 4
+  },
+  "filament_order": [
+    "red",
+    "black"
+  ],
+  "settings": {
+    "layer_mm": 0.2,
+    "walls": 4,
+    "infill": "8% gyroid",
+    "XY_compensation_mm": 0
+  },
+  "gcode_summary": {
+    "time": "33m 26s",
+    "filament_g": "16.95",
+    "layers": "95"
+  }
+}
