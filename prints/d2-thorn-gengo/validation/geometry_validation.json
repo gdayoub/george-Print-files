@@ -1,0 +1,19 @@
+{
+  "badge_dimensions_mm": [
+    23.0,
+    12.899999618530273,
+    3.1999999284744263
+  ],
+  "badge_watertight": true,
+  "badge_components": 1,
+  "socket_watertight": true,
+  "coupon_watertight": true,
+  "seat_collision_mm3": 0.0,
+  "entrance_clearance_per_side_mm": 0.25,
+  "tab_deflection_mm": 0.2,
+  "shell_volume_removed_mm3_in_text_frame": 558.6574941715517,
+  "plates": 4,
+  "badge_plate": 3,
+  "all_plates_single_colour": true,
+  "prime_tower_enabled": false
+}

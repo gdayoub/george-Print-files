@@ -12,7 +12,13 @@ Saved on September 26, 2026, with original filenames and folder structure:
 
 These folders preserve every source file. Older versions are retained in the archive; the curated project pages below identify recommended releases. This backup does not imply that every model has been print-tested.
 
-## Latest addition — Venom V4
+## Latest addition — Destiny 2 Thorn
+
+[![Gengo click-in badge and matching socket — CAD render](prints/d2-thorn-gengo/Gengo_design_preview.png)](prints/d2-thorn-gengo/)
+
+[**Destiny 2 Thorn — Gengo click-in badge**](prints/d2-thorn-gengo/) · Four single-colour P1S plates, separate green badge, matching recessed shell socket, and a small fit test. Shell plate estimated at **4 h 32 m / 115.54 g**, saving about **4 hours and 59 g**. CAD checked and sliced; physical snap fit untested.
+
+## Venom V4
 
 [![Venom V4 — render of the actual model](prints/venom-core-case/Previews/00_assembled_perspective.png)](prints/venom-core-case/)
 

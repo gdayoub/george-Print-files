@@ -1,0 +1,321 @@
+{
+  "error_string": "Success.",
+  "export_time": 1882,
+  "layer_height": 0.1599999964237213,
+  "plate_index": 0,
+  "prepare_time": 104,
+  "return_code": 0,
+  "sliced_plates": [
+    {
+      "feature_type_times": {
+        "Bottom surface": 22.504743576049805,
+        "Bridge": 123.07281494140625,
+        "Custom": 362.4231872558594,
+        "Flush": 29.0,
+        "Gap infill": 223.83482360839844,
+        "Inner wall": 1724.909423828125,
+        "Internal solid infill": 348.0677795410156,
+        "Outer wall": 1200.922119140625,
+        "Overhang wall": 122.1353988647461,
+        "Sparse infill": 703.045654296875,
+        "Support": 461.6927185058594,
+        "Top surface": 117.3272933959961,
+        "Travel": 909.6199951171875,
+        "Undefined": 894.2426147460938
+      },
+      "filament_change_times": 0,
+      "filaments": [
+        {
+          "filament_id": "GFA05",
+          "id": 2,
+          "main_used_g": 22.370107650756836,
+          "total_used_g": 22.370107650756836
+        }
+      ],
+      "generate_support_material_time": 816,
+      "id": 1,
+      "infill_time": 162,
+      "layer_filament_change": 0,
+      "main_predication": 5928.625,
+      "make_perimeters_time": 260,
+      "obj_cached_cnt": 0,
+      "objects": [
+        {
+          "bbox": {
+            "depth": 35.85374069213867,
+            "height": 49.0,
+            "width": 35.79549789428711,
+            "x": 110.10224151611328,
+            "y": 110.0731201171875,
+            "z": 1.0237091174758461e-08
+          },
+          "id": 37,
+          "name": "cartridge.stl",
+          "triangle_count": 7378
+        }
+      ],
+      "sliced_time": 2371,
+      "sliced_time_with_cache": 1061,
+      "total_predication": 6333.64013671875,
+      "triangle_count": 7378,
+      "warning_message": ""
+    },
+    {
+      "feature_type_times": {
+        "Bottom surface": 43.59917068481445,
+        "Bridge": 116.75328063964844,
+        "Brim": 8.237171173095703,
+        "Custom": 357.79754638671875,
+        "Flush": 29.0,
+        "Gap infill": 70.70155334472656,
+        "Inner wall": 2579.835693359375,
+        "Internal solid infill": 1055.303466796875,
+        "Outer wall": 2604.03173828125,
+        "Overhang wall": 95.37336730957031,
+        "Sparse infill": 2162.1552734375,
+        "Support": 2877.680419921875,
+        "Support interface": 212.8769989013672,
+        "Top surface": 101.31649017333984,
+        "Travel": 2463.949462890625,
+        "Undefined": 2453.2109375
+      },
+      "filament_change_times": 0,
+      "filaments": [
+        {
+          "filament_id": "GFA01",
+          "id": 1,
+          "main_used_g": 87.5611343383789,
+          "total_used_g": 87.5611343383789
+        }
+      ],
+      "generate_support_material_time": 11229,
+      "id": 2,
+      "infill_time": 600,
+      "layer_filament_change": 0,
+      "main_predication": 14363.9560546875,
+      "make_perimeters_time": 288,
+      "obj_cached_cnt": 0,
+      "objects": [
+        {
+          "bbox": {
+            "depth": 30.03643798828125,
+            "height": 197.80618286132812,
+            "width": 116.6734619140625,
+            "x": 421.0901794433594,
+            "y": 198.20175170898438,
+            "z": 1.2238992042057362e-08
+          },
+          "id": 5,
+          "name": "Assembly",
+          "triangle_count": 10500
+        },
+        {
+          "bbox": {
+            "depth": 37.101139068603516,
+            "height": 14.964011192321777,
+            "width": 48.36586380004883,
+            "x": 329.5193786621094,
+            "y": 196.9091796875,
+            "z": -0.04790012538433075
+          },
+          "id": 29,
+          "name": "Cartridge-holder.stl",
+          "triangle_count": 760
+        },
+        {
+          "bbox": {
+            "depth": 6.9684319496154785,
+            "height": 32.45779037475586,
+            "width": 37.56241989135742,
+            "x": 385.3741149902344,
+            "y": 202.7787322998047,
+            "z": -8.373577117919922
+          },
+          "id": 33,
+          "name": "Hammer.stl",
+          "triangle_count": 890
+        }
+      ],
+      "sliced_time": 14987,
+      "sliced_time_with_cache": 2300,
+      "total_predication": 14768.984375,
+      "triangle_count": 12150,
+      "warning_message": ""
+    },
+    {
+      "feature_type_times": {
+        "Bottom surface": 27.326967239379883,
+        "Bridge": 2.509800672531128,
+        "Custom": 362.1911315917969,
+        "Flush": 29.0,
+        "Gap infill": 3.056457042694092,
+        "Inner wall": 66.41175842285156,
+        "Internal solid infill": 113.40452575683594,
+        "Outer wall": 115.33001708984375,
+        "Sparse infill": 31.299448013305664,
+        "Top surface": 21.3290958404541,
+        "Travel": 78.2034912109375,
+        "Undefined": 62.97256088256836
+      },
+      "filament_change_times": 0,
+      "filaments": [
+        {
+          "filament_id": "GFA00",
+          "id": 3,
+          "main_used_g": 2.3872170448303223,
+          "total_used_g": 2.3872170448303223
+        }
+      ],
+      "generate_support_material_time": 9,
+      "id": 3,
+      "infill_time": 81,
+      "layer_filament_change": 0,
+      "main_predication": 429.88873291015625,
+      "make_perimeters_time": 64,
+      "obj_cached_cnt": 0,
+      "objects": [
+        {
+          "bbox": {
+            "depth": 15.401177406311035,
+            "height": 7.078554153442383,
+            "width": 15.399993896484375,
+            "x": 143.4069061279297,
+            "y": -172.28256225585938,
+            "z": -3.0487172786308747e-09
+          },
+          "id": 9,
+          "name": "Thorn Small Sphere",
+          "triangle_count": 2638
+        },
+        {
+          "bbox": {
+            "depth": 15.401177406311035,
+            "height": 7.078554153442383,
+            "width": 15.40000057220459,
+            "x": 104.00691986083984,
+            "y": -172.28256225585938,
+            "z": -3.0487172786308747e-09
+          },
+          "id": 17,
+          "name": "Thorn Small Sphere",
+          "triangle_count": 2638
+        },
+        {
+          "bbox": {
+            "depth": 7.0035600662231445,
+            "height": 3.21891450881958,
+            "width": 7.00303316116333,
+            "x": 127.90475463867188,
+            "y": -197.26052856445312,
+            "z": -5.679321457563447e-10
+          },
+          "id": 21,
+          "name": "Thorn Small Sphere.stl",
+          "triangle_count": 2638
+        },
+        {
+          "bbox": {
+            "depth": 7.003556728363037,
+            "height": 3.21891450881958,
+            "width": 7.003037929534912,
+            "x": 97.19309997558594,
+            "y": -201.51858520507812,
+            "z": -5.679321457563447e-10
+          },
+          "id": 25,
+          "name": "Thorn Small Sphere.stl",
+          "triangle_count": 2638
+        },
+        {
+          "bbox": {
+            "depth": 12.899996757507324,
+            "height": 3.200000047683716,
+            "width": 23.0,
+            "x": 116.5,
+            "y": -126.44999694824219,
+            "z": 2.3841858265427618e-08
+          },
+          "id": 41,
+          "name": "Gengo - click-in green badge",
+          "triangle_count": 1104
+        }
+      ],
+      "sliced_time": 1267,
+      "sliced_time_with_cache": 1073,
+      "total_predication": 834.818359375,
+      "triangle_count": 11656,
+      "warning_message": ""
+    },
+    {
+      "feature_type_times": {
+        "Bottom surface": 39.094200134277344,
+        "Bridge": 55.550113677978516,
+        "Custom": 357.9255676269531,
+        "Flush": 29.0,
+        "Gap infill": 114.57733154296875,
+        "Inner wall": 3975.1103515625,
+        "Internal solid infill": 586.3672485351562,
+        "Outer wall": 2987.32958984375,
+        "Overhang wall": 36.056236267089844,
+        "Sparse infill": 4563.57958984375,
+        "Support": 1493.2247314453125,
+        "Support interface": 9.80775260925293,
+        "Top surface": 34.94865417480469,
+        "Travel": 2037.672607421875,
+        "Undefined": 2026.630615234375
+      },
+      "filament_change_times": 0,
+      "filaments": [
+        {
+          "filament_id": "GFA01",
+          "id": 1,
+          "main_used_g": 115.54427337646484,
+          "total_used_g": 115.54426574707031
+        }
+      ],
+      "generate_support_material_time": 3729,
+      "id": 4,
+      "infill_time": 560,
+      "layer_filament_change": 0,
+      "main_predication": 15906.119140625,
+      "make_perimeters_time": 475,
+      "obj_cached_cnt": 0,
+      "objects": [
+        {
+          "bbox": {
+            "depth": 53.70858383178711,
+            "height": 192.9266357421875,
+            "width": 93.2122573852539,
+            "x": 343.02105712890625,
+            "y": -189.14218139648438,
+            "z": 3.9713991100143176e-06
+          },
+          "id": 13,
+          "name": "Thorn shell - Gengo click-in socket",
+          "triangle_count": 11082
+        }
+      ],
+      "sliced_time": 7802,
+      "sliced_time_with_cache": 2770,
+      "total_predication": 16310.97265625,
+      "triangle_count": 11082,
+      "warning_message": ""
+    }
+  ],
+  "sparse_infill_density": 15.0,
+  "upward_compatible_machine": [
+    "Bambu Lab P1P 0.4 nozzle",
+    "Bambu Lab X1 0.4 nozzle",
+    "Bambu Lab X1 Carbon 0.4 nozzle",
+    "Bambu Lab X1E 0.4 nozzle",
+    "Bambu Lab A1 0.4 nozzle",
+    "Bambu Lab H2D 0.4 nozzle",
+    "Bambu Lab H2D Pro 0.4 nozzle",
+    "Bambu Lab H2S 0.4 nozzle",
+    "Bambu Lab P2S 0.4 nozzle",
+    "Bambu Lab H2C 0.4 nozzle",
+    "Bambu Lab X2D 0.4 nozzle",
+    "Bambu Lab A2L 0.4 nozzle"
+  ],
+  "wall_loops": 3
+}

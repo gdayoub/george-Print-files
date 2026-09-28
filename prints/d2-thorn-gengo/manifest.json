@@ -1,0 +1,67 @@
+[
+  {
+    "path": "CREDITS.md",
+    "bytes": 909,
+    "sha256": "4a8fcc055791870fe6f1e7c01f9d54bb4e5bd889859c2c16a688630504803c69"
+  },
+  {
+    "path": "D2_Thorn_Gengo_click_in.3mf",
+    "bytes": 20633550,
+    "sha256": "3444bec48af1c0be86f5f0e780031357ca5872660e3ee20f8108748e808d0633"
+  },
+  {
+    "path": "Gengo_click_in_badge.stl",
+    "bytes": 55284,
+    "sha256": "2cd8a14e112919b22d9c6d0bdcfa26683a8a10668725bec5cf65559f1b8e3b48"
+  },
+  {
+    "path": "Gengo_design_preview.png",
+    "bytes": 271099,
+    "sha256": "31cd9986008f80e989cc94823b13a7d59c0bbf9bdfc35bcd593da7a80475aa25"
+  },
+  {
+    "path": "Gengo_fit_test_first.3mf",
+    "bytes": 2560472,
+    "sha256": "619f53e4f6438b6f030651d6da8c1d05b2f561ff01e1cca3661133abd08d869a"
+  },
+  {
+    "path": "Gengo_socket_fit_test.stl",
+    "bytes": 36684,
+    "sha256": "c0ceb5f95b9bd2349efb070ee4c97f1855caadf18347d3d00e07308a77877fba"
+  },
+  {
+    "path": "project.json",
+    "bytes": 381,
+    "sha256": "594f4d21d4eecb3b605c10a34d574c291ee237b3a6fd2aeef9e391fbc12b92c7"
+  },
+  {
+    "path": "READ_ME.txt",
+    "bytes": 3660,
+    "sha256": "5c1efd6eb052d8c5d519bb97c3084b9ab02e2d4db64c2f177468071998f0a8f5"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3255,
+    "sha256": "f6980c897fcbee21158021a1d5fc1a9f4e4180ad8b7da66d7ec213c853b2f244"
+  },
+  {
+    "path": "source/D2_thorn_agent_before.3mf",
+    "bytes": 3076839,
+    "sha256": "c1071a33b1b943320cd4baa53516a3755d287c7140e9a5db76d68e84e4cec698"
+  },
+  {
+    "path": "validation/D2_Thorn_Gengo_verified.3mf.slicing.json",
+    "bytes": 9846,
+    "sha256": "c93591994a2f8a3382180ac5ca9c0bea83fe92f9ce6e5cfc967ae28cc8e25819"
+  },
+  {
+    "path": "validation/Gengo_fit_test_verified.3mf.slicing.json",
+    "bytes": 3840,
+    "sha256": "6b0b8947e6c48610e72401da66eaa444f5e00b76b1cb8db536716e5362f1eb43"
+  },
+  {
+    "path": "validation/geometry_validation.json",
+    "bytes": 485,
+    "sha256": "d408e8951c5a944b3ead2959814b0f6a5f54e55d5d8a9a24c07f8daedceda6db"
+  }
+]

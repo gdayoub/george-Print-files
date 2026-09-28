@@ -23,6 +23,15 @@
       "status": "cad-checked-sliced-physical-fit-untested",
       "recommended": "prints/venom-core-case/Print/FullColor",
       "foundation": "prints/venom-core-case/Foundations/Core_Case.3mf"
+    },
+    {
+      "id": "d2-thorn-gengo",
+      "title": "Destiny 2 Thorn — Gengo click-in badge",
+      "path": "prints/d2-thorn-gengo",
+      "preview": "prints/d2-thorn-gengo/Gengo_design_preview.png",
+      "status": "cad-checked-sliced-physical-fit-untested",
+      "recommended": "prints/d2-thorn-gengo/D2_Thorn_Gengo_click_in.3mf",
+      "fit_test": "prints/d2-thorn-gengo/Gengo_fit_test_first.3mf"
     }
   ]
 }
