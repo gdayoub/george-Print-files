@@ -1,6 +1,6 @@
 D2 THORN - SEPARATE GENGO CLICK-IN BADGE
 
-Open D2_Thorn_Gengo_click_in.3mf in Bambu Studio.
+Open D2_Thorn_Gengo_FLAT_low_support.3mf in Bambu Studio.
 The original Downloads/D2_thorn_agent_before.3mf has not been changed.
 
 FOUR PLATES
@@ -26,8 +26,8 @@ Align the badge with the recess and press evenly on its two ends. The small
 side ramps compress the tabs; their shoulders engage the recessed catches.
 Do not force a tight badge. Lightly dress the two small catches if needed,
 then retry the sample. Leave mating surfaces unpainted until checking fit.
-For the final upright shell, clear any support remnants from the recess.
-The coupon prints with the recess upward, whereas the shell prints upright;
+For the final side-resting shell, clear any support remnants from the recess.
+The coupon prints with the recess upward, whereas the shell rests on its broad side;
 surface finish and dimensional error may differ between those orientations.
 
 VALIDATION AND LIMITS
@@ -44,21 +44,27 @@ All revised plates report zero filament changes and no prime tower.
 Badge supports and brim are off; it uses 100% infill and slower face printing.
 The other existing parts, plate positions, and material assignments are kept.
 
-SLICER ESTIMATES (not measured physical printing times)
-Main shell plate before: 8h 32m 18s, 174.53 g.
-Main shell plate after:  4h 31m 51s, 115.54 g.
-Shell-plate saving:      about 4 hours and 59 g.
-All green parts plus badge on plate 3: about 13m 55s, 2.39 g.
-Badge alone on its test plate: about 9m 24s, 0.79 g.
-These figures use the settings saved in the supplied project. Initial
-purging is separate from eliminating repeated colour changes and the tower.
+FLAT VERSION - SUPPORT AND SLICER ESTIMATES
+The receiver/handle and shell lie on broad sides, without scaling or cutting.
+The Gengo socket faces upward. The receiver and grip remain one grouped object.
+Plate 2 uses normal automatic snug supports with 4 mm base-pattern spacing.
+Plate 4 retains the existing automatic tree supports. Interfaces stay enabled.
+The gold and green plates are unchanged, and the project still has four plates.
+
+Black plates 2 + 4, compared with the previous upright Gengo version:
+Support:        38.21 g before -> 25.11 g flat (about 34% less).
+Total filament: 203.11 g before -> 187.84 g flat (about 15.3 g less).
+Estimated time: 8h 38m before -> 9h 15m flat (about 37 minutes longer).
+The sideways shell prints more slowly despite using less support.
+The previous upright project is preserved in source/ for comparison.
+These are slicer estimates; the flat layout has not been physically tested.
 
 SPELLING
 The source file's text said "Gango". This version uses "Gengo", matching
 the written request. The raised text and badge backing print together in green.
 
 FILES
-D2_Thorn_Gengo_click_in.3mf - complete four-plate editable project
+D2_Thorn_Gengo_FLAT_low_support.3mf - recommended flat four-plate project
 Gengo_fit_test_first.3mf - two small test plates
 Gengo_click_in_badge.stl - separate flat badge mesh, units millimetres
 Gengo_socket_fit_test.stl - separate socket sample mesh, units millimetres

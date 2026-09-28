@@ -1,0 +1,84 @@
+{
+  "status": "sliced-successfully-physical-print-untested",
+  "comparison": "previous upright, green-separated Gengo project versus flat layout",
+  "support_reduction_percent": 34.29558480986156,
+  "support_before_g": 38.209,
+  "support_after_g": 25.105,
+  "support_mass_method": "Positive deposited E moves with XY motion in all Support-prefixed G-code feature types, 1.75 mm filament and configured density; excludes brim and startup purge.",
+  "plates": [
+    {
+      "plate": 2,
+      "previous_support_g": 24.233,
+      "flat_support_g": 11.55,
+      "previous_time_seconds": 14768.984375,
+      "flat_time_seconds": 13663.013671875,
+      "previous_total_filament_g": 87.5611343383789,
+      "flat_total_filament_g": 73.29557037353516
+    },
+    {
+      "plate": 4,
+      "previous_support_g": 13.975999999999999,
+      "flat_support_g": 13.555,
+      "previous_time_seconds": 16310.97265625,
+      "flat_time_seconds": 19646.232421875,
+      "previous_total_filament_g": 115.54426574707031,
+      "flat_total_filament_g": 114.54729461669922
+    }
+  ],
+  "geometry": "Input 3D/Objects mesh files unchanged byte-for-byte. Only root object transforms, plate positions, and support overrides changed.",
+  "settings": {
+    "handle_plate_2": "normal(auto), snug, 4 mm base-pattern spacing; original support interfaces retained",
+    "shell_plate_4": "existing automatic tree support profile retained",
+    "plates_1_and_3": "unchanged"
+  },
+  "placement_bounds": {
+    "3": [
+      [
+        335.6903941658434,
+        89.73867050517862,
+        0.0
+      ],
+      [
+        534.7096058341566,
+        206.26132949482138,
+        30.186158855160272
+      ]
+    ],
+    "7": [
+      [
+        338.3429950549836,
+        -224.41298599376174,
+        0.0
+      ],
+      [
+        532.0570049450164,
+        -133.98701400623824,
+        52.958372995888865
+      ]
+    ],
+    "15": [
+      [
+        335.8206280173842,
+        11.449431505499998,
+        0.0
+      ],
+      [
+        384.17937198261575,
+        48.5505684945,
+        14.869231162951912
+      ]
+    ],
+    "17": [
+      [
+        454.1421801474459,
+        26.51578613271553,
+        0.0
+      ],
+      [
+        485.8578198525541,
+        33.484213867284474,
+        18.92399122651168
+      ]
+    ]
+  }
+}

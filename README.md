@@ -16,7 +16,7 @@ These folders preserve every source file. Older versions are retained in the arc
 
 [![Gengo click-in badge and matching socket — CAD render](prints/d2-thorn-gengo/Gengo_design_preview.png)](prints/d2-thorn-gengo/)
 
-[**Destiny 2 Thorn — Gengo click-in badge**](prints/d2-thorn-gengo/) · Four single-colour P1S plates, separate green badge, matching recessed shell socket, and a small fit test. Shell plate estimated at **4 h 32 m / 115.54 g**, saving about **4 hours and 59 g**. CAD checked and sliced; physical snap fit untested.
+[**Destiny 2 Thorn — Gengo click-in badge**](prints/d2-thorn-gengo/) · Four single-colour P1S plates, separate green badge, matching recessed shell socket, and a small fit test. New flat orientations use **34% less support** across the black plates than the previous upright Gengo version. The four-plate project keeps the socket facing upward; estimated printing takes about 37 minutes longer. CAD checked and sliced; physical snap fit untested.
 
 ## Venom V4
 

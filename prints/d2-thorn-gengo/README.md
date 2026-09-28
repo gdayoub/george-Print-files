@@ -2,7 +2,7 @@
 
 [← Print gallery](../../README.md)
 
-A decorative Thorn cosplay prop with a separate green **Gengo** badge and a matching recessed socket in the black shell. The badge is independently selectable in Bambu Studio. All four plates use one colour each, eliminating repeated filament swaps and the prime tower.
+A decorative Thorn cosplay prop with a separate green **Gengo** badge and a matching recessed socket in the black shell. The badge is independently selectable in Bambu Studio. The receiver/handle and shell now lie on their broad sides, with the Gengo socket facing upward. All four plates use one colour each, eliminating repeated filament swaps and the prime tower.
 
 ![Render of the badge and its matching shell socket](Gengo_design_preview.png)
 
@@ -10,7 +10,7 @@ A decorative Thorn cosplay prop with a separate green **Gengo** badge and a matc
 
 ## Download and print
 
-- **[Complete four-plate Bambu Studio project](D2_Thorn_Gengo_click_in.3mf)** — recommended project.
+- **[Complete four-plate Bambu Studio project](D2_Thorn_Gengo_FLAT_low_support.3mf)** — recommended project.
 - **[Print the small fit test first](Gengo_fit_test_first.3mf)** — separate black socket and green badge plates, about 24 minutes and 3.3 g combined.
 - [Badge STL](Gengo_click_in_badge.stl) · [Socket test STL](Gengo_socket_fit_test.stl).
 - [Printing and assembly instructions](READ_ME.txt).
@@ -29,18 +29,27 @@ The badge is approximately **23 × 12.9 × 3.2 mm** and prints flat, with its te
 
 Let the parts cool. Clear the badge's two long slots and remove debris or first-layer flare. Align the badge with the socket and press evenly on its ends so its side tabs flex and engage the catches. Check the small sample first; do not force a tight fit. Clear any support remnants from the full shell's recess before assembly. Leave mating surfaces unpainted until fit is checked.
 
-The sample uses the same socket shape, but prints with its recess upward; the full shell prints upright. Those different orientations can affect fit and surface finish.
+The sample uses the same socket shape, but prints with its recess upward; the full shell now rests on its broad side. Those different orientations can affect fit and surface finish.
 
 ## Validation and estimates
 
 All four project plates and both test plates sliced successfully in Bambu Studio **02.08.02.61**, with **zero filament changes**. The badge is one connected watertight mesh; the modified shell and socket sample are watertight. The seated badge has no mesh collision with the shell. Nominal entrance clearance is 0.25 mm per side, with approximately 0.20 mm snap-tab deflection.
 
-| Shell plate | Estimated time | Estimated filament |
-| --- | --- | --- |
-| Original | 8 h 32 m | 174.53 g |
-| Revised | 4 h 32 m | 115.54 g |
+| Black plates 2 + 4 | Support material | Total filament | Estimated time |
+| --- | --- | --- | --- |
+| Previous upright Gengo version | 38.21 g | 203.11 g | 8 h 38 m |
+| Flat version | 25.11 g | 187.84 g | 9 h 15 m |
 
-The shell plate saves approximately **4 hours and 59 g**. The badge alone uses about **0.79 g**; the complete green plate uses about **2.39 g**. These are slicer estimates, not measured print results. **Physical snap fit remains untested.** See [validation records](validation/).
+The flat version uses about **34% less support and 15.3 g less total filament** across the two black plates. Its sideways shell prints more slowly, so their combined estimate is approximately **37 minutes longer**. Support remains under curved details and overhangs. The handle uses snug normal supports with 4 mm base-pattern spacing; the shell retains automatic tree supports. Support interfaces remain enabled.
+
+![Flat handle and fittings](Flat_plate_2_preview.png)
+![Flat shell with upward-facing socket](Flat_plate_4_preview.png)
+
+*Bambu Studio model previews of the new orientations; support geometry is not displayed in these thumbnails.*
+
+All four plates were sliced successfully with zero filament changes. Plates 1 and 3 are unchanged. The receiver and grip remain grouped, and all input mesh files were preserved byte-for-byte. See the [orientation comparison](validation/flat_orientation_comparison.json) and [complete slicing report](validation/flat_slicing_report.json).
+
+The [previous upright project](source/D2_Thorn_Gengo_previous_upright.3mf) remains available for comparison. These are slicer estimates, not measured print results. **Physical printing and snap fit remain untested.**
 
 The source lettering said **Gango**; this version uses **Gengo**, matching the requested spelling.
 

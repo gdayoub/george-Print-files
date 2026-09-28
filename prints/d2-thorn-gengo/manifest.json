@@ -10,6 +10,21 @@
     "sha256": "3444bec48af1c0be86f5f0e780031357ca5872660e3ee20f8108748e808d0633"
   },
   {
+    "path": "D2_Thorn_Gengo_FLAT_low_support.3mf",
+    "bytes": 21793202,
+    "sha256": "9c8034dbaa5a57803f7d2ae3d19ac3c8e3b436acff3ac93b8401bd4e525085ac"
+  },
+  {
+    "path": "Flat_plate_2_preview.png",
+    "bytes": 12478,
+    "sha256": "28a6e334c378b6afdf25f920e57d268c9c6d5bb403f3e13d33abe5e7ebe48f34"
+  },
+  {
+    "path": "Flat_plate_4_preview.png",
+    "bytes": 15414,
+    "sha256": "1d3b7958c11a7e477476e79e8b52f54b933380276451b3fd610e4722a99c4401"
+  },
+  {
     "path": "Gengo_click_in_badge.stl",
     "bytes": 55284,
     "sha256": "2cd8a14e112919b22d9c6d0bdcfa26683a8a10668725bec5cf65559f1b8e3b48"
@@ -31,18 +46,18 @@
   },
   {
     "path": "project.json",
-    "bytes": 372,
-    "sha256": "53095347952cbf03cae961f1345e4d711e76bdf898c26651a38152b510139b20"
+    "bytes": 417,
+    "sha256": "cc585307b27179d42c0d03f73b6879e1d929b03cc2e191627ffb340bd9464df8"
   },
   {
     "path": "READ_ME.txt",
-    "bytes": 3660,
-    "sha256": "5c1efd6eb052d8c5d519bb97c3084b9ab02e2d4db64c2f177468071998f0a8f5"
+    "bytes": 4155,
+    "sha256": "90809d77af8c23d3a80ee59ea15fd4a8241e02a56f2923c7d880c889b84dbd53"
   },
   {
     "path": "README.md",
-    "bytes": 3206,
-    "sha256": "e1f51498112e90381090db7aa1382df7abffa8e6483a0959b751217f61ae6d36"
+    "bytes": 4322,
+    "sha256": "5d59aaf5441d859812937242e69f22a4c2506d37caa3acc4af17e5c760d13484"
   },
   {
     "path": "source/D2_thorn_agent_before.3mf",
@@ -50,9 +65,24 @@
     "sha256": "c1071a33b1b943320cd4baa53516a3755d287c7140e9a5db76d68e84e4cec698"
   },
   {
+    "path": "source/D2_Thorn_Gengo_previous_upright.3mf",
+    "bytes": 20633550,
+    "sha256": "3444bec48af1c0be86f5f0e780031357ca5872660e3ee20f8108748e808d0633"
+  },
+  {
     "path": "validation/D2_Thorn_Gengo_verified.3mf.slicing.json",
     "bytes": 9526,
     "sha256": "4cf37df231fdf1080157a87ba4524f0f237bab5250b7bd75835bd3185dc5790c"
+  },
+  {
+    "path": "validation/flat_orientation_comparison.json",
+    "bytes": 2270,
+    "sha256": "4fa2d7e1791694d8ecd84eacc110a8c5eeefa462832db76ddb41acb506bc9683"
+  },
+  {
+    "path": "validation/flat_slicing_report.json",
+    "bytes": 9496,
+    "sha256": "3ddf36f835fe396663e6b4d2279cbfb98207fd481b6405358559d8710ce5b866"
   },
   {
     "path": "validation/Gengo_fit_test_verified.3mf.slicing.json",

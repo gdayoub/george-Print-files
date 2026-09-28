@@ -4,6 +4,7 @@
   "path": "prints/d2-thorn-gengo",
   "preview": "prints/d2-thorn-gengo/Gengo_design_preview.png",
   "status": "cad-checked-sliced-physical-fit-untested",
-  "recommended": "prints/d2-thorn-gengo/D2_Thorn_Gengo_click_in.3mf",
-  "fit_test": "prints/d2-thorn-gengo/Gengo_fit_test_first.3mf"
+  "recommended": "prints/d2-thorn-gengo/D2_Thorn_Gengo_FLAT_low_support.3mf",
+  "fit_test": "prints/d2-thorn-gengo/Gengo_fit_test_first.3mf",
+  "orientation": "flat-low-support"
 }
