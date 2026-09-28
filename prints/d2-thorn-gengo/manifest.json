@@ -1,8 +1,8 @@
 [
   {
     "path": "CREDITS.md",
-    "bytes": 909,
-    "sha256": "4a8fcc055791870fe6f1e7c01f9d54bb4e5bd889859c2c16a688630504803c69"
+    "bytes": 901,
+    "sha256": "42457f0ad4a28ca14c21381bf8e03daffb362b0dba7adebf8892a1cd2b7a293a"
   },
   {
     "path": "D2_Thorn_Gengo_click_in.3mf",
@@ -31,8 +31,8 @@
   },
   {
     "path": "project.json",
-    "bytes": 381,
-    "sha256": "594f4d21d4eecb3b605c10a34d574c291ee237b3a6fd2aeef9e391fbc12b92c7"
+    "bytes": 372,
+    "sha256": "53095347952cbf03cae961f1345e4d711e76bdf898c26651a38152b510139b20"
   },
   {
     "path": "READ_ME.txt",
@@ -41,8 +41,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 3255,
-    "sha256": "f6980c897fcbee21158021a1d5fc1a9f4e4180ad8b7da66d7ec213c853b2f244"
+    "bytes": 3206,
+    "sha256": "e1f51498112e90381090db7aa1382df7abffa8e6483a0959b751217f61ae6d36"
   },
   {
     "path": "source/D2_thorn_agent_before.3mf",
@@ -51,17 +51,17 @@
   },
   {
     "path": "validation/D2_Thorn_Gengo_verified.3mf.slicing.json",
-    "bytes": 9846,
-    "sha256": "c93591994a2f8a3382180ac5ca9c0bea83fe92f9ce6e5cfc967ae28cc8e25819"
+    "bytes": 9526,
+    "sha256": "4cf37df231fdf1080157a87ba4524f0f237bab5250b7bd75835bd3185dc5790c"
   },
   {
     "path": "validation/Gengo_fit_test_verified.3mf.slicing.json",
-    "bytes": 3840,
-    "sha256": "6b0b8947e6c48610e72401da66eaa444f5e00b76b1cb8db536716e5362f1eb43"
+    "bytes": 3712,
+    "sha256": "7f82286efd0acc176b0d251c58792d5f740eb97254587b3d6e57c8c66afd0cfa"
   },
   {
     "path": "validation/geometry_validation.json",
-    "bytes": 485,
-    "sha256": "d408e8951c5a944b3ead2959814b0f6a5f54e55d5d8a9a24c07f8daedceda6db"
+    "bytes": 467,
+    "sha256": "f2ea27e22234cf852c8ecf1be1684210c90c0b083f82a3b4cccd5b69706b81d1"
   }
 ]
