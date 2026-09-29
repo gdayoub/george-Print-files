@@ -6,6 +6,18 @@
 
 ## Fresh from the workbench
 
+[![Emberwing and Rift — larger shelf concepts modelled in Higgsfield 3D Jutsu](prints/emberwing-rift-concepts/images/hero.png)](prints/emberwing-rift-concepts/)
+
+### Emberwing + Rift / new design direction
+
+Sweeping dragon wings and three display tiers, or five chunky hexagonal pods in a stepped arrangement. Bigger silhouettes, softened edges, and one-colour character. Built as editable 3D models in Higgsfield.
+
+**11 prototype STLs · Editable Blender + GLB · Mesh checked · Physical testing pending**
+
+[**See the new models →**](prints/emberwing-rift-concepts/) · [Explore in Higgsfield](https://higgsfield.ai/3d-jutsu/1bd91395-c562-475f-ad62-cc479b26331c)
+
+## Earlier shelf prototypes
+
 [![Dragon + Pixel Display Shelves — red CAD renders, not photographs of printed parts](prints/dragon-pixel-shelves/images/design_preview.png)](prints/dragon-pixel-shelves/)
 
 ### Dragon + Pixel Display Shelves

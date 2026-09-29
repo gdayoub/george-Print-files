@@ -1,0 +1,356 @@
+{
+  "source": "Higgsfield 3D Jutsu revision 3",
+  "source_glb_sha256": "b4526c1d5d4a30fe53a9221f516ff81c9f01faa03885542d786f61c54d4d77de",
+  "stl_units": "mm",
+  "glb_units": "m",
+  "orientation": "Rear face down. Review supports and first layers in the slicer.",
+  "status": "Mesh checked. Unsliced. Physical print, assembly and mounting untested.",
+  "mass_note": "Solid-equivalent mass is not slicer filament use. Infill and supports change consumption.",
+  "parts": [
+    {
+      "part": "EW_BOTTOM_L",
+      "file": "files/stl/emberwing/EW_BOTTOM_L.stl",
+      "quantity": 1,
+      "dimensions_xyz_mm": [
+        199.0,
+        110.0,
+        90.0
+      ],
+      "assembled_min_xyz_mm_gltf_axes": [
+        -560.0,
+        133.0,
+        0.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "connected_components": 1,
+      "triangles": 960,
+      "fits_246mm_margin_box": true,
+      "solid_volume_cm3": 206.319,
+      "solid_equivalent_pla_mass_g_at_1_24": 255.8,
+      "sha256": "79dec5f6214e4f07a547297c3edd90d1b81f69d0ef52c19a7d6a0e2ce2cce7fa"
+    },
+    {
+      "part": "EW_BOTTOM_R",
+      "file": "files/stl/emberwing/EW_BOTTOM_R.stl",
+      "quantity": 1,
+      "dimensions_xyz_mm": [
+        199.0,
+        110.0,
+        90.0
+      ],
+      "assembled_min_xyz_mm_gltf_axes": [
+        -359.0,
+        133.0,
+        0.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "connected_components": 1,
+      "triangles": 962,
+      "fits_246mm_margin_box": true,
+      "solid_volume_cm3": 206.319,
+      "solid_equivalent_pla_mass_g_at_1_24": 255.8,
+      "sha256": "170ee07d2449d9d5f0bfd26aec784faa1d58ae905c75dab87c5be9cb2cfe0470"
+    },
+    {
+      "part": "EW_CREST",
+      "file": "files/stl/emberwing/EW_CREST.stl",
+      "quantity": 1,
+      "dimensions_xyz_mm": [
+        67.873,
+        80.135,
+        8.0
+      ],
+      "assembled_min_xyz_mm_gltf_axes": [
+        -393.937,
+        104.513,
+        90.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "connected_components": 1,
+      "triangles": 550,
+      "fits_246mm_margin_box": true,
+      "solid_volume_cm3": 21.751,
+      "solid_equivalent_pla_mass_g_at_1_24": 27.0,
+      "sha256": "8c73eb52bf28aa48605d3a1f422859105b3d156225d0d361653f5806b1681dbf"
+    },
+    {
+      "part": "EW_MIDDLE_L",
+      "file": "files/stl/emberwing/EW_MIDDLE_L.stl",
+      "quantity": 1,
+      "dimensions_xyz_mm": [
+        159.0,
+        110.0,
+        80.0
+      ],
+      "assembled_min_xyz_mm_gltf_axes": [
+        -520.0,
+        239.0,
+        0.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "connected_components": 1,
+      "triangles": 966,
+      "fits_246mm_margin_box": true,
+      "solid_volume_cm3": 156.257,
+      "solid_equivalent_pla_mass_g_at_1_24": 193.8,
+      "sha256": "baae1aea72078efe3b66584460f9d38b3a0ede8f93a30e4ee9515613de400915"
+    },
+    {
+      "part": "EW_MIDDLE_R",
+      "file": "files/stl/emberwing/EW_MIDDLE_R.stl",
+      "quantity": 1,
+      "dimensions_xyz_mm": [
+        159.0,
+        110.0,
+        80.0
+      ],
+      "assembled_min_xyz_mm_gltf_axes": [
+        -359.0,
+        239.0,
+        0.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "connected_components": 1,
+      "triangles": 966,
+      "fits_246mm_margin_box": true,
+      "solid_volume_cm3": 156.257,
+      "solid_equivalent_pla_mass_g_at_1_24": 193.8,
+      "sha256": "aae9ae7a437df3756c988e9c9e8aa64768e6732967483a7286f55fb568fa55e3"
+    },
+    {
+      "part": "EW_TOP",
+      "file": "files/stl/emberwing/EW_TOP.stl",
+      "quantity": 1,
+      "dimensions_xyz_mm": [
+        205.0,
+        110.0,
+        73.0
+      ],
+      "assembled_min_xyz_mm_gltf_axes": [
+        -462.5,
+        345.0,
+        0.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "connected_components": 1,
+      "triangles": 956,
+      "fits_246mm_margin_box": true,
+      "solid_volume_cm3": 188.462,
+      "solid_equivalent_pla_mass_g_at_1_24": 233.7,
+      "sha256": "7600bd507443ff666e95f7477b2c911fc59bd6e56d71a0c71f4210d276fd52d0"
+    },
+    {
+      "part": "EW_WING_L_LOWER",
+      "file": "files/stl/emberwing/EW_WING_L_LOWER.stl",
+      "quantity": 1,
+      "dimensions_xyz_mm": [
+        213.085,
+        179.237,
+        7.5
+      ],
+      "assembled_min_xyz_mm_gltf_axes": [
+        -628.085,
+        127.905,
+        4.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "connected_components": 1,
+      "triangles": 1470,
+      "fits_246mm_margin_box": true,
+      "solid_volume_cm3": 92.284,
+      "solid_equivalent_pla_mass_g_at_1_24": 114.4,
+      "sha256": "4933c3660d6b5264545d968c77e30dd4269d4dc66b1d2569626e62360762c147"
+    },
+    {
+      "part": "EW_WING_L_UPPER",
+      "file": "files/stl/emberwing/EW_WING_L_UPPER.stl",
+      "quantity": 1,
+      "dimensions_xyz_mm": [
+        204.237,
+        170.486,
+        7.5
+      ],
+      "assembled_min_xyz_mm_gltf_axes": [
+        -619.237,
+        304.858,
+        4.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "connected_components": 1,
+      "triangles": 1544,
+      "fits_246mm_margin_box": true,
+      "solid_volume_cm3": 70.171,
+      "solid_equivalent_pla_mass_g_at_1_24": 87.0,
+      "sha256": "e03b5b1ce6dd6e9d3bce3d54aa975158e8b92b1bf3bc3bb0582447d2b86dcd8c"
+    },
+    {
+      "part": "EW_WING_R_LOWER",
+      "file": "files/stl/emberwing/EW_WING_R_LOWER.stl",
+      "quantity": 1,
+      "dimensions_xyz_mm": [
+        213.085,
+        179.237,
+        7.5
+      ],
+      "assembled_min_xyz_mm_gltf_axes": [
+        -305.0,
+        127.905,
+        4.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "connected_components": 1,
+      "triangles": 1456,
+      "fits_246mm_margin_box": true,
+      "solid_volume_cm3": 92.284,
+      "solid_equivalent_pla_mass_g_at_1_24": 114.4,
+      "sha256": "69f0a48d288fd7efbe6b4573b423fd5551d7562c5e16ca1372f38c1290aa30ce"
+    },
+    {
+      "part": "EW_WING_R_UPPER",
+      "file": "files/stl/emberwing/EW_WING_R_UPPER.stl",
+      "quantity": 1,
+      "dimensions_xyz_mm": [
+        204.237,
+        170.486,
+        7.5
+      ],
+      "assembled_min_xyz_mm_gltf_axes": [
+        -305.0,
+        304.858,
+        4.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "connected_components": 1,
+      "triangles": 1492,
+      "fits_246mm_margin_box": true,
+      "solid_volume_cm3": 70.171,
+      "solid_equivalent_pla_mass_g_at_1_24": 87.0,
+      "sha256": "da25035ef812be437d190271c788a61647684cc71ec9f4510a8e8597eb67ea37"
+    },
+    {
+      "part": "RIFT_POD_01",
+      "file": "files/stl/rift/RIFT_POD_01.stl",
+      "quantity": 5,
+      "dimensions_xyz_mm": [
+        167.486,
+        145.492,
+        91.0
+      ],
+      "assembled_min_xyz_mm_gltf_axes": [
+        104.257,
+        107.254,
+        0.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "connected_components": 1,
+      "triangles": 938,
+      "fits_246mm_margin_box": true,
+      "solid_volume_cm3": 314.879,
+      "solid_equivalent_pla_mass_g_at_1_24": 390.4,
+      "sha256": "e3b8a8af8f562e84552cf1b9b8efdedfef71c01d6dd8abc884660d51b1668e01"
+    },
+    {
+      "part": "RIFT_POD_02",
+      "file": null,
+      "quantity": 1,
+      "dimensions_xyz_mm": [
+        167.486,
+        145.492,
+        91.0
+      ],
+      "assembled_min_xyz_mm_gltf_axes": [
+        276.257,
+        107.254,
+        0.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "connected_components": 1,
+      "triangles": 934,
+      "fits_246mm_margin_box": true,
+      "solid_volume_cm3": 314.879,
+      "solid_equivalent_pla_mass_g_at_1_24": 390.5,
+      "sha256": null
+    },
+    {
+      "part": "RIFT_POD_03",
+      "file": null,
+      "quantity": 1,
+      "dimensions_xyz_mm": [
+        167.486,
+        145.492,
+        91.0
+      ],
+      "assembled_min_xyz_mm_gltf_axes": [
+        448.257,
+        107.254,
+        0.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "connected_components": 1,
+      "triangles": 940,
+      "fits_246mm_margin_box": true,
+      "solid_volume_cm3": 314.878,
+      "solid_equivalent_pla_mass_g_at_1_24": 390.4,
+      "sha256": null
+    },
+    {
+      "part": "RIFT_POD_04",
+      "file": null,
+      "quantity": 1,
+      "dimensions_xyz_mm": [
+        167.486,
+        145.492,
+        91.0
+      ],
+      "assembled_min_xyz_mm_gltf_axes": [
+        190.257,
+        260.254,
+        0.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "connected_components": 1,
+      "triangles": 940,
+      "fits_246mm_margin_box": true,
+      "solid_volume_cm3": 314.879,
+      "solid_equivalent_pla_mass_g_at_1_24": 390.4,
+      "sha256": null
+    },
+    {
+      "part": "RIFT_POD_05",
+      "file": null,
+      "quantity": 1,
+      "dimensions_xyz_mm": [
+        167.486,
+        145.492,
+        91.0
+      ],
+      "assembled_min_xyz_mm_gltf_axes": [
+        362.257,
+        260.254,
+        0.0
+      ],
+      "watertight": true,
+      "positive_volume": true,
+      "connected_components": 1,
+      "triangles": 936,
+      "fits_246mm_margin_box": true,
+      "solid_volume_cm3": 314.878,
+      "solid_equivalent_pla_mass_g_at_1_24": 390.4,
+      "sha256": null
+    }
+  ]
+}

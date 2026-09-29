@@ -1,0 +1,40 @@
+{
+  "projectId": "1bd91395-c562-475f-ad62-cc479b26331c",
+  "projectUrl": "https://higgsfield.ai/3d-jutsu/1bd91395-c562-475f-ad62-cc479b26331c",
+  "revision": 3,
+  "operationId": "lighten-rift-shells-20260929",
+  "artifacts": [
+    {
+      "projectId": "1bd91395-c562-475f-ad62-cc479b26331c",
+      "revision": 3,
+      "size": 1552160,
+      "etag": "d25119419ec95af0cad138a378956dff",
+      "id": "49be9b9aa196b00edbbbac3292924127",
+      "name": "emberwing-rift-hero-efficient.png",
+      "mediaType": "image/png",
+      "operationId": "lighten-rift-shells-20260929",
+      "width": 1400,
+      "height": 900
+    },
+    {
+      "projectId": "1bd91395-c562-475f-ad62-cc479b26331c",
+      "revision": 3,
+      "size": 791084,
+      "etag": "ae0febfb1ec91c9413c634a092a5e17e",
+      "type": "glb"
+    },
+    {
+      "projectId": "1bd91395-c562-475f-ad62-cc479b26331c",
+      "revision": 3,
+      "size": 1038071,
+      "etag": "9d054f9ca27b218c3c5466ad6fd71958",
+      "type": "blend"
+    }
+  ],
+  "createdWith": "Higgsfield 3D Jutsu / Blender 5.2",
+  "units": "metres",
+  "modelSections": 15,
+  "distributedStls": 11,
+  "geometryNote": "GLB contains studio. Model-only GLBs and STL exports exclude studio.",
+  "status": "Prototype meshes checked separately; no physical print, assembly or mount validation."
+}

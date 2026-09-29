@@ -1,0 +1,145 @@
+{
+  "status": "Prototype package; physical printing, assembly and mount untested",
+  "files": [
+    {
+      "path": "docs/DESIGN.md",
+      "bytes": 2600,
+      "sha256": "519813ed19ce98d7f505df4fab6bab0f67b5decd2c9c9bc66f6c70a87719a3c8"
+    },
+    {
+      "path": "docs/MAKERWORLD_DRAFT.md",
+      "bytes": 2120,
+      "sha256": "4fbf6d9b36970de00941c77f6eff60f2bece08295a291e5241b311ceb68c2e1e"
+    },
+    {
+      "path": "docs/PRINTING.md",
+      "bytes": 5907,
+      "sha256": "b8677cfa1a8cf4e474a09da84d5c8b7a3a36a5dae10934295b82c7bc7336c25e"
+    },
+    {
+      "path": "files/stl/emberwing/EW_BOTTOM_L.stl",
+      "bytes": 48084,
+      "sha256": "79dec5f6214e4f07a547297c3edd90d1b81f69d0ef52c19a7d6a0e2ce2cce7fa"
+    },
+    {
+      "path": "files/stl/emberwing/EW_BOTTOM_R.stl",
+      "bytes": 48184,
+      "sha256": "170ee07d2449d9d5f0bfd26aec784faa1d58ae905c75dab87c5be9cb2cfe0470"
+    },
+    {
+      "path": "files/stl/emberwing/EW_CREST.stl",
+      "bytes": 27584,
+      "sha256": "8c73eb52bf28aa48605d3a1f422859105b3d156225d0d361653f5806b1681dbf"
+    },
+    {
+      "path": "files/stl/emberwing/EW_MIDDLE_L.stl",
+      "bytes": 48384,
+      "sha256": "baae1aea72078efe3b66584460f9d38b3a0ede8f93a30e4ee9515613de400915"
+    },
+    {
+      "path": "files/stl/emberwing/EW_MIDDLE_R.stl",
+      "bytes": 48384,
+      "sha256": "aae9ae7a437df3756c988e9c9e8aa64768e6732967483a7286f55fb568fa55e3"
+    },
+    {
+      "path": "files/stl/emberwing/EW_TOP.stl",
+      "bytes": 47884,
+      "sha256": "7600bd507443ff666e95f7477b2c911fc59bd6e56d71a0c71f4210d276fd52d0"
+    },
+    {
+      "path": "files/stl/emberwing/EW_WING_L_LOWER.stl",
+      "bytes": 73584,
+      "sha256": "4933c3660d6b5264545d968c77e30dd4269d4dc66b1d2569626e62360762c147"
+    },
+    {
+      "path": "files/stl/emberwing/EW_WING_L_UPPER.stl",
+      "bytes": 77284,
+      "sha256": "e03b5b1ce6dd6e9d3bce3d54aa975158e8b92b1bf3bc3bb0582447d2b86dcd8c"
+    },
+    {
+      "path": "files/stl/emberwing/EW_WING_R_LOWER.stl",
+      "bytes": 72884,
+      "sha256": "69f0a48d288fd7efbe6b4573b423fd5551d7562c5e16ca1372f38c1290aa30ce"
+    },
+    {
+      "path": "files/stl/emberwing/EW_WING_R_UPPER.stl",
+      "bytes": 74684,
+      "sha256": "da25035ef812be437d190271c788a61647684cc71ec9f4510a8e8597eb67ea37"
+    },
+    {
+      "path": "files/stl/rift/RIFT_POD_01.stl",
+      "bytes": 46984,
+      "sha256": "e3b8a8af8f562e84552cf1b9b8efdedfef71c01d6dd8abc884660d51b1668e01"
+    },
+    {
+      "path": "images/hero.png",
+      "bytes": 1552160,
+      "sha256": "4acf4127b63f5b07ee8d131ac4b19ff7c3d06af9151d1e3cd563da43b7de3dac"
+    },
+    {
+      "path": "images/print-parts.png",
+      "bytes": 366014,
+      "sha256": "0a16610b400d903f4d686e2685112bca1f71e8fa465c0d2cf60ac50dc2b6eee1"
+    },
+    {
+      "path": "models/emberwing-model-only.glb",
+      "bytes": 209912,
+      "sha256": "9be177325a738ed3104f7748e3025fee6fa89ea0bd2787da00c39fb474c017f1"
+    },
+    {
+      "path": "models/emberwing-rift.blend",
+      "bytes": 1038071,
+      "sha256": "138743c3817e512595bf87b5f55bd49386ad9a7175a5d0fc5b1276104d16451c"
+    },
+    {
+      "path": "models/emberwing-rift.glb",
+      "bytes": 791084,
+      "sha256": "b4526c1d5d4a30fe53a9221f516ff81c9f01faa03885542d786f61c54d4d77de"
+    },
+    {
+      "path": "models/rift-model-only.glb",
+      "bytes": 87628,
+      "sha256": "351381b8b10a621f5885dcd2eca4356987bc52795d3f9b35fba80e2ad436842d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4642,
+      "sha256": "34dd5c35225bae4261f76b2aecc7abdf56ef8c7bf1ef7c9371a20a438127ecc0"
+    },
+    {
+      "path": "source/build_higgsfield_scene.py",
+      "bytes": 11223,
+      "sha256": "45cd0d7a39d3ca9ad0a6de24a53178a036d97fdc7c64a2814b4b28fae17d6210"
+    },
+    {
+      "path": "source/export_prototypes.py",
+      "bytes": 4702,
+      "sha256": "3ca2279815c80195343f5851188ff43071d4603389bc3c82487f24033e665e61"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 1851,
+      "sha256": "f4cb1c5c7397233a97be290ff9b1eec49697fa691479c1eccf92c850b058368f"
+    },
+    {
+      "path": "source/render_parts.py",
+      "bytes": 2080,
+      "sha256": "906109d0eca5a2783e5a099cc9784b155d66584e44f90fdbe6e7a4cd6b31c108"
+    },
+    {
+      "path": "source/requirements.txt",
+      "bytes": 65,
+      "sha256": "8db7ef09171be5b4428714df4eedd6a8683a6069ef1c9736b622865e3460be58"
+    },
+    {
+      "path": "validation/higgsfield_project.json",
+      "bytes": 1310,
+      "sha256": "4fb00e6cb09278986d694bffc61c38514d2362dfc07facf6b5e322ae9c3d5395"
+    },
+    {
+      "path": "validation/mesh_validation.json",
+      "bytes": 9349,
+      "sha256": "24005cb64fb17e1fb31764c7a6e4f0f62676f269b724209ca04a49790c4a13b7"
+    }
+  ]
+}

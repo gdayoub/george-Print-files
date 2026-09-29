@@ -2,6 +2,17 @@
   "title": "George Print Files",
   "projects": [
     {
+      "id": "emberwing-rift-concepts",
+      "title": "Emberwing + Rift",
+      "path": "prints/emberwing-rift-concepts",
+      "preview": "prints/emberwing-rift-concepts/images/hero.png",
+      "status": "mesh-checked-unsliced-physical-print-assembly-and-mount-untested",
+      "recommended": "prints/emberwing-rift-concepts/docs/PRINTING.md",
+      "download": "prints/emberwing-rift-concepts/downloads/emberwing-rift-prototypes.zip",
+      "higgsfield_url": "https://higgsfield.ai/3d-jutsu/1bd91395-c562-475f-ad62-cc479b26331c",
+      "makerworld_url": null
+    },
+    {
       "id": "gengar-can-holder",
       "title": "Gengar soda can holder",
       "path": "prints/gengar-can-holder",
