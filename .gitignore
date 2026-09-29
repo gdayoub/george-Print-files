@@ -2,6 +2,7 @@
 Thumbs.db
 *.gcode
 *.gcode.3mf
+!prints/emberwing-rift-concepts/files/Emberwing_Rift_P1S_PLA_0.28mm.gcode.3mf
 *.tmp
 *.bak
 .env

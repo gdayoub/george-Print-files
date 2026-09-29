@@ -10,9 +10,9 @@
 
 ## 01 / Emberwing
 
-[**Download the prototype bundle →**](downloads/emberwing-rift-prototypes.zip?raw=true) · [Print guide](docs/PRINTING.md) · [STL files](files/stl/)
+[**Download the prototype bundle →**](downloads/emberwing-rift-prototypes.zip?raw=true) · [Print guide](docs/PRINTING.md) · [STL files](files/stl/) · [Bambu project](files/Emberwing_Rift_P1S_PLA_0.28mm.3mf) · [Slice results](docs/SLICING.md)
 
-**11 unique STLs · PLA / P1S target · Mesh checked · Unsliced and physically untested**
+**11 unique STLs · PLA / P1S target · Mesh checked · Eight plates sliced · Physically untested**
 
 A wide three-tier display with sweeping dragon wings, raised wing fingers, softened ledge edges and a geometric crest. The wings do most of the visual work, so the design does not depend on tiny scales, fragile spikes or multiple filament colours.
 
@@ -46,7 +46,7 @@ In Blender, the collections beginning `01 / EMBERWING` and `02 / RIFT` contain t
 
 The exported STLs consolidate intersecting components into single connected solids. All 11 distributed files pass watertightness, positive-volume, round-trip and bounding-box checks. The largest part dimension is **213.1 mm**. The Blender scene retains separate component meshes and modifiers for editing.
 
-These are **unsliced, physically untested prototypes**, not verified print profiles. First layers, overhangs, assembly tolerances, sustained load and adhesive performance still need testing. Start with one module using the [print guide](docs/PRINTING.md).
+These are **sliced, physically untested prototypes**. The eight-plate P1S project has been previewed in Bambu Studio; first-print performance, assembly tolerances, sustained load and adhesive performance still need physical testing. Start with one module using the [print guide](docs/PRINTING.md).
 
 Your wall is textured and painted. A reliable adhesive system has not been established, and neither design has a working-load rating. Enlarging the design changes its mass and leverage; it does not make the earlier adhesive proposal valid.
 

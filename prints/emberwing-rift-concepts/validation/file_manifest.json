@@ -13,8 +13,23 @@
     },
     {
       "path": "docs/PRINTING.md",
-      "bytes": 5907,
-      "sha256": "b8677cfa1a8cf4e474a09da84d5c8b7a3a36a5dae10934295b82c7bc7336c25e"
+      "bytes": 5986,
+      "sha256": "77d93d69f5f368e1cf32fd22f294e663fff366658bbaaa88f66fe4b22df4d448"
+    },
+    {
+      "path": "docs/SLICING.md",
+      "bytes": 2357,
+      "sha256": "73936b2408297fe7b8f011077a61be87181385c95895e06175535eaa95c50ff7"
+    },
+    {
+      "path": "files/Emberwing_Rift_P1S_PLA_0.28mm.3mf",
+      "bytes": 345537,
+      "sha256": "d9405e898ef227e18fab52406b92797d5ff00bc2533ae76879a9d30e149825f2"
+    },
+    {
+      "path": "files/Emberwing_Rift_P1S_PLA_0.28mm.gcode.3mf",
+      "bytes": 8076538,
+      "sha256": "777b1aa8b873a96247bfadbf37ffe1feb7c6b0bee8ac9615354380f6657bd637"
     },
     {
       "path": "files/stl/emberwing/EW_BOTTOM_L.stl",
@@ -103,8 +118,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4642,
-      "sha256": "34dd5c35225bae4261f76b2aecc7abdf56ef8c7bf1ef7c9371a20a438127ecc0"
+      "bytes": 4790,
+      "sha256": "9646b75e3bd6d0b1e64c6df45f2ae68e5595b7e0795449e7893114b73082c235"
     },
     {
       "path": "source/build_higgsfield_scene.py",
@@ -130,6 +145,11 @@
       "path": "source/requirements.txt",
       "bytes": 65,
       "sha256": "8db7ef09171be5b4428714df4eedd6a8683a6069ef1c9736b622865e3460be58"
+    },
+    {
+      "path": "validation/bambu_slice_report.json",
+      "bytes": 2610,
+      "sha256": "91f78d52e382a9b328ebfb159a2dab4df0c8032f1933cdfc34fb240947b72f9a"
     },
     {
       "path": "validation/higgsfield_project.json",

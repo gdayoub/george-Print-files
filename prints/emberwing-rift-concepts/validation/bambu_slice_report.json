@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-29",
+  "slicer": "Bambu Studio 2.8.2.61",
+  "method": "Windows Bambu Studio GUI; all plates sliced and previewed",
+  "status": "Sliced; physically untested; wall mounting unvalidated",
+  "settings": {
+    "printer_model": "Bambu Lab P1S",
+    "nozzle_diameter": [
+      "0.4"
+    ],
+    "curr_bed_type": "Textured PEI Plate",
+    "layer_height": "0.28",
+    "initial_layer_print_height": "0.2",
+    "wall_loops": "4",
+    "top_shell_layers": "4",
+    "bottom_shell_layers": "4",
+    "sparse_infill_density": "15%",
+    "sparse_infill_pattern": "gyroid",
+    "enable_support": "0"
+  },
+  "plates": [
+    {
+      "plate": 1,
+      "objects": [
+        "EW_BOTTOM_L.stl",
+        "EW_BOTTOM_R.stl"
+      ],
+      "estimated_seconds": 27038,
+      "estimated_grams": 321.54,
+      "outside_build_area": false,
+      "supports": false
+    },
+    {
+      "plate": 2,
+      "objects": [
+        "RIFT_POD_01.stl",
+        "EW_CREST.stl"
+      ],
+      "estimated_seconds": 21293,
+      "estimated_grams": 263.56,
+      "outside_build_area": false,
+      "supports": false
+    },
+    {
+      "plate": 3,
+      "objects": [
+        "EW_TOP.stl",
+        "EW_MIDDLE_R.stl"
+      ],
+      "estimated_seconds": 22694,
+      "estimated_grams": 268.16,
+      "outside_build_area": false,
+      "supports": false
+    },
+    {
+      "plate": 4,
+      "objects": [
+        "EW_MIDDLE_L.stl"
+      ],
+      "estimated_seconds": 10559,
+      "estimated_grams": 121.84,
+      "outside_build_area": false,
+      "supports": false
+    },
+    {
+      "plate": 5,
+      "objects": [
+        "EW_WING_R_LOWER.stl"
+      ],
+      "estimated_seconds": 6580,
+      "estimated_grams": 73.24,
+      "outside_build_area": false,
+      "supports": false
+    },
+    {
+      "plate": 6,
+      "objects": [
+        "EW_WING_L_LOWER.stl"
+      ],
+      "estimated_seconds": 6540,
+      "estimated_grams": 73.24,
+      "outside_build_area": false,
+      "supports": false
+    },
+    {
+      "plate": 7,
+      "objects": [
+        "EW_WING_L_UPPER.stl"
+      ],
+      "estimated_seconds": 5240,
+      "estimated_grams": 56.77,
+      "outside_build_area": false,
+      "supports": false
+    },
+    {
+      "plate": 8,
+      "objects": [
+        "EW_WING_R_UPPER.stl"
+      ],
+      "estimated_seconds": 5281,
+      "estimated_grams": 56.76,
+      "outside_build_area": false,
+      "supports": false
+    }
+  ],
+  "estimated_total_seconds": 105225,
+  "estimated_total_grams": 1235.11,
+  "sliced_file_sha256": "777b1aa8b873a96247bfadbf37ffe1feb7c6b0bee8ac9615354380f6657bd637",
+  "archive_crc": "pass",
+  "gcode_plate_count": 8
+}

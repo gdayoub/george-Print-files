@@ -2,7 +2,7 @@
 
 [← Emberwing + Rift](../README.md)
 
-The STL files are **experimental print parts**, checked as single closed solids and supplied in millimetres. They have not been sliced or physically printed. There is no verified Bambu profile, print-time estimate, or rated wall installation.
+The STL files are **experimental print parts**, checked as single closed solids and supplied in millimetres. All 11 unique parts have now been sliced across eight plates in Bambu Studio. See the [saved P1S project and estimates](SLICING.md). They have not been physically printed, and there is no rated wall installation.
 
 ## Choose your first part
 
