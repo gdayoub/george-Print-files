@@ -1,0 +1,28 @@
+name: Share a make or print issue
+description: Show your result, report a fit problem, or improve instructions.
+title: "[Print report] "
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project and file version
+      placeholder: Dragon + Pixel Display Shelves — 0.1.0, ledge core
+    validations:
+      required: true
+  - type: input
+    id: setup
+    attributes:
+      label: Printer, nozzle and filament
+      placeholder: Bambu P1S, 0.4 mm nozzle, PLA
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened?
+      description: Share the result, settings you changed, and what you expected. Attach photos here.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would help the next maker?
+      description: A better instruction, fit observation, or useful setting.

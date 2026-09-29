@@ -1,0 +1,16 @@
+name: Suggest a design or improvement
+description: A useful object, visual direction, or better version of a print.
+title: "[Design idea] "
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to make?
+      description: Describe the object and its use. Include dimensions or references if useful.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Anything the design should account for?
+      description: Printer size, material, mounting, assembly, colour, or accessibility needs.

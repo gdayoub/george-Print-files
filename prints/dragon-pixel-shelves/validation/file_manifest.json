@@ -1,0 +1,121 @@
+{
+  "version": "0.1.0-prototype",
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "bytes": 1142,
+      "sha256": "075f99636e254e1f08dde1af4896ceb09e61e6eab63d1b49c4947bb8a9bf0031"
+    },
+    {
+      "path": "docs/CHANGELOG.md",
+      "bytes": 584,
+      "sha256": "02f2ec9bf62fdea5a0a5cd4bf35d5dd66b5e74281bf4895557831965fb58b8c6"
+    },
+    {
+      "path": "docs/MAKERWORLD.md",
+      "bytes": 2644,
+      "sha256": "03897986702e4702147928e691bdf72e194abc92e1f3dc766caa2afe7d191d3f"
+    },
+    {
+      "path": "docs/PRINTING_ASSEMBLY.md",
+      "bytes": 13232,
+      "sha256": "ea5beeaffc37bae07cae9b798f5524e626a9ed8c381f65e708127f6331e61285"
+    },
+    {
+      "path": "files/stl/00_adhesive_surface_coupon_SIDE_PRINT.stl",
+      "bytes": 684,
+      "sha256": "5d1bcd6c2f2a9a8b197a0b633c0bd21e5c61bb29adc6de0db57c00dba15bd158"
+    },
+    {
+      "path": "files/stl/01_ledge_core_SIDE_PRINT.stl",
+      "bytes": 2484,
+      "sha256": "efac049d6c62f7cdd7043a120bf49b65cf33f56ddb51f0a61a829a8431aafce7"
+    },
+    {
+      "path": "files/stl/02_pixel_cubby_core_SIDE_PRINT.stl",
+      "bytes": 2884,
+      "sha256": "614823b7fa79ff33a71199055ade8e537ba57b90b7e3e90c8ad4e6e5975aa9d0"
+    },
+    {
+      "path": "files/stl/03_dragon_wing_L_FLAT.stl",
+      "bytes": 19984,
+      "sha256": "f81792f543b0ee417e72f8d84b49f08fc71c7daa605917392123d79bf40962ed"
+    },
+    {
+      "path": "files/stl/03_dragon_wing_R_FLAT.stl",
+      "bytes": 19784,
+      "sha256": "553152df743b76e43c12167efeaaa93d0e10a063f533247682c14fd403d48078"
+    },
+    {
+      "path": "files/stl/04_dragon_crest_FLAT.stl",
+      "bytes": 2884,
+      "sha256": "548be0753fcc0b8269a3f49553916368e9d711ee73cfd9f4457d8e50767ea730"
+    },
+    {
+      "path": "files/stl/05_pixel_frame_FLAT.stl",
+      "bytes": 4884,
+      "sha256": "cc9a2a5f5b45a5f5d78efa1a9f9e622808877a0f7dd760e4ae9d6f554c6f8d09"
+    },
+    {
+      "path": "images/design_preview.png",
+      "bytes": 77962,
+      "sha256": "b140be300091b1e4334cbb5ec2193d3d54ebe694c0f27a8ad611b46072b0c782"
+    },
+    {
+      "path": "images/design_preview_original.png",
+      "bytes": 76242,
+      "sha256": "2b910a6106aecc9b5a2353c84722c55569ab4a59adaa4446c30930857922c501"
+    },
+    {
+      "path": "images/references/dragon-wing-reference.jpg",
+      "bytes": 439365,
+      "sha256": "e20e5913b21f277c4fed403ac35482bc62b5ca99a27abe4aa4c107cddfdb2f3d"
+    },
+    {
+      "path": "images/references/pixel-block-reference.jpg",
+      "bytes": 445332,
+      "sha256": "1252902ff04b94364e5f2ba4afcdb54377f32b8c065c257a36ed3290394f5cd0"
+    },
+    {
+      "path": "project.json",
+      "bytes": 999,
+      "sha256": "0aec8948360cafc68d566f5ee88558c0b469feb9747dff1806b175216307627a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5475,
+      "sha256": "4b23a93953ffe622c154fb20bc8321da0814c2d3cc1b92c13b49962c99995d3b"
+    },
+    {
+      "path": "source/build_shelves.py",
+      "bytes": 11004,
+      "sha256": "f665e6eb8c8a3694d2ec6e0ddaf571a7571bf8180803a551a83979ff02d0ae2b"
+    },
+    {
+      "path": "source/package.py",
+      "bytes": 1987,
+      "sha256": "95c463b6c43d3df4fbc3d5005dd21fba31b8042e46e2ae2afda7287953f1cdfd"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 1165,
+      "sha256": "c719431d427deb43a27ebb16e3697947c12bb0dc71f97b3e8ea49079f485b48c"
+    },
+    {
+      "path": "source/requirements.txt",
+      "bytes": 113,
+      "sha256": "e6f5240d51a89b4452269aa8a2736be99a1cbaf1010bee401fd123a12c435171"
+    },
+    {
+      "path": "source/shelves_editable.scad",
+      "bytes": 8380,
+      "sha256": "bb4d60ad6b9ae6a1f7777e1c4064828f7c60495df3831859f451d510a4c1bb45"
+    },
+    {
+      "path": "validation/mesh_validation.json",
+      "bytes": 2255,
+      "sha256": "b155a0bea647332220d11c81e33b2b2746584b7746b3a99abe9c0305ed06a40e"
+    }
+  ]
+}

@@ -17,7 +17,7 @@
     },
     {
       "id": "venom-core-case",
-      "title": "Venom V4 — Puffco Core Case",
+      "title": "Venom V4 â€” Puffco Core Case",
       "path": "prints/venom-core-case",
       "preview": "prints/venom-core-case/Previews/00_assembled_perspective.png",
       "status": "cad-checked-sliced-physical-fit-untested",
@@ -26,13 +26,28 @@
     },
     {
       "id": "d2-thorn-gengo",
-      "title": "Destiny 2 Thorn — Gengo click-in badge",
+      "title": "Destiny 2 Thorn â€” Gengo click-in badge",
       "path": "prints/d2-thorn-gengo",
       "preview": "prints/d2-thorn-gengo/Gengo_design_preview.png",
       "status": "cad-checked-sliced-physical-fit-untested",
       "recommended": "prints/d2-thorn-gengo/D2_Thorn_Gengo_FLAT_low_support.3mf",
       "fit_test": "prints/d2-thorn-gengo/Gengo_fit_test_first.3mf",
       "orientation": "flat-low-support"
+    },
+    {
+      "id": "dragon-pixel-shelves",
+      "title": "Dragon + Pixel Display Shelves",
+      "path": "prints/dragon-pixel-shelves",
+      "preview": "prints/dragon-pixel-shelves/images/design_preview.png",
+      "status": "mesh-checked-unsliced-physical-print-and-mount-untested",
+      "recommended": "prints/dragon-pixel-shelves/README.md",
+      "download": "prints/dragon-pixel-shelves/downloads/dragon-pixel-shelves-prototype.zip",
+      "makerworld_url": null
     }
-  ]
+  ],
+  "support": {
+    "github": "https://github.com/gdayoub/george-Print-files",
+    "makerworld_profile_url": null,
+    "guide": "docs/SUPPORT.md"
+  }
 }

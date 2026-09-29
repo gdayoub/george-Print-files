@@ -1,0 +1,93 @@
+[
+  {
+    "file": "01_ledge_core_SIDE_PRINT.stl",
+    "bounds_mm": [
+      64.0,
+      140.0,
+      120.0
+    ],
+    "watertight": true,
+    "connected_components": 1,
+    "volume_cm3": 121.04,
+    "solid_PLA_mass_g_at_1_24": 150.1,
+    "note": "Print as supplied, on its side. No supports intended; inspect sliced preview."
+  },
+  {
+    "file": "02_pixel_cubby_core_SIDE_PRINT.stl",
+    "bounds_mm": [
+      64.0,
+      180.0,
+      120.0
+    ],
+    "watertight": true,
+    "connected_components": 1,
+    "volume_cm3": 171.43,
+    "solid_PLA_mass_g_at_1_24": 212.6,
+    "note": "Print as supplied, on its side. No supports intended; inspect sliced preview."
+  },
+  {
+    "file": "03_dragon_wing_R_FLAT.stl",
+    "bounds_mm": [
+      74.0,
+      144.0,
+      3.3
+    ],
+    "watertight": true,
+    "connected_components": 1,
+    "volume_cm3": 14.38,
+    "solid_PLA_mass_g_at_1_24": 17.8,
+    "note": "Decorative only. Glue overlap to front of backplate; ribs face room."
+  },
+  {
+    "file": "03_dragon_wing_L_FLAT.stl",
+    "bounds_mm": [
+      74.0,
+      144.0,
+      3.3
+    ],
+    "watertight": true,
+    "connected_components": 1,
+    "volume_cm3": 14.38,
+    "solid_PLA_mass_g_at_1_24": 17.8,
+    "note": "Decorative only. Glue overlap to front of backplate; ribs face room."
+  },
+  {
+    "file": "04_dragon_crest_FLAT.stl",
+    "bounds_mm": [
+      34.0,
+      42.0,
+      3.5
+    ],
+    "watertight": true,
+    "connected_components": 1,
+    "volume_cm3": 2.7,
+    "solid_PLA_mass_g_at_1_24": 3.3,
+    "note": "Optional decorative crest; glue to front centre of backplate."
+  },
+  {
+    "file": "05_pixel_frame_FLAT.stl",
+    "bounds_mm": [
+      156.0,
+      144.0,
+      2.4
+    ],
+    "watertight": true,
+    "connected_components": 1,
+    "volume_cm3": 17.45,
+    "solid_PLA_mass_g_at_1_24": 21.6,
+    "note": "Decorative front frame. Align bottom at Z=55 and glue to lip/top front edges."
+  },
+  {
+    "file": "00_adhesive_surface_coupon_SIDE_PRINT.stl",
+    "bounds_mm": [
+      3.2,
+      110.0,
+      30.0
+    ],
+    "watertight": true,
+    "connected_components": 1,
+    "volume_cm3": 10.56,
+    "solid_PLA_mass_g_at_1_24": 13.1,
+    "note": "Print first to check strip fit and finish. A bond trial does not validate a shelf load."
+  }
+]

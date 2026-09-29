@@ -1,0 +1,31 @@
+{
+  "id": "dragon-pixel-shelves",
+  "title": "Dragon + Pixel Display Shelves",
+  "path": "prints/dragon-pixel-shelves",
+  "preview": "prints/dragon-pixel-shelves/images/design_preview.png",
+  "status": "mesh-checked-unsliced-physical-print-and-mount-untested",
+  "recommended": "prints/dragon-pixel-shelves/README.md",
+  "download": "prints/dragon-pixel-shelves/downloads/dragon-pixel-shelves-prototype.zip",
+  "makerworld_url": null,
+  "category": "Display shelves",
+  "version": "0.1.0-prototype",
+  "printer": "Bambu Lab P1S",
+  "nozzle_mm": 0.4,
+  "material": "PLA",
+  "units": "mm",
+  "designer": "George Dayoub",
+  "testing": {
+    "mesh_checked": true,
+    "sliced": false,
+    "physically_printed": false,
+    "mount_verified": false,
+    "working_load_kg": null
+  },
+  "wall": "Textured painted wall; mount unresolved",
+  "files": {
+    "stl": "files/stl/",
+    "source": "source/",
+    "instructions": "docs/PRINTING_ASSEMBLY.md",
+    "validation": "validation/mesh_validation.json"
+  }
+}

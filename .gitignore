@@ -7,3 +7,5 @@ Thumbs.db
 .env
 .env.*
 __pycache__/
+.venv/
+python_libs/

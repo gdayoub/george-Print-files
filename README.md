@@ -1,70 +1,93 @@
-# George Print Files
+<p align="center"><img src="assets/gallery-banner.png" alt="George Prints — Character. Function. Filament. A red and charcoal 3D-print collection." width="100%"></p>
 
-A growing gallery of George's 3D printing projects. Each print has its own home for previews, printing instructions, assembly notes, credits, and available files.
+<p align="center"><strong>Character pieces. Useful objects. Designs worth making.</strong><br>3D printing projects by George Dayoub, with a home for the files, the process, and your next print.</p>
 
-## Complete Desktop Prints backup
+<p align="center"><a href="#the-collection">Browse the collection</a> · <a href="docs/GETTING_STARTED.md">Start printing</a> · <a href="docs/SUPPORT.md">Support my work</a> · <a href="https://github.com/gdayoub/george-Print-files/issues/new/choose">Share a make or idea</a></p>
 
-Saved on September 26, 2026, with original filenames and folder structure:
+## Fresh from the workbench
 
-- [Current Desktop Prints](Desktop-Prints/): all 229 files, including models, slicer projects, previews, source files, and ZIPs.
-- [Archived Desktop Venom packages](Desktop-Prints-Archive/): all 117 files moved aside during the earlier cleanup.
-- [SHA-256 inventory](desktop-prints-manifest.json): sizes and hashes for all 346 files.
+[![Dragon + Pixel Display Shelves — red CAD renders, not photographs of printed parts](prints/dragon-pixel-shelves/images/design_preview.png)](prints/dragon-pixel-shelves/)
 
-These folders preserve every source file. Older versions are retained in the archive; the curated project pages below identify recommended releases. This backup does not imply that every model has been print-tested.
+### Dragon + Pixel Display Shelves
 
-## Latest addition — Destiny 2 Thorn
+A little fantasy, a little arcade, and a place for the things you make. Choose a winged display ledge, a blocky pixel pod, or the plain ledge for the simplest print. Separate flat decorations keep the colour changes optional.
 
-[![Gengo click-in badge and matching socket — CAD render](prints/d2-thorn-gengo/Gengo_design_preview.png)](prints/d2-thorn-gengo/)
+**PLA · Bambu P1S · Seven STL parts · Editable source · Prototype**
 
-[**Destiny 2 Thorn — Gengo click-in badge**](prints/d2-thorn-gengo/) · Four single-colour P1S plates, separate green badge, matching recessed shell socket, and a small fit test. New flat orientations use **34% less support** across the black plates than the previous upright Gengo version. The four-plate project keeps the socket facing upward; estimated printing takes about 37 minutes longer. CAD checked and sliced; physical snap fit untested.
+[**Explore the shelves →**](prints/dragon-pixel-shelves/) · [Download the prototype kit](prints/dragon-pixel-shelves/downloads/dragon-pixel-shelves-prototype.zip?raw=true) · [Printing & assembly](prints/dragon-pixel-shelves/docs/PRINTING_ASSEMBLY.md)
 
-## Venom V4
-
-[![Venom V4 — render of the actual model](prints/venom-core-case/Previews/00_assembled_perspective.png)](prints/venom-core-case/)
-
-[**Venom V4 — Puffco Core Case**](prints/venom-core-case/) · Original case and matching lid preserved at 100% scale; separate jar storage; optimized full-color and optional single-color P1S projects. Estimated totals: **39 h 44 m full color**, **11 h 16 m single color**. CAD checked and sliced; physical fit untested. Includes `Foundations/Core_Case.3mf`, editable Blender/CAD and agent handoffs. Hulk is a pending brief, not a finished release.
-
-## Gengar FlowWash
-
-[![Gengar FlowWash snap-in kit](prints/gengar-flowwash-snap-kit/Assembled.png)](prints/gengar-flowwash-snap-kit/)
-
-[**Gengar FlowWash — socketed bowl and snap-in eyes/teeth**](prints/gengar-flowwash-snap-kit/) · P1S projects, STL files, editable Blender source, and a fit test. CAD checked and sliced; physical fit untested.
+> The shelf meshes are checked, but they are not yet sliced or physically tested. Adhesive mounting on textured painted walls remains unresolved; no working load is assigned.
 
 ## The collection
 
-### 001 — Gengar soda can holder
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="prints/d2-thorn-gengo/"><img src="prints/d2-thorn-gengo/Gengo_design_preview.png" alt="Destiny 2 Thorn Gengo badge and socket — CAD render" width="100%"></a>
+<h3>Thorn / Gengo</h3>
+<p>A separate green badge, matching recessed socket, and four single-colour P1S plates. Start with the fit test.</p>
+<p><strong>CAD checked + sliced</strong><br>Physical snap fit untested.</p>
+<a href="prints/d2-thorn-gengo/">Open project →</a>
+</td>
+<td width="50%" valign="top">
+<a href="prints/venom-core-case/"><img src="prints/venom-core-case/Previews/00_assembled_perspective.png" alt="Venom V4 assembled core case — CAD render" width="100%"></a>
+<h3>Venom / V4</h3>
+<p>A Puffco Core case with matching lid, separate jar storage, and full-colour or single-colour P1S projects.</p>
+<p><strong>CAD checked + sliced</strong><br>Physical fit untested.</p>
+<a href="prints/venom-core-case/">Open project →</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="prints/gengar-flowwash-snap-kit/"><img src="prints/gengar-flowwash-snap-kit/Assembled.png" alt="Gengar FlowWash bowl with snap-in details — design preview" width="100%"></a>
+<h3>Gengar / FlowWash</h3>
+<p>A socketed bowl with separate snap-in eyes and teeth. Includes P1S projects, STL geometry, editable Blender source, and a fit test.</p>
+<p><strong>CAD checked + sliced</strong><br>Physical fit untested.</p>
+<a href="prints/gengar-flowwash-snap-kit/">Open project →</a>
+</td>
+<td width="50%" valign="top">
+<a href="prints/gengar-can-holder/"><img src="prints/gengar-can-holder/images/assembly-preview.png" alt="Gengar can holder and separate face inserts — assembly preview" width="100%"></a>
+<h3>Gengar / Can Holder</h3>
+<p>A tall holder for a classic 12 oz soda can, with separate red eyes and a white grin. Three colour-specific jobs avoid repeated filament swaps.</p>
+<p><strong>Tested by George, as reported</strong><br>Public files await source-license clarification.</p>
+<a href="prints/gengar-can-holder/">Open project →</a>
+</td>
+</tr>
+</table>
 
-[![Gengar holder, assembled and with separate face inserts](prints/gengar-can-holder/images/assembly-preview.png)](prints/gengar-can-holder/)
+## Pick a design. Check the notes. Make it yours.
 
-A tall holder for a classic 12 oz soda can, with separate red eyes and a white grin. Three single-color print jobs avoid repeated filament swaps and prime towers.
+1. **Open the project page.** Check its dimensions, material, and testing status.
+2. **Download the recommended version.** A `.3mf` may include a slicer setup; an `.stl` is geometry that still needs slicing. Review either before printing.
+3. **Print the fit test first, when supplied.** Follow the project’s orientation, printing, and assembly notes.
+4. **Show the result.** Share a photo, your printer and filament, and anything you changed. Useful feedback helps the next maker.
 
-**Bambu P1S · 0.4 mm nozzle · Glue-in inserts · Tested by George, as reported**
+[First-print guide](docs/GETTING_STARTED.md) · [What the status labels mean](docs/GETTING_STARTED.md#understanding-project-status)
 
-[Explore the project →](prints/gengar-can-holder/)
+## Like what you made?
 
-| Print | Category | Files |
-| --- | --- | --- |
-| [Venom V4 — Puffco Core Case](prints/venom-core-case/) | Device cases | Optimized 3MFs, complete foundation, editable CAD and agent handoff |
-| [Gengar soda can holder](prints/gengar-can-holder/) | Drink holders | Public release pending source-license clarification |
+If a design earns a place on your desk or shelf, a star here, a make photo, or a thoughtful print report means a lot. Once a model is published on **MakerWorld**, you can also consider a **Boost** on its listing if you enjoy the work and have one available.
 
-## Each print gets its own area
+**MakerWorld profile and model links: coming soon.** This gallery does not currently claim a published listing. Support is always optional.
 
-```text
-prints/
-  gengar-can-holder/
-    README.md           Overview and recommended version
-    images/             Renders and print photos
-    files/3mf/          Slicer projects when released
-    files/stl/          Geometry when released
-    docs/               Printing, assembly, and version notes
-    CREDITS.md          Original sources and licensing
-    project.json        Catalog information
-templates/
-  print/README.md       Starting point for the next print
-```
+[**Ways to support my work →**](docs/SUPPORT.md)
 
-## Adding another print
+## Behind the prints
 
-Copy the [project template](templates/print/README.md) into a new folder under `prints/`, add its previews and authorized files, then add a card here and an entry in `catalog.json`.
+The curated pages keep each project’s previews, recommended files, instructions, credits, and validation together. [Browse the catalog](catalog.json) or use the [project template](templates/print/README.md) when adding the next design.
 
-Licensing is recorded per project. No blanket license is applied to third-party designs.
+<details>
+<summary><strong>Original backups & earlier packages</strong></summary>
+
+The September 26, 2026 desktop snapshots retain their original names and structure:
+
+- [Desktop Prints](Desktop-Prints/) — 229 files.
+- [Archived Desktop Venom packages](Desktop-Prints-Archive/) — 117 files.
+- [SHA-256 inventory](desktop-prints-manifest.json) — all 346 snapshot files.
+- [Earlier Gengar package](GengarPuffco/) and [Red Gengar package](RedGengarPuffy/).
+
+These are historical source collections, not a recommendation to print every version. The snapshots do not imply physical testing or redistribution clearance. Start with the curated pages above.
+
+</details>
+
+Licensing and attribution are recorded per project. Fan-inspired projects are unofficial; no blanket license is applied to third-party designs. The repository’s existing visibility is unchanged.
