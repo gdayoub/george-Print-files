@@ -54,6 +54,17 @@
       "recommended": "prints/dragon-pixel-shelves/README.md",
       "download": "prints/dragon-pixel-shelves/downloads/dragon-pixel-shelves-prototype.zip",
       "makerworld_url": null
+    },
+    {
+      "id": "metallica-modular-wall-emblem",
+      "title": "Metallica modular wall emblem",
+      "path": "Desktop-Prints/metallica logo",
+      "portfolio": "Desktop-Prints/metallica logo/PORTFOLIO.md",
+      "preview": "Desktop-Prints/metallica logo/Design_preview.png",
+      "status": "digitally-checked-and-sliced-physical-fit-print-and-mount-untested",
+      "recommended": "Desktop-Prints/metallica logo/FAST_PRINT/README.txt",
+      "fit_test": "Desktop-Prints/metallica logo/FAST_PRINT/00_PRINT_FIRST_fit_test.3mf",
+      "attribution": "Unofficial fan project; Metallica wordmark is third-party artwork."
     }
   ],
   "support": {
