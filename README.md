@@ -4,6 +4,12 @@
 
 <p align="center"><a href="#the-collection">Browse the collection</a> · <a href="docs/GETTING_STARTED.md">Start printing</a> · <a href="docs/SUPPORT.md">Support my work</a> · <a href="https://github.com/gdayoub/george-Print-files/issues/new/choose">Share a make or idea</a></p>
 
+## Portfolio: AI-assisted 3D design
+
+I use AI tools to help turn ideas into editable models and printable projects, then document the geometry, slicer setup, and checks so someone else can inspect the work. The [Metallica modular wall emblem](Desktop-Prints/metallica%20logo/PORTFOLIO.md) is one example: a five section design with fit tests, alternate snap keys, an editable Blender model, and Bambu Studio plates. Its faster layout is estimated to save 1 h 36 min and 49.3 g of filament compared with the original layout. Those are slicer estimates; the physical build remains untested.
+
+These pages distinguish CAD renders and digital checks from completed physical prints. Fan projects are unofficial, and source artwork retains its original rights.
+
 ## Fresh from the workbench
 
 [![Emberwing and Rift — larger shelf concepts modelled in Higgsfield 3D Jutsu](prints/emberwing-rift-concepts/images/hero.png)](prints/emberwing-rift-concepts/)
@@ -31,6 +37,16 @@ A little fantasy, a little arcade, and a place for the things you make. Choose a
 > The shelf meshes are checked, but they are not yet sliced or physically tested. Adhesive mounting on textured painted walls remains unresolved; no working load is assigned.
 
 ## The collection
+
+### Metallica / modular wall emblem
+
+[![Metallica wall emblem CAD preview](Desktop-Prints/metallica%20logo/Design_preview.png)](Desktop-Prints/metallica%20logo/PORTFOLIO.md)
+
+A 900 mm, five section wall sign with concealed snap keys, fit test, assembly maps, STL parts, editable Blender source, and Bambu Studio projects. The faster plate layout is documented alongside the original.
+
+**Digitally checked and sliced · Physical print and mounting untested · Unofficial fan project**
+
+[**Explore the project →**](Desktop-Prints/metallica%20logo/PORTFOLIO.md)
 
 <table>
 <tr>
