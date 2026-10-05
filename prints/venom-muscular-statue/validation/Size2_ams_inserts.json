@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Chest_R_upper_arm_01",
+    "host": "R_arm",
+    "volume_mm3": 390.9618792125295,
+    "clearance_mm": 0,
+    "triangles": 27346,
+    "mode": "integrated AMS material; no separate glue-insert clearance"
+  },
+  {
+    "name": "Chest_Torso_01",
+    "host": "Torso",
+    "volume_mm3": 3507.8277145347442,
+    "clearance_mm": 0,
+    "triangles": 274934,
+    "mode": "integrated AMS material; no separate glue-insert clearance"
+  },
+  {
+    "name": "Eye_L_Torso_01",
+    "host": "Torso",
+    "volume_mm3": 232.2138571513371,
+    "clearance_mm": 0,
+    "triangles": 21354,
+    "mode": "integrated AMS material; no separate glue-insert clearance"
+  },
+  {
+    "name": "Eye_R_Torso_01",
+    "host": "Torso",
+    "volume_mm3": 239.4483330640349,
+    "clearance_mm": 0,
+    "triangles": 19344,
+    "mode": "integrated AMS material; no separate glue-insert clearance"
+  },
+  {
+    "name": "Teeth_Torso_01",
+    "host": "Torso",
+    "volume_mm3": 136.72979108295448,
+    "clearance_mm": 0,
+    "triangles": 19734,
+    "mode": "integrated AMS material; no separate glue-insert clearance"
+  }
+]

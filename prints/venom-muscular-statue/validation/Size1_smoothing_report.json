@@ -1,0 +1,74 @@
+[
+  {
+    "name": "L_arm",
+    "maximum_surface_movement_mm": 0.06000000000000001,
+    "protected_vertices": 12974,
+    "closed": true
+  },
+  {
+    "name": "L_leg",
+    "maximum_surface_movement_mm": 0.06000000000000002,
+    "protected_vertices": 10078,
+    "closed": true
+  },
+  {
+    "name": "Pelvis",
+    "maximum_surface_movement_mm": 0.06000000000000002,
+    "protected_vertices": 7865,
+    "closed": true
+  },
+  {
+    "name": "R_arm",
+    "maximum_surface_movement_mm": 0.06000000000000001,
+    "protected_vertices": 23102,
+    "closed": true
+  },
+  {
+    "name": "R_leg",
+    "maximum_surface_movement_mm": 0.06000000000000002,
+    "protected_vertices": 7654,
+    "closed": true
+  },
+  {
+    "name": "Torso",
+    "maximum_surface_movement_mm": 0.06000000000000002,
+    "protected_vertices": 174735,
+    "closed": true
+  },
+  {
+    "name": "Chest_R_upper_arm_01",
+    "maximum_surface_movement_mm": 0.0,
+    "protected_vertices": 14086,
+    "closed": true
+  },
+  {
+    "name": "Chest_Torso_01",
+    "maximum_surface_movement_mm": 0.0,
+    "protected_vertices": 150955,
+    "closed": true
+  },
+  {
+    "name": "Eye_L_Torso_01",
+    "maximum_surface_movement_mm": 0.0,
+    "protected_vertices": 12907,
+    "closed": true
+  },
+  {
+    "name": "Eye_R_Torso_01",
+    "maximum_surface_movement_mm": 0.0,
+    "protected_vertices": 11744,
+    "closed": true
+  },
+  {
+    "name": "Teeth_Torso_01",
+    "maximum_surface_movement_mm": 0.0,
+    "protected_vertices": 15132,
+    "closed": true
+  },
+  {
+    "name": "Tongue",
+    "maximum_surface_movement_mm": 0.0,
+    "protected_vertices": 5237,
+    "closed": true
+  }
+]

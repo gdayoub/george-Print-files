@@ -1,0 +1,29 @@
+edition,printer,plate,parts,grams,time,filament_changes
+Size1 separate,P1S,1,Torso,254.503662109375,11 h 22 min,0
+Size1 separate,P1S,2,R_arm,79.18587493896484,3 h 56 min,0
+Size1 separate,P1S,3,L_arm,80.16878509521484,4 h 13 min,0
+Size1 separate,P1S,4,R_leg,91.30797576904297,4 h 07 min,0
+Size1 separate,P1S,5,Pelvis,101.63201141357422,4 h 13 min,0
+Size1 separate,P1S,6,L_leg,91.36965942382812,4 h 07 min,0
+Size1 separate,P1S,7,"Chest_R_upper_arm_01, Chest_Torso_01, Eye_L_Torso_01, Eye_R_Torso_01, Teeth_Torso_01",67.4388427734375,5 h 27 min,0
+Size1 separate,P1S,8,Tongue,6.618049144744873,0 h 32 min,0
+Size1 separate,P2S,1,Torso,254.61077880859375,11 h 33 min,0
+Size1 separate,P2S,2,R_arm,79.0848159790039,4 h 00 min,0
+Size1 separate,P2S,3,L_arm,80.08332061767578,4 h 17 min,0
+Size1 separate,P2S,4,R_leg,91.21296691894531,4 h 10 min,0
+Size1 separate,P2S,5,Pelvis,101.54120635986328,4 h 16 min,0
+Size1 separate,P2S,6,L_leg,91.27423095703125,4 h 11 min,0
+Size1 separate,P2S,7,"Chest_R_upper_arm_01, Chest_Torso_01, Eye_L_Torso_01, Eye_R_Torso_01, Teeth_Torso_01",67.34085083007812,5 h 38 min,0
+Size1 separate,P2S,8,Tongue,6.570850372314453,0 h 34 min,0
+Size2 separate,P1S,1,"L_arm, R_arm, Torso",93.02485656738281,5 h 12 min,0
+Size2 separate,P1S,2,"L_leg, Pelvis, R_leg",62.085845947265625,3 h 09 min,0
+Size2 separate,P1S,3,"Chest_R_upper_arm_01, Chest_Torso_01, Eye_L_Torso_01, Eye_R_Torso_01, Teeth_Torso_01",14.336129188537598,1 h 34 min,0
+Size2 separate,P1S,4,Tongue,1.6020845174789429,0 h 16 min,0
+Size2 separate,P2S,1,"L_arm, R_arm, Torso",93.04894256591797,5 h 20 min,0
+Size2 separate,P2S,2,"L_leg, Pelvis, R_leg",61.98556137084961,3 h 12 min,0
+Size2 separate,P2S,3,"Chest_R_upper_arm_01, Chest_Torso_01, Eye_L_Torso_01, Eye_R_Torso_01, Teeth_Torso_01",14.240943908691406,1 h 38 min,0
+Size2 separate,P2S,4,Tongue,1.5082846879959106,0 h 16 min,0
+Size2 AMS,P1S,1,"L_arm, R_arm, Torso, Tongue",399.793737411499,25 h 02 min,532
+Size2 AMS,P1S,2,"L_leg, Pelvis, R_leg",62.0809440612793,3 h 09 min,0
+Size2 AMS,P2S,1,"L_arm, R_arm, Torso, Tongue",396.4878387451172,23 h 27 min,532
+Size2 AMS,P2S,2,"L_leg, Pelvis, R_leg",61.980716705322266,3 h 12 min,0

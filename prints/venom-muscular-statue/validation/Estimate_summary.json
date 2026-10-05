@@ -1,0 +1,56 @@
+[
+  {
+    "edition": "Size1 separate",
+    "printer": "P1S",
+    "plates": 8,
+    "total_grams": 772.2248606681824,
+    "total_seconds": 136654.48901367188,
+    "formatted_time": "37 h 58 min",
+    "filament_changes": 0
+  },
+  {
+    "edition": "Size1 separate",
+    "printer": "P2S",
+    "plates": 8,
+    "total_grams": 771.7190208435059,
+    "total_seconds": 139165.4403076172,
+    "formatted_time": "38 h 39 min",
+    "filament_changes": 0
+  },
+  {
+    "edition": "Size2 separate",
+    "printer": "P1S",
+    "plates": 4,
+    "total_grams": 171.04891622066498,
+    "total_seconds": 36639.60693359375,
+    "formatted_time": "10 h 11 min",
+    "filament_changes": 0
+  },
+  {
+    "edition": "Size2 separate",
+    "printer": "P2S",
+    "plates": 4,
+    "total_grams": 170.7837325334549,
+    "total_seconds": 37586.054138183594,
+    "formatted_time": "10 h 26 min",
+    "filament_changes": 0
+  },
+  {
+    "edition": "Size2 AMS",
+    "printer": "P1S",
+    "plates": 2,
+    "total_grams": 461.8746814727783,
+    "total_seconds": 101458.1962890625,
+    "formatted_time": "28 h 11 min",
+    "filament_changes": 532
+  },
+  {
+    "edition": "Size2 AMS",
+    "printer": "P2S",
+    "plates": 2,
+    "total_grams": 458.46855545043945,
+    "total_seconds": 95975.755859375,
+    "formatted_time": "26 h 40 min",
+    "filament_changes": 532
+  }
+]

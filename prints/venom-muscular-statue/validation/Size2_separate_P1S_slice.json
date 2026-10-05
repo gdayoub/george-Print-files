@@ -1,0 +1,141 @@
+{
+  "return_code": 0,
+  "slicer": "Bambu Studio 02.08.02.61",
+  "summary": {
+    "edition": "Size2 separate",
+    "printer": "P1S",
+    "plates": 4,
+    "total_grams": 171.04891622066498,
+    "total_seconds": 36639.60693359375,
+    "formatted_time": "10 h 11 min",
+    "filament_changes": 0
+  },
+  "plates": [
+    {
+      "id": 1,
+      "seconds": 18736.87109375,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 93.02485656738281,
+          "total_used_g": 93.02485656738281
+        }
+      ],
+      "filament_changes": 0,
+      "warning": "",
+      "feature_type_times": {
+        "Bottom surface": 146.3343963623047,
+        "Bridge": 340.5448913574219,
+        "Brim": 55.081695556640625,
+        "Custom": 364.8226623535156,
+        "Flush": 29.0,
+        "Gap infill": 231.94674682617188,
+        "Inner wall": 2694.3525390625,
+        "Internal solid infill": 2015.037353515625,
+        "Outer wall": 4208.7646484375,
+        "Overhang wall": 334.5361022949219,
+        "Sparse infill": 648.1637573242188,
+        "Support": 2990.06982421875,
+        "Support interface": 197.2142333984375,
+        "Top surface": 317.06396484375,
+        "Travel": 4177.3828125,
+        "Undefined": 4161.75732421875
+      }
+    },
+    {
+      "id": 2,
+      "seconds": 11348.2607421875,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 62.085845947265625,
+          "total_used_g": 62.085845947265625
+        }
+      ],
+      "filament_changes": 0,
+      "warning": "",
+      "feature_type_times": {
+        "Bottom surface": 88.13445281982422,
+        "Bridge": 315.29486083984375,
+        "Brim": 52.61101150512695,
+        "Custom": 364.7395935058594,
+        "Flush": 29.0,
+        "Gap infill": 74.66992950439453,
+        "Inner wall": 1960.7113037109375,
+        "Internal solid infill": 1140.8016357421875,
+        "Outer wall": 2843.005126953125,
+        "Overhang wall": 264.480224609375,
+        "Sparse infill": 663.2373046875,
+        "Support": 1233.281005859375,
+        "Support interface": 121.37122344970703,
+        "Top surface": 189.22207641601562,
+        "Travel": 2022.55029296875,
+        "Undefined": 2006.95751953125
+      }
+    },
+    {
+      "id": 3,
+      "seconds": 5618.6142578125,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 14.336129188537598,
+          "total_used_g": 14.336129188537598
+        }
+      ],
+      "filament_changes": 0,
+      "warning": "",
+      "feature_type_times": {
+        "Bridge": 36.231807708740234,
+        "Brim": 0.925396203994751,
+        "Custom": 364.7551574707031,
+        "Flush": 29.0,
+        "Gap infill": 225.6851806640625,
+        "Inner wall": 216.43002319335938,
+        "Internal solid infill": 63.884742736816406,
+        "Outer wall": 754.6575317382812,
+        "Overhang wall": 172.5935821533203,
+        "Support": 1917.1768798828125,
+        "Support interface": 97.6355209350586,
+        "Top surface": 72.77820587158203,
+        "Travel": 1681.5291748046875,
+        "Undefined": 1666.02880859375
+      }
+    },
+    {
+      "id": 4,
+      "seconds": 935.86083984375,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 3,
+          "main_used_g": 1.6020845174789429,
+          "total_used_g": 1.6020845174789429
+        }
+      ],
+      "filament_changes": 0,
+      "warning": "",
+      "feature_type_times": {
+        "Bottom surface": 4.541813373565674,
+        "Bridge": 1.7004801034927368,
+        "Brim": 5.969640254974365,
+        "Custom": 364.5940246582031,
+        "Flush": 29.0,
+        "Gap infill": 19.823436737060547,
+        "Inner wall": 104.98633575439453,
+        "Internal solid infill": 64.56027221679688,
+        "Outer wall": 145.79052734375,
+        "Overhang wall": 13.509876251220703,
+        "Sparse infill": 6.304366111755371,
+        "Support": 75.7321548461914,
+        "Support interface": 6.53169584274292,
+        "Top surface": 7.451554775238037,
+        "Travel": 101.01799774169922,
+        "Undefined": 85.3763198852539
+      }
+    }
+  ]
+}

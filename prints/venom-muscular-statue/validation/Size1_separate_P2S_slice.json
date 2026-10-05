@@ -1,0 +1,266 @@
+{
+  "return_code": 0,
+  "slicer": "Bambu Studio 02.08.02.61",
+  "summary": {
+    "edition": "Size1 separate",
+    "printer": "P2S",
+    "plates": 8,
+    "total_grams": 771.7190208435059,
+    "total_seconds": 139165.4403076172,
+    "formatted_time": "38 h 39 min",
+    "filament_changes": 0
+  },
+  "plates": [
+    {
+      "id": 1,
+      "seconds": 41569.78515625,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 254.61077880859375,
+          "total_used_g": 254.61077880859375
+        }
+      ],
+      "filament_changes": 0,
+      "warning": "",
+      "feature_type_times": {
+        "Bottom surface": 240.3039093017578,
+        "Bridge": 517.0888671875,
+        "Brim": 47.11443328857422,
+        "Custom": 397.6292724609375,
+        "Flush": 26.0,
+        "Gap infill": 290.5060119628906,
+        "Inner wall": 6269.81640625,
+        "Internal solid infill": 3691.438720703125,
+        "Outer wall": 9652.837890625,
+        "Overhang wall": 584.2395629882812,
+        "Sparse infill": 1931.164794921875,
+        "Support": 8730.2939453125,
+        "Support interface": 170.9655303955078,
+        "Top surface": 375.452880859375,
+        "Travel": 8619.48828125,
+        "Undefined": 8617.919921875
+      }
+    },
+    {
+      "id": 2,
+      "seconds": 14403.673828125,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 79.0848159790039,
+          "total_used_g": 79.0848159790039
+        }
+      ],
+      "filament_changes": 0,
+      "warning": "",
+      "feature_type_times": {
+        "Bottom surface": 293.5421447753906,
+        "Bridge": 219.05712890625,
+        "Brim": 56.29108428955078,
+        "Custom": 400.2695007324219,
+        "Flush": 26.0,
+        "Gap infill": 107.78820037841797,
+        "Inner wall": 1981.221923828125,
+        "Internal solid infill": 2237.19775390625,
+        "Outer wall": 2900.02734375,
+        "Overhang wall": 271.62274169921875,
+        "Sparse infill": 828.4384155273438,
+        "Support": 1713.201171875,
+        "Support interface": 119.51716613769531,
+        "Top surface": 239.51246643066406,
+        "Travel": 3016.33935546875,
+        "Undefined": 3012.033447265625
+      }
+    },
+    {
+      "id": 3,
+      "seconds": 15438.9990234375,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 80.08332061767578,
+          "total_used_g": 80.08332061767578
+        }
+      ],
+      "filament_changes": 0,
+      "warning": "",
+      "feature_type_times": {
+        "Bridge": 578.2607421875,
+        "Custom": 400.04339599609375,
+        "Flush": 26.0,
+        "Gap infill": 78.43346405029297,
+        "Inner wall": 1744.4154052734375,
+        "Internal solid infill": 1865.696044921875,
+        "Outer wall": 2747.00390625,
+        "Overhang wall": 345.9463806152344,
+        "Sparse infill": 727.09912109375,
+        "Support": 3025.794189453125,
+        "Support interface": 405.5445251464844,
+        "Top surface": 190.98313903808594,
+        "Travel": 3309.319580078125,
+        "Undefined": 3305.203857421875
+      }
+    },
+    {
+      "id": 4,
+      "seconds": 15025.5068359375,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 91.21296691894531,
+          "total_used_g": 91.21296691894531
+        }
+      ],
+      "filament_changes": 0,
+      "warning": "",
+      "feature_type_times": {
+        "Bridge": 439.86328125,
+        "Brim": 3.1517186164855957,
+        "Custom": 397.7303466796875,
+        "Flush": 26.0,
+        "Gap infill": 36.0821647644043,
+        "Inner wall": 2478.8359375,
+        "Internal solid infill": 1336.6856689453125,
+        "Outer wall": 3580.792724609375,
+        "Overhang wall": 346.08258056640625,
+        "Sparse infill": 1635.03564453125,
+        "Support": 2289.75146484375,
+        "Support interface": 197.4049530029297,
+        "Top surface": 143.83139038085938,
+        "Travel": 2116.00927734375,
+        "Undefined": 2114.440185546875
+      }
+    },
+    {
+      "id": 5,
+      "seconds": 15356.716796875,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 101.54119873046875,
+          "total_used_g": 101.54120635986328
+        }
+      ],
+      "filament_changes": 0,
+      "warning": "",
+      "feature_type_times": {
+        "Bottom surface": 323.8811340332031,
+        "Bridge": 428.8714904785156,
+        "Brim": 71.2235336303711,
+        "Custom": 399.75164794921875,
+        "Flush": 26.0,
+        "Gap infill": 15.040111541748047,
+        "Inner wall": 2609.793701171875,
+        "Internal solid infill": 1693.725830078125,
+        "Outer wall": 3413.802978515625,
+        "Overhang wall": 274.979736328125,
+        "Sparse infill": 1714.728271484375,
+        "Support": 1676.9051513671875,
+        "Support interface": 49.00816345214844,
+        "Top surface": 196.96209716796875,
+        "Travel": 2466.83740234375,
+        "Undefined": 2463.171630859375
+      }
+    },
+    {
+      "id": 6,
+      "seconds": 15035.484375,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 91.27423095703125,
+          "total_used_g": 91.27423095703125
+        }
+      ],
+      "filament_changes": 0,
+      "warning": "",
+      "feature_type_times": {
+        "Bridge": 440.10565185546875,
+        "Brim": 3.0535452365875244,
+        "Custom": 397.6041259765625,
+        "Flush": 26.0,
+        "Gap infill": 43.54212188720703,
+        "Inner wall": 2514.066162109375,
+        "Internal solid infill": 1274.4224853515625,
+        "Outer wall": 3594.559326171875,
+        "Overhang wall": 341.3695373535156,
+        "Sparse infill": 1689.472412109375,
+        "Support": 2244.758056640625,
+        "Support interface": 218.1391143798828,
+        "Top surface": 156.17092895507812,
+        "Travel": 2094.2099609375,
+        "Undefined": 2092.640869140625
+      }
+    },
+    {
+      "id": 7,
+      "seconds": 20301.115234375,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 67.34085083007812,
+          "total_used_g": 67.34085083007812
+        }
+      ],
+      "filament_changes": 0,
+      "warning": "",
+      "feature_type_times": {
+        "Bridge": 277.7987060546875,
+        "Brim": 1.9821839332580566,
+        "Custom": 401.5245666503906,
+        "Flush": 26.0,
+        "Gap infill": 470.60577392578125,
+        "Inner wall": 1370.96142578125,
+        "Internal solid infill": 1710.9254150390625,
+        "Outer wall": 2848.8232421875,
+        "Overhang wall": 680.90625,
+        "Sparse infill": 33.99730682373047,
+        "Support": 5881.00732421875,
+        "Support interface": 344.3508605957031,
+        "Top surface": 214.9140625,
+        "Travel": 6044.1513671875,
+        "Undefined": 6038.72509765625
+      }
+    },
+    {
+      "id": 8,
+      "seconds": 2034.1590576171875,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 3,
+          "main_used_g": 6.570850372314453,
+          "total_used_g": 6.570850372314453
+        }
+      ],
+      "filament_changes": 0,
+      "warning": "",
+      "feature_type_times": {
+        "Bottom surface": 18.25182342529297,
+        "Bridge": 29.300064086914062,
+        "Brim": 10.589301109313965,
+        "Custom": 402.8464660644531,
+        "Flush": 26.0,
+        "Gap infill": 34.88945388793945,
+        "Inner wall": 242.19189453125,
+        "Internal solid infill": 161.96096801757812,
+        "Outer wall": 354.60369873046875,
+        "Overhang wall": 53.70343780517578,
+        "Sparse infill": 35.98659896850586,
+        "Support": 287.000244140625,
+        "Support interface": 25.135358810424805,
+        "Top surface": 14.720839500427246,
+        "Travel": 343.7544250488281,
+        "Undefined": 337.0084228515625
+      }
+    }
+  ]
+}

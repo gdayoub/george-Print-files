@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Chest_R_upper_arm_01",
+    "host": "R_arm",
+    "volume_mm3": 328.52080087611137,
+    "clearance_mm": 0.2,
+    "triangles": 47948
+  },
+  {
+    "name": "Chest_Torso_01",
+    "host": "Torso",
+    "volume_mm3": 2976.219096938778,
+    "clearance_mm": 0.2,
+    "triangles": 382272
+  },
+  {
+    "name": "Eye_L_Torso_01",
+    "host": "Torso",
+    "volume_mm3": 194.53030267047842,
+    "clearance_mm": 0.2,
+    "triangles": 34004
+  },
+  {
+    "name": "Eye_R_Torso_01",
+    "host": "Torso",
+    "volume_mm3": 201.6703892697941,
+    "clearance_mm": 0.2,
+    "triangles": 30980
+  },
+  {
+    "name": "Teeth_Torso_01",
+    "host": "Torso",
+    "volume_mm3": 117.12091027660664,
+    "clearance_mm": 0.2,
+    "triangles": 42108
+  }
+]

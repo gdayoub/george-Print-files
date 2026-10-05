@@ -2,6 +2,27 @@
   "title": "George Print Files",
   "projects": [
     {
+      "id": "venom-muscular-statue",
+      "title": "Venom muscular shelf statue — two sizes",
+      "path": "prints/venom-muscular-statue",
+      "preview": "prints/venom-muscular-statue/images/Size_comparison.png",
+      "status": "digitally-checked-and-sliced-physical-print-and-fit-untested",
+      "recommended": "prints/venom-muscular-statue/Size_2_232mm/Venom_Size2_P1S_SEPARATE.3mf",
+      "heights_mm": [
+        464.7380789681078,
+        232.3690394840539
+      ],
+      "variants": [
+        "Size1 separate colors",
+        "Size2 separate colors",
+        "Size2 AMS"
+      ],
+      "original_creator": "OVERRIDE3D_5884368",
+      "source_license": "Standard Digital File License",
+      "public_redistribution_permission": "unverified",
+      "makerworld_url": null
+    },
+    {
       "id": "emberwing-rift-concepts",
       "title": "Emberwing + Rift",
       "path": "prints/emberwing-rift-concepts",

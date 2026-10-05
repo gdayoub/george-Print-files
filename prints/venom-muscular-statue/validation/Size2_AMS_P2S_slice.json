@@ -1,0 +1,92 @@
+{
+  "return_code": 0,
+  "slicer": "Bambu Studio 02.08.02.61",
+  "summary": {
+    "edition": "Size2 AMS",
+    "printer": "P2S",
+    "plates": 2,
+    "total_grams": 458.46855545043945,
+    "total_seconds": 95975.755859375,
+    "formatted_time": "26 h 40 min",
+    "filament_changes": 532
+  },
+  "plates": [
+    {
+      "id": 1,
+      "seconds": 84439.5234375,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 78.26710510253906,
+          "total_used_g": 153.9264678955078
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 14.3124361038208,
+          "total_used_g": 218.16192626953125
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 3,
+          "main_used_g": 3.912659168243408,
+          "total_used_g": 24.399444580078125
+        }
+      ],
+      "filament_changes": 532,
+      "warning": "",
+      "feature_type_times": {
+        "Bottom surface": 156.0749969482422,
+        "Bridge": 318.73468017578125,
+        "Brim": 60.79831314086914,
+        "Custom": 399.1391296386719,
+        "Flush": 54615.625,
+        "Gap infill": 561.754150390625,
+        "Inner wall": 2958.59521484375,
+        "Internal solid infill": 1976.6309814453125,
+        "Outer wall": 5230.060546875,
+        "Overhang wall": 344.4828796386719,
+        "Prime tower": 6512.54638671875,
+        "Sparse infill": 638.5861206054688,
+        "Support": 2828.74658203125,
+        "Support interface": 203.05081176757812,
+        "Top surface": 208.50758361816406,
+        "Travel": 7448.50439453125,
+        "Undefined": 7445.408203125
+      }
+    },
+    {
+      "id": 2,
+      "seconds": 11536.232421875,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 61.980712890625,
+          "total_used_g": 61.980716705322266
+        }
+      ],
+      "filament_changes": 0,
+      "warning": "",
+      "feature_type_times": {
+        "Bottom surface": 91.23767852783203,
+        "Bridge": 316.7766418457031,
+        "Brim": 52.792266845703125,
+        "Custom": 398.53790283203125,
+        "Flush": 26.0,
+        "Gap infill": 78.9367446899414,
+        "Inner wall": 1981.914306640625,
+        "Internal solid infill": 1166.178466796875,
+        "Outer wall": 2881.262939453125,
+        "Overhang wall": 263.6275939941406,
+        "Sparse infill": 672.724853515625,
+        "Support": 1247.15283203125,
+        "Support interface": 121.71764373779297,
+        "Top surface": 141.17300415039062,
+        "Travel": 2098.49462890625,
+        "Undefined": 2095.9287109375
+      }
+    }
+  ]
+}

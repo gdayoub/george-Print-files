@@ -12,6 +12,16 @@ These pages distinguish CAD renders and digital checks from completed physical p
 
 ## Fresh from the workbench
 
+### Venom / two statue sizes
+
+[![Venom statue at 46.5 cm and 23.2 cm — CAD render](prints/venom-muscular-statue/images/Size_comparison.png)](prints/venom-muscular-statue/)
+
+Whole arms and legs, keyed glue assembly, and lightweight P1S/P2S projects. Choose the large 46.5 cm build, the economical 23.2 cm build, or the small AMS option with integrated white details.
+
+**Digitally checked and sliced · Physical fit untested · Private backup; source redistribution permission unverified**
+
+[**Files, estimates and assembly →**](prints/venom-muscular-statue/) · [Source credit and license](prints/venom-muscular-statue/CREDITS.md)
+
 [![Emberwing and Rift — larger shelf concepts modelled in Higgsfield 3D Jutsu](prints/emberwing-rift-concepts/images/hero.png)](prints/emberwing-rift-concepts/)
 
 ### Emberwing + Rift / new design direction

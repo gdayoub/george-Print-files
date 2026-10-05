@@ -1,0 +1,419 @@
+{
+  "scale": 0.5,
+  "height_mm": 232.3690394840539,
+  "joint_checks": [
+    {
+      "joint": "J01",
+      "nominal_radial_clearance_mm": 0.18,
+      "interference_mm3": 0.0
+    },
+    {
+      "joint": "J04",
+      "nominal_radial_clearance_mm": 0.18,
+      "interference_mm3": 0.0
+    },
+    {
+      "joint": "J07",
+      "nominal_radial_clearance_mm": 0.18,
+      "interference_mm3": 0.0
+    },
+    {
+      "joint": "J08",
+      "nominal_radial_clearance_mm": 0.18,
+      "interference_mm3": 0.0
+    },
+    {
+      "joint": "J09",
+      "nominal_radial_clearance_mm": 0.18,
+      "interference_mm3": 0.0
+    },
+    {
+      "joint": "J10",
+      "nominal_radial_clearance_mm": 0.18,
+      "interference_mm3": 0.0
+    },
+    {
+      "inset": "Chest_R_upper_arm_01",
+      "bonding_overlap_mm3": 12.972281439531875
+    },
+    {
+      "inset": "Chest_Torso_01",
+      "bonding_overlap_mm3": 121.38601347569168
+    },
+    {
+      "inset": "Eye_L_Torso_01",
+      "bonding_overlap_mm3": 8.500790188660739
+    },
+    {
+      "inset": "Eye_R_Torso_01",
+      "bonding_overlap_mm3": 8.504553902884187
+    },
+    {
+      "inset": "Teeth_Torso_01",
+      "bonding_overlap_mm3": 4.121447504287812
+    }
+  ],
+  "overlaps": [],
+  "parts": [
+    {
+      "name": "L_arm",
+      "color": "Black",
+      "triangles": 156552,
+      "volume_mm3": 56445.700282010395,
+      "bounds_mm": [
+        [
+          49.2776785699869,
+          -33.135006,
+          100.86691932
+        ],
+        [
+          101.20736515619699,
+          24.15669838711627,
+          218.14880953342106
+        ]
+      ],
+      "dimensions_mm": [
+        51.92968658621009,
+        57.29170438711627,
+        117.28189021342106
+      ],
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "indexed_watertight": true,
+      "welded_watertight": true,
+      "winding_consistent": true,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "L_leg",
+      "color": "Black",
+      "triangles": 121328,
+      "volume_mm3": 74358.02093339147,
+      "bounds_mm": [
+        [
+          11.771085140858847,
+          -47.967659039999994,
+          0.0012268800000043711
+        ],
+        [
+          101.38356624000001,
+          12.028045494355817,
+          108.0
+        ]
+      ],
+      "dimensions_mm": [
+        89.61248109914116,
+        59.99570453435581,
+        107.99877312
+      ],
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "indexed_watertight": true,
+      "welded_watertight": true,
+      "winding_consistent": true
+    },
+    {
+      "id": 3,
+      "name": "Pelvis",
+      "color": "Black",
+      "triangles": 84412,
+      "volume_mm3": 107218.60502974903,
+      "bounds_mm": [
+        [
+          -65.5700778827236,
+          -28.99816503013829,
+          99.99999999999997
+        ],
+        [
+          54.66898846530683,
+          32.31054431828913,
+          143.0
+        ]
+      ],
+      "dimensions_mm": [
+        120.23906634803043,
+        61.30870934842742,
+        43.00000000000003
+      ],
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "indexed_watertight": true,
+      "welded_watertight": true,
+      "winding_consistent": true
+    },
+    {
+      "name": "R_arm",
+      "color": "Black",
+      "triangles": 159712,
+      "volume_mm3": 68784.33728241947,
+      "bounds_mm": [
+        [
+          -101.36777352,
+          -18.631407630999664,
+          107.779948416
+        ],
+        [
+          -49.04739439913242,
+          50.557283148704705,
+          219.68403733911754
+        ]
+      ],
+      "dimensions_mm": [
+        52.32037912086758,
+        69.18869077970437,
+        111.90408892311754
+      ],
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "indexed_watertight": true,
+      "welded_watertight": true,
+      "winding_consistent": true,
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "R_leg",
+      "color": "Black",
+      "triangles": 102672,
+      "volume_mm3": 74337.13358871864,
+      "bounds_mm": [
+        [
+          -101.38356624000001,
+          -15.787316963170928,
+          0.0
+        ],
+        [
+          -20.034914904734446,
+          57.362539680000005,
+          108.0
+        ]
+      ],
+      "dimensions_mm": [
+        81.34865133526556,
+        73.14985664317093,
+        108.0
+      ],
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "indexed_watertight": true,
+      "welded_watertight": true,
+      "winding_consistent": true
+    },
+    {
+      "id": 6,
+      "name": "Torso",
+      "color": "Black",
+      "triangles": 662928,
+      "volume_mm3": 356365.22456967656,
+      "bounds_mm": [
+        [
+          -59.694104928740785,
+          -57.36826632,
+          135.00000000000003
+        ],
+        [
+          59.29748031590762,
+          44.64078192537284,
+          232.3690394840539
+        ]
+      ],
+      "dimensions_mm": [
+        118.9915852446484,
+        102.00904824537284,
+        97.36903948405387
+      ],
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "indexed_watertight": true,
+      "welded_watertight": true,
+      "winding_consistent": true
+    },
+    {
+      "id": 7,
+      "name": "Chest_R_upper_arm_01",
+      "color": "White",
+      "triangles": 27346,
+      "volume_mm3": 390.9618792125295,
+      "bounds_mm": [
+        [
+          -66.96632934983772,
+          -18.64341194490123,
+          185.63144440102238
+        ],
+        [
+          -52.24242574359507,
+          3.245170381760334,
+          216.67531781250506
+        ]
+      ],
+      "dimensions_mm": [
+        14.72390360624265,
+        21.888582326661567,
+        31.04387341148268
+      ],
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "indexed_watertight": true,
+      "welded_watertight": true,
+      "winding_consistent": true
+    },
+    {
+      "id": 8,
+      "name": "Chest_Torso_01",
+      "color": "White",
+      "triangles": 274934,
+      "volume_mm3": 3507.8277145347442,
+      "bounds_mm": [
+        [
+          -54.20897073585255,
+          -33.80587312530015,
+          144.12468497399888
+        ],
+        [
+          44.2363830999465,
+          -8.24980949397991,
+          216.89261327410713
+        ]
+      ],
+      "dimensions_mm": [
+        98.44535383579905,
+        25.556063631320242,
+        72.76792830010825
+      ],
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "indexed_watertight": true,
+      "welded_watertight": true,
+      "winding_consistent": true
+    },
+    {
+      "id": 9,
+      "name": "Eye_L_Torso_01",
+      "color": "White",
+      "triangles": 21354,
+      "volume_mm3": 232.2138571513371,
+      "bounds_mm": [
+        [
+          -8.93992073589637,
+          -55.00863789576123,
+          211.58989224545357
+        ],
+        [
+          0.6723192904975163,
+          -35.00517144397632,
+          229.72959686881885
+        ]
+      ],
+      "dimensions_mm": [
+        9.612240026393886,
+        20.00346645178491,
+        18.139704623365276
+      ],
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "indexed_watertight": true,
+      "welded_watertight": true,
+      "winding_consistent": true
+    },
+    {
+      "id": 10,
+      "name": "Eye_R_Torso_01",
+      "color": "White",
+      "triangles": 19344,
+      "volume_mm3": 239.4483330640349,
+      "bounds_mm": [
+        [
+          -22.524520104,
+          -54.53625077533127,
+          210.33909879048207
+        ],
+        [
+          -13.254428879798514,
+          -34.75501406969726,
+          228.53307804228132
+        ]
+      ],
+      "dimensions_mm": [
+        9.270091224201487,
+        19.781236705634008,
+        18.19397925179925
+      ],
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "indexed_watertight": true,
+      "welded_watertight": true,
+      "winding_consistent": true
+    },
+    {
+      "id": 11,
+      "name": "Teeth_Torso_01",
+      "color": "White",
+      "triangles": 19734,
+      "volume_mm3": 136.72979108295448,
+      "bounds_mm": [
+        [
+          -18.029433443875124,
+          -55.51478241079403,
+          199.2377398635318
+        ],
+        [
+          -4.174970904,
+          -45.494756702117385,
+          210.3877593187164
+        ]
+      ],
+      "dimensions_mm": [
+        13.854462539875124,
+        10.020025708676641,
+        11.150019455184605
+      ],
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "indexed_watertight": true,
+      "welded_watertight": true,
+      "winding_consistent": true
+    },
+    {
+      "id": 12,
+      "name": "Tongue",
+      "color": "Red",
+      "triangles": 10746,
+      "volume_mm3": 1272.7757835692653,
+      "bounds_mm": [
+        [
+          -33.8097336,
+          -51.65011107459677,
+          184.50886680000002
+        ],
+        [
+          -2.5892929859737603,
+          -39.0,
+          205.45327794354134
+        ]
+      ],
+      "dimensions_mm": [
+        31.22044061402624,
+        12.650111074596772,
+        20.944411143541316
+      ],
+      "components": 1,
+      "manifold_status": "Error.NoError",
+      "indexed_watertight": true,
+      "welded_watertight": true,
+      "winding_consistent": true
+    }
+  ],
+  "numerical_cleanup": [
+    {
+      "part": "R_arm",
+      "discarded_numerical_fragments": 130,
+      "discarded_volume_mm3": 3.5042133873429677e-06
+    },
+    {
+      "part": "Torso",
+      "discarded_numerical_fragments": 2378,
+      "discarded_volume_mm3": 0.00012460421915797985
+    }
+  ]
+}

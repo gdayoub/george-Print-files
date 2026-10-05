@@ -1,0 +1,78 @@
+[
+  {
+    "plate": "plate_1.gcode",
+    "extrusion_bounds_mm": [
+      [
+        8.944999351491637,
+        32.186791586646834,
+        0.2
+      ],
+      [
+        242.06,
+        239.4217611101475,
+        97.4
+      ]
+    ],
+    "checked_extrusion_segments": 890327,
+    "including_circular_arcs": 357770,
+    "outside_build_volume": 0,
+    "P1S_excluded_corner_hits": 0
+  },
+  {
+    "plate": "plate_2.gcode",
+    "extrusion_bounds_mm": [
+      [
+        13.025,
+        29.458,
+        0.2
+      ],
+      [
+        227.837,
+        174.739,
+        108.0
+      ]
+    ],
+    "checked_extrusion_segments": 514644,
+    "including_circular_arcs": 226023,
+    "outside_build_volume": 0,
+    "P1S_excluded_corner_hits": 0
+  },
+  {
+    "plate": "plate_3.gcode",
+    "extrusion_bounds_mm": [
+      [
+        10.401328170675246,
+        27.115557618909435,
+        0.2
+      ],
+      [
+        202.8538211224891,
+        109.58157096735117,
+        25.4
+      ]
+    ],
+    "checked_extrusion_segments": 203140,
+    "including_circular_arcs": 88063,
+    "outside_build_volume": 0,
+    "P1S_excluded_corner_hits": 0
+  },
+  {
+    "plate": "plate_4.gcode",
+    "extrusion_bounds_mm": [
+      [
+        8.558047264906874,
+        28.703813401660426,
+        0.2
+      ],
+      [
+        47.814,
+        55.857598634458974,
+        11.8
+      ]
+    ],
+    "checked_extrusion_segments": 14970,
+    "including_circular_arcs": 5740,
+    "outside_build_volume": 0,
+    "P1S_excluded_corner_hits": 0
+  }
+]

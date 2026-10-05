@@ -1,0 +1,194 @@
+{
+  "stls": [
+    {
+      "file": "Chest_R_upper_arm_01.stl",
+      "closed": true,
+      "consistent_normals": true,
+      "manifold": "NoError",
+      "dimensions_mm": [
+        14.607986450195312,
+        30.864273071289062,
+        21.759584426879883
+      ]
+    },
+    {
+      "file": "Chest_Torso_01.stl",
+      "closed": true,
+      "consistent_normals": true,
+      "manifold": "NoError",
+      "dimensions_mm": [
+        98.26548767089844,
+        72.51837158203125,
+        25.39250373840332
+      ]
+    },
+    {
+      "file": "Eye_L_Torso_01.stl",
+      "closed": true,
+      "consistent_normals": true,
+      "manifold": "NoError",
+      "dimensions_mm": [
+        9.361346244812012,
+        17.906768798828125,
+        19.7803955078125
+      ]
+    },
+    {
+      "file": "Eye_R_Torso_01.stl",
+      "closed": true,
+      "consistent_normals": true,
+      "manifold": "NoError",
+      "dimensions_mm": [
+        9.124134063720703,
+        17.946624755859375,
+        19.54944610595703
+      ]
+    },
+    {
+      "file": "L_arm.stl",
+      "closed": true,
+      "consistent_normals": true,
+      "manifold": "NoError",
+      "dimensions_mm": [
+        98.44071197509766,
+        95.11566925048828,
+        38.544090270996094
+      ]
+    },
+    {
+      "file": "L_leg.stl",
+      "closed": true,
+      "consistent_normals": true,
+      "manifold": "NoError",
+      "dimensions_mm": [
+        89.61248016357422,
+        59.995704650878906,
+        107.99877166748047
+      ]
+    },
+    {
+      "file": "Pelvis.stl",
+      "closed": true,
+      "consistent_normals": true,
+      "manifold": "NoError",
+      "dimensions_mm": [
+        120.23906707763672,
+        61.30870819091797,
+        43.0
+      ]
+    },
+    {
+      "file": "R_arm.stl",
+      "closed": true,
+      "consistent_normals": true,
+      "manifold": "NoError",
+      "dimensions_mm": [
+        96.551237579195,
+        97.08057332314274,
+        36.608756501464086
+      ]
+    },
+    {
+      "file": "R_leg.stl",
+      "closed": true,
+      "consistent_normals": true,
+      "manifold": "NoError",
+      "dimensions_mm": [
+        81.34864807128906,
+        73.14985656738281,
+        108.0
+      ]
+    },
+    {
+      "file": "Teeth_Torso_01.stl",
+      "closed": true,
+      "consistent_normals": true,
+      "manifold": "NoError",
+      "dimensions_mm": [
+        13.706064224243164,
+        10.89923095703125,
+        9.773738861083984
+      ]
+    },
+    {
+      "file": "Tongue.stl",
+      "closed": true,
+      "consistent_normals": true,
+      "manifold": "NoError",
+      "dimensions_mm": [
+        31.220439910888672,
+        20.94441032409668,
+        12.650111198425293
+      ]
+    },
+    {
+      "file": "Torso.stl",
+      "closed": true,
+      "consistent_normals": true,
+      "manifold": "NoError",
+      "dimensions_mm": [
+        118.99162417857224,
+        102.00910113542159,
+        97.36910010534848
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "file": "Venom_Size2_P1S_AMS.3mf",
+      "parts": 12,
+      "modifiers": 12,
+      "plates": 2,
+      "vertices": 830775,
+      "triangles": 1662598,
+      "filament_mapping": [
+        "1",
+        "2",
+        "3"
+      ],
+      "preset": "Venom Size 2 0.20mm ams"
+    },
+    {
+      "file": "Venom_Size2_P1S_SEPARATE.3mf",
+      "parts": 12,
+      "modifiers": 12,
+      "plates": 4,
+      "vertices": 815472,
+      "triangles": 1631104,
+      "filament_mapping": [
+        "1",
+        "2",
+        "3"
+      ],
+      "preset": "Venom Size 2 0.20mm separate"
+    },
+    {
+      "file": "Venom_Size2_P2S_AMS.3mf",
+      "parts": 12,
+      "modifiers": 12,
+      "plates": 2,
+      "vertices": 830775,
+      "triangles": 1662598,
+      "filament_mapping": [
+        "1",
+        "2",
+        "3"
+      ],
+      "preset": "Venom Size 2 0.20mm ams"
+    },
+    {
+      "file": "Venom_Size2_P2S_SEPARATE.3mf",
+      "parts": 12,
+      "modifiers": 12,
+      "plates": 4,
+      "vertices": 815472,
+      "triangles": 1631104,
+      "filament_mapping": [
+        "1",
+        "2",
+        "3"
+      ],
+      "preset": "Venom Size 2 0.20mm separate"
+    }
+  ]
+}

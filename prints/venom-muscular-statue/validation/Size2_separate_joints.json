@@ -1,0 +1,146 @@
+[
+  {
+    "id": "J01",
+    "male": "Torso",
+    "female": "R_arm",
+    "center_mm": [
+      -52.73832697260724,
+      4.8102145404354815,
+      195.07782018261835
+    ],
+    "normal": [
+      -0.9889363528682975,
+      0.0,
+      0.14834045293024462
+    ],
+    "half_width_mm": 6.5,
+    "half_depth_mm": 4.94,
+    "length_mm": 6.0,
+    "root_depth_mm": 1.25,
+    "minimum_nominal_radial_clearance_mm": 0.18,
+    "blind_depth_extra_mm": 0.38,
+    "key_shape": "64-sided asymmetric rounded taper, tip scale 0.84",
+    "key_vs_socket_interference_mm3": 0.0,
+    "remaining_host_validation_mm3": 0.0
+  },
+  {
+    "id": "J04",
+    "male": "Torso",
+    "female": "L_arm",
+    "center_mm": [
+      52.744102096870705,
+      -6.599468230007915,
+      195.03931935419527
+    ],
+    "normal": [
+      0.9889363528682975,
+      0.0,
+      0.14834045293024462
+    ],
+    "half_width_mm": 6.5,
+    "half_depth_mm": 4.94,
+    "length_mm": 6.0,
+    "root_depth_mm": 1.25,
+    "minimum_nominal_radial_clearance_mm": 0.18,
+    "blind_depth_extra_mm": 0.38,
+    "key_shape": "64-sided asymmetric rounded taper, tip scale 0.84",
+    "key_vs_socket_interference_mm3": 0.0,
+    "remaining_host_validation_mm3": 0.0
+  },
+  {
+    "id": "J07",
+    "male": "Pelvis",
+    "female": "Torso",
+    "center_mm": [
+      -3.8140403626930492,
+      4.1586238796844555,
+      135.0
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "half_width_mm": 9.951643329972478,
+    "half_depth_mm": 7.563248930779084,
+    "length_mm": 8.0,
+    "root_depth_mm": 1.25,
+    "minimum_nominal_radial_clearance_mm": 0.18,
+    "blind_depth_extra_mm": 0.38,
+    "key_shape": "64-sided asymmetric rounded taper, tip scale 0.84",
+    "key_vs_socket_interference_mm3": 0.0,
+    "remaining_host_validation_mm3": 0.0
+  },
+  {
+    "id": "J08",
+    "male": "L_leg",
+    "female": "Pelvis",
+    "center_mm": [
+      33.926363690229664,
+      -8.166391383078917,
+      100.0
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "half_width_mm": 6.5,
+    "half_depth_mm": 4.94,
+    "length_mm": 8.0,
+    "root_depth_mm": 1.25,
+    "minimum_nominal_radial_clearance_mm": 0.18,
+    "blind_depth_extra_mm": 0.38,
+    "key_shape": "64-sided asymmetric rounded taper, tip scale 0.84",
+    "key_vs_socket_interference_mm3": 0.0,
+    "remaining_host_validation_mm3": 0.0
+  },
+  {
+    "id": "J09",
+    "male": "R_leg",
+    "female": "Pelvis",
+    "center_mm": [
+      -41.67799982104589,
+      5.8136717867546395,
+      100.0
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "half_width_mm": 6.5,
+    "half_depth_mm": 4.94,
+    "length_mm": 8.0,
+    "root_depth_mm": 1.25,
+    "minimum_nominal_radial_clearance_mm": 0.18,
+    "blind_depth_extra_mm": 0.38,
+    "key_shape": "64-sided asymmetric rounded taper, tip scale 0.84",
+    "key_vs_socket_interference_mm3": 0.0,
+    "remaining_host_validation_mm3": 0.0
+  },
+  {
+    "id": "J10",
+    "male": "Torso",
+    "female": "Tongue",
+    "center_mm": [
+      -8.135963290192038,
+      -42.653255949611776,
+      200.56798164509598
+    ],
+    "normal": [
+      -0.4472135954999579,
+      0.0,
+      -0.8944271909999159
+    ],
+    "half_width_mm": 1.75,
+    "half_depth_mm": 1.33,
+    "length_mm": 2.0,
+    "root_depth_mm": 1.25,
+    "minimum_nominal_radial_clearance_mm": 0.18,
+    "blind_depth_extra_mm": 0.38,
+    "key_shape": "64-sided asymmetric rounded taper, tip scale 0.84",
+    "key_vs_socket_interference_mm3": 0.0,
+    "remaining_host_validation_mm3": 0.0
+  }
+]
