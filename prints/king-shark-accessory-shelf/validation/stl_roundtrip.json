@@ -1,15 +1,15 @@
 [
   {
     "file": "Body.stl",
-    "triangles": 82536,
-    "vertices": 41266,
-    "volume_mm3": 167299.38280711917,
+    "triangles": 86822,
+    "vertices": 43409,
+    "volume_mm3": 169692.43025146925,
     "manifold_status": "Error.NoError",
-    "bytes": 4126884,
-    "sha256": "463b325dfc6ed81732c0749f88994a00b661a6661ad0d32edc115c8bcf0b9480",
+    "bytes": 4341184,
+    "sha256": "8165f87e66a979e8a4a067d711795707dc7ccffcb754c1a955aa0bdd5b71b61c",
     "dimensions_mm": [
       148.0,
-      156.0,
+      179.72943115234375,
       54.0
     ],
     "watertight": true,

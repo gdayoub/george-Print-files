@@ -4,7 +4,7 @@
 
 ![Actual printable geometry, CAD render](images/preview.png)
 
-A compact character relief with a shallow tray for keys, earbuds or a small collectible. It uses gray character/back and a red tray. The sculpt is adapted from the existing statue, with compressed depth and simplified contours to keep printing practical. It is a **new, physically untested prototype**.
+A compact character relief with a shallow tray for keys, earbuds or a small collectible. It uses gray character/back and a red tray. The sculpt is adapted from the existing statue, with compressed depth and simplified contours to keep printing practical. The dorsal fin now rises clearly above the backplate, using the original shark fin geometry and a flat printable backing. It is a **new, physically untested prototype**.
 
 ## Download and print
 
@@ -17,14 +17,14 @@ Open the matching 3MF **as a project**. Each plate uses one color; change the sp
 
 | Printer | Estimated total time | Filament | Plates |
 |---|---:|---:|---:|
-| P1S | 3 h 50 min | 129.9 g | 2 |
-| P2S | 3 h 50 min | 129.7 g | 2 |
+| P1S | 3 h 54 min | 131.5 g | 2 |
+| P2S | 3 h 54 min | 131.3 g | 2 |
 
 These are Bambu Studio 02.08.02.61 estimates, including preparation. Different calibrated filament or cooling settings can change them. [Per-plate data](validation/slicer_estimates.json)
 
 ## Dimensions and assembly
 
-Overall assembled envelope: **150 mm wide × 58.2 mm projection × 156 mm high**. The mounting back is 148 × 156 mm; the tray is 150 × 55 mm, with a 4.2 mm floor and 4.8 mm raised lip. Two 6 mm gussets carry the tray; registration keys locate it with 0.22 mm nominal side clearance. There is no flexible snap latch.
+Overall assembled envelope: **150 mm wide × 58.2 mm projection × 179.7 mm high**. The mounting back is 148 × 156 mm with the backed fin extending above it; the tray is 150 × 55 mm, with a 4.2 mm floor and 4.8 mm raised lip. Two 6 mm gussets carry the tray; registration keys locate it with 0.22 mm nominal side clearance. There is no flexible snap latch.
 
 Remove brims and clean the mating surfaces. Approach from the front with the tray 16 mm above its seated position, slide it toward the backplate, then lower it over both locating keys. Bond the broad gusset seats and back contact with a suitable plastic adhesive; let it cure before handling.  See the [exploded assembly](images/exploded.png). Fit and assembly have been checked geometrically, not physically.
 

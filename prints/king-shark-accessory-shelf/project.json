@@ -4,7 +4,7 @@
   "dimensions_mm": [
     150,
     58.2,
-    156
+    179.729
   ],
   "colors": [
     "Gray",
@@ -23,39 +23,39 @@
   "estimates": {
     "P1S": {
       "return_code": 0,
-      "seconds": 13807.177734375,
-      "grams": 129.8631477355957,
+      "seconds": 14042.255859375,
+      "grams": 131.51527786254883,
       "plates": [
         {
           "id": 1,
           "names": [
             "Body"
           ],
-          "seconds": 10699.7646484375,
-          "grams": 97.82405853271484,
+          "seconds": 10934.8427734375,
+          "grams": 99.47618865966797,
           "filaments": [
             {
               "filament_id": "GFL99",
               "id": 1,
-              "main_used_g": 97.82405853271484,
-              "total_used_g": 97.82405853271484
+              "main_used_g": 99.47618865966797,
+              "total_used_g": 99.47618865966797
             }
           ],
           "feature_type_times": {
-            "Bottom surface": 553.496826171875,
-            "Bridge": 1360.90234375,
-            "Brim": 47.357398986816406,
+            "Bottom surface": 564.9639892578125,
+            "Bridge": 1382.2130126953125,
+            "Brim": 50.44321060180664,
             "Custom": 362.5179138183594,
             "Flush": 29.0,
-            "Gap infill": 132.37876892089844,
-            "Inner wall": 1228.16748046875,
-            "Internal solid infill": 3486.664794921875,
-            "Outer wall": 811.11279296875,
-            "Overhang wall": 13.815778732299805,
-            "Sparse infill": 879.9299926757812,
-            "Top surface": 969.6055908203125,
-            "Travel": 839.4476318359375,
-            "Undefined": 823.7701416015625
+            "Gap infill": 141.38929748535156,
+            "Inner wall": 1252.7481689453125,
+            "Internal solid infill": 3566.071533203125,
+            "Outer wall": 817.4168701171875,
+            "Overhang wall": 13.815818786621094,
+            "Sparse infill": 894.2601318359375,
+            "Top surface": 1009.3428955078125,
+            "Travel": 865.4268798828125,
+            "Undefined": 849.7493896484375
           },
           "warning": "",
           "filament_changes": 0
@@ -97,39 +97,39 @@
     },
     "P2S": {
       "return_code": 0,
-      "seconds": 13820.197998046875,
-      "grams": 129.66428184509277,
+      "seconds": 14054.989013671875,
+      "grams": 131.31571006774902,
       "plates": [
         {
           "id": 1,
           "names": [
             "Body"
           ],
-          "seconds": 10671.330078125,
-          "grams": 97.71898651123047,
+          "seconds": 10906.12109375,
+          "grams": 99.37041473388672,
           "filaments": [
             {
               "filament_id": "GFL99",
               "id": 1,
-              "main_used_g": 97.71898651123047,
-              "total_used_g": 97.71898651123047
+              "main_used_g": 99.37041473388672,
+              "total_used_g": 99.37041473388672
             }
           ],
           "feature_type_times": {
-            "Bottom surface": 559.71875,
-            "Bridge": 1364.056396484375,
-            "Brim": 47.410648345947266,
+            "Bottom surface": 571.5831909179688,
+            "Bridge": 1385.7733154296875,
+            "Brim": 50.494022369384766,
             "Custom": 401.2344665527344,
             "Flush": 26.0,
-            "Gap infill": 115.03963470458984,
-            "Inner wall": 1233.7802734375,
-            "Internal solid infill": 3500.791259765625,
-            "Outer wall": 815.6876831054688,
-            "Overhang wall": 13.815800666809082,
-            "Sparse infill": 883.4075927734375,
-            "Top surface": 747.8267822265625,
-            "Travel": 969.8922119140625,
-            "Undefined": 964.5962524414062
+            "Gap infill": 120.72926330566406,
+            "Inner wall": 1258.10791015625,
+            "Internal solid infill": 3580.896728515625,
+            "Outer wall": 828.9277954101562,
+            "Overhang wall": 13.815814971923828,
+            "Sparse infill": 898.5325317382812,
+            "Top surface": 772.7197875976562,
+            "Travel": 1004.7896728515625,
+            "Undefined": 999.4937133789062
           },
           "warning": "",
           "filament_changes": 0

@@ -1,0 +1,10 @@
+{
+  "method": "Canonicalized the closed mesh in its float32 print-coordinate representation using Manifold, then restored assembly coordinates. No voxel remeshing or redesigned connectors.",
+  "prior_npz_sha256": "b53b9698dcb4ec289912dbe2f2c88027ba7219dc427b99e0c33163c870692747",
+  "final_npz_sha256": "d1e40f51e5267b9fc56dcc8d15fdf3b3c9687d2de718a4dd083c0d042d479188",
+  "prior_triangles": 86832,
+  "final_triangles": 86822,
+  "maximum_original_vertex_rounding_mm": 7.621943950653076e-06,
+  "stl_roundtrip_watertight": true,
+  "stl_roundtrip_manifold_status": "Error.NoError"
+}

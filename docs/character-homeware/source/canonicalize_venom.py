@@ -1,6 +1,7 @@
 from pathlib import Path
+import sys
 import numpy as np,manifold3d as mf,trimesh,io,json,hashlib
-ROOT=Path(__file__).resolve().parent/'venom'
+ROOT=Path(__file__).resolve().parent/(sys.argv[1] if len(sys.argv)>1 else 'venom')
 R=np.array([[1,0,0],[0,0,1],[0,-1,0]],float)
 path=ROOT/'final_parts/Body.npz';a=np.load(path);v=a['vertices'];f=a['faces'];oldhash=hashlib.sha256(path.read_bytes()).hexdigest()
 qv=v@R.T;low=qv.min(0);qv-=low

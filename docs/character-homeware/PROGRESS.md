@@ -42,3 +42,11 @@ Append the final selected files, any mesh/process revisions, slice/toolpath resu
 - New homewares, revised shorts/legs, and mounting/load capacity have no new physical test result. Only the previously reported Venom assembly and King Shark chest/head successes are treated as user-reported physical evidence.
 - GitHub transport completed with 97 verified binary paths, 94 unique Git blobs and 336,704,100 bytes. Every returned Git SHA matched the local file; no binary is missing. The tree publication includes the text files directly and retains all unrelated repository content. See `BINARY_UPLOAD_VERIFICATION.json` and the commit history for the content-addressed record.
 - The organized collection was copied to `Desktop/Prints/Character_Collection_2026-10-06/`; the copy was SHA-256 compared against staging. Existing separate statue/shorts/legs deliveries were not overwritten.
+
+## October 7, 2026 — King Shark shelf fin revised
+
+- The user could not find the shark's fin on the King Shark accessory shelf. The original rendered fin was only a small point above the head, so its size and backing were revised to make a clear dorsal silhouette. This change applies only to the accessory shelf, not the previously printed statue or its joints.
+- The new body is 179.729 mm high with a fin extending above the 156 mm plaque. The original shark fin mesh is enlarged, fused into the same body, and supported by a locally extended flat backplane. The tray, keyholes, gussets and reserved rear pad zones remain the same.
+- Final body STL and embedded 3MF meshes pass manifold/watertight roundtrips after float32 canonicalization. Measured coordinate rounding is below 0.000008 mm. Tray and insertion checks pass with under 0.001 mm³ numerical overlap.
+- P1S and P2S slices pass with empty plate warning messages, zero filament changes and zero supports. Combined estimate: about 3 h 54 min, 131.5 g P1S; about 3 h 54 min, 131.3 g P2S. The checked extrusion paths remain within both printers' envelopes. Actual-mesh previews and the editable Blender scene show the larger fin.
+- This revision has not been physically printed or load tested. The previous smaller-fin shelf is available in the earlier repository commit.

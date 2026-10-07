@@ -1,54 +1,157 @@
 {
-  "P1S": {
-    "return_code": 0,
-    "plates": [
-      {
-        "plate": 1,
-        "seconds": 10699.7646484375,
-        "filament_g": 97.82405853271484,
-        "support_seconds": 0,
-        "filament_changes": 0,
-        "warnings": ""
-      },
-      {
-        "plate": 2,
-        "seconds": 3107.4130859375,
-        "filament_g": 32.03908920288086,
-        "support_seconds": 0,
-        "filament_changes": 0,
-        "warnings": ""
-      }
-    ],
-    "total_seconds": 13807.177734375,
-    "total_filament_g": 129.8631477355957,
-    "all_slices_pass": true,
-    "supports_generated": false,
-    "physical_print_test": false
+  "revision": "visible dorsal fin",
+  "printer_estimates": {
+    "P1S": {
+      "return_code": 0,
+      "seconds": 14042.255859375,
+      "grams": 131.51527786254883,
+      "plates": [
+        {
+          "id": 1,
+          "names": [
+            "Body"
+          ],
+          "seconds": 10934.8427734375,
+          "grams": 99.47618865966797,
+          "filaments": [
+            {
+              "filament_id": "GFL99",
+              "id": 1,
+              "main_used_g": 99.47618865966797,
+              "total_used_g": 99.47618865966797
+            }
+          ],
+          "feature_type_times": {
+            "Bottom surface": 564.9639892578125,
+            "Bridge": 1382.2130126953125,
+            "Brim": 50.44321060180664,
+            "Custom": 362.5179138183594,
+            "Flush": 29.0,
+            "Gap infill": 141.38929748535156,
+            "Inner wall": 1252.7481689453125,
+            "Internal solid infill": 3566.071533203125,
+            "Outer wall": 817.4168701171875,
+            "Overhang wall": 13.815818786621094,
+            "Sparse infill": 894.2601318359375,
+            "Top surface": 1009.3428955078125,
+            "Travel": 865.4268798828125,
+            "Undefined": 849.7493896484375
+          },
+          "warning": "",
+          "filament_changes": 0
+        },
+        {
+          "id": 2,
+          "names": [
+            "Tray"
+          ],
+          "seconds": 3107.4130859375,
+          "grams": 32.03908920288086,
+          "filaments": [
+            {
+              "filament_id": "GFL99",
+              "id": 3,
+              "main_used_g": 32.03908920288086,
+              "total_used_g": 32.03908920288086
+            }
+          ],
+          "feature_type_times": {
+            "Bottom surface": 227.6636199951172,
+            "Bridge": 349.6027526855469,
+            "Brim": 32.45314407348633,
+            "Custom": 362.3291320800781,
+            "Flush": 29.0,
+            "Gap infill": 31.49895477294922,
+            "Inner wall": 362.61993408203125,
+            "Internal solid infill": 1125.703125,
+            "Outer wall": 190.00172424316406,
+            "Sparse infill": 95.65676879882812,
+            "Top surface": 244.14297485351562,
+            "Travel": 72.05278778076172,
+            "Undefined": 56.700992584228516
+          },
+          "warning": "",
+          "filament_changes": 0
+        }
+      ]
+    },
+    "P2S": {
+      "return_code": 0,
+      "seconds": 14054.989013671875,
+      "grams": 131.31571006774902,
+      "plates": [
+        {
+          "id": 1,
+          "names": [
+            "Body"
+          ],
+          "seconds": 10906.12109375,
+          "grams": 99.37041473388672,
+          "filaments": [
+            {
+              "filament_id": "GFL99",
+              "id": 1,
+              "main_used_g": 99.37041473388672,
+              "total_used_g": 99.37041473388672
+            }
+          ],
+          "feature_type_times": {
+            "Bottom surface": 571.5831909179688,
+            "Bridge": 1385.7733154296875,
+            "Brim": 50.494022369384766,
+            "Custom": 401.2344665527344,
+            "Flush": 26.0,
+            "Gap infill": 120.72926330566406,
+            "Inner wall": 1258.10791015625,
+            "Internal solid infill": 3580.896728515625,
+            "Outer wall": 828.9277954101562,
+            "Overhang wall": 13.815814971923828,
+            "Sparse infill": 898.5325317382812,
+            "Top surface": 772.7197875976562,
+            "Travel": 1004.7896728515625,
+            "Undefined": 999.4937133789062
+          },
+          "warning": "",
+          "filament_changes": 0
+        },
+        {
+          "id": 2,
+          "names": [
+            "Tray"
+          ],
+          "seconds": 3148.867919921875,
+          "grams": 31.945295333862305,
+          "filaments": [
+            {
+              "filament_id": "GFL99",
+              "id": 3,
+              "main_used_g": 31.945295333862305,
+              "total_used_g": 31.945295333862305
+            }
+          ],
+          "feature_type_times": {
+            "Bottom surface": 231.97750854492188,
+            "Bridge": 349.82061767578125,
+            "Brim": 32.37604522705078,
+            "Custom": 403.5695495605469,
+            "Flush": 26.0,
+            "Gap infill": 31.559343338012695,
+            "Inner wall": 362.6322021484375,
+            "Internal solid infill": 1127.747802734375,
+            "Outer wall": 193.28701782226562,
+            "Sparse infill": 95.73808288574219,
+            "Top surface": 212.36390686035156,
+            "Travel": 89.18550109863281,
+            "Undefined": 81.66353607177734
+          },
+          "warning": "",
+          "filament_changes": 0
+        }
+      ]
+    }
   },
-  "P2S": {
-    "return_code": 0,
-    "plates": [
-      {
-        "plate": 1,
-        "seconds": 10671.330078125,
-        "filament_g": 97.71898651123047,
-        "support_seconds": 0,
-        "filament_changes": 0,
-        "warnings": ""
-      },
-      {
-        "plate": 2,
-        "seconds": 3148.867919921875,
-        "filament_g": 31.945295333862305,
-        "support_seconds": 0,
-        "filament_changes": 0,
-        "warnings": ""
-      }
-    ],
-    "total_seconds": 13820.197998046875,
-    "total_filament_g": 129.66428184509277,
-    "all_slices_pass": true,
-    "supports_generated": false,
-    "physical_print_test": false
-  }
+  "plate_warning_messages_empty": true,
+  "filament_changes": 0,
+  "generated_support_seconds": 0,
+  "physical_print_test": false
 }

@@ -9,12 +9,12 @@
       ],
       [
         203.7,
-        165.7,
+        189.422,
         53.4
       ]
     ],
-    "checked_extrusion_segments": 232410,
-    "including_circular_arcs": 115678,
+    "checked_extrusion_segments": 242200,
+    "including_circular_arcs": 118961,
     "outside_build_volume": 0,
     "P1S_excluded_corner_hits": 0
   },

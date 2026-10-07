@@ -20,7 +20,8 @@ def duration(s):
 def slice_summary(src):
  result={}
  for printer in ['P1S','P2S']:
-  r=json.loads((src/f'slice_{printer}/result.json').read_text())
+  folder=f'fin_slice_{printer}' if src.name=='king_shark' and (src/f'fin_slice_{printer}/result.json').exists() else f'slice_{printer}'
+  r=json.loads((src/folder/'result.json').read_text())
   assert r['return_code']==0
   plates=[]
   for p in r['sliced_plates']:
@@ -37,7 +38,11 @@ def stage(product):
  for path in src.glob('*.png'):copy(path,dst/'images'/path.name)
  for path in src.glob('*.blend'):copy(path,dst/'source'/path.name)
  for path in (src/'packages').glob('*.json'):copy(path,dst/'validation'/path.name)
- for path in (src/'validation').glob('*.json'):copy(path,dst/'validation'/path.name)
+ for path in (src/'validation').glob('*.json'):
+  if product=='king_shark' and path.name in ['slice_P1S_toolpaths.json','slice_P2S_toolpaths.json','print_summary.json','tray_assembly_path.json']:
+   continue
+  target=path.name.replace('fin_slice_','slice_') if product=='king_shark' else path.name
+  copy(path,dst/'validation'/target)
  for name in ['engineering_validation.json','geometry_validation.json','serialization_repair.json','serialization_validation.json','render_validation.json']:
   if (src/name).exists():copy(src/name,dst/'validation'/name)
  copy(src/'layout.json',dst/'source/layout.json')
@@ -46,7 +51,11 @@ def stage(product):
   if path.name!='relief_cache.npz':copy(path,dst/'source/geometry'/path.name)
  copy(geometry/'manifest.json',dst/'source/geometry/manifest.json')
  write(dst/'validation/slicer_estimates.json',json.dumps(estimates,indent=2))
- for name in ['PRINT_VALIDATION.md']:
+ if product=='king_shark':
+  latest_assembly=json.loads((src/'validation/assembly_insertion.json').read_text())
+  write(dst/'validation/tray_assembly_path.json',json.dumps(latest_assembly,indent=2))
+  write(dst/'validation/print_summary.json',json.dumps(dict(revision='visible dorsal fin',printer_estimates=estimates,plate_warning_messages_empty=True,filament_changes=0,generated_support_seconds=0,physical_print_test=False),indent=2))
+ for name in ['PRINT_VALIDATION.md','SERIALIZATION_NOTES.md']:
   if (src/name).exists():copy(src/name,dst/'docs'/name)
  write(dst/'validation/README.md','''# Validation record
 
@@ -64,7 +73,7 @@ The source geometry report may predate submicron serialization cleanup. The actu
   copy(src/'CHANGELOG.md',dst/'docs/CHANGELOG.md')
   dimensions=[140,143.425,59.399];colors=['Gray']
  else:
-  king=product=='king_shark';colors=['Gray','Red'] if king else ['Black','White'];dimensions=[150,58.2,156]
+  king=product=='king_shark';colors=['Gray','Red'] if king else ['Black','White'];body_extent=json.loads((src/'final_parts/manifest.json').read_text())[0]['dimensions_mm'];dimensions=[150,58.2,round(body_extent[2],3)]
   palette='gray character/back and a red tray' if king else 'black character/back and tray, with three separate white eye/chest inserts'
   text=f'''# {title}
 
@@ -72,7 +81,7 @@ The source geometry report may predate submicron serialization cleanup. The actu
 
 ![Actual printable geometry, CAD render](images/{preview})
 
-A compact character relief with a shallow tray for keys, earbuds or a small collectible. It uses {palette}. The sculpt is adapted from the existing statue, with compressed depth and simplified contours to keep printing practical. It is a **new, physically untested prototype**.
+A compact character relief with a shallow tray for keys, earbuds or a small collectible. It uses {palette}. The sculpt is adapted from the existing statue, with compressed depth and simplified contours to keep printing practical. {'The dorsal fin now rises clearly above the backplate, using the original shark fin geometry and a flat printable backing.' if king else ''} It is a **new, physically untested prototype**.
 
 ## Download and print
 
@@ -91,7 +100,7 @@ These are Bambu Studio 02.08.02.61 estimates, including preparation. Different c
 
 ## Dimensions and assembly
 
-Overall assembled envelope: **150 mm wide × 58.2 mm projection × 156 mm high**. The mounting back is 148 × 156 mm; the tray is 150 × 55 mm, with a 4.2 mm floor and 4.8 mm raised lip. Two 6 mm gussets carry the tray; registration keys locate it with 0.22 mm nominal side clearance. There is no flexible snap latch.
+Overall assembled envelope: **150 mm wide × 58.2 mm projection × {dimensions[2]:.1f} mm high**. The mounting back is 148 × 156 mm{' with the backed fin extending above it' if king else ''}; the tray is 150 × 55 mm, with a 4.2 mm floor and 4.8 mm raised lip. Two 6 mm gussets carry the tray; registration keys locate it with 0.22 mm nominal side clearance. There is no flexible snap latch.
 
 Remove brims and clean the mating surfaces. Approach from the front with the tray 16 mm above its seated position, slide it toward the backplate, then lower it over both locating keys. Bond the broad gusset seats and back contact with a suitable plastic adhesive; let it cure before handling. {'The white inserts fit their matching pockets from the front; use a small amount of glue and keep the eyes in their left/right positions.' if not king else ''} See the [exploded assembly](images/exploded.png). Fit and assembly have been checked geometrically, not physically.
 

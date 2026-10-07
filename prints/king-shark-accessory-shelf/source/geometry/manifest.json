@@ -2,12 +2,12 @@
   {
     "name": "Body",
     "color": "Black",
-    "triangles": 82536,
-    "volume_mm3": 167299.3823000864,
+    "triangles": 86822,
+    "volume_mm3": 169692.43025146928,
     "dimensions_mm": [
       148.0,
       54.0,
-      156.0
+      179.72943115234375
     ],
     "settings": {
       "enable_support": "0",

@@ -10,7 +10,7 @@ import numpy as np
 import trimesh
 import manifold3d as mf
 from scipy.ndimage import gaussian_filter, binary_closing, binary_fill_holes, label, distance_transform_edt
-from shapely.geometry import box, Polygon
+from shapely.geometry import box, Polygon, MultiPoint
 from shapely.geometry.polygon import orient
 from skimage.measure import find_contours
 
@@ -128,9 +128,12 @@ def keyholes(body):
 
 def build(character):
     dst=ROOT/character;partsdir=dst/'final_parts';partsdir.mkdir(parents=True,exist_ok=True)
-    xs=np.linspace(-W/2,W/2,round(W/STEP)+1);zs=np.linspace(0,H,round(H/STEP)+1)
+    king=character=='king_shark'
+    grid_height=182 if king else H
+    xs=np.linspace(-W/2,W/2,round(W/STEP)+1);zs=np.linspace(0,grid_height,round(grid_height/STEP)+1)
     source_paths=[]
-    if character=='king_shark':
+    fin_back=None
+    if king:
         base=WORK/'king_shark_v2/final_parts'
         names=['Torso','L_arm','R_arm','Dorsal_fin','Upper_teeth','Lower_teeth']
         scale=.43;shift=58-250*scale
@@ -140,7 +143,18 @@ def build(character):
             s=solid(load_mesh(path)).trim_by_plane((0,0,1),250)
             if name=='Torso':
                 s=s.trim_by_plane((1,0,0),-85).trim_by_plane((-1,0,0),-85)
-            if not s.is_empty():meshes.append(transformed(tm(s),scale,shift))
+            if not s.is_empty():
+                sculpt=transformed(tm(s),scale,shift)
+                if name=='Dorsal_fin':
+                    # Make the actual dorsal sculpt legible above the plaque.
+                    # Its projection gets its own flat backing so it still
+                    # prints on the bed with the rest of the relief.
+                    fin_root=float(sculpt.bounds[0,2])
+                    sculpt.vertices[:,0]*=1.9
+                    sculpt.vertices[:,2]=fin_root+(sculpt.vertices[:,2]-fin_root)*1.9
+                    sculpt.vertices[:,1]=-BASE-(-sculpt.vertices[:,1]-BASE)*1.35
+                    fin_back=MultiPoint(sculpt.vertices[:,[0,2]]).convex_hull.buffer(1.8,quad_segs=16)
+                meshes.append(sculpt)
         accents={}
     else:
         path=WORK/'venom_muscular/source_muscular.npz';source_paths.append(path)
@@ -169,8 +183,10 @@ def build(character):
     outline=rounded(W,H,15)
     from shapely.affinity import translate
     outline=translate(outline,yoff=H/2)
-    relief=heightfield(xs,zs,h).simplify(.02)^xz_extrude(outline.buffer(-2),80)
-    body=union([xz_extrude(outline,BASE),relief]).simplify(.005)
+    back_outline=outline.union(fin_back) if fin_back is not None else outline
+    relief_outline=outline.buffer(-2).union(fin_back.buffer(-.2)) if fin_back is not None else outline.buffer(-2)
+    relief=heightfield(xs,zs,h).simplify(.02)^xz_extrude(relief_outline,80)
+    body=union([xz_extrude(back_outline,BASE),relief]).simplify(.005)
     # Analytic corridor prevents decimation tolerance protruding into the tray.
     body=body-cube((W+2,80,25.75),(-W/2-1,-BASE-80,31.75))
     accent_solids={}

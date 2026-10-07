@@ -1,4 +1,5 @@
 from pathlib import Path
+import sys
 import numpy as np,trimesh,manifold3d as mf,io,json,hashlib
 ROOT=Path(__file__).resolve().parent
 
@@ -8,7 +9,7 @@ def mesh(s):
 def check_roundtrip(s,R):
  m=mesh(s);v=m.vertices@R.T;v-=v.min(0);r=trimesh.load_mesh(io.BytesIO(trimesh.Trimesh(v,m.faces,process=False).export(file_type='stl')),file_type='stl',process=True);ss=solid(r.vertices,r.faces);counts=np.bincount(r.edges_unique_inverse)
  return dict(watertight=bool(r.is_watertight),winding_consistent=bool(r.is_winding_consistent),manifold_status=str(ss.status()),nonmanifold_edges=int(np.count_nonzero(counts!=2)),degenerate_faces=int(np.count_nonzero(~r.nondegenerate_faces(height=1e-8))),components=len(ss.decompose()))
-for product in ['king_shark','venom']:
+for product in sys.argv[1:] or ['king_shark','venom']:
  base=ROOT/product;partsdir=base/'final_parts';rows=json.loads((partsdir/'manifest.json').read_text());layout=json.loads((base/'layout.json').read_text());rot={a['name']:np.array(a['rotation']) for p in layout['plates'] for a in p['instances']};parts={};log=[]
  for row in rows:
   p=partsdir/(row['name']+'.npz');before_hash=hashlib.sha256(p.read_bytes()).hexdigest();d=np.load(p);s=solid(d['vertices'],d['faces']);before=check_roundtrip(s,rot[row['name']]);original_bounds=mesh(s).bounds.copy();modified=False
@@ -31,7 +32,7 @@ for product in ['king_shark','venom']:
   if name in ['Body','Tray']:continue
   for dy in [0,.2,.5,1,2,3,5,10,20]:
    vol=max(0.,(parts[name].translate((0,-dy,0))^parts['Body']).volume());accents.append(dict(name=name,withdrawal_mm=dy,overlap_mm3=vol));assert vol<.05,(product,name,dy,vol)
- report=dict(method='Only failed float32 print-oriented STL parts receive an extra 0.0001mm simplification. No broad smoothing, remesh or connector resizing.',parts=log,overlaps=overlaps,tray_insertion_samples=paths,accent_withdrawal_samples=accents,path_numeric_volume_tolerance_mm3=.05,initial_repair_note='King Shark Body received a 0.0001mm simplification before this complete rerun, resolving 2 nonmanifold float32 edges and 29 degenerate faces.',status='passed')
+ report=dict(method='Check final print-oriented float32 STL roundtrips, then recheck assembly overlaps. Character-specific submicron cleanup is documented in serialization_repair.json.',parts=log,overlaps=overlaps,tray_insertion_samples=paths,accent_withdrawal_samples=accents,path_numeric_volume_tolerance_mm3=.05,cleanup_note='The revised King Shark fin Body was canonicalized in float32 print coordinates before this pass; see serialization_repair.json. No voxel remesh or connector redesign.',status='passed')
  (base/'serialization_validation.json').write_text(json.dumps(report,indent=2))
  old=json.loads((base/'geometry_validation.json').read_text());old.update(parts=rows,overlaps=overlaps,tray_insertion_samples=paths,accent_withdrawal_samples=accents,serialization_validation='serialization_validation.json');(base/'geometry_validation.json').write_text(json.dumps(old,indent=2))
  (base/'SERIALIZATION_NOTES.md').write_text('# Serialization checks\n\nThe final print-oriented binary STLs were reopened and checked for watertightness, winding, nonmanifold edges, degenerate faces, and connected components. Failed parts received only an additional 0.0001 mm simplification pass; connector dimensions and the silhouette were not intentionally changed. All final STL checks pass. Seated part overlaps, the tray insertion path, and accent withdrawal paths were rechecked after this cleanup. See `serialization_validation.json` for per-part before/after evidence and hashes.\n')

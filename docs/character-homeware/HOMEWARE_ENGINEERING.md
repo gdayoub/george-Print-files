@@ -10,7 +10,7 @@ The sculpt is a relief plaque with small sculpted hands beneath the tray, not a 
 
 ## Geometry and clearances
 
-- Shelf assembled envelope: 150 × 58.2 × 156 mm.
+- Original shelf envelope: 150 × 58.2 × 156 mm. The revised King Shark fin version is 150 × 58.2 × 179.7 mm; Venom remains 156 mm high.
 - Rounded backplate: 148 × 156 mm, 3.2 mm nominal base thickness.
 - Tray: 150 × 55 mm, 4.2 mm floor, 4.8 mm rim, 2.4 mm rim width.
 - Gussets: two, each 6 mm wide, centers X = −54 and +54 mm.
@@ -33,6 +33,12 @@ Simplification happens on decorative relief before functional gussets and keys a
 Valid double-precision meshes can still fail after binary STL coordinates are rounded to float32. The King Shark back needed an additional 0.0001 mm simplification pass to remove degenerate contacts near the hand/back transition. Venom required canonicalization through Manifold in its actual float32 print-coordinate representation, then restoration to assembly coordinates. Maximum original coordinate rounding was about 0.000007622 mm. Neither correction used a whole-model voxel remesh or changed the intended connectors. The actual resulting STLs and embedded 3MF coordinates were checked again.
 
 The scripts and per-product `serialization` reports retain the method. If rebuilding from the construction script, repeat this export validation; do not assume an NPZ-only manifold check is sufficient. `canonicalize_venom.py` is an explicit finish step when needed.
+
+### October 7 King Shark fin revision
+
+The first shelf rendered the original fin as a point barely above the head. At the user's request, the actual source `Dorsal_fin` was enlarged in X and Z while the head, muscles, tray, gussets and mounting slots retained their existing dimensions. A flat projection of that fin extends the backing plaque only around the fin. It joins the body as one watertight gray piece and lies on the print bed in the established back-down orientation. The rear pad zones and tray fit are unchanged.
+
+The finished body is 179.729 mm high. The P1S and P2S body plates still fit the bed and generate zero support. New combined shelf estimates are about 3 h 54 min and 131.5 g on P1S, or 3 h 54 min and 131.3 g on P2S. The fin adds about four minutes and 1.7 g over the previous King Shark shelf. Re-exporting this revised mesh required float32 canonicalization of the body; the final STL and embedded project mesh passed watertightness/manifold checks. The full revised assembly travel and toolpaths passed. The earlier revision remains in Git history for comparison.
 
 ## Bowl findings
 

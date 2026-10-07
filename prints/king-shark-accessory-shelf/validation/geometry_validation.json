@@ -45,57 +45,57 @@
     {
       "a": "Body",
       "b": "Tray",
-      "overlap_mm3": 0.02326070979157585
+      "overlap_mm3": 0.0006169386197129043
     }
   ],
   "tray_insertion_samples": [
     {
       "lift_mm": 0,
-      "overlap_mm3": 0.02326070979165401
+      "overlap_mm3": 0.0006169386198123803
     },
     {
       "lift_mm": 0.2,
-      "overlap_mm3": 0.023688488149259203
+      "overlap_mm3": 0.0006064933892061209
     },
     {
       "lift_mm": 0.5,
-      "overlap_mm3": 0.02432308865441173
+      "overlap_mm3": 0.0005910129576110222
     },
     {
       "lift_mm": 1,
-      "overlap_mm3": 0.025360847550123636
+      "overlap_mm3": 0.0005657120102301732
     },
     {
       "lift_mm": 2,
-      "overlap_mm3": 0.02735718341840276
+      "overlap_mm3": 0.0005169842599490358
     },
     {
       "lift_mm": 3,
-      "overlap_mm3": 0.029247053356735594
+      "overlap_mm3": 0.00047075536844492453
     },
     {
       "lift_mm": 4,
-      "overlap_mm3": 0.031030457364888908
+      "overlap_mm3": 0.0004270253360390318
     },
     {
       "lift_mm": 8,
-      "overlap_mm3": 0.0370994140975673
+      "overlap_mm3": 0.00027709379617608867
     },
     {
       "lift_mm": 16,
-      "overlap_mm3": 0.04412585617103496
+      "overlap_mm3": 8.880141542585484e-05
     }
   ],
   "parts": [
     {
       "name": "Body",
       "color": "Black",
-      "triangles": 82536,
-      "volume_mm3": 167299.3823000864,
+      "triangles": 86822,
+      "volume_mm3": 169692.43025146928,
       "dimensions_mm": [
         148.0,
         54.0,
-        156.0
+        179.72943115234375
       ],
       "settings": {
         "enable_support": "0",

@@ -1,222 +1,248 @@
 {
-  "passed": true,
-  "assembly_method": "With tray forward of the body, align it16mm above the seated location. Move straight toward the wall until aligned above the support keys, then lower16mm onto the seats. Reverse to remove.",
-  "max_overlap_mm3": 0.04412585617103496,
+  "assembly_paths_pass": true,
   "numerical_overlap_tolerance_mm3": 0.05,
+  "max_overlap_mm3": 0.0006169386198123803,
+  "notes": "Tray path: lift 16mm, then slide forward away from the wall. Reverse to install. Lifting straight through the sculpt is not an assembly path. Submicron serialization cleanup can produce tiny numerical intersections along nominal contact planes. This checks rigid CAD travel, not a physical assembly.",
   "samples": [
     {
-      "stage": "lift_to_clear_keys",
-      "translation_mm": [
-        0,
-        0,
-        0
-      ],
-      "overlap_mm3": 0.02326070979165401
-    },
-    {
-      "stage": "lift_to_clear_keys",
-      "translation_mm": [
-        0,
-        0,
-        0.05
-      ],
-      "overlap_mm3": 0.023367998761785556
-    },
-    {
-      "stage": "lift_to_clear_keys",
-      "translation_mm": [
-        0,
-        0,
-        0.2
-      ],
-      "overlap_mm3": 0.023688488149259203
-    },
-    {
-      "stage": "lift_to_clear_keys",
-      "translation_mm": [
-        0,
-        0,
-        0.5
-      ],
-      "overlap_mm3": 0.02432308865441173
-    },
-    {
-      "stage": "lift_to_clear_keys",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 0,
+      "direction": [
         0,
         0,
         1
       ],
-      "overlap_mm3": 0.025360847550123636
+      "overlap_mm3": 0.0006169386198123803
     },
     {
-      "stage": "lift_to_clear_keys",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 0.05,
+      "direction": [
         0,
         0,
-        2
+        1
       ],
-      "overlap_mm3": 0.02735718341840276
+      "overlap_mm3": 0.0006143179414355453
     },
     {
-      "stage": "lift_to_clear_keys",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 0.2,
+      "direction": [
         0,
         0,
-        3
+        1
       ],
-      "overlap_mm3": 0.029247053356735594
+      "overlap_mm3": 0.0006064933892061209
     },
     {
-      "stage": "lift_to_clear_keys",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 0.5,
+      "direction": [
         0,
         0,
-        4
+        1
       ],
-      "overlap_mm3": 0.031030457364888908
+      "overlap_mm3": 0.0005910129576110222
     },
     {
-      "stage": "lift_to_clear_keys",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 1,
+      "direction": [
         0,
         0,
-        8
+        1
       ],
-      "overlap_mm3": 0.0370994140975673
+      "overlap_mm3": 0.0005657120102301732
     },
     {
-      "stage": "lift_to_clear_keys",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 2,
+      "direction": [
         0,
         0,
-        12
+        1
       ],
-      "overlap_mm3": 0.04146491553961239
+      "overlap_mm3": 0.0005169842599490358
     },
     {
-      "stage": "lift_to_clear_keys",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 3,
+      "direction": [
         0,
         0,
-        16
+        1
       ],
-      "overlap_mm3": 0.04412585617103496
+      "overlap_mm3": 0.00047075536844492453
     },
     {
-      "stage": "forward_withdrawal",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 4,
+      "direction": [
         0,
         0,
-        16
+        1
       ],
-      "overlap_mm3": 0.04412585617103496
+      "overlap_mm3": 0.0004270253360390318
     },
     {
-      "stage": "forward_withdrawal",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 8,
+      "direction": [
         0,
-        -0.2,
-        16
-      ],
-      "overlap_mm3": 0.0
-    },
-    {
-      "stage": "forward_withdrawal",
-      "translation_mm": [
         0,
-        -0.5,
-        16
+        1
       ],
-      "overlap_mm3": 0.0
+      "overlap_mm3": 0.00027709379617608867
     },
     {
-      "stage": "forward_withdrawal",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 16,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "overlap_mm3": 8.880141542585484e-05
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 0,
+      "lift_mm": 16,
+      "direction": [
         0,
         -1,
-        16
+        0
+      ],
+      "overlap_mm3": 8.880141542585484e-05
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 0.2,
+      "lift_mm": 16,
+      "direction": [
+        0,
+        -1,
+        0
       ],
       "overlap_mm3": 0.0
     },
     {
-      "stage": "forward_withdrawal",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 0.5,
+      "lift_mm": 16,
+      "direction": [
         0,
-        -2,
-        16
+        -1,
+        0
       ],
       "overlap_mm3": 0.0
     },
     {
-      "stage": "forward_withdrawal",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 1,
+      "lift_mm": 16,
+      "direction": [
         0,
-        -4,
-        16
+        -1,
+        0
       ],
       "overlap_mm3": 0.0
     },
     {
-      "stage": "forward_withdrawal",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 2,
+      "lift_mm": 16,
+      "direction": [
         0,
-        -8,
-        16
+        -1,
+        0
       ],
       "overlap_mm3": 0.0
     },
     {
-      "stage": "forward_withdrawal",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 3,
+      "lift_mm": 16,
+      "direction": [
         0,
-        -16,
-        16
+        -1,
+        0
       ],
       "overlap_mm3": 0.0
     },
     {
-      "stage": "forward_withdrawal",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 4,
+      "lift_mm": 16,
+      "direction": [
         0,
-        -24,
-        16
+        -1,
+        0
       ],
       "overlap_mm3": 0.0
     },
     {
-      "stage": "forward_withdrawal",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 8,
+      "lift_mm": 16,
+      "direction": [
         0,
-        -32,
-        16
+        -1,
+        0
       ],
       "overlap_mm3": 0.0
     },
     {
-      "stage": "forward_withdrawal",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 16,
+      "lift_mm": 16,
+      "direction": [
         0,
-        -48,
-        16
+        -1,
+        0
       ],
       "overlap_mm3": 0.0
     },
     {
-      "stage": "forward_withdrawal",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 40,
+      "lift_mm": 16,
+      "direction": [
         0,
-        -64,
-        16
+        -1,
+        0
       ],
       "overlap_mm3": 0.0
     },
     {
-      "stage": "forward_withdrawal",
-      "translation_mm": [
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 80,
+      "lift_mm": 16,
+      "direction": [
         0,
-        -80,
-        16
+        -1,
+        0
       ],
       "overlap_mm3": 0.0
     }

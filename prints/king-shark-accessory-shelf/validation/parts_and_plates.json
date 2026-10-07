@@ -34,11 +34,11 @@
         ]
       ],
       "mesh_path": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\king_shark\\final_parts\\Body.npz",
-      "source_sha256": "5fc6a5cd8a4f937e3549df5ac1b62fa95ce2f277a6b6b83c9769eb68626fad6b",
+      "source_sha256": "d1e40f51e5267b9fc56dcc8d15fdf3b3c9687d2de718a4dd083c0d042d479188",
       "mesh_report": {
-        "triangles": 82536,
-        "vertices": 41266,
-        "volume_mm3": 167299.3823000864,
+        "triangles": 86822,
+        "vertices": 43409,
+        "volume_mm3": 169692.43025146925,
         "manifold_status": "Error.NoError"
       }
     },
@@ -120,11 +120,11 @@
   "geometry_repaired_during_export": false,
   "sliced": false,
   "load_rating_verified": false,
-  "title": "King Shark Shelf - Gray Body Red Tray - Non AMS",
+  "title": "King Shark Accessory Shelf",
   "source_manifest": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\king_shark\\final_parts\\manifest.json",
   "source_layout": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\king_shark\\layout.json",
   "actual_mesh_preview": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\king_shark\\preview.png",
-  "preview_sha256": "7cc15a2a7d17c92302d0821c21dbd99bc6edb6f228007fec7a4dabeda895aec6",
+  "preview_sha256": "577642383ed42ec3722e7a4b0cd4e566c6098264f076db394b2d6c7f95804784",
   "plates": [
     {
       "id": 1,
@@ -199,13 +199,13 @@
             ],
             [
               202.0,
-              166.0,
+              189.72943115234375,
               54.0
             ]
           ],
           "dimensions_mm": [
             148.0,
-            156.0,
+            179.72943115234375,
             54.0
           ],
           "settings": {
