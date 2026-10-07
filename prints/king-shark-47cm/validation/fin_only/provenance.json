@@ -1,0 +1,35 @@
+{
+  "source_npz": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Dorsal_fin.npz",
+  "source_npz_sha256": "ed7aafbe48a4e4e07bcdab6b303ae248f3ad423c586186c4b34b535d67407ef9",
+  "geometry_changed": false,
+  "source_rotation_and_placement_from_original_plate": {
+    "name": "Dorsal_fin",
+    "rotation": [
+      [
+        6.123233995736766e-17,
+        -0.894427190999916,
+        0.447213595499958
+      ],
+      [
+        1.0,
+        5.476786982642027e-17,
+        -2.7383934913210134e-17
+      ],
+      [
+        0.0,
+        0.447213595499958,
+        0.894427190999916
+      ]
+    ],
+    "xy_mm": [
+      32.0,
+      8.0
+    ],
+    "settings": {
+      "brim_width": "3"
+    }
+  },
+  "original_plate_number": 4,
+  "original_assembly_joint": "J05: Torso male key to Dorsal_fin socket; approximately 0.18 mm radial allowance.",
+  "intended_geometry": "Exactly the original King Shark fin for the 47 cm statue, no scaling or reshaping."
+}

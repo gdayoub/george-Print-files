@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Dorsal_fin",
+    "color": "Black",
+    "mesh": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Dorsal_fin.npz",
+    "settings": {
+      "wall_loops": "3",
+      "sparse_infill_pattern": "gyroid",
+      "sparse_infill_density": "8%",
+      "brim_width": "3"
+    }
+  }
+]

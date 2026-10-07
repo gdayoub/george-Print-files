@@ -1,0 +1,163 @@
+{
+  "parts": [
+    {
+      "name": "Dorsal_fin",
+      "color": "Black",
+      "settings": {
+        "wall_loops": "3",
+        "sparse_infill_pattern": "gyroid",
+        "sparse_infill_density": "8%",
+        "brim_width": "3"
+      },
+      "assembly_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_path": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Dorsal_fin.npz",
+      "source_sha256": "ed7aafbe48a4e4e07bcdab6b303ae248f3ad423c586186c4b34b535d67407ef9",
+      "mesh_report": {
+        "triangles": 9642,
+        "vertices": 4823,
+        "volume_mm3": 30387.306068938862,
+        "manifold_status": "Error.NoError"
+      }
+    }
+  ],
+  "plates": [
+    {
+      "id": 1,
+      "label": "Original 47 cm King Shark dorsal fin \u2014 one part",
+      "color": "Black",
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "groups": [
+        {
+          "name": "Dorsal_fin",
+          "plate": 1,
+          "local_transform": [
+            [
+              6.123233995736766e-17,
+              -0.894427190999916,
+              0.447213595499958,
+              -49.919090477842985
+            ],
+            [
+              1.0,
+              5.476786982642027e-17,
+              -2.7383934913210134e-17,
+              27.458451980376502
+            ],
+            [
+              0.0,
+              0.447213595499958,
+              0.894427190999916,
+              -411.43650785996124
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform": [
+            [
+              6.123233995736766e-17,
+              -0.894427190999916,
+              0.447213595499958,
+              -49.919090477842985
+            ],
+            [
+              1.0,
+              5.476786982642027e-17,
+              -2.7383934913210134e-17,
+              27.458451980376502
+            ],
+            [
+              0.0,
+              0.447213595499958,
+              0.894427190999916,
+              -411.43650785996124
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "bounds_mm": [
+            [
+              32.0,
+              8.0,
+              0.0
+            ],
+            [
+              118.20733722877213,
+              36.91592550237003,
+              60.80723631185242
+            ]
+          ],
+          "dimensions_mm": [
+            86.20733722877213,
+            28.91592550237003,
+            60.80723631185242
+          ],
+          "settings": {
+            "wall_loops": "3",
+            "sparse_infill_pattern": "gyroid",
+            "sparse_infill_density": "8%",
+            "brim_width": "3"
+          },
+          "object_id": 1
+        }
+      ],
+      "preview": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_fin_only\\fin_plate.png"
+    }
+  ],
+  "joints": 0,
+  "palette": [
+    "#25282A",
+    "#EFE7D5",
+    "#BB1424"
+  ],
+  "input_checks_pass": true,
+  "sliced": false,
+  "geometry_generated": false,
+  "title": "Original King Shark 47cm Dorsal Fin Only",
+  "source_manifest": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_fin_only\\manifest.json",
+  "source_layout": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_fin_only\\layout.json",
+  "requires_next": [
+    "Bambu slice each printer",
+    "check all support/brim extrusion paths",
+    "verify zero filament changes and slice warnings",
+    "inspect GUI import when available"
+  ],
+  "desktop_GUI_import_verified": false,
+  "physical_print_test": false
+}

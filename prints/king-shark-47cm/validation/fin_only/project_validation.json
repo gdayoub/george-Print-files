@@ -1,0 +1,30 @@
+[
+  {
+    "file": "King_Shark_Original_Dorsal_Fin_ONLY_P1S_NON_AMS.3mf",
+    "bytes": 1533251,
+    "sha256": "707c43e2b43b04821e756fff6c67883b69577fb485b142a4e0d2fed357c07d32",
+    "embedded_geometry": true,
+    "normal_parts": 1,
+    "joint_modifiers": 0,
+    "plates": 1,
+    "triangles": 9642,
+    "passes": true,
+    "sliced": false,
+    "desktop_GUI_import_verified": false,
+    "physical_print_test": false
+  },
+  {
+    "file": "King_Shark_Original_Dorsal_Fin_ONLY_P2S_NON_AMS.3mf",
+    "bytes": 1535250,
+    "sha256": "37396bb0bbc19ff9c09cf0aae90f3dae9ee61f2ba77a0d24400c6b6380d09c90",
+    "embedded_geometry": true,
+    "normal_parts": 1,
+    "joint_modifiers": 0,
+    "plates": 1,
+    "triangles": 9642,
+    "passes": true,
+    "sliced": false,
+    "desktop_GUI_import_verified": false,
+    "physical_print_test": false
+  }
+]

@@ -18,7 +18,8 @@
   "variants": [
     "original_v2",
     "all_red_replacement_shorts",
-    "fast_legs_feet"
+    "fast_legs_feet",
+    "original_dorsal_fin_only"
   ],
   "recommendation": "Original torso/arms/fin/teeth + all-red shorts + one fast-leg option; do not duplicate original shorts/panels/legs.",
   "status": "digitally-checked-and-sliced-user-reported-torso-head-print-success",
@@ -36,5 +37,7 @@
   "makerworld_url": null,
   "preview": "images/all_red_shorts/assembly_all_red_shorts.png",
   "recommended": "README.md",
-  "dated": "2026-10-06"
+  "dated": "2026-10-06",
+  "fin_only_project": "files/3mf/04_fin_only/King_Shark_Original_Dorsal_Fin_ONLY_P1S_NON_AMS.3mf",
+  "fin_only_source_geometry_unchanged": true
 }

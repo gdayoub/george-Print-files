@@ -13,10 +13,13 @@
 | What you need | P1S project | P2S project |
 |---|---|---|
 | Original body, arms, fin and teeth; full historical v2 project | [Original v2 P1S](files/3mf/01_original_v2/King_Shark_Realistic_47cm_P1S_NON_AMS.3mf?raw=true) | [Original v2 P2S](files/3mf/01_original_v2/King_Shark_Realistic_47cm_P2S_NON_AMS.3mf?raw=true) |
+| **Original dorsal fin by itself** — for the printed torso/back | [Fin-only P1S](files/3mf/04_fin_only/King_Shark_Original_Dorsal_Fin_ONLY_P1S_NON_AMS.3mf?raw=true) | [Fin-only P2S](files/3mf/04_fin_only/King_Shark_Original_Dorsal_Fin_ONLY_P2S_NON_AMS.3mf?raw=true) |
 | **Recommended shorts: one all-red part** | [Red shorts P1S](files/3mf/02_all_red_shorts/King_Shark_ALL_RED_SHORTS_P1S.3mf?raw=true) | [Red shorts P2S](files/3mf/02_all_red_shorts/King_Shark_ALL_RED_SHORTS_P2S.3mf?raw=true) |
 | **Recommended legs: both whole legs on one plate** | [Fast legs P1S](files/3mf/03_fast_legs_feet/FAST_BOTH_LEGS_P1S.3mf?raw=true) | [Fast legs P2S](files/3mf/03_fast_legs_feet/FAST_BOTH_LEGS_P2S.3mf?raw=true) |
 
 For the fastest elapsed leg print using both machines, choose [left leg on P1S](files/3mf/03_fast_legs_feet/Two_printers/LEFT_LEG_P1S.3mf?raw=true) and [right leg on P2S](files/3mf/03_fast_legs_feet/Two_printers/RIGHT_LEG_P2S.3mf?raw=true) **instead of** either combined-leg project.
+
+The dorsal fin is a separate part that glues onto the **center of the torso's upper back, behind the head**. In the original six-plate project it shares plate 4 with the old legs and shorts panels, so it can be missed when using the newer replacements. [See where it attaches and print only the fin](docs/FIN_ONLY.md).
 
 Open the matching 3MF **as a project** and keep its custom process. No AMS is required. Use a standard 0.4 mm nozzle, calibrated PLA and the saved plate orientation/supports. Original full projects contain older shorts and leg layouts: do not print every variant or duplicate parts. Follow the [part-selection and assembly guide](docs/PRINTING_ASSEMBLY.md).
 
@@ -33,6 +36,7 @@ STLs contain geometry only; they do not retain support settings, color assignmen
 | Original historical v2, all six plates | 38 h 31 min | 39 h 10 min | about 788 g |
 | All-red replacement shorts only | 9 h 57 min | 10 h 07 min | about 218 g |
 | Faster pair of legs/feet only | 5 h 33 min | 5 h 38 min | about 151 g |
+| Original dorsal fin only | 51 min | 51 min | about 14 g |
 | Legs split across P1S + P2S | about 2 h 55 min elapsed | simultaneous pair | about 151 g total |
 
 These are Bambu Studio 02.08.02.61 estimates including supports and preparation, not measured completed-print times. The historical total is not a total for the recommended mixed revision. Faster legs save about 65 minutes (16.4%) against the original legs-only P1S benchmark. They use 0.28 mm layers, so printed layer lines are more visible than the original 0.20 mm profile.

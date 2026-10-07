@@ -1,0 +1,13 @@
+{
+  "actual_source_geometry": true,
+  "source_part": "Dorsal_fin.npz",
+  "images": [
+    "fin_preview.png",
+    "fin_socket_view.png",
+    "fin_plate.png"
+  ],
+  "scenes": [
+    "Original King Shark statue fin",
+    "P1S_P2S_Fin_Plate"
+  ]
+}

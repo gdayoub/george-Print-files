@@ -1,0 +1,19 @@
+[
+  {
+    "file": "Dorsal_fin.stl",
+    "triangles": 9642,
+    "vertices": 4823,
+    "volume_mm3": 30387.306031818673,
+    "manifold_status": "Error.NoError",
+    "bytes": 482184,
+    "sha256": "01f29d8a901a86d78268d0af8dbb54606f518a8c6cb60805dd4175c405e07b34",
+    "dimensions_mm": [
+      86.20733642578125,
+      28.915925979614258,
+      60.80723571777344
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  }
+]

@@ -43,9 +43,9 @@
   },
   {
     "path": "docs/character-homeware/PROGRESS.md",
-    "bytes": 9080,
-    "sha256": "6996f575203d8551fe87b9def3fe4f711d5f47aad008a8bfefe3259e21152024",
-    "git_blob_sha": "056cd73ba069963b9cc2fb534d7d8b32f23ac71e"
+    "bytes": 10454,
+    "sha256": "4931b76ec9abda50f424719139f6e20530c46402bcdece9c42b4b66fa19abae7",
+    "git_blob_sha": "23bfb39779585f49469ca1ec1767f98eea9c3144"
   },
   {
     "path": "docs/character-homeware/REPO_PUBLICATION.md",
@@ -138,6 +138,12 @@
     "git_blob_sha": "c28414a8cba36f8a90a817321bbaf6213fafc98f"
   },
   {
+    "path": "prints/king-shark-47cm/docs/FIN_ONLY.md",
+    "bytes": 2539,
+    "sha256": "ded3edf20eba072c0ae981bbd5c069682f9bcef4046afd27a7607b5cc8449636",
+    "git_blob_sha": "3e52c022d14901da38d44e43af05c85e97f977b7"
+  },
+  {
     "path": "prints/king-shark-47cm/docs/history/01_original_v2_START_HERE.txt",
     "bytes": 5190,
     "sha256": "fcec7478d079fd24551f2aebba6106723bdb8ba5700cb4f753bb5fe7ce8ec90c",
@@ -157,9 +163,9 @@
   },
   {
     "path": "prints/king-shark-47cm/docs/PRINTING_ASSEMBLY.md",
-    "bytes": 3372,
-    "sha256": "b7d655181c9f89329a88bd6785b251e66a84a0a74558a30d8d05c647fca983f1",
-    "git_blob_sha": "3e5f34924c92a82024a74fbe9dbf2f39fa76349c"
+    "bytes": 3459,
+    "sha256": "ef4816fa28f6aaac9b4fb4cd8c4aba4047df319d63200abf1a0f03e3dc584624",
+    "git_blob_sha": "35a59710d4a5edd78dfaac864ecb1d58032eca4c"
   },
   {
     "path": "prints/king-shark-47cm/docs/VALIDATION_STATUS.md",
@@ -214,6 +220,18 @@
     "bytes": 1209769,
     "sha256": "7b3ba6c8fc6e28f75228532e60d3d071ca324b6a7a582213070fdce1965956ab",
     "git_blob_sha": "f670324949c9165659bebd07d13a6a039957b863"
+  },
+  {
+    "path": "prints/king-shark-47cm/files/3mf/04_fin_only/King_Shark_Original_Dorsal_Fin_ONLY_P1S_NON_AMS.3mf",
+    "bytes": 1533251,
+    "sha256": "707c43e2b43b04821e756fff6c67883b69577fb485b142a4e0d2fed357c07d32",
+    "git_blob_sha": "17d229958f9dfed1bfc352c98ebb892d518f1dd4"
+  },
+  {
+    "path": "prints/king-shark-47cm/files/3mf/04_fin_only/King_Shark_Original_Dorsal_Fin_ONLY_P2S_NON_AMS.3mf",
+    "bytes": 1535250,
+    "sha256": "37396bb0bbc19ff9c09cf0aae90f3dae9ee61f2ba77a0d24400c6b6380d09c90",
+    "git_blob_sha": "79582a21d83e0f9952690e09a7e375de6175f3c3"
   },
   {
     "path": "prints/king-shark-47cm/files/stl/all_red_shorts/Shorts_ALL_RED.stl",
@@ -324,6 +342,36 @@
     "git_blob_sha": "7646fbdd9481c900cefdb966c420ee4b3b053f1c"
   },
   {
+    "path": "prints/king-shark-47cm/images/fin_only/fin_from_side.png",
+    "bytes": 1452931,
+    "sha256": "10db76b4d8e69aaa5709eae9f6c40fb7377a30d067b9c7e96efbd65d509b02b4",
+    "git_blob_sha": "74f229b05d21211beee202dacf0998e8ab25a946"
+  },
+  {
+    "path": "prints/king-shark-47cm/images/fin_only/fin_on_upper_back.png",
+    "bytes": 1402995,
+    "sha256": "5d0c61e10bd85fdfebb12853c8f2d515bf7f59d6b9e31d1f0e79b0e83d1a3cb2",
+    "git_blob_sha": "992cd4ac6e39a03144c89c19a4bfec5782b2dde0"
+  },
+  {
+    "path": "prints/king-shark-47cm/images/fin_only/fin_plate.png",
+    "bytes": 1002285,
+    "sha256": "3ed8a7f62e2e52bf3fdb1f2c00bfadda74012d9db5957a36217fa7ba41451e77",
+    "git_blob_sha": "1b54bd43e6bd9fe7a7ed63733d135766460753d5"
+  },
+  {
+    "path": "prints/king-shark-47cm/images/fin_only/fin_preview.png",
+    "bytes": 991041,
+    "sha256": "9b625d37e66b066b2763a8f3cd450c02ef882dedd421f37c29fdaefce70fd7dc",
+    "git_blob_sha": "0f318e7c196afb66e652f5fd6947b36704fa4856"
+  },
+  {
+    "path": "prints/king-shark-47cm/images/fin_only/fin_socket_view.png",
+    "bytes": 982945,
+    "sha256": "70f626e4b83a03adc7989b39c8b4b6e159336ba0a134fc67885da9b5cb1f527b",
+    "git_blob_sha": "e034120c5858217af28c9a1a6691028d7313045c"
+  },
+  {
     "path": "prints/king-shark-47cm/images/original_v2/back.png",
     "bytes": 1868778,
     "sha256": "206f3f8d9ed86e010dfd95e3b15952a5a81589b46331ac57b277dc224f9ccff9",
@@ -397,15 +445,15 @@
   },
   {
     "path": "prints/king-shark-47cm/project.json",
-    "bytes": 1313,
-    "sha256": "657a33e47cdafe8a7ed7a9e4a00f1996ce7443bfd454c288450a398a0c0be157",
-    "git_blob_sha": "3a7cad10fb33bed7a733129cdeaad9baede71b4f"
+    "bytes": 1533,
+    "sha256": "6ae7dce5c4ea8a70a9d7b2f2e16d2cc3c8ccee277ddcfaef1be936adff00ef66",
+    "git_blob_sha": "06ce23a16db54702693fdbe07eeda1957c54dd47"
   },
   {
     "path": "prints/king-shark-47cm/README.md",
-    "bytes": 4713,
-    "sha256": "e1ab0244d857b6a0f185f72b93374dddf7847dde2b7a21d67876e95af52d5506",
-    "git_blob_sha": "08911848623f03503c4d5b739155a5075f681785"
+    "bytes": 5364,
+    "sha256": "ff994a8adb59ea2f46579fc030ef3fb4ceb4a2b48435391522a581c6cf963752",
+    "git_blob_sha": "1a9f3524dc42afa0644a3ba2199ba4093f7ed93d"
   },
   {
     "path": "prints/king-shark-47cm/source/all_red_shorts/assembly_meshes/Shorts.npz",
@@ -436,6 +484,36 @@
     "bytes": 10502,
     "sha256": "cf4c1f134b95027fa97d3ff2b76822c095131d625d0058172dc4247f9c8b1e64",
     "git_blob_sha": "77f0ad7d9f21aedb398187443fbf793c3977b1a9"
+  },
+  {
+    "path": "prints/king-shark-47cm/source/fin_only/build_fin_only.py",
+    "bytes": 1445,
+    "sha256": "bdf45269b7d22b54c324f3581eaae560dfd7b0b96f800c80e3eb7513f48060a8",
+    "git_blob_sha": "248fd0fb672fd310fdc303d6033b626367040dbb"
+  },
+  {
+    "path": "prints/king-shark-47cm/source/fin_only/King_Shark_Original_Dorsal_Fin.blend",
+    "bytes": 946368,
+    "sha256": "673cf635bd9afc6df9cfcad7fe43e65570be492e53790edc391a3fc516b14598",
+    "git_blob_sha": "7d50cb49ce93f3e45beee9d014cde1fc5a32e269"
+  },
+  {
+    "path": "prints/king-shark-47cm/source/fin_only/render_fin_only.py",
+    "bytes": 3219,
+    "sha256": "20bf1c7d8b9ecdff93e6b3255ea3e55dca6cedb28429662de8ae4a4658993e68",
+    "git_blob_sha": "d9b1706f09c5002e7165cde34f872dd6048ac01a"
+  },
+  {
+    "path": "prints/king-shark-47cm/source/fin_only/render_mount.py",
+    "bytes": 1939,
+    "sha256": "05ca61e4ccae239c37cb39403ca65de796a725d9e498c83e4034c5948e29a7ab",
+    "git_blob_sha": "23245190710bd3da21f602eda4c61f1b5395c271"
+  },
+  {
+    "path": "prints/king-shark-47cm/source/fin_only/stage_fin_only.py",
+    "bytes": 5414,
+    "sha256": "b7d5859b046f6d17f28f123ebc37ca3de77bdce5540a702ec00ff5e881b40279",
+    "git_blob_sha": "d1d3569414cfefca9901876c90e6184bd06cba77"
   },
   {
     "path": "prints/king-shark-47cm/source/geometry/assembly_intersections.json",
@@ -760,6 +838,84 @@
     "bytes": 1397,
     "sha256": "706b9d948f965e57697f59484cfce2051067952b65e9f1d4649255b986632c29",
     "git_blob_sha": "ec1454b37ac8efc8ae2cdbd27e217903915c9e80"
+  },
+  {
+    "path": "prints/king-shark-47cm/validation/fin_only/layout.json",
+    "bytes": 910,
+    "sha256": "f6773aefddedcbc1db33fd8339cc8b11b50e03a42b8359c9e8a75f50cd7e118b",
+    "git_blob_sha": "4eafcc839ef14e0fc4dcfaf32b62cc40bcf8b401"
+  },
+  {
+    "path": "prints/king-shark-47cm/validation/fin_only/manifest.json",
+    "bytes": 351,
+    "sha256": "987a3ca1fcf78ea5b6d55a7699bb6f84c3b43fac7d4d59667734063941aaf760",
+    "git_blob_sha": "d2836f9e6a3376d6fe50e63f9764f47f3d20b12c"
+  },
+  {
+    "path": "prints/king-shark-47cm/validation/fin_only/P1S_profile.json",
+    "bytes": 111776,
+    "sha256": "0d608479eea19ccf643b9da29ccc7e585d81298dd121fb6f08b3808ea2c62d4e",
+    "git_blob_sha": "435fbac49b4e0618931fc75f4a9026f2af0cc16e"
+  },
+  {
+    "path": "prints/king-shark-47cm/validation/fin_only/P1S_slice_summary.json",
+    "bytes": 304,
+    "sha256": "52195427c2d847ec80cb4b76d7a2782f47fd17d42496f62b7647e619f944cc69",
+    "git_blob_sha": "36d80ba1e383a116fa1fb6d6484c0089160888eb"
+  },
+  {
+    "path": "prints/king-shark-47cm/validation/fin_only/P1S_toolpaths.json",
+    "bytes": 363,
+    "sha256": "f6bbd8a7e5e6575c3fd35f408aabf4fb127dbea5087d1e5403cffcd32657676a",
+    "git_blob_sha": "ceb7535c4826bfb2297284e8a0ea30d50f4641df"
+  },
+  {
+    "path": "prints/king-shark-47cm/validation/fin_only/P2S_profile.json",
+    "bytes": 122493,
+    "sha256": "9cc8d42f700fb6ae0adc1cfdabf61b1cee45c7007aeaf9640ee6a8947540eecb",
+    "git_blob_sha": "89dbb169228f4e201aa7343a115957bbc9ca4491"
+  },
+  {
+    "path": "prints/king-shark-47cm/validation/fin_only/P2S_slice_summary.json",
+    "bytes": 312,
+    "sha256": "c50198eaf096920e4010de46fd7ecd542cba8c0a4bbae5f3e0cfefb82e5a5e20",
+    "git_blob_sha": "2f2152e56df3a69ffe60985cac78d93c0b2cf701"
+  },
+  {
+    "path": "prints/king-shark-47cm/validation/fin_only/P2S_toolpaths.json",
+    "bytes": 363,
+    "sha256": "a62434bf00b32ed10ceb6f0a8284812ebbec153cad5dd37b157eb20da75c82b0",
+    "git_blob_sha": "c58517fadc4e6ae2e5bbee1a74b58e8d49e7ac91"
+  },
+  {
+    "path": "prints/king-shark-47cm/validation/fin_only/parts_and_plates.json",
+    "bytes": 4166,
+    "sha256": "cf2b28a3bf51a1a62193ed16ed439f8f8bfe1790933abacd15af3f9fd3aeee30",
+    "git_blob_sha": "9d0ccab1a7bf234b94b5d1cc270377ef5e570720"
+  },
+  {
+    "path": "prints/king-shark-47cm/validation/fin_only/project_validation.json",
+    "bytes": 863,
+    "sha256": "5adcb0420d3570e6a70110f830b21f98f0b579e3d463da17c8dc9a1bdf142876",
+    "git_blob_sha": "5537dffac3c7a8069cacbdf6de236bf97e909905"
+  },
+  {
+    "path": "prints/king-shark-47cm/validation/fin_only/provenance.json",
+    "bytes": 1024,
+    "sha256": "96588f8a766e43236efc72113e665de8a8efe2b153a97fc6e79b8f7b430a0951",
+    "git_blob_sha": "bc9d200889b26e1c983da1ab1a802c58930d6e8f"
+  },
+  {
+    "path": "prints/king-shark-47cm/validation/fin_only/render_validation.json",
+    "bytes": 253,
+    "sha256": "b071253233f30cd41dd9ed3c52b7ccf3c3b24e81a752ec436fbb6d738332ee79",
+    "git_blob_sha": "42364b5a04a06282cf93d056da205f91fb42c5da"
+  },
+  {
+    "path": "prints/king-shark-47cm/validation/fin_only/stl_roundtrip.json",
+    "bytes": 491,
+    "sha256": "92520b28691d56b204f241e6598c91a5dc1f8faf38b9140c1ede980445a4e8db",
+    "git_blob_sha": "201c416ed0de34825d13dbfbde8e26c3f14fffdc"
   },
   {
     "path": "prints/king-shark-47cm/validation/original_v2/assembled_dimensions.json",

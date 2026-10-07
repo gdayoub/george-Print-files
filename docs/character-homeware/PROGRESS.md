@@ -50,3 +50,10 @@ Append the final selected files, any mesh/process revisions, slice/toolpath resu
 - Final body STL and embedded 3MF meshes pass manifold/watertight roundtrips after float32 canonicalization. Measured coordinate rounding is below 0.000008 mm. Tray and insertion checks pass with under 0.001 mm³ numerical overlap.
 - P1S and P2S slices pass with empty plate warning messages, zero filament changes and zero supports. Combined estimate: about 3 h 54 min, 131.5 g P1S; about 3 h 54 min, 131.3 g P2S. The checked extrusion paths remain within both printers' envelopes. Actual-mesh previews and the editable Blender scene show the larger fin.
 - This revision has not been physically printed or load tested. The previous smaller-fin shelf is available in the earlier repository commit.
+
+## October 7, 2026 — clarification: fin for the large statue's body
+
+- The user's “Where is the fin?” referred to the **47 cm statue torso**, not the accessory shelf. The fin was already a separate original `Dorsal_fin` mesh and STL, but it was grouped with the old legs and shorts panels on plate 4 of the historical six-plate 3MF. Using the new fast-leg/shorts projects made it easy to omit.
+- The fin plugs into joint J05 at the center of the torso's upper back behind the head. The original torso and fin NPZ/STL remain unchanged. The fin-only STL export is byte-identical to the original delivery; SHA-256 `01f29d8a901a86d78268d0af8dbb54606f518a8c6cb60805dd4175c405e07b34`.
+- Separate P1S and P2S one-part projects now carry the original fin in its original plate-4 orientation, with a 3 mm brim, 0.20 mm layers, three walls and 8% gyroid. Both slices passed with empty warning messages, zero color changes, and in-volume model/support/brim paths. Estimate: 51 minutes and about 14 g. Actual-mesh renders highlight the exact upper-back location; orange is an illustration color only.
+- The first response also enlarged the **accessory shelf's** decorative fin. That shelf revision is independent of the large statue and remains available. This fin-only release resolves the user's actual missing-part question without changing the successful torso or its joint.

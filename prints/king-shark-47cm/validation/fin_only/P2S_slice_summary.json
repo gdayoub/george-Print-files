@@ -1,0 +1,11 @@
+{
+  "printer": "P2S",
+  "return_code": 0,
+  "seconds": 3088.751220703125,
+  "grams": 13.639641761779785,
+  "plates": 1,
+  "warning_message": "",
+  "filament_changes": 0,
+  "support_seconds": 29.045177340507507,
+  "source_stl_sha256": "01f29d8a901a86d78268d0af8dbb54606f518a8c6cb60805dd4175c405e07b34"
+}
