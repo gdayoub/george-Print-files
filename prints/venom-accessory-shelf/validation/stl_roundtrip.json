@@ -1,0 +1,87 @@
+[
+  {
+    "file": "Body.stl",
+    "triangles": 109122,
+    "vertices": 54557,
+    "volume_mm3": 146315.08863859752,
+    "manifold_status": "Error.NoError",
+    "bytes": 5456184,
+    "sha256": "6b60d45ade727e09bb2d3fc576ee69a2842ef40f6c1b2450ca3f96734ef79512",
+    "dimensions_mm": [
+      148.0,
+      156.0,
+      54.0
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  },
+  {
+    "file": "Tray.stl",
+    "triangles": 572,
+    "vertices": 288,
+    "volume_mm3": 38588.23407483776,
+    "manifold_status": "Error.NoError",
+    "bytes": 28684,
+    "sha256": "1d8712ed3c79c105c89aa257857f9fef75a43b4b6829dd0edee0ef3271cdb5fa",
+    "dimensions_mm": [
+      150.0,
+      55.0,
+      9.0
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  },
+  {
+    "file": "Eye_L.stl",
+    "triangles": 1494,
+    "vertices": 749,
+    "volume_mm3": 461.06658992481545,
+    "manifold_status": "Error.NoError",
+    "bytes": 74784,
+    "sha256": "584c0d22ee410d3f7c6cc52a22fcc6165380fadb61b7b896d4e27fd61974a790",
+    "dimensions_mm": [
+      6.499054431915283,
+      12.499526977539062,
+      10.574851989746094
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  },
+  {
+    "file": "Eye_R.stl",
+    "triangles": 1540,
+    "vertices": 772,
+    "volume_mm3": 333.8218012693263,
+    "manifold_status": "Error.NoError",
+    "bytes": 77084,
+    "sha256": "1143eca4419cd4475f5cf009b9e0eee2639cfb6cac3e7771b13fbe9c7cac8b72",
+    "dimensions_mm": [
+      6.498877048492432,
+      12.498876571655273,
+      8.335257530212402
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  },
+  {
+    "file": "Chest_Emblem.stl",
+    "triangles": 22298,
+    "vertices": 11151,
+    "volume_mm3": 6685.459193950817,
+    "manifold_status": "Error.NoError",
+    "bytes": 1114984,
+    "sha256": "6cc5fe3e96938463e7db41d325c913150ffa0150d49e51fefc4b2991e82f38b1",
+    "dimensions_mm": [
+      68.7488784790039,
+      50.748878479003906,
+      8.77318286895752
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  }
+]

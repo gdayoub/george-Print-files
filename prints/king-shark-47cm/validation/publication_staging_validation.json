@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-06",
+  "staging_path": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\outputs\\Character_Catchalls_and_Shelves_v1\\repo\\prints\\king-shark-47cm",
+  "source_copy_hash_checks_passed": 128,
+  "geometry_regenerated": false,
+  "existing_project_checks": [
+    {
+      "file": "files/3mf/01_original_v2/King_Shark_Realistic_47cm_P1S_NON_AMS.3mf",
+      "matches_prior_checked_sha256": true,
+      "zip_and_embedded_model_present": true
+    },
+    {
+      "file": "files/3mf/01_original_v2/King_Shark_Realistic_47cm_P2S_NON_AMS.3mf",
+      "matches_prior_checked_sha256": true,
+      "zip_and_embedded_model_present": true
+    },
+    {
+      "file": "files/3mf/02_all_red_shorts/King_Shark_ALL_RED_SHORTS_P1S.3mf",
+      "matches_prior_checked_sha256": true,
+      "zip_and_embedded_model_present": true
+    },
+    {
+      "file": "files/3mf/02_all_red_shorts/King_Shark_ALL_RED_SHORTS_P2S.3mf",
+      "matches_prior_checked_sha256": true,
+      "zip_and_embedded_model_present": true
+    },
+    {
+      "file": "files/3mf/03_fast_legs_feet/FAST_BOTH_LEGS_P1S.3mf",
+      "matches_prior_checked_sha256": true,
+      "zip_and_embedded_model_present": true
+    },
+    {
+      "file": "files/3mf/03_fast_legs_feet/FAST_BOTH_LEGS_P2S.3mf",
+      "matches_prior_checked_sha256": true,
+      "zip_and_embedded_model_present": true
+    },
+    {
+      "file": "files/3mf/03_fast_legs_feet/Two_printers/LEFT_LEG_P1S.3mf",
+      "matches_prior_checked_sha256": true,
+      "zip_and_embedded_model_present": true
+    },
+    {
+      "file": "files/3mf/03_fast_legs_feet/Two_printers/RIGHT_LEG_P2S.3mf",
+      "matches_prior_checked_sha256": true,
+      "zip_and_embedded_model_present": true
+    }
+  ],
+  "files_count_before_this_report": 135,
+  "total_bytes_before_this_report": 251128602,
+  "largest_file": "source/original_v2/King_Shark_realistic_47cm.blend",
+  "largest_file_bytes": 38339220,
+  "files_at_least_100MB": [],
+  "raw_gcode_or_logs_included": false,
+  "published": false
+}

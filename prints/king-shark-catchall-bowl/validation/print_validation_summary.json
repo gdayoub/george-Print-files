@@ -1,0 +1,80 @@
+{
+  "P1S": {
+    "return_code": 0,
+    "error_string": "Success.",
+    "warning_message": "",
+    "total_estimated_seconds": 10719.955078125,
+    "estimated_h_m": "2h 59m",
+    "filament_g": 113.25342559814453,
+    "support_and_interface_seconds": 394.4535827636719,
+    "estimated_support_and_interface_g_from_positive_feature_extrusion": 2.4278719354557654,
+    "support_material_estimate_method": "Sum positive XY/arc extrusion E under Support and Support interface features; 1.75mm filament and 1.24g/cm3. Does not include brim or startup purge.",
+    "filament_changes": 0,
+    "layer_height_mm": 0.2800000011920929,
+    "walls": 3,
+    "profile_infill_percent": 8.0,
+    "path_checks": [
+      {
+        "plate": "plate_1.gcode",
+        "extrusion_bounds_mm": [
+          [
+            55.387,
+            54.21525486060428,
+            0.2
+          ],
+          [
+            200.613,
+            200.038,
+            59.28
+          ]
+        ],
+        "checked_extrusion_segments": 261451,
+        "including_circular_arcs": 110949,
+        "outside_build_volume": 0,
+        "P1S_excluded_corner_hits": 0
+      }
+    ],
+    "effective_object_infill_percent": 5,
+    "effective_object_infill_pattern": "gyroid",
+    "global_infill_note": "result.json reports global8%; verified project object metadata overrides the bowl to5% gyroid."
+  },
+  "P2S": {
+    "return_code": 0,
+    "error_string": "Success.",
+    "warning_message": "",
+    "total_estimated_seconds": 10837.9716796875,
+    "estimated_h_m": "3h 01m",
+    "filament_g": 113.15743255615234,
+    "support_and_interface_seconds": 399.74146270751953,
+    "estimated_support_and_interface_g_from_positive_feature_extrusion": 2.4278719354557654,
+    "support_material_estimate_method": "Sum positive XY/arc extrusion E under Support and Support interface features; 1.75mm filament and 1.24g/cm3. Does not include brim or startup purge.",
+    "filament_changes": 0,
+    "layer_height_mm": 0.2800000011920929,
+    "walls": 3,
+    "profile_infill_percent": 8.0,
+    "path_checks": [
+      {
+        "plate": "plate_1.gcode",
+        "extrusion_bounds_mm": [
+          [
+            55.387,
+            56.21550206005241,
+            0.2
+          ],
+          [
+            200.613,
+            202.038,
+            59.28
+          ]
+        ],
+        "checked_extrusion_segments": 265607,
+        "including_circular_arcs": 109137,
+        "outside_build_volume": 0,
+        "P1S_excluded_corner_hits": 0
+      }
+    ],
+    "effective_object_infill_percent": 5,
+    "effective_object_infill_pattern": "gyroid",
+    "global_infill_note": "result.json reports global8%; verified project object metadata overrides the bowl to5% gyroid."
+  }
+}

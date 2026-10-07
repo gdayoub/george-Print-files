@@ -1,0 +1,14 @@
+[
+  {
+    "name": "King_Shark_Catchall_Bowl",
+    "color": "Black",
+    "mesh": "King_Shark_Catchall_Bowl.npz",
+    "settings": {
+      "sparse_infill_pattern": "gyroid",
+      "sparse_infill_density": "5%",
+      "wall_loops": "3",
+      "top_shell_layers": "4",
+      "bottom_shell_layers": "4"
+    }
+  }
+]

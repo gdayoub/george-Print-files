@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "preview": "Actual unchanged mesh geometry, not source concept art",
+  "parts": [
+    {
+      "name": "L_leg",
+      "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\L_leg.npz",
+      "sha256": "5e99cb1bb26c613fdc839f22d6a727530d21c93a2d53b98d4ba3ff794a34aa7b",
+      "triangles": 61230,
+      "dimensions_mm": [
+        122.63848899586631,
+        106.54219698197613,
+        135.93445234153384
+      ],
+      "unchanged_from_validated_shorts_mate": true
+    },
+    {
+      "name": "R_leg",
+      "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\R_leg.npz",
+      "sha256": "37bbf4bfbdcd0319e73867e3b4e1ec59c0f109b7a79f4c2ddecf7fd1971051a4",
+      "triangles": 59314,
+      "dimensions_mm": [
+        119.51019260537355,
+        93.11943119655191,
+        137.58389512300272
+      ],
+      "unchanged_from_validated_shorts_mate": true
+    }
+  ],
+  "referenced_fit_report": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_red_shorts_v3\\review\\replacement_fit_review.json",
+  "fit_report_sha256": "8857b5eff4d7138b59945d19a3943e4ca5db3a68750ef3ecfea5c106180c6bff",
+  "referenced_fit_report_status": "passed",
+  "validated_red_shorts_fit_paths": [
+    {
+      "id": "J03",
+      "male": "L_leg",
+      "female": "Shorts",
+      "moving_part": "Shorts",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "sample_count": 29,
+      "tested_distance_mm": 27.060354692349065,
+      "maximum_interference_mm3": 3.4723250166505796e-06,
+      "worst_offset_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "passed": true
+    },
+    {
+      "id": "J04",
+      "male": "R_leg",
+      "female": "Shorts",
+      "moving_part": "Shorts",
+      "direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "sample_count": 30,
+      "tested_distance_mm": 28.709797473817943,
+      "maximum_interference_mm3": 3.595957097082887e-05,
+      "worst_offset_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "passed": true
+    }
+  ],
+  "note": "Hash equality preserves the exact leg geometry and key profiles previously checked against the red replacement shorts. This is digital compatibility evidence, not a new physical print test."
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "file": "King_Shark_Catchall_Bowl.stl",
+    "triangles": 71434,
+    "vertices": 35683,
+    "volume_mm3": 168250.37506500626,
+    "manifold_status": "Error.NoError",
+    "bytes": 3571784,
+    "sha256": "7a6fe286704b079adb78e23ecb24a9f265050e300b2f498f807cbaee05617b93",
+    "dimensions_mm": [
+      140.0,
+      143.42471313476562,
+      59.398860931396484
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  }
+]

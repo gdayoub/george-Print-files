@@ -1,0 +1,152 @@
+[
+  {
+    "id": "J01",
+    "male": "Torso",
+    "female": "L_arm",
+    "center_mm": [
+      85.0,
+      30.170851575114284,
+      338.75458149910446
+    ],
+    "normal": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "half_width_mm": 13,
+    "half_depth_mm": 9.88,
+    "length_mm": 12,
+    "root_depth_mm": 2.5,
+    "minimum_nominal_radial_clearance_mm": 0.18,
+    "blind_depth_extra_mm": 0.38,
+    "key_shape": "64-sided asymmetric rounded taper; tip scale 0.84",
+    "key_vs_socket_interference_mm3": 0.0,
+    "root_exposure_mm3": 0.0,
+    "socket_exposure_mm3": 0.0
+  },
+  {
+    "id": "J02",
+    "male": "Torso",
+    "female": "R_arm",
+    "center_mm": [
+      -85.0,
+      14.174782630921072,
+      338.6342257127717
+    ],
+    "normal": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "half_width_mm": 13,
+    "half_depth_mm": 9.88,
+    "length_mm": 12,
+    "root_depth_mm": 2.5,
+    "minimum_nominal_radial_clearance_mm": 0.18,
+    "blind_depth_extra_mm": 0.38,
+    "key_shape": "64-sided asymmetric rounded taper; tip scale 0.84",
+    "key_vs_socket_interference_mm3": 0.0,
+    "root_exposure_mm3": 0.0,
+    "socket_exposure_mm3": 0.0
+  },
+  {
+    "id": "J03",
+    "male": "L_leg",
+    "female": "Shorts",
+    "center_mm": [
+      57.0,
+      10.0,
+      120.43445234153384
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "half_width_mm": 13,
+    "half_depth_mm": 9.88,
+    "length_mm": 16,
+    "root_depth_mm": 2.5,
+    "minimum_nominal_radial_clearance_mm": 0.18,
+    "blind_depth_extra_mm": 0.38,
+    "key_shape": "64-sided asymmetric rounded taper; tip scale 0.84",
+    "key_vs_socket_interference_mm3": 0.0,
+    "root_exposure_mm3": 0.0,
+    "socket_exposure_mm3": 0.0
+  },
+  {
+    "id": "J04",
+    "male": "R_leg",
+    "female": "Shorts",
+    "center_mm": [
+      -57.0,
+      10.0,
+      122.08389512300272
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "half_width_mm": 13,
+    "half_depth_mm": 9.88,
+    "length_mm": 16,
+    "root_depth_mm": 2.5,
+    "minimum_nominal_radial_clearance_mm": 0.18,
+    "blind_depth_extra_mm": 0.38,
+    "key_shape": "64-sided asymmetric rounded taper; tip scale 0.84",
+    "key_vs_socket_interference_mm3": 0.0,
+    "root_exposure_mm3": 0.0,
+    "socket_exposure_mm3": 0.0
+  },
+  {
+    "id": "J05",
+    "male": "Torso",
+    "female": "Dorsal_fin",
+    "center_mm": [
+      -4.994449924965011,
+      68.07951852363517,
+      425.9602407381825
+    ],
+    "normal": [
+      0.0,
+      0.447213595499958,
+      0.894427190999916
+    ],
+    "half_width_mm": 6,
+    "half_depth_mm": 4.5600000000000005,
+    "length_mm": 9,
+    "root_depth_mm": 2.5,
+    "minimum_nominal_radial_clearance_mm": 0.18,
+    "blind_depth_extra_mm": 0.38,
+    "key_shape": "64-sided asymmetric rounded taper; tip scale 0.84",
+    "key_vs_socket_interference_mm3": 0.0,
+    "root_exposure_mm3": 2.0846828119940396e-13,
+    "socket_exposure_mm3": 0.0
+  },
+  {
+    "id": "J06",
+    "male": "Shorts",
+    "female": "Torso",
+    "center_mm": [
+      0.0,
+      5.0,
+      232.83642146203604
+    ],
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "half_width_mm": 19,
+    "half_depth_mm": 14.44,
+    "length_mm": 16,
+    "root_depth_mm": 2.5,
+    "minimum_nominal_radial_clearance_mm": 0.18,
+    "blind_depth_extra_mm": 0.38,
+    "key_shape": "64-sided asymmetric rounded taper; tip scale 0.84",
+    "key_vs_socket_interference_mm3": 0.0,
+    "root_exposure_mm3": 0.0,
+    "socket_exposure_mm3": 0.0
+  }
+]

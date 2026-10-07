@@ -1,0 +1,36 @@
+[
+  {
+    "name": "L_leg",
+    "triangles": 61230,
+    "vertices": 30613,
+    "volume_mm3": 390921.0891344587,
+    "manifold_status": "Error.NoError",
+    "bytes": 3061584,
+    "sha256": "49e7a2dd42e03c268ba9bda13e7cd1489655fd3fa5e1dba79dab203ef4e89b74",
+    "dimensions_mm": [
+      106.54219818115234,
+      122.63848876953125,
+      135.9344482421875
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  },
+  {
+    "name": "R_leg",
+    "triangles": 59314,
+    "vertices": 29657,
+    "volume_mm3": 383086.18319752347,
+    "manifold_status": "Error.NoError",
+    "bytes": 2965784,
+    "sha256": "5ccec37ae8c42fd43a4f5d153de917d354ae0af4dbc73e7aad17732ad627a7c3",
+    "dimensions_mm": [
+      93.11943054199219,
+      119.51019287109375,
+      137.58389282226562
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  }
+]

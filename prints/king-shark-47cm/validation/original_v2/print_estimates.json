@@ -1,0 +1,92 @@
+{
+  "P1S": {
+    "plates": [
+      {
+        "plate": 1,
+        "seconds": 47350.8359375,
+        "filament_g": 263.1624450683594,
+        "support_seconds": 11442.964965820312
+      },
+      {
+        "plate": 2,
+        "seconds": 12911.5361328125,
+        "filament_g": 73.24815368652344,
+        "support_seconds": 2058.724075317383
+      },
+      {
+        "plate": 3,
+        "seconds": 13598.0107421875,
+        "filament_g": 76.16316986083984,
+        "support_seconds": 2241.1179122924805
+      },
+      {
+        "plate": 4,
+        "seconds": 32306.98828125,
+        "filament_g": 203.87835693359375,
+        "support_seconds": 7391.199157714844
+      },
+      {
+        "plate": 5,
+        "seconds": 31107.408203125,
+        "filament_g": 168.82293701171875,
+        "support_seconds": 6290.32080078125
+      },
+      {
+        "plate": 6,
+        "seconds": 1337.6666259765625,
+        "filament_g": 2.9110405445098877,
+        "support_seconds": 271.4244613647461
+      }
+    ],
+    "total_seconds": 138612.44592285156,
+    "total_filament_g": 788.186103105545,
+    "supports_included": true,
+    "physical_print_test": false,
+    "GUI_import_verified": false
+  },
+  "P2S": {
+    "plates": [
+      {
+        "plate": 1,
+        "seconds": 48233.02734375,
+        "filament_g": 263.3858642578125,
+        "support_seconds": 11588.218322753906
+      },
+      {
+        "plate": 2,
+        "seconds": 13127.958984375,
+        "filament_g": 73.38798522949219,
+        "support_seconds": 2085.5602111816406
+      },
+      {
+        "plate": 3,
+        "seconds": 13798.43359375,
+        "filament_g": 76.06489562988281,
+        "support_seconds": 2270.39933013916
+      },
+      {
+        "plate": 4,
+        "seconds": 32681.296875,
+        "filament_g": 203.7605438232422,
+        "support_seconds": 7469.395904541016
+      },
+      {
+        "plate": 5,
+        "seconds": 31692.55859375,
+        "filament_g": 168.7913055419922,
+        "support_seconds": 6368.140075683594
+      },
+      {
+        "plate": 6,
+        "seconds": 1413.6302490234375,
+        "filament_g": 2.8169116973876953,
+        "support_seconds": 273.4033451080322
+      }
+    ],
+    "total_seconds": 140946.90563964844,
+    "total_filament_g": 788.2075061798096,
+    "supports_included": true,
+    "physical_print_test": false,
+    "GUI_import_verified": false
+  }
+}

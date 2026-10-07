@@ -1,0 +1,115 @@
+{
+  "status": "passed",
+  "profiles": {
+    "both_P1S": {
+      "file": "FAST_BOTH_LEGS_P1S.3mf",
+      "sha256": "ec5735ab6462c71da99fa6c625c9b39979f255e67805dbe7200b1fde19a78c82",
+      "seconds": 19987.2109375,
+      "estimate": "5h 33m",
+      "filament_g": 151.16531372070312,
+      "includes_supports_and_preparation": true,
+      "filament_changes": 0,
+      "extrusion_bounds_mm": [
+        [
+          11.096330440130405,
+          62.886,
+          0.2
+        ],
+        [
+          238.25,
+          198.83990940793586,
+          137.68
+        ]
+      ],
+      "slice_success": true,
+      "source_project": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_fast_legs\\trials\\centered_028_default\\King_Shark_LEGS_centered_028_default_P1S.3mf",
+      "source_slice": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_fast_legs\\slice_fast_P1S"
+    },
+    "both_P2S": {
+      "file": "FAST_BOTH_LEGS_P2S.3mf",
+      "sha256": "0f2714f3f69ac95eb2be4a03efad461fad0da0c277fd81f06e105f09566c504a",
+      "seconds": 20272.6328125,
+      "estimate": "5h 38m",
+      "filament_g": 151.4662322998047,
+      "includes_supports_and_preparation": true,
+      "filament_changes": 0,
+      "extrusion_bounds_mm": [
+        [
+          11.096330440130405,
+          64.885,
+          0.2
+        ],
+        [
+          238.25,
+          200.83990940793586,
+          137.68
+        ]
+      ],
+      "slice_success": true,
+      "source_project": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_fast_legs\\trials\\centered_028_default\\King_Shark_LEGS_centered_028_default_P2S.3mf",
+      "source_slice": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_fast_legs\\slice_fast_P2S"
+    },
+    "left_P1S": {
+      "file": "Two_printers\\LEFT_LEG_P1S.3mf",
+      "sha256": "3c52aa571710d1ea7d0971b42401554fa8c9283fa3533a07a4c0e034c34ddc0b",
+      "seconds": 10468.5419921875,
+      "estimate": "2h 54m",
+      "filament_g": 77.34556579589844,
+      "includes_supports_and_preparation": true,
+      "filament_changes": 0,
+      "extrusion_bounds_mm": [
+        [
+          63.6553304401304,
+          64.777,
+          0.2
+        ],
+        [
+          181.055,
+          189.1235656485703,
+          136.0
+        ]
+      ],
+      "slice_success": true,
+      "source_project": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_fast_legs\\trials\\parallel_left\\King_Shark_LEGS_parallel_left_P1S.3mf",
+      "source_slice": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_fast_legs\\slice_parallel_left_P1S"
+    },
+    "right_P2S": {
+      "file": "Two_printers\\RIGHT_LEG_P2S.3mf",
+      "sha256": "7b3ba6c8fc6e28f75228532e60d3d071ca324b6a7a582213070fdce1965956ab",
+      "seconds": 10085.9970703125,
+      "estimate": "2h 48m",
+      "filament_g": 73.87420654296875,
+      "includes_supports_and_preparation": true,
+      "filament_changes": 0,
+      "extrusion_bounds_mm": [
+        [
+          65.54065324668606,
+          66.45,
+          0.2
+        ],
+        [
+          178.979,
+          187.81250231208924,
+          137.68
+        ]
+      ],
+      "slice_success": true,
+      "source_project": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_fast_legs\\trials\\parallel_right\\King_Shark_LEGS_parallel_right_P2S.3mf",
+      "source_slice": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_fast_legs\\slice_parallel_right_P2S"
+    }
+  },
+  "baseline": {
+    "description": "Original legs only, 0.20mm, original geometry/settings/placement",
+    "seconds": 23906.62109375,
+    "estimate": "6h 38m",
+    "grams": 153.75511169433594
+  },
+  "P1S_seconds_saved": 3919.41015625,
+  "P1S_percent_faster": 16.394663808323237,
+  "two_printer_elapsed_seconds": 10468.5419921875,
+  "two_printer_elapsed_estimate": "2h 54m",
+  "two_printer_total_grams": 151.2197723388672,
+  "physical_tested": false,
+  "GUI_import_tested": false,
+  "slicer": "Bambu Studio 02.08.02.61"
+}

@@ -1,0 +1,683 @@
+{
+  "parts": [
+    {
+      "name": "Body",
+      "color": "Black",
+      "settings": {
+        "enable_support": "0",
+        "brim_width": "2"
+      },
+      "assembly_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_path": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\venom\\final_parts\\Body.npz",
+      "source_sha256": "1c017f1885bde43e4c3f24b79ec6eaa691c52a073fd7a1340f29987dfa1cb19c",
+      "mesh_report": {
+        "triangles": 109122,
+        "vertices": 54557,
+        "volume_mm3": 146315.08863859752,
+        "manifold_status": "Error.NoError"
+      }
+    },
+    {
+      "name": "Tray",
+      "color": "Black",
+      "settings": {
+        "enable_support": "0",
+        "brim_width": "2"
+      },
+      "assembly_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_path": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\venom\\final_parts\\Tray.npz",
+      "source_sha256": "163b2b3aeaf53a4c4bb0fac27c22706626c0c464439754761c05454fd56e8d62",
+      "mesh_report": {
+        "triangles": 572,
+        "vertices": 288,
+        "volume_mm3": 38588.235436783936,
+        "manifold_status": "Error.NoError"
+      }
+    },
+    {
+      "name": "Eye_L",
+      "color": "White",
+      "settings": {
+        "enable_support": "0",
+        "brim_width": "2"
+      },
+      "assembly_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_path": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\venom\\final_parts\\Eye_L.npz",
+      "source_sha256": "9c58801177604402df650130f7e6d7c628b3c8506e4f5d5daef6390c3f6a4a67",
+      "mesh_report": {
+        "triangles": 1494,
+        "vertices": 749,
+        "volume_mm3": 461.0665849725715,
+        "manifold_status": "Error.NoError"
+      }
+    },
+    {
+      "name": "Eye_R",
+      "color": "White",
+      "settings": {
+        "enable_support": "0",
+        "brim_width": "2"
+      },
+      "assembly_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_path": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\venom\\final_parts\\Eye_R.npz",
+      "source_sha256": "6377461232bfa36c2cb70ac91f5e6305d8c006d73983f33e2b900142cf89d8b6",
+      "mesh_report": {
+        "triangles": 1540,
+        "vertices": 772,
+        "volume_mm3": 333.8217959083677,
+        "manifold_status": "Error.NoError"
+      }
+    },
+    {
+      "name": "Chest_Emblem",
+      "color": "White",
+      "settings": {
+        "enable_support": "0",
+        "brim_width": "2"
+      },
+      "assembly_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_path": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\venom\\final_parts\\Chest_Emblem.npz",
+      "source_sha256": "eb1fe7f31fbe3881fdf4a5d3ce65adeabac4915ebe6fe31952ae691a1fea99ef",
+      "mesh_report": {
+        "triangles": 22298,
+        "vertices": 11151,
+        "volume_mm3": 6685.459153156867,
+        "manifold_status": "Error.NoError"
+      }
+    }
+  ],
+  "plate_count": 2,
+  "joints": 0,
+  "palette": [
+    "#15171A",
+    "#EFEDE4",
+    "#BB1424"
+  ],
+  "input_checks_pass": true,
+  "stl_roundtrip_pass": true,
+  "nozzle_mm": 0.4,
+  "process_defaults": {
+    "layer_height": "0.28",
+    "initial_layer_print_height": "0.2",
+    "wall_loops": "3",
+    "sparse_infill_pattern": "gyroid",
+    "sparse_infill_density": "8%",
+    "top_shell_layers": "4",
+    "bottom_shell_layers": "4",
+    "top_shell_thickness": "1.12",
+    "bottom_shell_thickness": "1.12",
+    "enable_prime_tower": "0",
+    "enable_support": "1",
+    "support_type": "tree(auto)",
+    "support_threshold_angle": "30",
+    "support_top_z_distance": "0.28",
+    "support_bottom_z_distance": "0.28",
+    "support_object_xy_distance": "0.35",
+    "support_filament": "0",
+    "support_interface_filament": "0",
+    "infill_combination": "0",
+    "brim_width": "3"
+  },
+  "geometry_repaired_during_export": false,
+  "sliced": false,
+  "load_rating_verified": false,
+  "title": "Venom Accessory Shelf",
+  "source_manifest": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\venom\\final_parts\\manifest.json",
+  "source_layout": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\venom\\layout.json",
+  "actual_mesh_preview": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\venom\\preview.png",
+  "preview_sha256": "00fa0a24a4cc2734d81800e72504fbbb4335ec21a73849aadf3b2710c9902089",
+  "plates": [
+    {
+      "id": 1,
+      "label": "Black body and tray",
+      "color": "Black",
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "groups": [
+        {
+          "name": "Body",
+          "plate": 1,
+          "local_transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              128.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              10.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              128.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              10.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "bounds_mm": [
+            [
+              54.0,
+              10.0,
+              0.0
+            ],
+            [
+              202.0,
+              166.0,
+              54.0
+            ]
+          ],
+          "dimensions_mm": [
+            148.0,
+            156.0,
+            54.0
+          ],
+          "settings": {
+            "enable_support": "0",
+            "brim_width": "2"
+          },
+          "object_id": 1
+        },
+        {
+          "name": "Tray",
+          "plate": 1,
+          "local_transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              128.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              240.2
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -32.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              128.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              240.2
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -32.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "bounds_mm": [
+            [
+              53.0,
+              182.0,
+              0.0
+            ],
+            [
+              203.0,
+              237.0,
+              9.0
+            ]
+          ],
+          "dimensions_mm": [
+            150.0,
+            55.0,
+            9.0
+          ],
+          "settings": {
+            "enable_support": "0",
+            "brim_width": "2"
+          },
+          "object_id": 3
+        }
+      ],
+      "preview": null
+    },
+    {
+      "id": 2,
+      "label": "White eyes and chest emblem / flat backs",
+      "color": "White",
+      "origin": [
+        307.2,
+        0.0,
+        0.0
+      ],
+      "groups": [
+        {
+          "name": "Eye_L",
+          "plate": 2,
+          "local_transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              51.12452722340822
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -77.625
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -10.32105368887295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              358.3245272234082
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -77.625
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -10.32105368887295
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "bounds_mm": [
+            [
+              45.0,
+              45.0,
+              0.0
+            ],
+            [
+              51.499054446816444,
+              57.49952722340822,
+              10.574851857138011
+            ]
+          ],
+          "dimensions_mm": [
+            6.499054446816444,
+            12.499527223408222,
+            10.574851857138011
+          ],
+          "settings": {
+            "enable_support": "0",
+            "brim_width": "2",
+            "layer_height": ".16"
+          },
+          "object_id": 5
+        },
+        {
+          "name": "Eye_R",
+          "plate": 2,
+          "local_transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              77.3734041750431
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -76.87547277659178
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -12.48649955488274
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              384.5734041750431
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -76.87547277659178
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -12.48649955488274
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "bounds_mm": [
+            [
+              61.499054446816444,
+              45.0,
+              0.0
+            ],
+            [
+              67.99793139845133,
+              57.498876951634884,
+              8.335257608891357
+            ]
+          ],
+          "dimensions_mm": [
+            6.498876951634884,
+            12.498876951634884,
+            8.335257608891357
+          ],
+          "settings": {
+            "enable_support": "0",
+            "brim_width": "2",
+            "layer_height": ".16"
+          },
+          "object_id": 7
+        },
+        {
+          "name": "Chest_Emblem",
+          "plate": 2,
+          "local_transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              115.87245862185955
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -30.37565027177334
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -9.236787260151988
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              423.07245862185954
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -30.37565027177334
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              -9.236787260151988
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "bounds_mm": [
+            [
+              77.99793139845133,
+              45.0,
+              0.0
+            ],
+            [
+              146.7468083500862,
+              95.74887695163488,
+              8.773182762296909
+            ]
+          ],
+          "dimensions_mm": [
+            68.74887695163488,
+            50.748876951634884,
+            8.773182762296909
+          ],
+          "settings": {
+            "enable_support": "0",
+            "brim_width": "2",
+            "layer_height": ".16"
+          },
+          "object_id": 9
+        }
+      ],
+      "preview": null
+    }
+  ],
+  "plate_solid_intersections": [],
+  "requires_next": [
+    "slice each printer project",
+    "check all support/brim extrusion paths",
+    "verify zero filament changes and inspect slice warnings"
+  ],
+  "desktop_GUI_import_verified": false,
+  "physical_print_test": false
+}

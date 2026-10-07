@@ -1,0 +1,21 @@
+{
+  "status": "Browser generation and local printable-model engineering completed; source GLB retained alongside validated final print projects.",
+  "completed_date": "2026-10-06",
+  "service": "Microsoft TRELLIS.2",
+  "space_url": "https://huggingface.co/spaces/microsoft/TRELLIS.2",
+  "authorization": "User approved the exact concept, authorized its upload, signed in manually and confirmed uploaded.",
+  "generation_settings": {
+    "resolution": 1024,
+    "seed": 20261006,
+    "randomize_seed": false,
+    "target_faces": 500000,
+    "texture_resolution": 2048
+  },
+  "download": {
+    "file": "King_Shark_realistic_v2_raw.glb",
+    "bytes": 18717068,
+    "sha256": "031a509823168c16d7e075fa9751d10552ac0909003afcba3b5858fab4c01d1b"
+  },
+  "prior_anonymous_attempt": "Previously blocked by guest quota; successful browser-session result supersedes that attempt.",
+  "printed": false
+}

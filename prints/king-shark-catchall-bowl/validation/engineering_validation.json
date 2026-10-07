@@ -1,0 +1,106 @@
+{
+  "design": "King Shark catchall bowl prototype",
+  "purpose": "Keys and accessories; not specified as foodware",
+  "source_geometry": [
+    "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Torso.npz",
+    "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Upper_teeth.npz",
+    "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Lower_teeth.npz"
+  ],
+  "source_hashes": {
+    "Torso.npz": "9d2985005dfa903b8ea87bd692416dada85b56428758de0b1bc06b47d616c365",
+    "Upper_teeth.npz": "5bdeffcce4051f78ea2916f2cae112dc13ea35159e6c65acb1082bbdc15bbca1",
+    "Lower_teeth.npz": "1c0e2f9c84ec4c28a344134ca3de916e30b5b6cc17de6c0b63b02c6ea3986fdd"
+  },
+  "units": "millimetres",
+  "orientation": "upright, flat bottom on Z=0; front -Y",
+  "dimensions_mm": [
+    140.0,
+    143.42471364762503,
+    59.39885929264613
+  ],
+  "bounds_mm": [
+    [
+      -70.0,
+      -85.42471364762504,
+      0.0
+    ],
+    [
+      70.0,
+      58.0,
+      59.39885929264613
+    ]
+  ],
+  "volume_mm3": 168250.36131683597,
+  "triangles": 71434,
+  "watertight": true,
+  "winding_consistent": true,
+  "manifold_status": "Error.NoError",
+  "components": 1,
+  "nominal_liner_normal_wall_mm": 2.6,
+  "verified_minimum_liner_wall_mm": 2.4,
+  "minimum_wall_band_missing_volume_mm3": 0.0,
+  "protected_2_8mm_floor_missing_volume_mm3": 0.0,
+  "nominal_floor_mm": 2.8,
+  "internal_clear_height_mm": 54.2,
+  "internal_mouth_bounds_mm": [
+    -67.39925976,
+    -35.39983632,
+    67.39925976,
+    55.39983632
+  ],
+  "inner_cross_section_area_mm2": 9602.915432665994,
+  "capacity_ml_approx": 520.4780164504969,
+  "independent_liner_missing_volume_after_simplification_mm3": 0.1105420476091302,
+  "interior_obstruction_mm3": 0.0,
+  "maximum_simplification_tolerance_mm": 0.012,
+  "removed_small_fragments": [],
+  "local_contact_bridges": [
+    {
+      "center_mm": [
+        -0.15878842771053314,
+        -68.16827392578125,
+        21.66443157196045
+      ],
+      "radius_mm": 0.2215259435188774
+    },
+    {
+      "center_mm": [
+        7.181416988372803,
+        -69.34747314453125,
+        21.576664924621582
+      ],
+      "radius_mm": 0.26923166880757654
+    },
+    {
+      "center_mm": [
+        14.32481050491333,
+        -66.90137100219727,
+        21.987869262695312
+      ],
+      "radius_mm": 0.12257606904858397
+    }
+  ],
+  "geometry_operations": [
+    "Successful printed head cropped above original Z350 and in X to +/-85; rear Y12",
+    "Dental arches expanded0.32mm to join print-clearance gaps into one-color relief",
+    "X/Z70%, depth55%; translated into bowl front",
+    "Independent 2.6mm normal-offset liner and 2.8mm floor",
+    "Decorative face cut clear of inner cavity before liner union"
+  ],
+  "support_and_time_status": "Not yet sliced; root task will optimize settings and verify supports/time",
+  "physical_print_test": false,
+  "stl_sha256": "fe003ce049c2b607cd8a845ca7a978d7fcd601124fb8bd3e4aae89ba922ea29c",
+  "stl_roundtrip_watertight": true,
+  "stl_roundtrip_manifold_status": "Error.NoError",
+  "stl_roundtrip_components": 1,
+  "visual_review": {
+    "images": [
+      "three_quarter.png",
+      "front.png",
+      "inside.png",
+      "side.png"
+    ],
+    "actual_mesh_only": true,
+    "status": "Inspected three-quarter and cavity views: recognizable source snout, eyes, gill ridges, teeth; clear smooth cavity; stable flat bottom. Decorative neck edges rounded into bowl."
+  }
+}

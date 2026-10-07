@@ -1,0 +1,320 @@
+{
+  "parts": [
+    {
+      "name": "Body",
+      "color": "Black",
+      "settings": {
+        "enable_support": "0",
+        "brim_width": "2"
+      },
+      "assembly_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_path": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\king_shark\\final_parts\\Body.npz",
+      "source_sha256": "5fc6a5cd8a4f937e3549df5ac1b62fa95ce2f277a6b6b83c9769eb68626fad6b",
+      "mesh_report": {
+        "triangles": 82536,
+        "vertices": 41266,
+        "volume_mm3": 167299.3823000864,
+        "manifold_status": "Error.NoError"
+      }
+    },
+    {
+      "name": "Tray",
+      "color": "Red",
+      "settings": {
+        "enable_support": "0",
+        "brim_width": "2"
+      },
+      "assembly_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mesh_path": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\king_shark\\final_parts\\Tray.npz",
+      "source_sha256": "163b2b3aeaf53a4c4bb0fac27c22706626c0c464439754761c05454fd56e8d62",
+      "mesh_report": {
+        "triangles": 572,
+        "vertices": 288,
+        "volume_mm3": 38588.235436783936,
+        "manifold_status": "Error.NoError"
+      }
+    }
+  ],
+  "plate_count": 2,
+  "joints": 0,
+  "palette": [
+    "#72777C",
+    "#EFEDE4",
+    "#BB1424"
+  ],
+  "input_checks_pass": true,
+  "stl_roundtrip_pass": true,
+  "nozzle_mm": 0.4,
+  "process_defaults": {
+    "layer_height": "0.28",
+    "initial_layer_print_height": "0.2",
+    "wall_loops": "3",
+    "sparse_infill_pattern": "gyroid",
+    "sparse_infill_density": "8%",
+    "top_shell_layers": "4",
+    "bottom_shell_layers": "4",
+    "top_shell_thickness": "1.12",
+    "bottom_shell_thickness": "1.12",
+    "enable_prime_tower": "0",
+    "enable_support": "1",
+    "support_type": "tree(auto)",
+    "support_threshold_angle": "30",
+    "support_top_z_distance": "0.28",
+    "support_bottom_z_distance": "0.28",
+    "support_object_xy_distance": "0.35",
+    "support_filament": "0",
+    "support_interface_filament": "0",
+    "infill_combination": "0",
+    "brim_width": "3"
+  },
+  "geometry_repaired_during_export": false,
+  "sliced": false,
+  "load_rating_verified": false,
+  "title": "King Shark Shelf - Gray Body Red Tray - Non AMS",
+  "source_manifest": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\king_shark\\final_parts\\manifest.json",
+  "source_layout": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\king_shark\\layout.json",
+  "actual_mesh_preview": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\king_shark\\preview.png",
+  "preview_sha256": "7cc15a2a7d17c92302d0821c21dbd99bc6edb6f228007fec7a4dabeda895aec6",
+  "plates": [
+    {
+      "id": 1,
+      "label": "Gray character and mounting back",
+      "color": "Black",
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "groups": [
+        {
+          "name": "Body",
+          "plate": 1,
+          "local_transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              128.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              10.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              128.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              10.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "bounds_mm": [
+            [
+              54.0,
+              10.0,
+              0.0
+            ],
+            [
+              202.0,
+              166.0,
+              54.0
+            ]
+          ],
+          "dimensions_mm": [
+            148.0,
+            156.0,
+            54.0
+          ],
+          "settings": {
+            "enable_support": "0",
+            "brim_width": "2"
+          },
+          "object_id": 1
+        }
+      ],
+      "preview": null
+    },
+    {
+      "id": 2,
+      "label": "Red tray / print flat",
+      "color": "Red",
+      "origin": [
+        307.2,
+        0.0,
+        0.0
+      ],
+      "groups": [
+        {
+          "name": "Tray",
+          "plate": 2,
+          "local_transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              128.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              158.2
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -32.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "transform": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              435.2
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              158.2
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -32.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "bounds_mm": [
+            [
+              53.0,
+              99.99999999999999,
+              0.0
+            ],
+            [
+              203.0,
+              155.0,
+              9.0
+            ]
+          ],
+          "dimensions_mm": [
+            150.0,
+            55.000000000000014,
+            9.0
+          ],
+          "settings": {
+            "enable_support": "0",
+            "brim_width": "2"
+          },
+          "object_id": 3
+        }
+      ],
+      "preview": null
+    }
+  ],
+  "plate_solid_intersections": [],
+  "requires_next": [
+    "slice each printer project",
+    "check all support/brim extrusion paths",
+    "verify zero filament changes and inspect slice warnings"
+  ],
+  "desktop_GUI_import_verified": false,
+  "physical_print_test": false
+}

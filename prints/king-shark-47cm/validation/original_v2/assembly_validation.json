@@ -1,0 +1,821 @@
+{
+  "status": "passed",
+  "source_directory": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts",
+  "method": "Exported Manifold meshes; exact boolean volume with conservative bounding-box rejection.",
+  "numerical_volume_tolerance_mm3": 0.02,
+  "physical_print_tested": false,
+  "path_scope": "Connector pair motion. Other attached body parts are not treated as independent stationary obstacles when their host moves.",
+  "meshes": [
+    {
+      "name": "L_arm",
+      "triangles": 74984,
+      "volume_mm3": 534779.5881829987,
+      "manifold_status": "Error.NoError",
+      "components": 1
+    },
+    {
+      "name": "R_arm",
+      "triangles": 77276,
+      "volume_mm3": 531448.4499110752,
+      "manifold_status": "Error.NoError",
+      "components": 1
+    },
+    {
+      "name": "L_leg",
+      "triangles": 61230,
+      "volume_mm3": 390921.0879078094,
+      "manifold_status": "Error.NoError",
+      "components": 1
+    },
+    {
+      "name": "R_leg",
+      "triangles": 59314,
+      "volume_mm3": 383086.1851480893,
+      "manifold_status": "Error.NoError",
+      "components": 1
+    },
+    {
+      "name": "Shorts",
+      "triangles": 167888,
+      "volume_mm3": 1423347.5143470955,
+      "manifold_status": "Error.NoError",
+      "components": 1
+    },
+    {
+      "name": "Dorsal_fin",
+      "triangles": 9642,
+      "volume_mm3": 30387.306068938855,
+      "manifold_status": "Error.NoError",
+      "components": 1
+    },
+    {
+      "name": "Torso",
+      "triangles": 240848,
+      "volume_mm3": 4046386.5004473436,
+      "manifold_status": "Error.NoError",
+      "components": 1
+    },
+    {
+      "name": "Lower_teeth",
+      "triangles": 2950,
+      "volume_mm3": 513.5741082431734,
+      "manifold_status": "Error.NoError",
+      "components": 1
+    },
+    {
+      "name": "Upper_teeth",
+      "triangles": 3210,
+      "volume_mm3": 731.4453591416449,
+      "manifold_status": "Error.NoError",
+      "components": 1
+    },
+    {
+      "name": "Shorts_panel_L",
+      "triangles": 22154,
+      "volume_mm3": 76678.30293301716,
+      "manifold_status": "Error.NoError",
+      "components": 1
+    },
+    {
+      "name": "Shorts_panel_R",
+      "triangles": 23806,
+      "volume_mm3": 80658.71319758733,
+      "manifold_status": "Error.NoError",
+      "components": 1
+    }
+  ],
+  "seated_pairs": [
+    {
+      "a": "L_arm",
+      "b": "R_arm",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "L_arm",
+      "b": "L_leg",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "L_arm",
+      "b": "R_leg",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "L_arm",
+      "b": "Shorts",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "L_arm",
+      "b": "Dorsal_fin",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "L_arm",
+      "b": "Torso",
+      "intersection_volume_mm3": 2.004933731074288e-12,
+      "passed": true
+    },
+    {
+      "a": "L_arm",
+      "b": "Lower_teeth",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "L_arm",
+      "b": "Upper_teeth",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "L_arm",
+      "b": "Shorts_panel_L",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "L_arm",
+      "b": "Shorts_panel_R",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "R_arm",
+      "b": "L_leg",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "R_arm",
+      "b": "R_leg",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "R_arm",
+      "b": "Shorts",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "R_arm",
+      "b": "Dorsal_fin",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "R_arm",
+      "b": "Torso",
+      "intersection_volume_mm3": 6.174863897111249e-12,
+      "passed": true
+    },
+    {
+      "a": "R_arm",
+      "b": "Lower_teeth",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "R_arm",
+      "b": "Upper_teeth",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "R_arm",
+      "b": "Shorts_panel_L",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "R_arm",
+      "b": "Shorts_panel_R",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "L_leg",
+      "b": "R_leg",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "L_leg",
+      "b": "Shorts",
+      "intersection_volume_mm3": 1.0529330135064597e-05,
+      "passed": true
+    },
+    {
+      "a": "L_leg",
+      "b": "Dorsal_fin",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "L_leg",
+      "b": "Torso",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "L_leg",
+      "b": "Lower_teeth",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "L_leg",
+      "b": "Upper_teeth",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "L_leg",
+      "b": "Shorts_panel_L",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "L_leg",
+      "b": "Shorts_panel_R",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "R_leg",
+      "b": "Shorts",
+      "intersection_volume_mm3": 1.5491310574605456e-05,
+      "passed": true
+    },
+    {
+      "a": "R_leg",
+      "b": "Dorsal_fin",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "R_leg",
+      "b": "Torso",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "R_leg",
+      "b": "Lower_teeth",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "R_leg",
+      "b": "Upper_teeth",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "R_leg",
+      "b": "Shorts_panel_L",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "R_leg",
+      "b": "Shorts_panel_R",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Shorts",
+      "b": "Dorsal_fin",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Shorts",
+      "b": "Torso",
+      "intersection_volume_mm3": 2.2051962177897615e-05,
+      "passed": true
+    },
+    {
+      "a": "Shorts",
+      "b": "Lower_teeth",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Shorts",
+      "b": "Upper_teeth",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Shorts",
+      "b": "Shorts_panel_L",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Shorts",
+      "b": "Shorts_panel_R",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Dorsal_fin",
+      "b": "Torso",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Dorsal_fin",
+      "b": "Lower_teeth",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Dorsal_fin",
+      "b": "Upper_teeth",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Dorsal_fin",
+      "b": "Shorts_panel_L",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Dorsal_fin",
+      "b": "Shorts_panel_R",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Torso",
+      "b": "Lower_teeth",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Torso",
+      "b": "Upper_teeth",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Torso",
+      "b": "Shorts_panel_L",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Torso",
+      "b": "Shorts_panel_R",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Lower_teeth",
+      "b": "Upper_teeth",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Lower_teeth",
+      "b": "Shorts_panel_L",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Lower_teeth",
+      "b": "Shorts_panel_R",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Upper_teeth",
+      "b": "Shorts_panel_L",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Upper_teeth",
+      "b": "Shorts_panel_R",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "a": "Shorts_panel_L",
+      "b": "Shorts_panel_R",
+      "intersection_volume_mm3": 0.0,
+      "passed": true
+    }
+  ],
+  "joint_paths": [
+    {
+      "name": "J01",
+      "moving_part": "L_arm",
+      "fixed_part": "Torso",
+      "withdrawal_path_offsets_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          15.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "max_sample_spacing_mm": 1.0,
+      "sample_count": 16,
+      "max_interference_mm3": 2.004933731074288e-12,
+      "worst_offset_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "positive_volume_samples": 0,
+      "first_failed_sample": null,
+      "passed": true,
+      "male": "Torso",
+      "female": "L_arm",
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "full_projection_separation_distance_mm": 14.0,
+      "tested_distance_mm": 15.0,
+      "peg_length_mm": 12
+    },
+    {
+      "name": "J02",
+      "moving_part": "R_arm",
+      "fixed_part": "Torso",
+      "withdrawal_path_offsets_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -15.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "max_sample_spacing_mm": 1.0,
+      "sample_count": 16,
+      "max_interference_mm3": 6.174863897111249e-12,
+      "worst_offset_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "positive_volume_samples": 0,
+      "first_failed_sample": null,
+      "passed": true,
+      "male": "Torso",
+      "female": "R_arm",
+      "normal": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "full_projection_separation_distance_mm": 14.0,
+      "tested_distance_mm": 15.0,
+      "peg_length_mm": 12
+    },
+    {
+      "name": "J03",
+      "moving_part": "Shorts",
+      "fixed_part": "L_leg",
+      "withdrawal_path_offsets_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          27.060354692349065
+        ]
+      ],
+      "max_sample_spacing_mm": 1.0,
+      "sample_count": 29,
+      "max_interference_mm3": 1.0529328829285982e-05,
+      "worst_offset_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "positive_volume_samples": 1,
+      "first_failed_sample": null,
+      "passed": true,
+      "male": "L_leg",
+      "female": "Shorts",
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "full_projection_separation_distance_mm": 27.060354692349065,
+      "tested_distance_mm": 27.060354692349065,
+      "peg_length_mm": 16
+    },
+    {
+      "name": "J04",
+      "moving_part": "Shorts",
+      "fixed_part": "R_leg",
+      "withdrawal_path_offsets_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          28.709797473817943
+        ]
+      ],
+      "max_sample_spacing_mm": 1.0,
+      "sample_count": 30,
+      "max_interference_mm3": 1.5491309710603434e-05,
+      "worst_offset_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "positive_volume_samples": 1,
+      "first_failed_sample": null,
+      "passed": true,
+      "male": "R_leg",
+      "female": "Shorts",
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "full_projection_separation_distance_mm": 28.709797473817943,
+      "tested_distance_mm": 28.709797473817943,
+      "peg_length_mm": 16
+    },
+    {
+      "name": "J05",
+      "moving_part": "Dorsal_fin",
+      "fixed_part": "Torso",
+      "withdrawal_path_offsets_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.366563145999496,
+          10.733126291998992
+        ]
+      ],
+      "max_sample_spacing_mm": 1.0,
+      "sample_count": 14,
+      "max_interference_mm3": 0.0,
+      "worst_offset_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "positive_volume_samples": 0,
+      "first_failed_sample": null,
+      "passed": true,
+      "male": "Torso",
+      "female": "Dorsal_fin",
+      "normal": [
+        0.0,
+        0.447213595499958,
+        0.894427190999916
+      ],
+      "full_projection_separation_distance_mm": 11.000000000000227,
+      "tested_distance_mm": 12.0,
+      "peg_length_mm": 9
+    },
+    {
+      "name": "J06",
+      "moving_part": "Torso",
+      "fixed_part": "Shorts",
+      "withdrawal_path_offsets_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          48.92235851177122
+        ]
+      ],
+      "max_sample_spacing_mm": 1.0,
+      "sample_count": 50,
+      "max_interference_mm3": 2.2051951984641097e-05,
+      "worst_offset_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "positive_volume_samples": 1,
+      "first_failed_sample": null,
+      "passed": true,
+      "male": "Shorts",
+      "female": "Torso",
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "full_projection_separation_distance_mm": 48.92235851177122,
+      "tested_distance_mm": 48.92235851177122,
+      "peg_length_mm": 16
+    }
+  ],
+  "insert_paths": [
+    {
+      "name": "Lower_teeth",
+      "moving_part": "Lower_teeth",
+      "fixed_part": "Torso",
+      "withdrawal_path_offsets_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -9.994207364391528,
+          3.9976829457566114
+        ],
+        [
+          0.0,
+          -64.96234786854494,
+          3.9976829457566114
+        ]
+      ],
+      "max_sample_spacing_mm": 0.5,
+      "sample_count": 133,
+      "max_interference_mm3": 0.0,
+      "worst_offset_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "positive_volume_samples": 0,
+      "first_failed_sample": null,
+      "passed": true
+    },
+    {
+      "name": "Upper_teeth",
+      "moving_part": "Upper_teeth",
+      "fixed_part": "Torso",
+      "withdrawal_path_offsets_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -13.99189031014814,
+          -4.697277461264019
+        ],
+        [
+          0.0,
+          -64.96234786854494,
+          -4.697277461264019
+        ]
+      ],
+      "max_sample_spacing_mm": 0.5,
+      "sample_count": 133,
+      "max_interference_mm3": 0.0,
+      "worst_offset_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "positive_volume_samples": 0,
+      "first_failed_sample": null,
+      "passed": true
+    },
+    {
+      "name": "Shorts_panel_L",
+      "moving_part": "Shorts_panel_L",
+      "fixed_part": "Shorts",
+      "withdrawal_path_offsets_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          65.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "max_sample_spacing_mm": 1.0,
+      "sample_count": 66,
+      "max_interference_mm3": 0.0,
+      "worst_offset_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "positive_volume_samples": 0,
+      "first_failed_sample": null,
+      "passed": true,
+      "full_projection_separation_distance_mm": 15.641363709494314
+    },
+    {
+      "name": "Shorts_panel_R",
+      "moving_part": "Shorts_panel_R",
+      "fixed_part": "Shorts",
+      "withdrawal_path_offsets_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -65.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "max_sample_spacing_mm": 1.0,
+      "sample_count": 66,
+      "max_interference_mm3": 0.0,
+      "worst_offset_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "positive_volume_samples": 0,
+      "first_failed_sample": null,
+      "passed": true,
+      "full_projection_separation_distance_mm": 14.950696486626626
+    }
+  ],
+  "dental_assembly_order": [
+    "Lower_teeth",
+    "Upper_teeth"
+  ],
+  "failures": [],
+  "upper_insertion_with_lower_installed": {
+    "name": "Upper_teeth_vs_installed_lower",
+    "moving_part": "Upper_teeth",
+    "fixed_part": "Lower_teeth",
+    "withdrawal_path_offsets_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -13.99189031014814,
+        -4.697277461264019
+      ],
+      [
+        0.0,
+        -64.96234786854494,
+        -4.697277461264019
+      ]
+    ],
+    "max_sample_spacing_mm": 0.5,
+    "sample_count": 133,
+    "max_interference_mm3": 0.0,
+    "worst_offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "positive_volume_samples": 0,
+    "first_failed_sample": null,
+    "passed": true
+  },
+  "checks": {
+    "meshes": 11,
+    "seated_pairs": 55,
+    "joint_paths": 6,
+    "insert_paths": 4,
+    "inter_arch_paths": 1
+  },
+  "duration_seconds": 49.58730173110962
+}

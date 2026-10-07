@@ -1,0 +1,30 @@
+{
+  "selected": "shoulder_down",
+  "printer": "P1S",
+  "comparison_scope": "Torso with four real joint reinforcement modifiers; same supported lightweight profile",
+  "trials": {
+    "shoulder": {
+      "seconds_including_preparation": 47467.7890625,
+      "hours": 13.185496961805555,
+      "filament_g": 264.5022277832031,
+      "support_seconds": 11521.218322753906,
+      "filament_changes": 0,
+      "warning": "",
+      "trial_result": "work\\king_shark_v2\\torso_slice_shoulder_P1S\\result.json"
+    },
+    "waist": {
+      "seconds_including_preparation": 53164.1875,
+      "hours": 14.76782986111111,
+      "filament_g": 291.00238037109375,
+      "support_seconds": 14811.138244628906,
+      "filament_changes": 0,
+      "warning": "",
+      "trial_result": "work\\king_shark_v2\\torso_slice_waist_P1S\\result.json"
+    }
+  },
+  "seconds_saved": 5696.3984375,
+  "filament_g_saved": 26.500152587890625,
+  "decision": "Shoulder down is about1h35 faster and26.5g lighter than tilted waist. It also keeps height194mm rather than close to250mm. Final full projects are sliced again after localized mouth cleanup.",
+  "geometry_note": "The trial ZIP snapshots precede a localized mouth-corner cosmetic fix; final source is separately frozen and fully resliced.",
+  "physical_print_test": false
+}

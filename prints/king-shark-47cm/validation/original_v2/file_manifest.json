@@ -1,0 +1,342 @@
+[
+  {
+    "path": "engineering/assembled_dimensions.json",
+    "bytes": 136,
+    "sha256": "1f97a375b00a0ca18565dcf5910eb9a1e0605233aaf6402012ea012de2fc1d2e"
+  },
+  {
+    "path": "engineering/assembly_intersections.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "engineering/assembly_validation.json",
+    "bytes": 18236,
+    "sha256": "19bac1e262cdd7dd4abd7f6dd90447f1a5ede089b4112370267ac29d27e0c40f"
+  },
+  {
+    "path": "engineering/blender_validation.json",
+    "bytes": 425,
+    "sha256": "b1d65bbdb8bcc84b239ed757dc12665dee99da1f54142408c89944633edba102"
+  },
+  {
+    "path": "engineering/design_revision.json",
+    "bytes": 2599,
+    "sha256": "0d9002a32a8d589a0c6447897675aa0564e114e53e57fc1cf0f7a2b920cd8721"
+  },
+  {
+    "path": "engineering/eye_parameters.json",
+    "bytes": 4602,
+    "sha256": "4e85ee19255939cdbba8ba2f175cd6944e67e3d495493afe99b6dca899a4095d"
+  },
+  {
+    "path": "engineering/final_print_verification.json",
+    "bytes": 674,
+    "sha256": "7afaf8d0299c97869e3e87f05ad714fafe0e42126be516115edcd87ee31b4a83"
+  },
+  {
+    "path": "engineering/garment_boundaries.json",
+    "bytes": 114554,
+    "sha256": "a80eea6f6cf755adb1e3637f8d4909079b6191453b6bd959ece7e97af5379e7c"
+  },
+  {
+    "path": "engineering/inserts.json",
+    "bytes": 1523,
+    "sha256": "3bb1e0748c3d4f1330bef4709a07491f8a1fb34b4bbeff185d731b10ef24704f"
+  },
+  {
+    "path": "engineering/internal_core_report.json",
+    "bytes": 135287,
+    "sha256": "3d8292f12f8b442d64984dad8858e36d02c879de1b8ea40a6c158b043e1db384"
+  },
+  {
+    "path": "engineering/joints.json",
+    "bytes": 3611,
+    "sha256": "ce42306ddc95669ccf31d3d6fa8369db0d1e0404d774afe8f3ca177211e8bc3a"
+  },
+  {
+    "path": "engineering/layout.json",
+    "bytes": 8404,
+    "sha256": "dd7789232c8aa890d6c0c2b8e2ef2c64cb9f09a9a7d5954bf2311d00dce3aea2"
+  },
+  {
+    "path": "engineering/manifest.json",
+    "bytes": 6676,
+    "sha256": "bfdd3edf8c0ace2f74120ee9279d486262856e068a8c09aa30f044dbfa60ccec"
+  },
+  {
+    "path": "engineering/mouth_parameters.json",
+    "bytes": 26331,
+    "sha256": "d460dc847a8e82c543acd13adf24d7a784455605f63152de285b49fb2856beec"
+  },
+  {
+    "path": "engineering/orientation_comparison.json",
+    "bytes": 1327,
+    "sha256": "e4a8d304f7ec641b2d8f0547f7f0512af76c644d7014a09b2c0be8318335450a"
+  },
+  {
+    "path": "engineering/P1S_Bambu_slice_result.json",
+    "bytes": 16380,
+    "sha256": "af762ab9a79851c216f8c9df387043faf9e27b6e14e2d5783db7cfd6db7d9ba7"
+  },
+  {
+    "path": "engineering/P1S_toolpaths.json",
+    "bytes": 2307,
+    "sha256": "1a0c66b2c326361e7fafc541d65789b20db6aa2f740d3274c59713ea3a18a9c8"
+  },
+  {
+    "path": "engineering/P2S_Bambu_slice_result.json",
+    "bytes": 16168,
+    "sha256": "208cd0475255bcb29ce12f5466cd4cc703f31ecba2539cc11ae6e801ef48070b"
+  },
+  {
+    "path": "engineering/P2S_toolpaths.json",
+    "bytes": 2307,
+    "sha256": "b7005d45d3341604baa8f0b35e52d225ab63d0c1cc6277a17add1230f05c0a62"
+  },
+  {
+    "path": "engineering/parts_and_plates.json",
+    "bytes": 31969,
+    "sha256": "e15b6e2ce50280dc5a4ae3c1f022530259c5ac572ab389751859edac18a9b9b6"
+  },
+  {
+    "path": "engineering/polish_report.json",
+    "bytes": 1957,
+    "sha256": "e66f2d2874f484520a02a805c9d1518a327100542e83c4e0b24376d6424e791b"
+  },
+  {
+    "path": "engineering/print_estimates.json",
+    "bytes": 2445,
+    "sha256": "965c4460fb23e2c0ff9462ba0fa1ff4c67c7ee9a0b4ef0e60b7e7ed27e11e368"
+  },
+  {
+    "path": "engineering/project_validation.json",
+    "bytes": 1207,
+    "sha256": "0747669c2b9188c5fb08d9c4991608f9835ce074911b9ad086c1383c6dc79c01"
+  },
+  {
+    "path": "engineering/repair_report.json",
+    "bytes": 2545,
+    "sha256": "49b652bb6ff2949bcf591756c4e84a17077f6f1db7ae873d1a3a6c670def437a"
+  },
+  {
+    "path": "engineering/stl_roundtrip.json",
+    "bytes": 5340,
+    "sha256": "34c41c99ded7f08594b4f1224e1d08f282ef5602f28ac591fa38c75b6bfd58be"
+  },
+  {
+    "path": "engineering/trellis_status.json",
+    "bytes": 910,
+    "sha256": "41e19f2fe22fed4ec66fcea24f8edb67a6d0657f5c0ba9ea4004812cd7cd42d9"
+  },
+  {
+    "path": "engineering/two_printer_schedule.json",
+    "bytes": 206,
+    "sha256": "78094ee813dc44d117042b0ef18619b847efbbcadf30c514859bf9939b119287"
+  },
+  {
+    "path": "engineering/venom_proven_joint_reference.json",
+    "bytes": 3623,
+    "sha256": "11a1295b9b72a1248964ceaeebc242cfa5915181fc418ab3c026d67477031b4a"
+  },
+  {
+    "path": "King_Shark_realistic_47cm.blend",
+    "bytes": 38339220,
+    "sha256": "858721f0077caae0d7858162cf38515f7f2312edb176860f4c2792528e688979"
+  },
+  {
+    "path": "King_Shark_Realistic_47cm_P1S_NON_AMS.3mf",
+    "bytes": 19106237,
+    "sha256": "b5177ad05ab1a98836d33a90435381655703726322d62a1484991492975f466b"
+  },
+  {
+    "path": "King_Shark_Realistic_47cm_P2S_NON_AMS.3mf",
+    "bytes": 19108235,
+    "sha256": "516112579ea5dec04793558a385a821817d9bc77d4ffe936836ce70e6a7498f6"
+  },
+  {
+    "path": "previews/back.png",
+    "bytes": 1868778,
+    "sha256": "206f3f8d9ed86e010dfd95e3b15952a5a81589b46331ac57b277dc224f9ccff9"
+  },
+  {
+    "path": "previews/exploded_assembly.png",
+    "bytes": 1849687,
+    "sha256": "67add61204b1644f295cc7a3b6d004da9a80970421a24868533192a2df24d5db"
+  },
+  {
+    "path": "previews/front.png",
+    "bytes": 1942695,
+    "sha256": "4744cfe40bf76950586134092131d761e19a3ea7d7c42d976d1e2055522ec604"
+  },
+  {
+    "path": "previews/head_detail.png",
+    "bytes": 2030142,
+    "sha256": "fb09c96d1f23370d68c6781d4e422eb24382a2e563e911ddcfea013c36a9488a"
+  },
+  {
+    "path": "previews/plate_1.png",
+    "bytes": 1775054,
+    "sha256": "0b43ddc1b7198d8b1efce590e844f31f99c811e6d0608d4436ce586f5be4788e"
+  },
+  {
+    "path": "previews/plate_2.png",
+    "bytes": 1712951,
+    "sha256": "deaee15313d6a17c2c2b88e02c0d51fc11345aad39911285aee3962ada280a87"
+  },
+  {
+    "path": "previews/plate_3.png",
+    "bytes": 1725154,
+    "sha256": "a6cfcc4ff3765c2b1c1ad168625674fa138f64df28118c555b67c6922976c770"
+  },
+  {
+    "path": "previews/plate_4.png",
+    "bytes": 1761691,
+    "sha256": "f76a6e2b397e558ce02456493e6d8ac3a5d5edffad0ca8a109549bb9639ee16e"
+  },
+  {
+    "path": "previews/plate_5.png",
+    "bytes": 1803472,
+    "sha256": "251a979e1e5138a0bd483336c4b985ee62fc4745c65e8247a9827b794c046652"
+  },
+  {
+    "path": "previews/plate_6.png",
+    "bytes": 1718586,
+    "sha256": "9563b9e7896a874500e79c2d082775b367346d2fe3f51bb55fcad6fbd416484c"
+  },
+  {
+    "path": "previews/side.png",
+    "bytes": 1813971,
+    "sha256": "08feca064f6648599de0be03ef7f7ac7990e63d7e2627e825aea8093b50c7bd5"
+  },
+  {
+    "path": "previews/three_quarter.png",
+    "bytes": 1920886,
+    "sha256": "ac34f6957849c7431a16cd12b9f279e78401ed237f6900499677aa0fc4369abe"
+  },
+  {
+    "path": "source/analyze_garment.py",
+    "bytes": 11754,
+    "sha256": "b0179a9c09f86af4232b59b74754b72ad4bbf5510fdde23a05b5a99322431734"
+  },
+  {
+    "path": "source/approved_concept_not_mesh.png",
+    "bytes": 2476570,
+    "sha256": "cc4b87149e0c0ea1d7971a55da2c5e5b4fe6ad9be1f2102a78c34552696459c5"
+  },
+  {
+    "path": "source/engineer_v2.py",
+    "bytes": 11492,
+    "sha256": "76de2798c5f95af42f8bcfb68a998d89535dfe9a89e5818658c55196e0522e4a"
+  },
+  {
+    "path": "source/eyes_details.py",
+    "bytes": 10916,
+    "sha256": "5cde0b09dbee0453d84ad5204b012f13c647f8853d25b14dbf7d546fdfc7ed92"
+  },
+  {
+    "path": "source/King_Shark_raw_TRELLIS.glb",
+    "bytes": 18717068,
+    "sha256": "031a509823168c16d7e075fa9751d10552ac0909003afcba3b5858fab4c01d1b"
+  },
+  {
+    "path": "source/mouth_details.py",
+    "bytes": 15598,
+    "sha256": "391a641f2ca7d05af7316ef5af31a3c8205a41cc83057f2bb5caf49dacfc01a1"
+  },
+  {
+    "path": "source/P1S_profile.json",
+    "bytes": 111776,
+    "sha256": "f2251b8f342b1ee583af8ea4258c6d1d6ff2d11eba4e84be3e791ec53e2ef9c4"
+  },
+  {
+    "path": "source/P2S_profile.json",
+    "bytes": 122493,
+    "sha256": "585056e499a76dc9c0a27ca1060f5c562842346493466d20f8e2836d81e38a70"
+  },
+  {
+    "path": "source/package_v2.py",
+    "bytes": 27737,
+    "sha256": "ee2c3fc9b16e560ca1d23bb0960786b2105e753f66fdd90dbefdb587ac29cfae"
+  },
+  {
+    "path": "source/render_v2.py",
+    "bytes": 6019,
+    "sha256": "905a393ff4642af66475d2791d8597e1e52e20fd59ae1fab7f78171947bacf90"
+  },
+  {
+    "path": "source/repair_internal_core.py",
+    "bytes": 5061,
+    "sha256": "10ad3e598ed5f562d2e6eb97d23cc882c383481644f735e8f0e106896e0931cb"
+  },
+  {
+    "path": "source/repair_surface.py",
+    "bytes": 9234,
+    "sha256": "6a165cc36f677a47c972885a8f6b14bf440a32814ae14e46fbb50fa1342562ee"
+  },
+  {
+    "path": "source/validate_assembly_v2.py",
+    "bytes": 9358,
+    "sha256": "7ad7da31bf5720d9d13980546cbdd6bcd90361d395818143a2d49b5c43f32e47"
+  },
+  {
+    "path": "START_HERE.txt",
+    "bytes": 5190,
+    "sha256": "fcec7478d079fd24551f2aebba6106723bdb8ba5700cb4f753bb5fe7ce8ec90c"
+  },
+  {
+    "path": "STL_parts/Dorsal_fin.stl",
+    "bytes": 482184,
+    "sha256": "01f29d8a901a86d78268d0af8dbb54606f518a8c6cb60805dd4175c405e07b34"
+  },
+  {
+    "path": "STL_parts/L_arm.stl",
+    "bytes": 3749284,
+    "sha256": "07aa541c701fdd0a64f3d57762819d0daa16fd00119f790a31f352f7e27cbdd0"
+  },
+  {
+    "path": "STL_parts/L_leg.stl",
+    "bytes": 3061584,
+    "sha256": "3ffdce152905434b92756a4ed19a2af32917bffbd4bd953fe8613acb1f44f888"
+  },
+  {
+    "path": "STL_parts/Lower_teeth.stl",
+    "bytes": 147584,
+    "sha256": "53de578ca0163e4936d51306437bfd13a5a2ae83f3dbb5b72d41201e14e029a9"
+  },
+  {
+    "path": "STL_parts/R_arm.stl",
+    "bytes": 3863884,
+    "sha256": "ad45444670840d5d5aac90510895af95a39af0e8e92fb67692b680924307b928"
+  },
+  {
+    "path": "STL_parts/R_leg.stl",
+    "bytes": 2965784,
+    "sha256": "5ccec37ae8c42fd43a4f5d153de917d354ae0af4dbc73e7aad17732ad627a7c3"
+  },
+  {
+    "path": "STL_parts/Shorts.stl",
+    "bytes": 8394484,
+    "sha256": "3d0a36de2b030a0b68fbb7adda61377c1950374b236800e4df89f9af2c8ebbdf"
+  },
+  {
+    "path": "STL_parts/Shorts_panel_L.stl",
+    "bytes": 1107784,
+    "sha256": "fd2a63d47e44d8402394a5d934a4c634d46ccec033a0e95a56262488e0221e41"
+  },
+  {
+    "path": "STL_parts/Shorts_panel_R.stl",
+    "bytes": 1190384,
+    "sha256": "e44fe4382a61807290e45d498e78bd1139a708791d5059973d1178f018d405a3"
+  },
+  {
+    "path": "STL_parts/Torso.stl",
+    "bytes": 12042484,
+    "sha256": "bbb7cab2f16e3cc9b416f63dddd4bc7375b2fd0cfc02973f863416e066d4c183"
+  },
+  {
+    "path": "STL_parts/Upper_teeth.stl",
+    "bytes": 160584,
+    "sha256": "bc68ac39c25fe56271442136bad1d42e34c910ab9cc37abf50028c6d7b60b95e"
+  }
+]

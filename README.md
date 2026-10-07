@@ -12,6 +12,45 @@ These pages distinguish CAD renders and digital checks from completed physical p
 
 ## Fresh from the workbench
 
+### King Shark + Venom / character homewares
+
+Compact catchalls and shelves, plus the documented 47 cm King Shark statue. Each folder contains printer-specific projects, STLs, editable geometry, actual-mesh previews and research notes.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="prints/king-shark-47cm/"><img src="prints/king-shark-47cm/images/all_red_shorts/assembly_all_red_shorts.png" alt="King Shark / 47 cm statue — actual geometry CAD render" width="100%"></a>
+<h4>King Shark / 47 cm statue</h4>
+<p>Preserved printed torso, compatible all-red replacement shorts, and faster whole legs.</p>
+<a href="prints/king-shark-47cm/">Files, printing and validation →</a>
+</td>
+<td width="50%" valign="top">
+<a href="prints/king-shark-catchall-bowl/"><img src="prints/king-shark-catchall-bowl/images/three_quarter.png" alt="King Shark / catchall bowl — actual geometry CAD render" width="100%"></a>
+<h4>King Shark / catchall bowl</h4>
+<p>A compact one-color accessory bowl with an open, smooth cavity.</p>
+<a href="prints/king-shark-catchall-bowl/">Files, printing and validation →</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="prints/king-shark-accessory-shelf/"><img src="prints/king-shark-accessory-shelf/images/preview.png" alt="King Shark / red-tray shelf — actual geometry CAD render" width="100%"></a>
+<h4>King Shark / red-tray shelf</h4>
+<p>Gray character relief and a separate red tray, arranged for fast non-AMS printing.</p>
+<a href="prints/king-shark-accessory-shelf/">Files, printing and validation →</a>
+</td>
+<td width="50%" valign="top">
+<a href="prints/venom-accessory-shelf/"><img src="prints/venom-accessory-shelf/images/preview.png" alt="Venom / accessory shelf — actual geometry CAD render" width="100%"></a>
+<h4>Venom / accessory shelf</h4>
+<p>Black character and tray with separate white eyes and chest emblem.</p>
+<a href="prints/venom-accessory-shelf/">Files, printing and validation →</a>
+</td>
+</tr>
+</table>
+
+**Homewares: digitally checked and sliced; physical printing and mounting remain untested.** The statue torso/head has user-reported printing success. The shelves have no assigned load rating; picture-hanging strips are not recommended for shelves by 3M. Read the [mounting research](docs/character-homeware/MOUNTING_RESEARCH.md).
+
+[Research and agent handoff](docs/character-homeware/AGENT_HANDOFF.md) · [Progress record](docs/character-homeware/PROGRESS.md)
+
 ### Venom / two statue sizes
 
 [![Venom statue at 46.5 cm and 23.2 cm — CAD render](prints/venom-muscular-statue/images/Size_comparison.png)](prints/venom-muscular-statue/)

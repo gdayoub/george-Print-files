@@ -1,0 +1,88 @@
+{
+  "P1S": {
+    "return_code": 0,
+    "seconds": 10719.955078125,
+    "grams": 113.25342559814453,
+    "plates": [
+      {
+        "id": 1,
+        "names": [
+          "King_Shark_Catchall_Bowl"
+        ],
+        "seconds": 10719.955078125,
+        "grams": 113.25342559814453,
+        "filaments": [
+          {
+            "filament_id": "GFL99",
+            "id": 1,
+            "main_used_g": 113.25342559814453,
+            "total_used_g": 113.25342559814453
+          }
+        ],
+        "feature_type_times": {
+          "Bottom surface": 282.7940673828125,
+          "Bridge": 604.7227783203125,
+          "Brim": 48.6527214050293,
+          "Custom": 362.4399719238281,
+          "Flush": 29.0,
+          "Gap infill": 412.7265930175781,
+          "Inner wall": 3086.41357421875,
+          "Internal solid infill": 2042.547607421875,
+          "Outer wall": 1735.51416015625,
+          "Overhang wall": 119.4133529663086,
+          "Sparse infill": 456.7876892089844,
+          "Support": 349.564697265625,
+          "Support interface": 44.888885498046875,
+          "Top surface": 415.4808654785156,
+          "Travel": 743.7740478515625,
+          "Undefined": 728.333740234375
+        },
+        "warning": "",
+        "filament_changes": 0
+      }
+    ]
+  },
+  "P2S": {
+    "return_code": 0,
+    "seconds": 10837.9716796875,
+    "grams": 113.15743255615234,
+    "plates": [
+      {
+        "id": 1,
+        "names": [
+          "King_Shark_Catchall_Bowl"
+        ],
+        "seconds": 10837.9716796875,
+        "grams": 113.15743255615234,
+        "filaments": [
+          {
+            "filament_id": "GFL99",
+            "id": 1,
+            "main_used_g": 113.15743255615234,
+            "total_used_g": 113.15743255615234
+          }
+        ],
+        "feature_type_times": {
+          "Bottom surface": 286.4249572753906,
+          "Bridge": 605.1840209960938,
+          "Brim": 48.7706413269043,
+          "Custom": 400.9793701171875,
+          "Flush": 26.0,
+          "Gap infill": 416.1657409667969,
+          "Inner wall": 3097.540771484375,
+          "Internal solid infill": 2050.43896484375,
+          "Outer wall": 1767.2147216796875,
+          "Overhang wall": 119.6978759765625,
+          "Sparse infill": 458.33953857421875,
+          "Support": 354.17803955078125,
+          "Support interface": 45.56342315673828,
+          "Top surface": 353.2768859863281,
+          "Travel": 813.6259155273438,
+          "Undefined": 808.6239624023438
+        },
+        "warning": "",
+        "filament_changes": 0
+      }
+    ]
+  }
+}

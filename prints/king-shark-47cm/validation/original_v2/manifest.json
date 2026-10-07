@@ -1,0 +1,316 @@
+[
+  {
+    "name": "L_arm",
+    "color": "Black",
+    "settings": {},
+    "triangles": 74984,
+    "volume_mm3": 534779.5881829987,
+    "bounds_mm": [
+      [
+        85.0,
+        -23.99304636903252,
+        133.65820048315675
+      ],
+      [
+        161.6209595160235,
+        80.26683848451562,
+        388.2114617415068
+      ]
+    ],
+    "dimensions_mm": [
+      76.6209595160235,
+      104.25988485354813,
+      254.55326125835006
+    ],
+    "components": 1,
+    "manifold_status": "Error.NoError",
+    "watertight": true,
+    "winding_consistent": true
+  },
+  {
+    "name": "R_arm",
+    "color": "Black",
+    "settings": {},
+    "triangles": 77276,
+    "volume_mm3": 531448.4499110752,
+    "bounds_mm": [
+      [
+        -161.64720943161115,
+        -36.06811516653745,
+        137.66671078837234
+      ],
+      [
+        -85.0,
+        69.97347652499923,
+        388.5655976397127
+      ]
+    ],
+    "dimensions_mm": [
+      76.64720943161115,
+      106.04159169153668,
+      250.89888685134034
+    ],
+    "components": 1,
+    "manifold_status": "Error.NoError",
+    "watertight": true,
+    "winding_consistent": true
+  },
+  {
+    "name": "L_leg",
+    "color": "Black",
+    "settings": {
+      "sparse_infill_pattern": "gyroid",
+      "sparse_infill_density": "2%"
+    },
+    "triangles": 61230,
+    "volume_mm3": 390921.0879078094,
+    "bounds_mm": [
+      [
+        14.786850691859094,
+        -38.42398453810879,
+        0.5
+      ],
+      [
+        137.4253396877254,
+        68.11821244386734,
+        136.43445234153384
+      ]
+    ],
+    "dimensions_mm": [
+      122.63848899586631,
+      106.54219698197613,
+      135.93445234153384
+    ],
+    "components": 1,
+    "manifold_status": "Error.NoError",
+    "watertight": true,
+    "winding_consistent": true
+  },
+  {
+    "name": "R_leg",
+    "color": "Black",
+    "settings": {
+      "sparse_infill_pattern": "gyroid",
+      "sparse_infill_density": "2%"
+    },
+    "triangles": 59314,
+    "volume_mm3": 383086.1851480893,
+    "bounds_mm": [
+      [
+        -138.79543896967027,
+        -33.97970545718973,
+        0.5
+      ],
+      [
+        -19.28524636429672,
+        59.139725739362184,
+        138.08389512300272
+      ]
+    ],
+    "dimensions_mm": [
+      119.51019260537355,
+      93.11943119655191,
+      137.58389512300272
+    ],
+    "components": 1,
+    "manifold_status": "Error.NoError",
+    "watertight": true,
+    "winding_consistent": true
+  },
+  {
+    "name": "Shorts",
+    "color": "Red",
+    "settings": {},
+    "triangles": 167888,
+    "volume_mm3": 1423347.5143197489,
+    "bounds_mm": [
+      [
+        -87.95069648662663,
+        -50.65596274639369,
+        111.37409764918478
+      ],
+      [
+        88.64136370949431,
+        73.14023472125545,
+        248.83642146203604
+      ]
+    ],
+    "dimensions_mm": [
+      176.59206019612094,
+      123.79619746764914,
+      137.46232381285125
+    ],
+    "components": 1,
+    "manifold_status": "Error.NoError",
+    "watertight": true,
+    "winding_consistent": true
+  },
+  {
+    "name": "Dorsal_fin",
+    "color": "Black",
+    "settings": {},
+    "triangles": 9642,
+    "volume_mm3": 30387.306068938855,
+    "bounds_mm": [
+      [
+        -19.458451980376495,
+        33.6231515335218,
+        404.6353309926825
+      ],
+      [
+        9.457473521993535,
+        118.98001764107632,
+        470.04079667996257
+      ]
+    ],
+    "dimensions_mm": [
+      28.91592550237003,
+      85.35686610755451,
+      65.40546568728007
+    ],
+    "components": 1,
+    "manifold_status": "Error.NoError",
+    "watertight": true,
+    "winding_consistent": true
+  },
+  {
+    "name": "Torso",
+    "color": "Black",
+    "settings": {},
+    "triangles": 240848,
+    "volume_mm3": 4046386.5004473436,
+    "bounds_mm": [
+      [
+        -97.0,
+        -118.95402481386371,
+        201.91406295026482
+      ],
+      [
+        97.0,
+        110.72933801463493,
+        443.18842423323906
+      ]
+    ],
+    "dimensions_mm": [
+      194.0,
+      229.68336282849864,
+      241.27436128297424
+    ],
+    "components": 1,
+    "manifold_status": "Error.NoError",
+    "watertight": true,
+    "winding_consistent": true
+  },
+  {
+    "name": "Lower_teeth",
+    "color": "White",
+    "settings": {},
+    "triangles": 2950,
+    "volume_mm3": 513.5741082431734,
+    "bounds_mm": [
+      [
+        -24.335894932293375,
+        -82.6443921576257,
+        366.1258290349126
+      ],
+      [
+        23.33647419585422,
+        -56.01130219980291,
+        375.8142150563179
+      ]
+    ],
+    "dimensions_mm": [
+      47.672369128147594,
+      26.63308995782279,
+      9.688386021405279
+    ],
+    "components": 1,
+    "manifold_status": "Error.NoError",
+    "watertight": true,
+    "winding_consistent": true
+  },
+  {
+    "name": "Upper_teeth",
+    "color": "White",
+    "settings": {},
+    "triangles": 3210,
+    "volume_mm3": 731.4453591416449,
+    "bounds_mm": [
+      [
+        -25.23537359508861,
+        -96.5892376054784,
+        372.42380353150935
+      ],
+      [
+        27.234215067966915,
+        -55.41787983555103,
+        383.71533666857266
+      ]
+    ],
+    "dimensions_mm": [
+      52.469588663055525,
+      41.171357769927376,
+      11.291533137063311
+    ],
+    "components": 1,
+    "manifold_status": "Error.NoError",
+    "watertight": true,
+    "winding_consistent": true
+  },
+  {
+    "name": "Shorts_panel_L",
+    "color": "Black",
+    "settings": {},
+    "triangles": 22154,
+    "volume_mm3": 76678.30293301716,
+    "bounds_mm": [
+      [
+        75.0,
+        -23.0,
+        117.92547404650841
+      ],
+      [
+        96.9478816186485,
+        43.0,
+        230.08521091292346
+      ]
+    ],
+    "dimensions_mm": [
+      21.947881618648495,
+      66.0,
+      112.15973686641505
+    ],
+    "components": 1,
+    "manifold_status": "Error.NoError",
+    "watertight": true,
+    "winding_consistent": true
+  },
+  {
+    "name": "Shorts_panel_R",
+    "color": "Black",
+    "settings": {},
+    "triangles": 23806,
+    "volume_mm3": 80658.71319758733,
+    "bounds_mm": [
+      [
+        -99.62967737506507,
+        -23.0,
+        118.81452928128337
+      ],
+      [
+        -75.0,
+        43.0,
+        228.7166008429071
+      ]
+    ],
+    "dimensions_mm": [
+      24.62967737506507,
+      66.0,
+      109.90207156162373
+    ],
+    "components": 1,
+    "manifold_status": "Error.NoError",
+    "watertight": true,
+    "winding_consistent": true
+  }
+]

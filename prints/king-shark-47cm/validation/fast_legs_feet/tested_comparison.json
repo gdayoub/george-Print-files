@@ -1,0 +1,48 @@
+{
+  "trials": [
+    {
+      "trial": "slice_baseline_P1S",
+      "success": true,
+      "seconds": 23906.62109375,
+      "grams": 153.75511169433594
+    },
+    {
+      "trial": "slice_024_P1S",
+      "success": true,
+      "seconds": 21570.33984375,
+      "grams": 154.04344177246094
+    },
+    {
+      "trial": "slice_variable_P1S",
+      "success": true,
+      "seconds": 25696.80859375,
+      "grams": 174.0428924560547
+    },
+    {
+      "trial": "slice_support20_P1S",
+      "success": true,
+      "seconds": 21107.38671875,
+      "grams": 151.52528381347656
+    },
+    {
+      "trial": "slice_024slim_P1S",
+      "success": true,
+      "seconds": 25679.00390625,
+      "grams": 181.9268798828125
+    },
+    {
+      "trial": "slice_028slim_P1S",
+      "success": true,
+      "seconds": 26831.958984375,
+      "grams": 174.1722412109375
+    },
+    {
+      "trial": "slice_fast_P1S",
+      "success": true,
+      "seconds": 19987.2109375,
+      "grams": 151.16531372070312
+    }
+  ],
+  "choice": "0.28mm standard tree support at original30degree coverage. Fastest tested acceptable setup; support20 candidate not selected to preserve coverage. Mixed layers and slim trees were slower.",
+  "tradeoff": "0.28mm layers show more stepping than the original0.20mm. Shape, scale, muscle mass, feet and connector geometry are unchanged."
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "file": "King_Shark_Shelf_P1S_NON_AMS.3mf",
+    "bytes": 4611054,
+    "sha256": "20c137012efd780317177ecbcc4de4b90b202e4aba9df6f3a5f0c934f6a7bc82",
+    "embedded_geometry": true,
+    "normal_parts": 2,
+    "joint_modifiers": 0,
+    "plates": 2,
+    "triangles": 83108,
+    "passes": true,
+    "sliced": false,
+    "desktop_GUI_import_verified": false,
+    "physical_print_test": false,
+    "embedded_mesh_checks": [
+      {
+        "object_id": "2",
+        "subtype": "normal_part",
+        "watertight": true,
+        "winding_consistent": true,
+        "triangles": 82536,
+        "vertices": 41266,
+        "volume_mm3": 167299.38230004956,
+        "manifold_status": "Error.NoError"
+      },
+      {
+        "object_id": "4",
+        "subtype": "normal_part",
+        "watertight": true,
+        "winding_consistent": true,
+        "triangles": 572,
+        "vertices": 288,
+        "volume_mm3": 38588.23543728152,
+        "manifold_status": "Error.NoError"
+      }
+    ]
+  },
+  {
+    "file": "King_Shark_Shelf_P2S_NON_AMS.3mf",
+    "bytes": 4613030,
+    "sha256": "ad9357d59f59a2e87294234b9eeaca4c64fc4580b82358d000a38f1979945819",
+    "embedded_geometry": true,
+    "normal_parts": 2,
+    "joint_modifiers": 0,
+    "plates": 2,
+    "triangles": 83108,
+    "passes": true,
+    "sliced": false,
+    "desktop_GUI_import_verified": false,
+    "physical_print_test": false,
+    "embedded_mesh_checks": [
+      {
+        "object_id": "2",
+        "subtype": "normal_part",
+        "watertight": true,
+        "winding_consistent": true,
+        "triangles": 82536,
+        "vertices": 41266,
+        "volume_mm3": 167299.38230004956,
+        "manifold_status": "Error.NoError"
+      },
+      {
+        "object_id": "4",
+        "subtype": "normal_part",
+        "watertight": true,
+        "winding_consistent": true,
+        "triangles": 572,
+        "vertices": 288,
+        "volume_mm3": 38588.23543728152,
+        "manifold_status": "Error.NoError"
+      }
+    ]
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "method": "Only failed float32 print-oriented STL parts receive an extra 0.0001mm simplification. No broad smoothing, remesh or connector resizing.",
+  "parts": [
+    {
+      "name": "Body",
+      "modified": false,
+      "simplification_tolerance_mm": 0,
+      "source_hash_before": "5fc6a5cd8a4f937e3549df5ac1b62fa95ce2f277a6b6b83c9769eb68626fad6b",
+      "source_hash_after": "5fc6a5cd8a4f937e3549df5ac1b62fa95ce2f277a6b6b83c9769eb68626fad6b",
+      "maximum_bound_shift_mm": 0.0,
+      "before": {
+        "watertight": true,
+        "winding_consistent": true,
+        "manifold_status": "Error.NoError",
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "components": 1
+      },
+      "after": {
+        "watertight": true,
+        "winding_consistent": true,
+        "manifold_status": "Error.NoError",
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "components": 1
+      }
+    },
+    {
+      "name": "Tray",
+      "modified": false,
+      "simplification_tolerance_mm": 0,
+      "source_hash_before": "163b2b3aeaf53a4c4bb0fac27c22706626c0c464439754761c05454fd56e8d62",
+      "source_hash_after": "163b2b3aeaf53a4c4bb0fac27c22706626c0c464439754761c05454fd56e8d62",
+      "maximum_bound_shift_mm": 0.0,
+      "before": {
+        "watertight": true,
+        "winding_consistent": true,
+        "manifold_status": "Error.NoError",
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "components": 1
+      },
+      "after": {
+        "watertight": true,
+        "winding_consistent": true,
+        "manifold_status": "Error.NoError",
+        "nonmanifold_edges": 0,
+        "degenerate_faces": 0,
+        "components": 1
+      }
+    }
+  ],
+  "overlaps": [
+    {
+      "a": "Body",
+      "b": "Tray",
+      "overlap_mm3": 0.02326070979157585
+    }
+  ],
+  "tray_insertion_samples": [
+    {
+      "lift_mm": 0,
+      "overlap_mm3": 0.02326070979165401
+    },
+    {
+      "lift_mm": 0.2,
+      "overlap_mm3": 0.023688488149259203
+    },
+    {
+      "lift_mm": 0.5,
+      "overlap_mm3": 0.02432308865441173
+    },
+    {
+      "lift_mm": 1,
+      "overlap_mm3": 0.025360847550123636
+    },
+    {
+      "lift_mm": 2,
+      "overlap_mm3": 0.02735718341840276
+    },
+    {
+      "lift_mm": 3,
+      "overlap_mm3": 0.029247053356735594
+    },
+    {
+      "lift_mm": 4,
+      "overlap_mm3": 0.031030457364888908
+    },
+    {
+      "lift_mm": 8,
+      "overlap_mm3": 0.0370994140975673
+    },
+    {
+      "lift_mm": 16,
+      "overlap_mm3": 0.04412585617103496
+    }
+  ],
+  "accent_withdrawal_samples": [],
+  "path_numeric_volume_tolerance_mm3": 0.05,
+  "initial_repair_note": "King Shark Body received a 0.0001mm simplification before this complete rerun, resolving 2 nonmanifold float32 edges and 29 degenerate faces.",
+  "status": "passed"
+}

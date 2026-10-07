@@ -1,0 +1,24 @@
+{
+  "product": "king_shark",
+  "source_manifest": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\king_shark\\final_parts\\manifest.json",
+  "actual_geometry_render": true,
+  "scenes": [
+    "Exploded_Assembly",
+    "King_Shark_Shelf_Assembly",
+    "Plate_01",
+    "Plate_02"
+  ],
+  "part_names": [
+    "Body",
+    "Tray"
+  ],
+  "renders": [
+    "preview.png",
+    "front.png",
+    "back.png",
+    "side.png",
+    "exploded.png",
+    "plate_1.png",
+    "plate_2.png"
+  ]
+}

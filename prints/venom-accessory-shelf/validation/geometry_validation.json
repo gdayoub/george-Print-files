@@ -1,0 +1,210 @@
+{
+  "character": "venom",
+  "unrated_mounting_prototype": true,
+  "flat_back_mm": [
+    148.0,
+    156.0
+  ],
+  "clear_strip_zones_mm": {
+    "size": [
+      25,
+      100
+    ],
+    "centers_x": [
+      -30,
+      30
+    ],
+    "z_start": 10
+  },
+  "strip_mount_note": "3M does not recommend picture-hanging strips for shelves. No adhesive load rating claimed.",
+  "screw_alternative": {
+    "entry_diameter_mm": 9.2,
+    "neck_width_mm": 4.7,
+    "centers_x_mm": [
+      -54,
+      54
+    ]
+  },
+  "tray_outer_mm": [
+    150,
+    55
+  ],
+  "tray_floor_mm": 4.2,
+  "tray_rim_height_mm": 4.8,
+  "two_gusset_thickness_mm": 6,
+  "key_side_clearance_mm": 0.22,
+  "sources": {
+    "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\venom_muscular\\source_muscular.npz": "5592641dbb4af58ad5e31ab7d7b60969c8623402d3a722261c305b67b9db8810",
+    "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\venom_muscular\\final_parts\\Eye_L_Torso_01.npz": "91b8f8f1d1b7bba0273090ab2b001775eca5ac8e769717d6927bb68f65648cf3",
+    "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\venom_muscular\\final_parts\\Eye_R_Torso_01.npz": "0ce68e2c60c03ca81634d79fffe42233191bb8cbaeaec03d35ed743a040aad3d",
+    "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\venom_muscular\\final_parts\\Chest_Torso_01.npz": "de8ef4e4686819a1211036dc6482856d637e389d616aa9a20ce3a52ce661b4e8"
+  },
+  "overlaps": [
+    {
+      "a": "Body",
+      "b": "Tray",
+      "overlap_mm3": 2.266274368010636e-07
+    },
+    {
+      "a": "Body",
+      "b": "Eye_L",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Body",
+      "b": "Eye_R",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Body",
+      "b": "Chest_Emblem",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Tray",
+      "b": "Eye_L",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Tray",
+      "b": "Eye_R",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Tray",
+      "b": "Chest_Emblem",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Eye_L",
+      "b": "Eye_R",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Eye_L",
+      "b": "Chest_Emblem",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "Eye_R",
+      "b": "Chest_Emblem",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "tray_insertion_samples": [
+    {
+      "lift_mm": 0,
+      "overlap_mm3": 2.2662745493738276e-07
+    },
+    {
+      "lift_mm": 0.2,
+      "overlap_mm3": 2.2271134658312432e-07
+    },
+    {
+      "lift_mm": 0.5,
+      "overlap_mm3": 2.1690220846287199e-07
+    },
+    {
+      "lift_mm": 1,
+      "overlap_mm3": 2.07392951092568e-07
+    },
+    {
+      "lift_mm": 2,
+      "overlap_mm3": 1.8902282008266387e-07
+    },
+    {
+      "lift_mm": 3,
+      "overlap_mm3": 1.7151717246541814e-07
+    },
+    {
+      "lift_mm": 4,
+      "overlap_mm3": 1.5487613380989725e-07
+    },
+    {
+      "lift_mm": 8,
+      "overlap_mm3": 9.695625495554875e-08
+    },
+    {
+      "lift_mm": 16,
+      "overlap_mm3": 2.0897695510919158e-08
+    }
+  ],
+  "parts": [
+    {
+      "name": "Body",
+      "color": "Black",
+      "triangles": 109140,
+      "volume_mm3": 146316.41330734116,
+      "dimensions_mm": [
+        148.0,
+        54.0,
+        156.0
+      ],
+      "settings": {
+        "enable_support": "0",
+        "brim_width": "2"
+      }
+    },
+    {
+      "name": "Tray",
+      "color": "Black",
+      "triangles": 572,
+      "volume_mm3": 38588.23543678392,
+      "dimensions_mm": [
+        150.0,
+        55.0,
+        9.0
+      ],
+      "settings": {
+        "enable_support": "0",
+        "brim_width": "2"
+      }
+    },
+    {
+      "name": "Eye_L",
+      "color": "White",
+      "triangles": 1494,
+      "volume_mm3": 461.06658497257143,
+      "dimensions_mm": [
+        6.499054446816444,
+        10.574851857138011,
+        12.499527223408222
+      ],
+      "settings": {
+        "enable_support": "0",
+        "brim_width": "2"
+      }
+    },
+    {
+      "name": "Eye_R",
+      "color": "White",
+      "triangles": 1540,
+      "volume_mm3": 333.82179590836756,
+      "dimensions_mm": [
+        6.498876951634884,
+        8.335257608891357,
+        12.498876951634884
+      ],
+      "settings": {
+        "enable_support": "0",
+        "brim_width": "2"
+      }
+    },
+    {
+      "name": "Chest_Emblem",
+      "color": "White",
+      "triangles": 22298,
+      "volume_mm3": 6685.459153156867,
+      "dimensions_mm": [
+        68.74887695163488,
+        8.773182762296909,
+        50.748876951634884
+      ],
+      "settings": {
+        "enable_support": "0",
+        "brim_width": "2"
+      }
+    }
+  ],
+  "design_intent": "Light accessory catchall; prototype requires physical assembly and mounting verification."
+}

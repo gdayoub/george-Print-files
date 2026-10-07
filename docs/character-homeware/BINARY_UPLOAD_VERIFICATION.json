@@ -1,0 +1,592 @@
+{
+  "repository": "gdayoub/george-Print-files",
+  "checked_utc": "2026-10-07T03:14:06.785166+00:00",
+  "binary_paths": 97,
+  "total_bytes": 336704100,
+  "unique_blob_shas": 94,
+  "missing": [],
+  "files": [
+    {
+      "path": "prints/king-shark-47cm/files/3mf/01_original_v2/King_Shark_Realistic_47cm_P1S_NON_AMS.3mf",
+      "size": 19106237,
+      "sha": "c11874ae097586b93fc024fa97d5fb57a1b38add",
+      "sha256": "b5177ad05ab1a98836d33a90435381655703726322d62a1484991492975f466b"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/3mf/01_original_v2/King_Shark_Realistic_47cm_P2S_NON_AMS.3mf",
+      "size": 19108235,
+      "sha": "3b81414b6c267a15f58ae3dba4e9149acfc4154d",
+      "sha256": "516112579ea5dec04793558a385a821817d9bc77d4ffe936836ce70e6a7498f6"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/3mf/02_all_red_shorts/King_Shark_ALL_RED_SHORTS_P1S.3mf",
+      "size": 5533619,
+      "sha": "312ee5c0a3bbda9f44abe33e0b6b8ce869bbf54f",
+      "sha256": "01bc1bc63c0b5db96e63e81bc257da0368e2fc8cf7d2b16a9e9fb22c18b317e2"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/3mf/02_all_red_shorts/King_Shark_ALL_RED_SHORTS_P2S.3mf",
+      "size": 5535619,
+      "sha": "3dc2fc755011b64368485145bab077642b534fea",
+      "sha256": "13ae8219bf592b8f8fdb98f24514c30c7bc5c3a0e06ea8aef639afd80db9cb23"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/3mf/03_fast_legs_feet/FAST_BOTH_LEGS_P1S.3mf",
+      "size": 2362215,
+      "sha": "d7c8d720a1576188baa405526d5b9d7daadcd369",
+      "sha256": "ec5735ab6462c71da99fa6c625c9b39979f255e67805dbe7200b1fde19a78c82"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/3mf/03_fast_legs_feet/FAST_BOTH_LEGS_P2S.3mf",
+      "size": 2364215,
+      "sha": "9d8e19ee5c0aeeeb6ef320c6616957f08ec81034",
+      "sha256": "0f2714f3f69ac95eb2be4a03efad461fad0da0c277fd81f06e105f09566c504a"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/3mf/03_fast_legs_feet/Two_printers/LEFT_LEG_P1S.3mf",
+      "size": 1245274,
+      "sha": "9133d82d6039b61daa38d84333827232ca22b846",
+      "sha256": "3c52aa571710d1ea7d0971b42401554fa8c9283fa3533a07a4c0e034c34ddc0b"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/3mf/03_fast_legs_feet/Two_printers/RIGHT_LEG_P2S.3mf",
+      "size": 1209769,
+      "sha": "f670324949c9165659bebd07d13a6a039957b863",
+      "sha256": "7b3ba6c8fc6e28f75228532e60d3d071ca324b6a7a582213070fdce1965956ab"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/stl/all_red_shorts/Shorts_ALL_RED.stl",
+      "size": 10114384,
+      "sha": "ac958b2d170dd5d89cbaea6679c5704032218a07",
+      "sha256": "e6b4c2383769e1c35961cf7c4e9f26bff25a9b94d68c56de9dcf0ac66226082a"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/stl/fast_legs_feet/L_leg.stl",
+      "size": 3061584,
+      "sha": "4f183e348adc7bdc50ab2f3eaae1e3aa569c79d2",
+      "sha256": "49e7a2dd42e03c268ba9bda13e7cd1489655fd3fa5e1dba79dab203ef4e89b74"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/stl/fast_legs_feet/R_leg.stl",
+      "size": 2965784,
+      "sha": "975b21172c7eadcfa8d535b1d6798b92f47e71a2",
+      "sha256": "5ccec37ae8c42fd43a4f5d153de917d354ae0af4dbc73e7aad17732ad627a7c3"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/stl/original_v2/Dorsal_fin.stl",
+      "size": 482184,
+      "sha": "a84fd208fc7fd423b8ad1e7d4a968f5e845651a6",
+      "sha256": "01f29d8a901a86d78268d0af8dbb54606f518a8c6cb60805dd4175c405e07b34"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/stl/original_v2/L_arm.stl",
+      "size": 3749284,
+      "sha": "a9ae9f70a6d4f87fb7b8dc614c2715f8f17e126a",
+      "sha256": "07aa541c701fdd0a64f3d57762819d0daa16fd00119f790a31f352f7e27cbdd0"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/stl/original_v2/L_leg.stl",
+      "size": 3061584,
+      "sha": "ef9c6966fedf93c95ad9f8debd7690c0a929538f",
+      "sha256": "3ffdce152905434b92756a4ed19a2af32917bffbd4bd953fe8613acb1f44f888"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/stl/original_v2/Lower_teeth.stl",
+      "size": 147584,
+      "sha": "1de3de7125fc9ce138231dca314a61806a3633fe",
+      "sha256": "53de578ca0163e4936d51306437bfd13a5a2ae83f3dbb5b72d41201e14e029a9"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/stl/original_v2/R_arm.stl",
+      "size": 3863884,
+      "sha": "0aeafec59fa376adfed4776d33de6ddefb80a0a7",
+      "sha256": "ad45444670840d5d5aac90510895af95a39af0e8e92fb67692b680924307b928"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/stl/original_v2/R_leg.stl",
+      "size": 2965784,
+      "sha": "975b21172c7eadcfa8d535b1d6798b92f47e71a2",
+      "sha256": "5ccec37ae8c42fd43a4f5d153de917d354ae0af4dbc73e7aad17732ad627a7c3"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/stl/original_v2/Shorts.stl",
+      "size": 8394484,
+      "sha": "8279e241a500bdedbdee1cfaf26c4cddf875ff49",
+      "sha256": "3d0a36de2b030a0b68fbb7adda61377c1950374b236800e4df89f9af2c8ebbdf"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/stl/original_v2/Shorts_panel_L.stl",
+      "size": 1107784,
+      "sha": "cd7df2a44728ee10dd740edcdf6b53fd3f8c724e",
+      "sha256": "fd2a63d47e44d8402394a5d934a4c634d46ccec033a0e95a56262488e0221e41"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/stl/original_v2/Shorts_panel_R.stl",
+      "size": 1190384,
+      "sha": "00e49c54da626a48b3768ea72e0c3504ac55febc",
+      "sha256": "e44fe4382a61807290e45d498e78bd1139a708791d5059973d1178f018d405a3"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/stl/original_v2/Torso.stl",
+      "size": 12042484,
+      "sha": "8009de934d81a246388ded0a49fae76068748c1b",
+      "sha256": "bbb7cab2f16e3cc9b416f63dddd4bc7375b2fd0cfc02973f863416e066d4c183"
+    },
+    {
+      "path": "prints/king-shark-47cm/files/stl/original_v2/Upper_teeth.stl",
+      "size": 160584,
+      "sha": "0e89184f3cbea4aa68eba58a579a3366849de24c",
+      "sha256": "bc68ac39c25fe56271442136bad1d42e34c910ab9cc37abf50028c6d7b60b95e"
+    },
+    {
+      "path": "prints/king-shark-47cm/images/all_red_shorts/assembly_all_red_shorts.png",
+      "size": 1922972,
+      "sha": "4c7d57f1f0e2e74c937b744939049c8c88ca2ef7",
+      "sha256": "8a0007c716a265d3d8965d9e7c8f9267f065ae4f33a5c1f35b33630f2e8e823f"
+    },
+    {
+      "path": "prints/king-shark-47cm/images/all_red_shorts/shorts_leg_sockets.png",
+      "size": 1942621,
+      "sha": "325c327206c3c4e0aff991944a4e1629576062c9",
+      "sha256": "dc34cc382013bde3c7534e61e0f69112c450499eebf29a3b59da4065a77ad5e6"
+    },
+    {
+      "path": "prints/king-shark-47cm/images/all_red_shorts/shorts_waist_key.png",
+      "size": 1935922,
+      "sha": "31f39f0edc3cfeab64bac788d78a213bfaa971ea",
+      "sha256": "4f7f636054cf985f5e16a5da8c9af0012e99e0295d4de1c56bf23d0d055f9cb7"
+    },
+    {
+      "path": "prints/king-shark-47cm/images/fast_legs_feet/legs_and_feet_preview.png",
+      "size": 1682440,
+      "sha": "7646fbdd9481c900cefdb966c420ee4b3b053f1c",
+      "sha256": "2f6b834e8c0da7d868cc3f71cbdabc92f19e88d5a61bbc37c680469c437aa0f2"
+    },
+    {
+      "path": "prints/king-shark-47cm/images/original_v2/back.png",
+      "size": 1868778,
+      "sha": "e5745a15d45f6cc30da9f5f789222c6be17b5817",
+      "sha256": "206f3f8d9ed86e010dfd95e3b15952a5a81589b46331ac57b277dc224f9ccff9"
+    },
+    {
+      "path": "prints/king-shark-47cm/images/original_v2/exploded_assembly.png",
+      "size": 1849687,
+      "sha": "832f6e61aaf96c5e45f5fe40edb271ec9e490011",
+      "sha256": "67add61204b1644f295cc7a3b6d004da9a80970421a24868533192a2df24d5db"
+    },
+    {
+      "path": "prints/king-shark-47cm/images/original_v2/front.png",
+      "size": 1942695,
+      "sha": "336870c64a7b6f13d4146427c082ae5beb0800d7",
+      "sha256": "4744cfe40bf76950586134092131d761e19a3ea7d7c42d976d1e2055522ec604"
+    },
+    {
+      "path": "prints/king-shark-47cm/images/original_v2/head_detail.png",
+      "size": 2030142,
+      "sha": "0d4c413dc65ffd3ed5773f9d36e2615aea6000ba",
+      "sha256": "fb09c96d1f23370d68c6781d4e422eb24382a2e563e911ddcfea013c36a9488a"
+    },
+    {
+      "path": "prints/king-shark-47cm/images/original_v2/plate_1.png",
+      "size": 1775054,
+      "sha": "15133f74b8ca71716e549eb040bd3d299278e1a2",
+      "sha256": "0b43ddc1b7198d8b1efce590e844f31f99c811e6d0608d4436ce586f5be4788e"
+    },
+    {
+      "path": "prints/king-shark-47cm/images/original_v2/plate_2.png",
+      "size": 1712951,
+      "sha": "8166b7d905faea48b4d0bc14287b15f6e6f1da39",
+      "sha256": "deaee15313d6a17c2c2b88e02c0d51fc11345aad39911285aee3962ada280a87"
+    },
+    {
+      "path": "prints/king-shark-47cm/images/original_v2/plate_3.png",
+      "size": 1725154,
+      "sha": "d42e33e1d34ee3748aeaccab6463e1f78a9bcb64",
+      "sha256": "a6cfcc4ff3765c2b1c1ad168625674fa138f64df28118c555b67c6922976c770"
+    },
+    {
+      "path": "prints/king-shark-47cm/images/original_v2/plate_4.png",
+      "size": 1761691,
+      "sha": "4b8bdb6d2c65a647a45daf25265af783f8ed8543",
+      "sha256": "f76a6e2b397e558ce02456493e6d8ac3a5d5edffad0ca8a109549bb9639ee16e"
+    },
+    {
+      "path": "prints/king-shark-47cm/images/original_v2/plate_5.png",
+      "size": 1803472,
+      "sha": "575799bc75ba8078bb45d69fb84bb893ca887d2d",
+      "sha256": "251a979e1e5138a0bd483336c4b985ee62fc4745c65e8247a9827b794c046652"
+    },
+    {
+      "path": "prints/king-shark-47cm/images/original_v2/plate_6.png",
+      "size": 1718586,
+      "sha": "691c90034a1b5f8763f42e199c2a1622145bd55d",
+      "sha256": "9563b9e7896a874500e79c2d082775b367346d2fe3f51bb55fcad6fbd416484c"
+    },
+    {
+      "path": "prints/king-shark-47cm/images/original_v2/side.png",
+      "size": 1813971,
+      "sha": "6afc8a616609eaf1c519dc715699d159c4ceb989",
+      "sha256": "08feca064f6648599de0be03ef7f7ac7990e63d7e2627e825aea8093b50c7bd5"
+    },
+    {
+      "path": "prints/king-shark-47cm/images/original_v2/three_quarter.png",
+      "size": 1920886,
+      "sha": "e8255fe2daf4c7ac6870f8195f9bf0b3519d2e00",
+      "sha256": "ac34f6957849c7431a16cd12b9f279e78401ed237f6900499677aa0fc4369abe"
+    },
+    {
+      "path": "prints/king-shark-47cm/source/all_red_shorts/assembly_meshes/Shorts.npz",
+      "size": 2988700,
+      "sha": "b2c7de146378ad9bb10d75b062b01df0ad2ac3af",
+      "sha256": "3eb5fc45903a6df0a3d4f6d59c01ae59aca5744ba09eff08ba81797bbdfcc612"
+    },
+    {
+      "path": "prints/king-shark-47cm/source/all_red_shorts/King_Shark_all_red_shorts_47cm.blend",
+      "size": 37483852,
+      "sha": "1643ac6f25b859010ba99d333090217479fdcbca",
+      "sha256": "d5a103c1da470aa5801a2e1569e8c5710243e5c64e30a509d02bbb328eb4b9d2"
+    },
+    {
+      "path": "prints/king-shark-47cm/source/geometry/Dorsal_fin.npz",
+      "size": 148447,
+      "sha": "5dc014bcd790f74051f7ccaa0d59ff1289d363f2",
+      "sha256": "ed7aafbe48a4e4e07bcdab6b303ae248f3ad423c586186c4b34b535d67407ef9"
+    },
+    {
+      "path": "prints/king-shark-47cm/source/geometry/L_arm.npz",
+      "size": 1135751,
+      "sha": "0da60f7b0d91f30b4a989e48530b93cdc167b8e2",
+      "sha256": "29af9420c505bb3e608891555db8a3c520a8b15275a5638447a596fa02a17367"
+    },
+    {
+      "path": "prints/king-shark-47cm/source/geometry/L_leg.npz",
+      "size": 913464,
+      "sha": "6415ec390c804a8f81dc725ac7e1f3f554dde909",
+      "sha256": "5e99cb1bb26c613fdc839f22d6a727530d21c93a2d53b98d4ba3ff794a34aa7b"
+    },
+    {
+      "path": "prints/king-shark-47cm/source/geometry/Lower_teeth.npz",
+      "size": 36089,
+      "sha": "fc55a68d1e39b5cfd388a528e4f6e15a56757f26",
+      "sha256": "1c0e2f9c84ec4c28a344134ca3de916e30b5b6cc17de6c0b63b02c6ea3986fdd"
+    },
+    {
+      "path": "prints/king-shark-47cm/source/geometry/R_arm.npz",
+      "size": 1171749,
+      "sha": "3b2e9672062b7bd0b660e25d7333c78696fa2a98",
+      "sha256": "1a96f5ab0ddd05a7ebb2a414bdf44c29188bfeffa0019441cfef14052451d5b9"
+    },
+    {
+      "path": "prints/king-shark-47cm/source/geometry/R_leg.npz",
+      "size": 888146,
+      "sha": "9f1ffabc0c9b3d4ee10fd501adab5681d27a35c4",
+      "sha256": "37bbf4bfbdcd0319e73867e3b4e1ec59c0f109b7a79f4c2ddecf7fd1971051a4"
+    },
+    {
+      "path": "prints/king-shark-47cm/source/geometry/Shorts.npz",
+      "size": 2472663,
+      "sha": "dd31b9efe5e285486419c452cfd84ebfe833ea9c",
+      "sha256": "5d9b48c965f216fa938d197517c464660c89baf63cc2d4067927139662022245"
+    },
+    {
+      "path": "prints/king-shark-47cm/source/geometry/Shorts_panel_L.npz",
+      "size": 327473,
+      "sha": "f493f2f887e85762d9272040b41009a7ad1dc01c",
+      "sha256": "b4e299f57cc3381c455e21b5b12ffa96b351f23c79aa476ecd4b03ff229f40f4"
+    },
+    {
+      "path": "prints/king-shark-47cm/source/geometry/Shorts_panel_R.npz",
+      "size": 351951,
+      "sha": "efb95130985408b72aab548f923ad88066cb7054",
+      "sha256": "aa09e01b1c7a9823bebdf9aaafebe5a4397f270294ddda9c30f736352cfe8b86"
+    },
+    {
+      "path": "prints/king-shark-47cm/source/geometry/Torso.npz",
+      "size": 3556676,
+      "sha": "909ee60990f4b5e2574a8f90a4cc8658f5e09404",
+      "sha256": "9d2985005dfa903b8ea87bd692416dada85b56428758de0b1bc06b47d616c365"
+    },
+    {
+      "path": "prints/king-shark-47cm/source/geometry/Upper_teeth.npz",
+      "size": 40109,
+      "sha": "7b51548fb01bcd413e0eedeab2f8a78cc6c619f9",
+      "sha256": "5bdeffcce4051f78ea2916f2cae112dc13ea35159e6c65acb1082bbdc15bbca1"
+    },
+    {
+      "path": "prints/king-shark-47cm/source/original_v2/approved_concept_not_mesh.png",
+      "size": 2476570,
+      "sha": "65e1694ecc7929fc50d804fdb7df27f563a93105",
+      "sha256": "cc4b87149e0c0ea1d7971a55da2c5e5b4fe6ad9be1f2102a78c34552696459c5"
+    },
+    {
+      "path": "prints/king-shark-47cm/source/original_v2/King_Shark_raw_TRELLIS.glb",
+      "size": 18717068,
+      "sha": "546a329ba9e30e0fabe24286df88cc6b17e78590",
+      "sha256": "031a509823168c16d7e075fa9751d10552ac0909003afcba3b5858fab4c01d1b"
+    },
+    {
+      "path": "prints/king-shark-47cm/source/original_v2/King_Shark_realistic_47cm.blend",
+      "size": 38339220,
+      "sha": "4477b9b8dd61f338aaeedcc16b8838a89ece4c1c",
+      "sha256": "858721f0077caae0d7858162cf38515f7f2312edb176860f4c2792528e688979"
+    },
+    {
+      "path": "prints/king-shark-accessory-shelf/files/3mf/King_Shark_Shelf_P1S_NON_AMS.3mf",
+      "size": 4611054,
+      "sha": "5a1977a8b208dbfa97e9430d032b20f0c2a7907f",
+      "sha256": "20c137012efd780317177ecbcc4de4b90b202e4aba9df6f3a5f0c934f6a7bc82"
+    },
+    {
+      "path": "prints/king-shark-accessory-shelf/files/3mf/King_Shark_Shelf_P2S_NON_AMS.3mf",
+      "size": 4613030,
+      "sha": "4105390165186cfadf19a8926b58738c2c8e456a",
+      "sha256": "ad9357d59f59a2e87294234b9eeaca4c64fc4580b82358d000a38f1979945819"
+    },
+    {
+      "path": "prints/king-shark-accessory-shelf/files/stl/Body.stl",
+      "size": 4126884,
+      "sha": "cffe40e6122e6ee361fdc13e242f6523fe471a40",
+      "sha256": "463b325dfc6ed81732c0749f88994a00b661a6661ad0d32edc115c8bcf0b9480"
+    },
+    {
+      "path": "prints/king-shark-accessory-shelf/files/stl/Tray.stl",
+      "size": 28684,
+      "sha": "a795e0217de19ba9babbfb97c3cc7e18f3048918",
+      "sha256": "1d8712ed3c79c105c89aa257857f9fef75a43b4b6829dd0edee0ef3271cdb5fa"
+    },
+    {
+      "path": "prints/king-shark-accessory-shelf/images/back.png",
+      "size": 1374462,
+      "sha": "f49523dc428f321a8e67a2f62a851c26fa6e39a0",
+      "sha256": "3ca0c7ff1cb7e06c57c187e4a02710b4702623502e7dd324a7a685bef831e977"
+    },
+    {
+      "path": "prints/king-shark-accessory-shelf/images/exploded.png",
+      "size": 1700177,
+      "sha": "5372fdd7f5e1ad61ad1abdccec7556ff22b78662",
+      "sha256": "e4c11c71d2e15a9c67ae6e09e1535b5cb0388948690b2639242c6ff50a0848b4"
+    },
+    {
+      "path": "prints/king-shark-accessory-shelf/images/front.png",
+      "size": 1607280,
+      "sha": "d765cacde0f411109b1440975d44f2fdfab0ccb2",
+      "sha256": "62c5724e027520fe58ce4d371edc08f8d5de764810fc7f3243fc4459f84b0c8e"
+    },
+    {
+      "path": "prints/king-shark-accessory-shelf/images/plate_1.png",
+      "size": 1562992,
+      "sha": "fe9e4e994aaf0b864f395bd029bd4059b72c2765",
+      "sha256": "296f6f9023d1762fcf0670de887616ffe0403637eb7954f1da55fc4e972529ab"
+    },
+    {
+      "path": "prints/king-shark-accessory-shelf/images/plate_2.png",
+      "size": 1500967,
+      "sha": "7e6b1737ee63b0ff9da46a66a0cc4b5306828706",
+      "sha256": "2cf5652750823e17440c6b2182c770c56267f628e9ffc1811d44a76e330b7318"
+    },
+    {
+      "path": "prints/king-shark-accessory-shelf/images/preview.png",
+      "size": 1711882,
+      "sha": "706e9289e792dca2006331a930f8bb8640730303",
+      "sha256": "7cc15a2a7d17c92302d0821c21dbd99bc6edb6f228007fec7a4dabeda895aec6"
+    },
+    {
+      "path": "prints/king-shark-accessory-shelf/images/side.png",
+      "size": 1514024,
+      "sha": "f6a6bb461cdb6d39ba7e725a0305d38de8040f10",
+      "sha256": "a552158ab855da05e07283d74026c0f764e56cf10d6b0a11d51d659d31cf1dc1"
+    },
+    {
+      "path": "prints/king-shark-accessory-shelf/source/geometry/Body.npz",
+      "size": 772238,
+      "sha": "6b33ee6eda6e73e9ae10bef21ac6b3ac5823a38e",
+      "sha256": "5fc6a5cd8a4f937e3549df5ac1b62fa95ce2f277a6b6b83c9769eb68626fad6b"
+    },
+    {
+      "path": "prints/king-shark-accessory-shelf/source/geometry/Tray.npz",
+      "size": 4532,
+      "sha": "c3bcac0900660ef55cc1061779bc712b1f3ccff6",
+      "sha256": "163b2b3aeaf53a4c4bb0fac27c22706626c0c464439754761c05454fd56e8d62"
+    },
+    {
+      "path": "prints/king-shark-accessory-shelf/source/King_Shark_Shelf.blend",
+      "size": 4752992,
+      "sha": "dbd82e9888dc238fabfbc3ef7b1675034cbe5160",
+      "sha256": "6b10a0f2742aa279ca0e50e4a93e50b5487acb8a5e78f8072f41781fec1f027d"
+    },
+    {
+      "path": "prints/king-shark-catchall-bowl/files/3mf/King_Shark_Catchall_Bowl_P1S_NON_AMS.3mf",
+      "size": 3021730,
+      "sha": "98385e27e71b701dfe92d7879a692257d339ed26",
+      "sha256": "7e388e86a9a4958f35eb245b4253c806388f9833a21c8bff7ee10d3b96dd00bd"
+    },
+    {
+      "path": "prints/king-shark-catchall-bowl/files/3mf/King_Shark_Catchall_Bowl_P2S_NON_AMS.3mf",
+      "size": 3023705,
+      "sha": "bb1855d24abf712e05ea0736fd55e0c1d82b4883",
+      "sha256": "6f06678b399385eea3bd58aefb267e54d8b81bd5a785202181520c48695d7310"
+    },
+    {
+      "path": "prints/king-shark-catchall-bowl/files/stl/King_Shark_Catchall_Bowl.stl",
+      "size": 3571784,
+      "sha": "f866e282b8e9e88e2f205aabb6c42be764650dbd",
+      "sha256": "7a6fe286704b079adb78e23ecb24a9f265050e300b2f498f807cbaee05617b93"
+    },
+    {
+      "path": "prints/king-shark-catchall-bowl/images/front.png",
+      "size": 1345501,
+      "sha": "8004b18fdd0e6a07ba85f7322f62e6f8c3148c35",
+      "sha256": "2cbf8f974ba0c26fbcf52746e26ef9c1e0164a972dc8bc7652da5bd879c5135b"
+    },
+    {
+      "path": "prints/king-shark-catchall-bowl/images/inside.png",
+      "size": 1332341,
+      "sha": "64872204dcfb67332ef33c3919c948cd1e65c047",
+      "sha256": "24e250a021ce8cc00e7e7f33af05c608fa2696a5dd4d679338740fc0ff32bb91"
+    },
+    {
+      "path": "prints/king-shark-catchall-bowl/images/side.png",
+      "size": 1326570,
+      "sha": "b7f1f06b9d62fdca099b7686c2ce6308f01ce242",
+      "sha256": "641c57c57ff8e345eab1d84ac413e4f3b57a40c6ff771f7b766880744b0566a3"
+    },
+    {
+      "path": "prints/king-shark-catchall-bowl/images/three_quarter.png",
+      "size": 1339214,
+      "sha": "1c16e1c9b12c5f750485b583a793cb499c78621f",
+      "sha256": "e4b4ceed68edddd20f64ecb31040f6f539342c2d2a8ede5e77649951bff9b3f1"
+    },
+    {
+      "path": "prints/king-shark-catchall-bowl/source/geometry/King_Shark_Catchall_Bowl.npz",
+      "size": 1042601,
+      "sha": "09fe25aebd1c26eca10fb48c31c7f63949dae358",
+      "sha256": "a9ce1fc59f874a1ca20b4f87b2b4864de74a9d9d33ba4e9eeddec1b02a33a7f5"
+    },
+    {
+      "path": "prints/king-shark-catchall-bowl/source/King_Shark_Catchall_Bowl.blend",
+      "size": 4020412,
+      "sha": "4688652704de78a339e2faa091734603d7a01fa6",
+      "sha256": "5e7786ef014143188423075bcace1db618c1abe8fa43f75eab251c73ba7f94d4"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/files/3mf/Venom_Shelf_P1S_NON_AMS.3mf",
+      "size": 5156574,
+      "sha": "022d1c173e0abb5b0e301b4d23685662b8b5f90e",
+      "sha256": "65895e35daa1081a38e0d8fe682f50e392de329730ddb150bca0656712c050ca"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/files/3mf/Venom_Shelf_P2S_NON_AMS.3mf",
+      "size": 5158550,
+      "sha": "557bcca75baea8b717236d2f07ecb7506e44b8b5",
+      "sha256": "e5040ec560417db2c84ca0d04b26a1cfeb52272115a8fa3c1c10eea573f32f7c"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/files/stl/Body.stl",
+      "size": 5456184,
+      "sha": "d95d2a2a785f78650fa672d3af68ff0d213baf2e",
+      "sha256": "6b60d45ade727e09bb2d3fc576ee69a2842ef40f6c1b2450ca3f96734ef79512"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/files/stl/Chest_Emblem.stl",
+      "size": 1114984,
+      "sha": "55c76c0361c601446ce9093243339f6caf32cbd8",
+      "sha256": "6cc5fe3e96938463e7db41d325c913150ffa0150d49e51fefc4b2991e82f38b1"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/files/stl/Eye_L.stl",
+      "size": 74784,
+      "sha": "6ff9ac3ebced2fc252eb31272781285cc39952fa",
+      "sha256": "584c0d22ee410d3f7c6cc52a22fcc6165380fadb61b7b896d4e27fd61974a790"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/files/stl/Eye_R.stl",
+      "size": 77084,
+      "sha": "e30f5c20c33dd19af3903139e1c2ffb2369af1c9",
+      "sha256": "1143eca4419cd4475f5cf009b9e0eee2639cfb6cac3e7771b13fbe9c7cac8b72"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/files/stl/Tray.stl",
+      "size": 28684,
+      "sha": "a795e0217de19ba9babbfb97c3cc7e18f3048918",
+      "sha256": "1d8712ed3c79c105c89aa257857f9fef75a43b4b6829dd0edee0ef3271cdb5fa"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/images/back.png",
+      "size": 1440244,
+      "sha": "aa19ce98eec96783e7d7f9c132b0453608341a83",
+      "sha256": "70c987c60ed91e248904c77b44cff82f3384ad83d8bb98ab0688b8a9b2f5f00e"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/images/exploded.png",
+      "size": 1700173,
+      "sha": "c30f9776b8ab6931fe1d2d1152b3fb4bfbd3ef11",
+      "sha256": "9be7341bb0d653cc1141f9b20d64990d6a7ff1c840b2cf317671fd9f3339b6ad"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/images/front.png",
+      "size": 1610220,
+      "sha": "9931603c36dcee838250d3f05c0b213fccf6a8fe",
+      "sha256": "b84e615602f63d4ecafcb4efe995a2e98921bc1b1e6cd14f4f0bdbf07de1d517"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/images/plate_1.png",
+      "size": 1555958,
+      "sha": "e872b57c698f8e65dff907d976aee1b1ed5312b9",
+      "sha256": "5ba914b4a88e8598e4d4d861b928122500500f1705bbf2a7071063582b239598"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/images/plate_2.png",
+      "size": 1509024,
+      "sha": "a5cb6602cd7b45b55f77651cc0e7f9f93f69a74a",
+      "sha256": "1c081c3d5f0361e8af689bac265ded03dfb55e25101e1fbfa443c117c1e5ec8d"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/images/preview.png",
+      "size": 1678536,
+      "sha": "4de85bda334a228d12bc2f26d5ec87999fe464c2",
+      "sha256": "00fa0a24a4cc2734d81800e72504fbbb4335ec21a73849aadf3b2710c9902089"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/images/side.png",
+      "size": 1496647,
+      "sha": "4c1cf61668cf6f151d32133b43d7f5242a2bad14",
+      "sha256": "559cad47e01469796aa8af3170fe332bb4ce3654bed9be3998c44776f46c9dae"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/source/geometry/Body.npz",
+      "size": 854622,
+      "sha": "b9b3fe860bb97ec974ac7f978b7a2cda86325bc9",
+      "sha256": "1c017f1885bde43e4c3f24b79ec6eaa691c52a073fd7a1340f29987dfa1cb19c"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/source/geometry/Chest_Emblem.npz",
+      "size": 225618,
+      "sha": "6a36557a293b7a288d97c9a40445de23c093a8b0",
+      "sha256": "eb1fe7f31fbe3881fdf4a5d3ce65adeabac4915ebe6fe31952ae691a1fea99ef"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/source/geometry/Eye_L.npz",
+      "size": 15811,
+      "sha": "f1847a9df9e79cbee555ea806574aaa52049e02a",
+      "sha256": "9c58801177604402df650130f7e6d7c628b3c8506e4f5d5daef6390c3f6a4a67"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/source/geometry/Eye_R.npz",
+      "size": 16306,
+      "sha": "835a629fa13800bc66fcad495b796aebce5e652f",
+      "sha256": "6377461232bfa36c2cb70ac91f5e6305d8c006d73983f33e2b900142cf89d8b6"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/source/geometry/Tray.npz",
+      "size": 4532,
+      "sha": "c3bcac0900660ef55cc1061779bc712b1f3ccff6",
+      "sha256": "163b2b3aeaf53a4c4bb0fac27c22706626c0c464439754761c05454fd56e8d62"
+    },
+    {
+      "path": "prints/venom-accessory-shelf/source/Venom_Shelf.blend",
+      "size": 7396600,
+      "sha": "b1cc2910b4d93d68ef458033502d716776060c04",
+      "sha256": "e806a1d175b124b0244e57f2ee3f5be20e1312c953255366c0d96c457228edfa"
+    }
+  ]
+}

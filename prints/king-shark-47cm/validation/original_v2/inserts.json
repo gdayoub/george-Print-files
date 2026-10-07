@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Lower_teeth",
+    "host": "Torso",
+    "nominal_clearance_mm": 0.2,
+    "engaged_volume_mm3": 427.09282222963526,
+    "withdrawal_path_offsets_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -9.994207364391528,
+        3.9976829457566114
+      ],
+      [
+        0.0,
+        -64.96234786854494,
+        3.9976829457566114
+      ]
+    ],
+    "assembly_order": "Lower teeth first, then upper teeth"
+  },
+  {
+    "name": "Upper_teeth",
+    "host": "Torso",
+    "nominal_clearance_mm": 0.2,
+    "engaged_volume_mm3": 421.2939917613808,
+    "withdrawal_path_offsets_mm": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -13.99189031014814,
+        -4.697277461264019
+      ],
+      [
+        0.0,
+        -64.96234786854494,
+        -4.697277461264019
+      ]
+    ],
+    "assembly_order": "Lower teeth first, then upper teeth"
+  },
+  {
+    "name": "Shorts_panel_L",
+    "host": "Shorts",
+    "nominal_clearance_mm": 0.18,
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "construction": "Flat-backed original-surface panel with open directional receiver; lightweight slicer infill"
+  },
+  {
+    "name": "Shorts_panel_R",
+    "host": "Shorts",
+    "nominal_clearance_mm": 0.18,
+    "direction": [
+      -1,
+      0,
+      0
+    ],
+    "construction": "Flat-backed original-surface panel with open directional receiver; lightweight slicer infill"
+  }
+]

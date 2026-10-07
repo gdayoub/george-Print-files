@@ -1,0 +1,41 @@
+KING SHARK - ALL-RED REPLACEMENT SHORTS
+
+Print only ONE of the two 3MF projects in this folder, choosing your printer.
+Open it as a PROJECT in Bambu Studio so the orientation, supports, and local
+connector reinforcement stay loaded. Load red PLA and assign it to the red
+part (filament slot 3). There is one printed object and no AMS color changes.
+
+Keep your already printed chest/head and your existing original legs.
+The waist key, leg sockets, connector sizes, and sculpture scale are unchanged.
+The two old black/gray shorts side inserts are now integrated into these red
+shorts. Do not print or glue those old side inserts onto this replacement.
+The dark waistband already belongs to the original torso and is unchanged.
+
+PRINT SETUP
+- Standard 0.4 mm nozzle; 0.20 mm layers; 2 walls.
+- 3% Gyroid in the body; 15% Gyroid and 3 walls locally at all three joints.
+- Original 4 top/3 bottom layers retained; tree supports and brim included.
+- Print waist-down as arranged. Carefully remove support material from joining
+  faces before gluing. The mating geometry has not changed.
+- P1S estimate: 9h 57m, 217.9 g.
+- P2S estimate: 10h 07m, 217.8 g.
+Estimates include supports and preparation; real timing varies with filament
+and printer calibration. The enclosed STL is geometry only and does not retain
+these settings or the local reinforcement modifiers; prefer the 3MF.
+
+VERIFICATION
+Both replacement projects finished slicing in Bambu Studio 02.08.02.61 with
+successful result codes, empty plate warning messages, and zero color changes.
+All generated model/support/brim extrusion paths fit the plate, including the
+P1S reserved corner. Actual exported STL reimport is watertight and manifold.
+Digital comparisons show zero change to the core containing all connectors.
+All three insertion paths pass against the original torso and leg meshes.
+The eight other part meshes remain byte-for-byte identical to the originals.
+The original user-reported infill error was not reproduced; this replacement
+rebuilds the shorts as one closed solid and changes the sparse infill pattern.
+These are engine and geometry checks, not a physical test of this replacement.
+
+Original files in KingShark_realistic_47cm_v2 are preserved. Use those for all
+other pieces, skipping the original Shorts and Shorts_panel_L/Shorts_panel_R.
+Previews show the actual engineered mesh. Editable_source contains the updated
+assembled Blender model; Engineering contains the validation reports.

@@ -1,0 +1,50 @@
+{
+  "status": "Printable realistic v2 completed and digitally validated: 11 glue parts, six non-AMS plates, successful P1S/P2S slicing and actual model/support/brim path checks. Not physically printed.",
+  "visual_approval": {
+    "date": "2026-10-06",
+    "user_statement": "this is perfect",
+    "approved_reference_sha256": "CC4B87149E0C0EA1D7971A55DA2C5E5B4FE6AD9BE1F2102A78C34552696459C5",
+    "attachment_matches_saved_concept": true,
+    "preserve": [
+      "head and snout shape",
+      "bulky body and muscle proportions",
+      "natural hands",
+      "red shorts with black panels and waistband",
+      "sculpted cloth folds"
+    ],
+    "external_upload_approval": "User replied 'yea' to the explicit request to upload this image to Microsoft TRELLIS.2 on Hugging Face to generate the actual 3D mesh."
+  },
+  "target_height_mm": 470,
+  "character_reference": "Movie Nanaue / King Shark from The Suicide Squad (2021)",
+  "concept_image": "realistic_concept.png",
+  "concept_is_a_mesh_render": false,
+  "changes_required": [
+    "Replace rounded upright head with projecting great-white snout and continuous shoulder silhouette",
+    "Recess lateral eyes and shape the jaw and gum line anatomically",
+    "Retain large symmetric shoulder and arm mass with natural muscle transitions",
+    "Replace mitten fists with recognizable fingers, knuckles, thumbs and wrist folds",
+    "Model fabric drape, waistband tension, folds, seams and hems in geometry",
+    "Use subtle physical skin relief without overwhelming the silhouette"
+  ],
+  "printing_requirements": {
+    "printers": [
+      "Bambu P1S",
+      "Bambu P2S"
+    ],
+    "ams": false,
+    "color_priority": "Black or charcoal body, red shorts, black shorts accents, white teeth",
+    "reuse_proven_venom_joint_profile": true,
+    "joint_radial_allowance_mm": 0.18,
+    "minimize_support_cost": true,
+    "preserve_complete_limbs_where_bed_fit_allows": true,
+    "lightweight_by_slicer_walls_and_infill": true,
+    "physical_print_validation": "Required before claiming physical print success; prior user success applies to Venom only"
+  },
+  "visual_validation": "Inspect untextured geometry from multiple views before cutting and packaging. A generated reference image is not proof of mesh likeness.",
+  "primary_visual_sources": [
+    "https://adamgoldstein.artstation.com/projects/6NW1bO",
+    "https://www.sideshow.com/collectibles/dc-comcs-king-shark-hot-toys-909107"
+  ],
+  "final_artifact_folder": "outputs/KingShark_realistic_47cm_v2",
+  "actual_height_mm": 469.54079667996257
+}

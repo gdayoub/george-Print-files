@@ -1,0 +1,69 @@
+{
+  "bed_margin_mm": 3,
+  "max_height_mm": 250,
+  "palette": [
+    "#72777C",
+    "#EFEDE4",
+    "#BB1424"
+  ],
+  "plates": [
+    {
+      "label": "Gray character and mounting back",
+      "instances": [
+        {
+          "name": "Body",
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              -1,
+              0
+            ]
+          ],
+          "xy_mm": [
+            54,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Red tray / print flat",
+      "instances": [
+        {
+          "name": "Tray",
+          "rotation": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "xy_mm": [
+            53,
+            100
+          ]
+        }
+      ]
+    }
+  ]
+}

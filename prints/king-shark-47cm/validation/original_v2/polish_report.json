@@ -1,0 +1,59 @@
+{
+  "source": "repaired_solid.npz",
+  "output": "repaired_polished.npz",
+  "purpose": "Remove sub-millimeter voxel stair-step artifacts while preserving anatomy",
+  "method": "Taubin48 alternating iterations lambda0.35 nu0.36, then Manifold simplify0.05mm",
+  "additional_scaling": false,
+  "additional_translation": false,
+  "original_normalized_to_current_transform": {
+    "uniform_scale": 0.9994207364391529,
+    "z_translation_mm": 0.2376000968697206
+  },
+  "triangles_before": 1936188,
+  "triangles_after": 710198,
+  "bounds_before_mm": [
+    [
+      -161.68020879901104,
+      -118.9655433533226,
+      0.0
+    ],
+    [
+      161.6799298263779,
+      118.9709829271874,
+      469.9947268769569
+    ]
+  ],
+  "bounds_after_mm": [
+    [
+      -161.64720943161115,
+      -118.95402481386371,
+      -0.07322972452674376
+    ],
+    [
+      161.6209595160235,
+      118.98001764107632,
+      470.04079667996257
+    ]
+  ],
+  "bounds_change_mm": [
+    [
+      0.03299936739989562,
+      0.011518539458890587,
+      -0.07322972452674376
+    ],
+    [
+      -0.058970310354396815,
+      0.009034713888908641,
+      0.046069803005650556
+    ]
+  ],
+  "volume_before_mm3": 7304667.822118272,
+  "volume_after_mm3": 7292683.796060786,
+  "relative_volume_change": -0.0016405983611190722,
+  "watertight": true,
+  "winding_consistent": true,
+  "manifold_status": "Error.NoError",
+  "components": 1,
+  "visual_validation": "Front, back, side and three-quarter neutral geometry renders inspected. Strong voxel woodgrain removed; muscle mass, gill grooves, hands/finger gaps and cloth folds retained. No material change to silhouette; slight remaining raw sculpt irregularity is real geometry. Eyes and teeth remain for separate detail engineering.",
+  "deviation_outliers": "Largest prior source-distance outliers lie on hidden closure surfaces inside thigh/shorts and chest; exterior silhouette remains intact."
+}

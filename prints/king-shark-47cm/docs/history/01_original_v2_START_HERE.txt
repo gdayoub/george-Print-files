@@ -1,0 +1,73 @@
+KING SHARK — REALISTIC 47 CM — VERSION 2
+
+Open King_Shark_Realistic_47cm_P1S_NON_AMS.3mf or the matching P2S project in Bambu Studio.
+Choose Open as Project, keep the embedded custom process, and load the plate's stated color.
+Each plate prints one color. No AMS or purge tower is required.
+
+WHAT IS INCLUDED
+11 actual printable glue parts, 6 arranged plates, the editable Blender assembly, and individual STL fallbacks.
+Assembled size: 469.54mm tall × 323.27mm wide × 237.93mm deep.
+Both soles have a common flat base for stable shelf contact.
+Body: black/charcoal; shorts: red with black waistband and sculpted side panels; teeth: white.
+Arms and hands stay together; lower legs and feet stay together. There are no unnecessary limb color cuts.
+The approved concept guided this mesh. The generated rear anatomy is an interpretation, and photographic skin mottling/pores are not all physical geometry.
+Actual geometry previews are in previews/. The source concept is clearly marked separately.
+
+PRINTING
+Standard-flow 0.4mm nozzle, PLA, textured PEI, 0.20mm layers.
+Two walls, four top layers and three bottom layers. Main parts use 10% lightning; legs use 2% gyroid.
+Joint regions locally use three walls and 15% gyroid. The 3MF preserves these modifiers.
+Automatic tree supports use 0.20mm separation and 0.35mm XY gap. Keep the saved orientations/brims.
+The closed CAD solids are filled lightly by these slicer settings. Do not geometrically hollow them again.
+STL files contain geometry only; they do not store supports, infill, colors, local reinforcement or printer settings.
+
+SUPPORT-INCLUSIVE BAMBU ESTIMATES
+P1S total: 38h 31m, 788.2g.
+P2S total: 39h 10m, 788.2g.
+Both printers: P1S plates [1, 2, 3]; P2S plates [4, 5, 6]. Estimated elapsed printing 20h 32m, excluding manual unloading/spool changes.
+These are slicer estimates, not measured print times.
+
+1. Body and head / shoulder_down: P1S 13h 10m, 263.2g; P2S 13h 24m, 263.4g
+2. L_arm / shoulder down: P1S 3h 36m, 73.2g; P2S 3h 39m, 73.4g
+3. R_arm / shoulder down: P1S 3h 47m, 76.2g; P2S 3h 50m, 76.1g
+4. Legs, fin and both cloth inlays: P1S 8h 59m, 203.9g; P2S 9h 05m, 203.8g
+5. Red shorts / hems down: P1S 8h 39m, 168.8g; P2S 8h 49m, 168.8g
+6. White dental arches: P1S 0h 23m, 2.9g; P2S 0h 24m, 2.8g
+
+ASSEMBLY
+Remove supports and brim from all mating faces before gluing. Match names to previews/exploded_assembly.png.
+1. Glue both leg keys into the underside of the shorts.
+2. Glue the torso onto the large waist key. The curved seam follows the waistband.
+3. Glue each complete arm onto its shoulder key, then attach the dorsal fin.
+4. Insert each black shorts side panel inward from its own side and glue into its matching recess.
+5. Install the LOWER white tooth arch first: approach from the front/slightly above, slide rearward then down into its seat.
+6. Install the UPPER arch second: approach from the front/slightly below, slide rearward then up into its seat.
+Do not cut off the hidden gum rails; they keep the teeth connected and locate the arches.
+Use a small amount of super glue on hidden contact surfaces and seat the visible faces together.
+
+JOINTS
+Same tapered asymmetric 64-sided glue-key profile as the user's successfully printed large Venom.
+Nominal 0.18mm radial allowance at the root; peg tip scale 0.84; extra socket blind depth 0.38mm.
+These are glued locating keys, not snap-fit clips. External seam faces have no intentional gap.
+J01: Torso → L_arm, half-width13.00mm, peg length12.00mm
+J02: Torso → R_arm, half-width13.00mm, peg length12.00mm
+J03: L_leg → Shorts, half-width13.00mm, peg length16.00mm
+J04: R_leg → Shorts, half-width13.00mm, peg length16.00mm
+J05: Torso → Dorsal_fin, half-width6.00mm, peg length9.00mm
+J06: Shorts → Torso, half-width19.00mm, peg length16.00mm
+White arches use 0.20mm clearance. Exact installation paths are recorded in engineering/mouth_parameters.json.
+
+VALIDATION
+STL binary export/reimport checks and embedded3MF geometry checks passed.
+The installed Bambu Studio engine loaded and sliced both printer projects, including supports, with no filament changes.
+Final toolpaths were checked against the bed/height limits, including the P1S reserved front-left corner.
+Assembly and full insertion/withdrawal paths were digitally checked.
+Bambu Studio graphical import is unverified because desktop automation was unavailable.
+This King Shark version has not been physically printed. The user's reported successful print applies to the prior large Venom.
+
+SOURCE
+The actual base mesh was generated in Microsoft TRELLIS.2 from the exact user-approved reference, then repaired and engineered locally.
+The source GLB is retained, along with a separate concept image, construction scripts and validation reports.
+The Blender file uses millimeters and includes assembled, exploded and print-layout scenes. Its preview geometry does not include generated slicer supports.
+King Shark/Nanaue is the character reference from The Suicide Squad. This is a fan interpretation, not the film production asset.
+No GitHub or MakerWorld publication was performed for this King Shark task.

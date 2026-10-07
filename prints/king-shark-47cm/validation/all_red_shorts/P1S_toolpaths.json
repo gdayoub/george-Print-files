@@ -1,0 +1,21 @@
+[
+  {
+    "plate": "plate_1.gcode",
+    "extrusion_bounds_mm": [
+      [
+        42.631,
+        36.13710594700332,
+        0.2
+      ],
+      [
+        213.377,
+        212.752,
+        137.4
+      ]
+    ],
+    "checked_extrusion_segments": 1402162,
+    "including_circular_arcs": 665562,
+    "outside_build_volume": 0,
+    "P1S_excluded_corner_hits": 0
+  }
+]

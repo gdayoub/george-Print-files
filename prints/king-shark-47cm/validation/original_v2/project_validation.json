@@ -1,0 +1,38 @@
+[
+  {
+    "file": "King_Shark_Realistic_47cm_P1S_NON_AMS.3mf",
+    "bytes": 19106237,
+    "sha256": "b5177ad05ab1a98836d33a90435381655703726322d62a1484991492975f466b",
+    "embedded_geometry": true,
+    "normal_parts": 11,
+    "joint_modifiers": 12,
+    "plates": 6,
+    "triangles": 745606,
+    "passes": true,
+    "sliced": true,
+    "desktop_GUI_import_verified": false,
+    "physical_print_test": false,
+    "slice_return_code": 0,
+    "zero_filament_changes": true,
+    "final_toolpaths_pass": true,
+    "final_toolpath_report": "../validation/final_slice_P1S_toolpaths.json"
+  },
+  {
+    "file": "King_Shark_Realistic_47cm_P2S_NON_AMS.3mf",
+    "bytes": 19108235,
+    "sha256": "516112579ea5dec04793558a385a821817d9bc77d4ffe936836ce70e6a7498f6",
+    "embedded_geometry": true,
+    "normal_parts": 11,
+    "joint_modifiers": 12,
+    "plates": 6,
+    "triangles": 745606,
+    "passes": true,
+    "sliced": true,
+    "desktop_GUI_import_verified": false,
+    "physical_print_test": false,
+    "slice_return_code": 0,
+    "zero_filament_changes": true,
+    "final_toolpaths_pass": true,
+    "final_toolpath_report": "../validation/final_slice_P2S_toolpaths.json"
+  }
+]

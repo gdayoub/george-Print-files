@@ -1,0 +1,54 @@
+[
+  {
+    "file": "King_Shark_Catchall_Bowl_P1S_NON_AMS.3mf",
+    "bytes": 3021730,
+    "sha256": "7e388e86a9a4958f35eb245b4253c806388f9833a21c8bff7ee10d3b96dd00bd",
+    "embedded_geometry": true,
+    "normal_parts": 1,
+    "joint_modifiers": 0,
+    "plates": 1,
+    "triangles": 71434,
+    "passes": true,
+    "sliced": false,
+    "desktop_GUI_import_verified": false,
+    "physical_print_test": false,
+    "embedded_mesh_checks": [
+      {
+        "object_id": "2",
+        "subtype": "normal_part",
+        "watertight": true,
+        "winding_consistent": true,
+        "triangles": 71434,
+        "vertices": 35683,
+        "volume_mm3": 168250.36131593186,
+        "manifold_status": "Error.NoError"
+      }
+    ]
+  },
+  {
+    "file": "King_Shark_Catchall_Bowl_P2S_NON_AMS.3mf",
+    "bytes": 3023705,
+    "sha256": "6f06678b399385eea3bd58aefb267e54d8b81bd5a785202181520c48695d7310",
+    "embedded_geometry": true,
+    "normal_parts": 1,
+    "joint_modifiers": 0,
+    "plates": 1,
+    "triangles": 71434,
+    "passes": true,
+    "sliced": false,
+    "desktop_GUI_import_verified": false,
+    "physical_print_test": false,
+    "embedded_mesh_checks": [
+      {
+        "object_id": "2",
+        "subtype": "normal_part",
+        "watertight": true,
+        "winding_consistent": true,
+        "triangles": 71434,
+        "vertices": 35683,
+        "volume_mm3": 168250.36131593186,
+        "manifold_status": "Error.NoError"
+      }
+    ]
+  }
+]

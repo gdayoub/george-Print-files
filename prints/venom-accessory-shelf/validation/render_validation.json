@@ -1,0 +1,27 @@
+{
+  "product": "venom",
+  "source_manifest": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\character_homeware\\venom\\final_parts\\manifest.json",
+  "actual_geometry_render": true,
+  "scenes": [
+    "Exploded_Assembly",
+    "Plate_01",
+    "Plate_02",
+    "Venom_Shelf_Assembly"
+  ],
+  "part_names": [
+    "Body",
+    "Tray",
+    "Eye_L",
+    "Eye_R",
+    "Chest_Emblem"
+  ],
+  "renders": [
+    "preview.png",
+    "front.png",
+    "back.png",
+    "side.png",
+    "exploded.png",
+    "plate_1.png",
+    "plate_2.png"
+  ]
+}

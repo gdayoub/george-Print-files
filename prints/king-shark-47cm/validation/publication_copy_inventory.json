@@ -1,0 +1,770 @@
+[
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\King_Shark_Realistic_47cm_P1S_NON_AMS.3mf",
+    "path": "files/3mf/01_original_v2/King_Shark_Realistic_47cm_P1S_NON_AMS.3mf",
+    "bytes": 19106237,
+    "sha256": "b5177ad05ab1a98836d33a90435381655703726322d62a1484991492975f466b"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\King_Shark_Realistic_47cm_P2S_NON_AMS.3mf",
+    "path": "files/3mf/01_original_v2/King_Shark_Realistic_47cm_P2S_NON_AMS.3mf",
+    "bytes": 19108235,
+    "sha256": "516112579ea5dec04793558a385a821817d9bc77d4ffe936836ce70e6a7498f6"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\STL_parts\\Dorsal_fin.stl",
+    "path": "files/stl/original_v2/Dorsal_fin.stl",
+    "bytes": 482184,
+    "sha256": "01f29d8a901a86d78268d0af8dbb54606f518a8c6cb60805dd4175c405e07b34"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\STL_parts\\L_arm.stl",
+    "path": "files/stl/original_v2/L_arm.stl",
+    "bytes": 3749284,
+    "sha256": "07aa541c701fdd0a64f3d57762819d0daa16fd00119f790a31f352f7e27cbdd0"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\STL_parts\\L_leg.stl",
+    "path": "files/stl/original_v2/L_leg.stl",
+    "bytes": 3061584,
+    "sha256": "3ffdce152905434b92756a4ed19a2af32917bffbd4bd953fe8613acb1f44f888"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\STL_parts\\Lower_teeth.stl",
+    "path": "files/stl/original_v2/Lower_teeth.stl",
+    "bytes": 147584,
+    "sha256": "53de578ca0163e4936d51306437bfd13a5a2ae83f3dbb5b72d41201e14e029a9"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\STL_parts\\R_arm.stl",
+    "path": "files/stl/original_v2/R_arm.stl",
+    "bytes": 3863884,
+    "sha256": "ad45444670840d5d5aac90510895af95a39af0e8e92fb67692b680924307b928"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\STL_parts\\R_leg.stl",
+    "path": "files/stl/original_v2/R_leg.stl",
+    "bytes": 2965784,
+    "sha256": "5ccec37ae8c42fd43a4f5d153de917d354ae0af4dbc73e7aad17732ad627a7c3"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\STL_parts\\Shorts.stl",
+    "path": "files/stl/original_v2/Shorts.stl",
+    "bytes": 8394484,
+    "sha256": "3d0a36de2b030a0b68fbb7adda61377c1950374b236800e4df89f9af2c8ebbdf"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\STL_parts\\Shorts_panel_L.stl",
+    "path": "files/stl/original_v2/Shorts_panel_L.stl",
+    "bytes": 1107784,
+    "sha256": "fd2a63d47e44d8402394a5d934a4c634d46ccec033a0e95a56262488e0221e41"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\STL_parts\\Shorts_panel_R.stl",
+    "path": "files/stl/original_v2/Shorts_panel_R.stl",
+    "bytes": 1190384,
+    "sha256": "e44fe4382a61807290e45d498e78bd1139a708791d5059973d1178f018d405a3"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\STL_parts\\Torso.stl",
+    "path": "files/stl/original_v2/Torso.stl",
+    "bytes": 12042484,
+    "sha256": "bbb7cab2f16e3cc9b416f63dddd4bc7375b2fd0cfc02973f863416e066d4c183"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\STL_parts\\Upper_teeth.stl",
+    "path": "files/stl/original_v2/Upper_teeth.stl",
+    "bytes": 160584,
+    "sha256": "bc68ac39c25fe56271442136bad1d42e34c910ab9cc37abf50028c6d7b60b95e"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\previews\\back.png",
+    "path": "images/original_v2/back.png",
+    "bytes": 1868778,
+    "sha256": "206f3f8d9ed86e010dfd95e3b15952a5a81589b46331ac57b277dc224f9ccff9"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\previews\\exploded_assembly.png",
+    "path": "images/original_v2/exploded_assembly.png",
+    "bytes": 1849687,
+    "sha256": "67add61204b1644f295cc7a3b6d004da9a80970421a24868533192a2df24d5db"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\previews\\front.png",
+    "path": "images/original_v2/front.png",
+    "bytes": 1942695,
+    "sha256": "4744cfe40bf76950586134092131d761e19a3ea7d7c42d976d1e2055522ec604"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\previews\\head_detail.png",
+    "path": "images/original_v2/head_detail.png",
+    "bytes": 2030142,
+    "sha256": "fb09c96d1f23370d68c6781d4e422eb24382a2e563e911ddcfea013c36a9488a"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\previews\\plate_1.png",
+    "path": "images/original_v2/plate_1.png",
+    "bytes": 1775054,
+    "sha256": "0b43ddc1b7198d8b1efce590e844f31f99c811e6d0608d4436ce586f5be4788e"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\previews\\plate_2.png",
+    "path": "images/original_v2/plate_2.png",
+    "bytes": 1712951,
+    "sha256": "deaee15313d6a17c2c2b88e02c0d51fc11345aad39911285aee3962ada280a87"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\previews\\plate_3.png",
+    "path": "images/original_v2/plate_3.png",
+    "bytes": 1725154,
+    "sha256": "a6cfcc4ff3765c2b1c1ad168625674fa138f64df28118c555b67c6922976c770"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\previews\\plate_4.png",
+    "path": "images/original_v2/plate_4.png",
+    "bytes": 1761691,
+    "sha256": "f76a6e2b397e558ce02456493e6d8ac3a5d5edffad0ca8a109549bb9639ee16e"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\previews\\plate_5.png",
+    "path": "images/original_v2/plate_5.png",
+    "bytes": 1803472,
+    "sha256": "251a979e1e5138a0bd483336c4b985ee62fc4745c65e8247a9827b794c046652"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\previews\\plate_6.png",
+    "path": "images/original_v2/plate_6.png",
+    "bytes": 1718586,
+    "sha256": "9563b9e7896a874500e79c2d082775b367346d2fe3f51bb55fcad6fbd416484c"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\previews\\side.png",
+    "path": "images/original_v2/side.png",
+    "bytes": 1813971,
+    "sha256": "08feca064f6648599de0be03ef7f7ac7990e63d7e2627e825aea8093b50c7bd5"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\previews\\three_quarter.png",
+    "path": "images/original_v2/three_quarter.png",
+    "bytes": 1920886,
+    "sha256": "ac34f6957849c7431a16cd12b9f279e78401ed237f6900499677aa0fc4369abe"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\assembled_dimensions.json",
+    "path": "validation/original_v2/assembled_dimensions.json",
+    "bytes": 136,
+    "sha256": "1f97a375b00a0ca18565dcf5910eb9a1e0605233aaf6402012ea012de2fc1d2e"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\assembly_intersections.json",
+    "path": "validation/original_v2/assembly_intersections.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\assembly_validation.json",
+    "path": "validation/original_v2/assembly_validation.json",
+    "bytes": 18236,
+    "sha256": "19bac1e262cdd7dd4abd7f6dd90447f1a5ede089b4112370267ac29d27e0c40f"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\blender_validation.json",
+    "path": "validation/original_v2/blender_validation.json",
+    "bytes": 425,
+    "sha256": "b1d65bbdb8bcc84b239ed757dc12665dee99da1f54142408c89944633edba102"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\design_revision.json",
+    "path": "validation/original_v2/design_revision.json",
+    "bytes": 2599,
+    "sha256": "0d9002a32a8d589a0c6447897675aa0564e114e53e57fc1cf0f7a2b920cd8721"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\eye_parameters.json",
+    "path": "validation/original_v2/eye_parameters.json",
+    "bytes": 4602,
+    "sha256": "4e85ee19255939cdbba8ba2f175cd6944e67e3d495493afe99b6dca899a4095d"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\file_manifest.json",
+    "path": "validation/original_v2/file_manifest.json",
+    "bytes": 10823,
+    "sha256": "d8b7ab013ffb0e34ec61b743a3c10eb29a071f2105ca97714db5cf5e8ff3ed6c"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\final_print_verification.json",
+    "path": "validation/original_v2/final_print_verification.json",
+    "bytes": 674,
+    "sha256": "7afaf8d0299c97869e3e87f05ad714fafe0e42126be516115edcd87ee31b4a83"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\garment_boundaries.json",
+    "path": "validation/original_v2/garment_boundaries.json",
+    "bytes": 114554,
+    "sha256": "a80eea6f6cf755adb1e3637f8d4909079b6191453b6bd959ece7e97af5379e7c"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\inserts.json",
+    "path": "validation/original_v2/inserts.json",
+    "bytes": 1523,
+    "sha256": "3bb1e0748c3d4f1330bef4709a07491f8a1fb34b4bbeff185d731b10ef24704f"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\internal_core_report.json",
+    "path": "validation/original_v2/internal_core_report.json",
+    "bytes": 135287,
+    "sha256": "3d8292f12f8b442d64984dad8858e36d02c879de1b8ea40a6c158b043e1db384"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\joints.json",
+    "path": "validation/original_v2/joints.json",
+    "bytes": 3611,
+    "sha256": "ce42306ddc95669ccf31d3d6fa8369db0d1e0404d774afe8f3ca177211e8bc3a"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\layout.json",
+    "path": "validation/original_v2/layout.json",
+    "bytes": 8404,
+    "sha256": "dd7789232c8aa890d6c0c2b8e2ef2c64cb9f09a9a7d5954bf2311d00dce3aea2"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\manifest.json",
+    "path": "validation/original_v2/manifest.json",
+    "bytes": 6676,
+    "sha256": "bfdd3edf8c0ace2f74120ee9279d486262856e068a8c09aa30f044dbfa60ccec"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\mouth_parameters.json",
+    "path": "validation/original_v2/mouth_parameters.json",
+    "bytes": 26331,
+    "sha256": "d460dc847a8e82c543acd13adf24d7a784455605f63152de285b49fb2856beec"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\orientation_comparison.json",
+    "path": "validation/original_v2/orientation_comparison.json",
+    "bytes": 1327,
+    "sha256": "e4a8d304f7ec641b2d8f0547f7f0512af76c644d7014a09b2c0be8318335450a"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\P1S_Bambu_slice_result.json",
+    "path": "validation/original_v2/P1S_Bambu_slice_result.json",
+    "bytes": 16380,
+    "sha256": "af762ab9a79851c216f8c9df387043faf9e27b6e14e2d5783db7cfd6db7d9ba7"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\P1S_toolpaths.json",
+    "path": "validation/original_v2/P1S_toolpaths.json",
+    "bytes": 2307,
+    "sha256": "1a0c66b2c326361e7fafc541d65789b20db6aa2f740d3274c59713ea3a18a9c8"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\P2S_Bambu_slice_result.json",
+    "path": "validation/original_v2/P2S_Bambu_slice_result.json",
+    "bytes": 16168,
+    "sha256": "208cd0475255bcb29ce12f5466cd4cc703f31ecba2539cc11ae6e801ef48070b"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\P2S_toolpaths.json",
+    "path": "validation/original_v2/P2S_toolpaths.json",
+    "bytes": 2307,
+    "sha256": "b7005d45d3341604baa8f0b35e52d225ab63d0c1cc6277a17add1230f05c0a62"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\parts_and_plates.json",
+    "path": "validation/original_v2/parts_and_plates.json",
+    "bytes": 31969,
+    "sha256": "e15b6e2ce50280dc5a4ae3c1f022530259c5ac572ab389751859edac18a9b9b6"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\polish_report.json",
+    "path": "validation/original_v2/polish_report.json",
+    "bytes": 1957,
+    "sha256": "e66f2d2874f484520a02a805c9d1518a327100542e83c4e0b24376d6424e791b"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\print_estimates.json",
+    "path": "validation/original_v2/print_estimates.json",
+    "bytes": 2445,
+    "sha256": "965c4460fb23e2c0ff9462ba0fa1ff4c67c7ee9a0b4ef0e60b7e7ed27e11e368"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\project_validation.json",
+    "path": "validation/original_v2/project_validation.json",
+    "bytes": 1207,
+    "sha256": "0747669c2b9188c5fb08d9c4991608f9835ce074911b9ad086c1383c6dc79c01"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\repair_report.json",
+    "path": "validation/original_v2/repair_report.json",
+    "bytes": 2545,
+    "sha256": "49b652bb6ff2949bcf591756c4e84a17077f6f1db7ae873d1a3a6c670def437a"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\stl_roundtrip.json",
+    "path": "validation/original_v2/stl_roundtrip.json",
+    "bytes": 5340,
+    "sha256": "34c41c99ded7f08594b4f1224e1d08f282ef5602f28ac591fa38c75b6bfd58be"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\trellis_status.json",
+    "path": "validation/original_v2/trellis_status.json",
+    "bytes": 910,
+    "sha256": "41e19f2fe22fed4ec66fcea24f8edb67a6d0657f5c0ba9ea4004812cd7cd42d9"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\two_printer_schedule.json",
+    "path": "validation/original_v2/two_printer_schedule.json",
+    "bytes": 206,
+    "sha256": "78094ee813dc44d117042b0ef18619b847efbbcadf30c514859bf9939b119287"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\engineering\\venom_proven_joint_reference.json",
+    "path": "validation/original_v2/venom_proven_joint_reference.json",
+    "bytes": 3623,
+    "sha256": "11a1295b9b72a1248964ceaeebc242cfa5915181fc418ab3c026d67477031b4a"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\source\\analyze_garment.py",
+    "path": "source/original_v2/analyze_garment.py",
+    "bytes": 11754,
+    "sha256": "b0179a9c09f86af4232b59b74754b72ad4bbf5510fdde23a05b5a99322431734"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\source\\approved_concept_not_mesh.png",
+    "path": "source/original_v2/approved_concept_not_mesh.png",
+    "bytes": 2476570,
+    "sha256": "cc4b87149e0c0ea1d7971a55da2c5e5b4fe6ad9be1f2102a78c34552696459c5"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\source\\engineer_v2.py",
+    "path": "source/original_v2/engineer_v2.py",
+    "bytes": 11492,
+    "sha256": "76de2798c5f95af42f8bcfb68a998d89535dfe9a89e5818658c55196e0522e4a"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\source\\eyes_details.py",
+    "path": "source/original_v2/eyes_details.py",
+    "bytes": 10916,
+    "sha256": "5cde0b09dbee0453d84ad5204b012f13c647f8853d25b14dbf7d546fdfc7ed92"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\source\\King_Shark_raw_TRELLIS.glb",
+    "path": "source/original_v2/King_Shark_raw_TRELLIS.glb",
+    "bytes": 18717068,
+    "sha256": "031a509823168c16d7e075fa9751d10552ac0909003afcba3b5858fab4c01d1b"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\source\\mouth_details.py",
+    "path": "source/original_v2/mouth_details.py",
+    "bytes": 15598,
+    "sha256": "391a641f2ca7d05af7316ef5af31a3c8205a41cc83057f2bb5caf49dacfc01a1"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\source\\P1S_profile.json",
+    "path": "source/original_v2/P1S_profile.json",
+    "bytes": 111776,
+    "sha256": "f2251b8f342b1ee583af8ea4258c6d1d6ff2d11eba4e84be3e791ec53e2ef9c4"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\source\\P2S_profile.json",
+    "path": "source/original_v2/P2S_profile.json",
+    "bytes": 122493,
+    "sha256": "585056e499a76dc9c0a27ca1060f5c562842346493466d20f8e2836d81e38a70"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\source\\package_v2.py",
+    "path": "source/original_v2/package_v2.py",
+    "bytes": 27737,
+    "sha256": "ee2c3fc9b16e560ca1d23bb0960786b2105e753f66fdd90dbefdb587ac29cfae"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\source\\render_v2.py",
+    "path": "source/original_v2/render_v2.py",
+    "bytes": 6019,
+    "sha256": "905a393ff4642af66475d2791d8597e1e52e20fd59ae1fab7f78171947bacf90"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\source\\repair_internal_core.py",
+    "path": "source/original_v2/repair_internal_core.py",
+    "bytes": 5061,
+    "sha256": "10ad3e598ed5f562d2e6eb97d23cc882c383481644f735e8f0e106896e0931cb"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\source\\repair_surface.py",
+    "path": "source/original_v2/repair_surface.py",
+    "bytes": 9234,
+    "sha256": "6a165cc36f677a47c972885a8f6b14bf440a32814ae14e46fbb50fa1342562ee"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\source\\validate_assembly_v2.py",
+    "path": "source/original_v2/validate_assembly_v2.py",
+    "bytes": 9358,
+    "sha256": "7ad7da31bf5720d9d13980546cbdd6bcd90361d395818143a2d49b5c43f32e47"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\King_Shark_realistic_47cm.blend",
+    "path": "source/original_v2/King_Shark_realistic_47cm.blend",
+    "bytes": 38339220,
+    "sha256": "858721f0077caae0d7858162cf38515f7f2312edb176860f4c2792528e688979"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_realistic_47cm_v2\\START_HERE.txt",
+    "path": "docs/history/01_original_v2_START_HERE.txt",
+    "bytes": 5190,
+    "sha256": "fcec7478d079fd24551f2aebba6106723bdb8ba5700cb4f753bb5fe7ce8ec90c"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\King_Shark_ALL_RED_SHORTS_P1S.3mf",
+    "path": "files/3mf/02_all_red_shorts/King_Shark_ALL_RED_SHORTS_P1S.3mf",
+    "bytes": 5533619,
+    "sha256": "01bc1bc63c0b5db96e63e81bc257da0368e2fc8cf7d2b16a9e9fb22c18b317e2"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\King_Shark_ALL_RED_SHORTS_P2S.3mf",
+    "path": "files/3mf/02_all_red_shorts/King_Shark_ALL_RED_SHORTS_P2S.3mf",
+    "bytes": 5535619,
+    "sha256": "13ae8219bf592b8f8fdb98f24514c30c7bc5c3a0e06ea8aef639afd80db9cb23"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\Shorts_ALL_RED.stl",
+    "path": "files/stl/all_red_shorts/Shorts_ALL_RED.stl",
+    "bytes": 10114384,
+    "sha256": "e6b4c2383769e1c35961cf7c4e9f26bff25a9b94d68c56de9dcf0ac66226082a"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\Previews\\assembly_all_red_shorts.png",
+    "path": "images/all_red_shorts/assembly_all_red_shorts.png",
+    "bytes": 1922972,
+    "sha256": "8a0007c716a265d3d8965d9e7c8f9267f065ae4f33a5c1f35b33630f2e8e823f"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\Previews\\shorts_leg_sockets.png",
+    "path": "images/all_red_shorts/shorts_leg_sockets.png",
+    "bytes": 1942621,
+    "sha256": "dc34cc382013bde3c7534e61e0f69112c450499eebf29a3b59da4065a77ad5e6"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\Previews\\shorts_waist_key.png",
+    "path": "images/all_red_shorts/shorts_waist_key.png",
+    "bytes": 1935922,
+    "sha256": "4f7f636054cf985f5e16a5da8c9af0012e99e0295d4de1c56bf23d0d055f9cb7"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\Engineering\\geometry_repair.json",
+    "path": "validation/all_red_shorts/geometry_repair.json",
+    "bytes": 1622,
+    "sha256": "f4382769b1a16c9acead98f2cf76419eecf58f984126baae00baa488f67b4884"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\Engineering\\orientation_and_infill_selection.json",
+    "path": "validation/all_red_shorts/orientation_and_infill_selection.json",
+    "bytes": 1859,
+    "sha256": "fd85464c492a8f3497a010241b484b88046ae0eb5a7167a379a1a2a421643cad"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\Engineering\\P1S_slice_result.json",
+    "path": "validation/all_red_shorts/P1S_slice_result.json",
+    "bytes": 2965,
+    "sha256": "4af312a52f339e9747e13bd04ee9dda1fea15139c3d8ed7d2e611e1667ff6050"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\Engineering\\P1S_toolpaths.json",
+    "path": "validation/all_red_shorts/P1S_toolpaths.json",
+    "bytes": 380,
+    "sha256": "26750e2a9ea2d3d73aaa09e37a78fe070821ba59e955ef1ea76c45af0d544894"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\Engineering\\P2S_slice_result.json",
+    "path": "validation/all_red_shorts/P2S_slice_result.json",
+    "bytes": 2781,
+    "sha256": "b2722fdd6b3e9089a2a54dfe345f39945637d8fbe3db26f79509cc14ff4290fe"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\Engineering\\P2S_toolpaths.json",
+    "path": "validation/all_red_shorts/P2S_toolpaths.json",
+    "bytes": 380,
+    "sha256": "f8aeee4e1cf9685a21b81d2a8e3d65ad1086c58dbdd6e1306d98ee373f6cc181"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\Engineering\\print_verification.json",
+    "path": "validation/all_red_shorts/print_verification.json",
+    "bytes": 1801,
+    "sha256": "9f522e4dcad1b19c88fbd7ad1cb5f813697e2327c66c7c0e3a90b35be2abfdb5"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\Engineering\\project_validation.json",
+    "path": "validation/all_red_shorts/project_validation.json",
+    "bytes": 3406,
+    "sha256": "197b5833aa75ba279582046bd4a2371aedcc94fae1da82d79863f6e29194a399"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\Engineering\\replacement_fit_review.json",
+    "path": "validation/all_red_shorts/replacement_fit_review.json",
+    "bytes": 4175,
+    "sha256": "8857b5eff4d7138b59945d19a3943e4ca5db3a68750ef3ecfea5c106180c6bff"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\Engineering\\source_trial_proof.json",
+    "path": "validation/all_red_shorts/source_trial_proof.json",
+    "bytes": 1323,
+    "sha256": "52dbe5ce7bb78dee94b37aaeff9d0d313929000541e900ce08dc77c3569a03cf"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\Engineering\\stl_roundtrip.json",
+    "path": "validation/all_red_shorts/stl_roundtrip.json",
+    "bytes": 493,
+    "sha256": "f75c2abfeef05c8f988fbf1fe5445b41eacd58256078492106bf40dcb5cbdf08"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\Editable_source\\King_Shark_all_red_shorts_47cm.blend",
+    "path": "source/all_red_shorts/King_Shark_all_red_shorts_47cm.blend",
+    "bytes": 37483852,
+    "sha256": "d5a103c1da470aa5801a2e1569e8c5710243e5c64e30a509d02bbb328eb4b9d2"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_ALL_RED_SHORTS_FIX\\START_HERE.txt",
+    "path": "docs/history/02_all_red_shorts_START_HERE.txt",
+    "bytes": 2510,
+    "sha256": "a12ca886d7487bdb9b00740da53b65b197a62a3407480611c96fa2f9c5bb78e2"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\FAST_BOTH_LEGS_P1S.3mf",
+    "path": "files/3mf/03_fast_legs_feet/FAST_BOTH_LEGS_P1S.3mf",
+    "bytes": 2362215,
+    "sha256": "ec5735ab6462c71da99fa6c625c9b39979f255e67805dbe7200b1fde19a78c82"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\FAST_BOTH_LEGS_P2S.3mf",
+    "path": "files/3mf/03_fast_legs_feet/FAST_BOTH_LEGS_P2S.3mf",
+    "bytes": 2364215,
+    "sha256": "0f2714f3f69ac95eb2be4a03efad461fad0da0c277fd81f06e105f09566c504a"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\Two_printers\\LEFT_LEG_P1S.3mf",
+    "path": "files/3mf/03_fast_legs_feet/Two_printers/LEFT_LEG_P1S.3mf",
+    "bytes": 1245274,
+    "sha256": "3c52aa571710d1ea7d0971b42401554fa8c9283fa3533a07a4c0e034c34ddc0b"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\Two_printers\\RIGHT_LEG_P2S.3mf",
+    "path": "files/3mf/03_fast_legs_feet/Two_printers/RIGHT_LEG_P2S.3mf",
+    "bytes": 1209769,
+    "sha256": "7b3ba6c8fc6e28f75228532e60d3d071ca324b6a7a582213070fdce1965956ab"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\STL_backup\\L_leg.stl",
+    "path": "files/stl/fast_legs_feet/L_leg.stl",
+    "bytes": 3061584,
+    "sha256": "49e7a2dd42e03c268ba9bda13e7cd1489655fd3fa5e1dba79dab203ef4e89b74"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\STL_backup\\R_leg.stl",
+    "path": "files/stl/fast_legs_feet/R_leg.stl",
+    "bytes": 2965784,
+    "sha256": "5ccec37ae8c42fd43a4f5d153de917d354ae0af4dbc73e7aad17732ad627a7c3"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\Engineering\\both_P1S_slice.json",
+    "path": "validation/fast_legs_feet/both_P1S_slice.json",
+    "bytes": 3452,
+    "sha256": "5d74539a52d4820de5c01f3daa46c1643d36ec475509771d34c54d16e97314d1"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\Engineering\\both_P1S_toolpaths.json",
+    "path": "validation/fast_legs_feet/both_P1S_toolpaths.json",
+    "bytes": 391,
+    "sha256": "39f228a3826bced396c440a9e6bbea3dba133134812b7c92c289645365d1a6b0"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\Engineering\\both_P2S_slice.json",
+    "path": "validation/fast_legs_feet/both_P2S_slice.json",
+    "bytes": 3257,
+    "sha256": "c26b552e49524a73482319d7bc676987dc19b1696c04e08a6a0d85f45075c0a4"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\Engineering\\both_P2S_toolpaths.json",
+    "path": "validation/fast_legs_feet/both_P2S_toolpaths.json",
+    "bytes": 391,
+    "sha256": "8eb969ae6031b471e490d7c5d696ff55ad0c180d1bddf50a8975d61b50fe2b7a"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\Engineering\\compatible_with_red_shorts.json",
+    "path": "validation/fast_legs_feet/compatible_with_red_shorts.json",
+    "bytes": 2426,
+    "sha256": "6ebd7600007e577d1c9851f70725ae7c6791d0a296fdd03387475f191a27d74f"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\Engineering\\left_P1S_slice.json",
+    "path": "validation/fast_legs_feet/left_P1S_slice.json",
+    "bytes": 2955,
+    "sha256": "20a9889e7fc47fcde0237c11c3418422418c0c8666231250c175e5f3807f8453"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\Engineering\\left_P1S_toolpaths.json",
+    "path": "validation/fast_legs_feet/left_P1S_toolpaths.json",
+    "bytes": 388,
+    "sha256": "0b6a31a9f6fc1903376d821155c45e0e097d0a02a42dcad642dd53995b0c73b7"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\Engineering\\print_verification.json",
+    "path": "validation/fast_legs_feet/print_verification.json",
+    "bytes": 4252,
+    "sha256": "d03279ac8e5481e9647be8936aab3e3a7c9cabe050e3a41c7c12d7bbe5f14e7c"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\Engineering\\right_P2S_slice.json",
+    "path": "validation/fast_legs_feet/right_P2S_slice.json",
+    "bytes": 2766,
+    "sha256": "acb9fd3757051e2fc9226f72e3f36acf9caf8c4ec17568a66ad0928c3e71d27b"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\Engineering\\right_P2S_toolpaths.json",
+    "path": "validation/fast_legs_feet/right_P2S_toolpaths.json",
+    "bytes": 390,
+    "sha256": "1155fbfdba91baf6876547dbb18750ee0b144bcecba8ca02bbed74d552c7f9c9"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\Engineering\\stl_roundtrip.json",
+    "path": "validation/fast_legs_feet/stl_roundtrip.json",
+    "bytes": 968,
+    "sha256": "8e41fafa08150a28a6d933c089947726649cb95b44c966e5933aff4f12b7480e"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\Engineering\\tested_comparison.json",
+    "path": "validation/fast_legs_feet/tested_comparison.json",
+    "bytes": 1382,
+    "sha256": "b41c2110fae8cb2d1e4fe7e3b81f0aa23b11d37a4d6f41c6f65946918a0ef46e"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\Engineering\\unchanged_geometry.json",
+    "path": "validation/fast_legs_feet/unchanged_geometry.json",
+    "bytes": 1397,
+    "sha256": "706b9d948f965e57697f59484cfce2051067952b65e9f1d4649255b986632c29"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\legs_and_feet_preview.png",
+    "path": "images/fast_legs_feet/legs_and_feet_preview.png",
+    "bytes": 1682440,
+    "sha256": "2f6b834e8c0da7d868cc3f71cbdabc92f19e88d5a61bbc37c680469c437aa0f2"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Desktop\\Prints\\KingShark_FAST_LEGS_FEET\\START_HERE.txt",
+    "path": "docs/history/03_fast_legs_feet_START_HERE.txt",
+    "bytes": 2656,
+    "sha256": "38b354a9b1bce2b288109bef87988a54209ae86d010aeb4c52522d239ba130a9"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\assembly_intersections.json",
+    "path": "source/geometry/assembly_intersections.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Dorsal_fin.npz",
+    "path": "source/geometry/Dorsal_fin.npz",
+    "bytes": 148447,
+    "sha256": "ed7aafbe48a4e4e07bcdab6b303ae248f3ad423c586186c4b34b535d67407ef9"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\inserts.json",
+    "path": "source/geometry/inserts.json",
+    "bytes": 1523,
+    "sha256": "3bb1e0748c3d4f1330bef4709a07491f8a1fb34b4bbeff185d731b10ef24704f"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\joints.json",
+    "path": "source/geometry/joints.json",
+    "bytes": 3611,
+    "sha256": "ce42306ddc95669ccf31d3d6fa8369db0d1e0404d774afe8f3ca177211e8bc3a"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\L_arm.npz",
+    "path": "source/geometry/L_arm.npz",
+    "bytes": 1135751,
+    "sha256": "29af9420c505bb3e608891555db8a3c520a8b15275a5638447a596fa02a17367"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\L_leg.npz",
+    "path": "source/geometry/L_leg.npz",
+    "bytes": 913464,
+    "sha256": "5e99cb1bb26c613fdc839f22d6a727530d21c93a2d53b98d4ba3ff794a34aa7b"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Lower_teeth.npz",
+    "path": "source/geometry/Lower_teeth.npz",
+    "bytes": 36089,
+    "sha256": "1c0e2f9c84ec4c28a344134ca3de916e30b5b6cc17de6c0b63b02c6ea3986fdd"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\manifest.json",
+    "path": "source/geometry/manifest.json",
+    "bytes": 6676,
+    "sha256": "bfdd3edf8c0ace2f74120ee9279d486262856e068a8c09aa30f044dbfa60ccec"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\R_arm.npz",
+    "path": "source/geometry/R_arm.npz",
+    "bytes": 1171749,
+    "sha256": "1a96f5ab0ddd05a7ebb2a414bdf44c29188bfeffa0019441cfef14052451d5b9"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\R_leg.npz",
+    "path": "source/geometry/R_leg.npz",
+    "bytes": 888146,
+    "sha256": "37bbf4bfbdcd0319e73867e3b4e1ec59c0f109b7a79f4c2ddecf7fd1971051a4"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Shorts.npz",
+    "path": "source/geometry/Shorts.npz",
+    "bytes": 2472663,
+    "sha256": "5d9b48c965f216fa938d197517c464660c89baf63cc2d4067927139662022245"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Shorts_panel_L.npz",
+    "path": "source/geometry/Shorts_panel_L.npz",
+    "bytes": 327473,
+    "sha256": "b4e299f57cc3381c455e21b5b12ffa96b351f23c79aa476ecd4b03ff229f40f4"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Shorts_panel_R.npz",
+    "path": "source/geometry/Shorts_panel_R.npz",
+    "bytes": 351951,
+    "sha256": "aa09e01b1c7a9823bebdf9aaafebe5a4397f270294ddda9c30f736352cfe8b86"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Torso.npz",
+    "path": "source/geometry/Torso.npz",
+    "bytes": 3556676,
+    "sha256": "9d2985005dfa903b8ea87bd692416dada85b56428758de0b1bc06b47d616c365"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Upper_teeth.npz",
+    "path": "source/geometry/Upper_teeth.npz",
+    "bytes": 40109,
+    "sha256": "5bdeffcce4051f78ea2916f2cae112dc13ea35159e6c65acb1082bbdc15bbca1"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_red_shorts_v3\\final_parts\\Shorts.npz",
+    "path": "source/all_red_shorts/assembly_meshes/Shorts.npz",
+    "bytes": 2988700,
+    "sha256": "3eb5fc45903a6df0a3d4f6d59c01ae59aca5744ba09eff08ba81797bbdfcc612"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_red_shorts_v3\\build_red_shorts.py",
+    "path": "source/all_red_shorts/build_red_shorts.py",
+    "bytes": 3962,
+    "sha256": "0040a239491fa2ace401de55da42d96e77ab94279391a37435ad10edef023ff8"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_red_shorts_v3\\package_red_shorts.py",
+    "path": "source/all_red_shorts/package_red_shorts.py",
+    "bytes": 10502,
+    "sha256": "cf4c1f134b95027fa97d3ff2b76822c095131d625d0058172dc4247f9c8b1e64"
+  },
+  {
+    "source": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_red_shorts_v3\\finalize_3pct_replacement.py",
+    "path": "source/all_red_shorts/finalize_3pct_replacement.py",
+    "bytes": 3274,
+    "sha256": "0a1fa53ee01f76c821513c0fb8acacc39895bbb9898760495fca7ae0e95846e9"
+  }
+]

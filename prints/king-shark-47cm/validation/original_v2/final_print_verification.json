@@ -1,0 +1,19 @@
+{
+  "status": "Both exact final projects slice successfully and all final model/support/brim extrusion paths fit",
+  "actual_3mf_hashes": {
+    "P1S": "b5177ad05ab1a98836d33a90435381655703726322d62a1484991492975f466b",
+    "P2S": "516112579ea5dec04793558a385a821817d9bc77d4ffe936836ce70e6a7498f6"
+  },
+  "plates_per_printer": 6,
+  "non_AMS": true,
+  "filament_changes": 0,
+  "geometry_parts": 11,
+  "validation_reports": [
+    "../packages/stl_roundtrip.json",
+    "../packages/project_validation.json",
+    "final_slice_P1S_toolpaths.json",
+    "final_slice_P2S_toolpaths.json"
+  ],
+  "physical_print_test": false,
+  "desktop_GUI_import_verified": false
+}

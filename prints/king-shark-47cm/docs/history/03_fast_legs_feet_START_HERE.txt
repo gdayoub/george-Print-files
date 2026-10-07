@@ -1,0 +1,49 @@
+KING SHARK - FASTER LEGS AND FEET
+
+The two legs are the exact original geometry, each foot still attached to its
+leg. No size changes, cuts, smoothing, or connector changes were made. These
+match the already printed body and the all-red replacement shorts.
+
+ONE PRINTER
+Open FAST_BOTH_LEGS_P1S.3mf or FAST_BOTH_LEGS_P2S.3mf as a PROJECT in Bambu
+Studio. Both whole legs print together on one plate. Use only the file matching
+the machine you will print on; do not print both duplicate projects.
+P1S: 5h 33m, 151.2g.
+P2S: 5h 38m, 151.5g.
+Original legs-only P1S benchmark: 6h 38m.
+Measured saving: 65 minutes (16.4%).
+
+FASTEST ELAPSED OPTION - USE BOTH PRINTERS
+Print Two_printers/LEFT_LEG_P1S.3mf on the P1S and
+Two_printers/RIGHT_LEG_P2S.3mf on the P2S at the same time.
+Left: 2h 54m; right: 2h 48m.
+Both complete in approximately 2h 54m, plus your handling time.
+Total filament: 151.2g.
+This replaces the combined plate; do not print duplicate legs.
+
+SETUP AND TRADEOFF
+- Standard 0.4mm nozzle, 0.28mm layers (first layer 0.20mm).
+- More visible layer lines than the old 0.20mm profile; sculpture detail and
+  connector dimensions have not been edited. The preview shows the mesh, not
+  a simulation of the printed layer lines.
+- 2 walls, 2% Gyroid; original connectors retain 3 walls / 15% Gyroid reinforcement.
+- Top cap minimum 0.8mm (3 layers at 0.28mm); original local key top layers kept.
+- Feet down, 6 mm brim, original 30 degree tree support coverage and stock speeds.
+- Use the same gray/black PLA as your existing body. No AMS is needed.
+- Keep the arranged supports, particularly under rounded soles and curved
+  upper seams. Clean supports off the joining faces before gluing.
+- The STL backups contain geometry only, without these speed/support settings
+  or local reinforcement. Use the 3MF projects for the optimized print.
+
+VERIFICATION
+All four exact 3MF projects sliced successfully in Bambu Studio 02.08.02.61,
+with no plate warning message or color changes. All generated model, support,
+and brim paths fit their plates and avoid the P1S reserved corner. STL export
+and reimport passed manifold/watertight checks. Embedded leg and connector
+geometry matches the original delivered model exactly. The same original leg
+meshes passed the earlier fit checks against the red replacement shorts.
+These are digital checks; the new 0.28mm profile has not been physically printed.
+Timing and filament estimates include supports and machine preparation; your
+filament, printer calibration and handling can change actual results.
+
+Original body, red shorts, and previous files remain untouched.

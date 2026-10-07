@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "printers": {
+    "P1S": {
+      "file": "King_Shark_ALL_RED_SHORTS_P1S.3mf",
+      "sha256": "01bc1bc63c0b5db96e63e81bc257da0368e2fc8cf7d2b16a9e9fb22c18b317e2",
+      "seconds": 35803.05859375,
+      "estimated_time": "9h 57m",
+      "filament_g": 217.86106872558594,
+      "infill": "3% Gyroid",
+      "includes_supports_and_preparation": true,
+      "filament_changes": 0,
+      "extrusion_bounds_mm": [
+        [
+          42.631,
+          36.13710594700332,
+          0.2
+        ],
+        [
+          213.377,
+          212.752,
+          137.4
+        ]
+      ],
+      "slice_success": true,
+      "engine": "Bambu Studio 02.08.02.61",
+      "GUI_import_tested": false,
+      "replacement_physically_printed": false
+    },
+    "P2S": {
+      "file": "King_Shark_ALL_RED_SHORTS_P2S.3mf",
+      "sha256": "13ae8219bf592b8f8fdb98f24514c30c7bc5c3a0e06ea8aef639afd80db9cb23",
+      "seconds": 36412.23828125,
+      "estimated_time": "10h 07m",
+      "filament_g": 217.7597198486328,
+      "infill": "3% Gyroid",
+      "includes_supports_and_preparation": true,
+      "filament_changes": 0,
+      "extrusion_bounds_mm": [
+        [
+          42.631,
+          38.13710594700332,
+          0.2
+        ],
+        [
+          213.377,
+          214.752,
+          137.4
+        ]
+      ],
+      "slice_success": true,
+      "engine": "Bambu Studio 02.08.02.61",
+      "GUI_import_tested": false,
+      "replacement_physically_printed": false
+    }
+  },
+  "user_report": "Original torso/chest and head printed successfully; original shorts reported infill failure.",
+  "changed_scope": "All-red one-piece shorts only; original files preserved.",
+  "exact_error_reproduced": false,
+  "fit_geometry_unchanged": true
+}

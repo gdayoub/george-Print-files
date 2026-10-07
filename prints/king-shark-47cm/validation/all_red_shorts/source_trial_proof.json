@@ -1,0 +1,18 @@
+{
+  "source_file": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_red_shorts_v3\\trials\\Shorts_P1S_trial_waist_down.3mf",
+  "source_sha256": "01bc1bc63c0b5db96e63e81bc257da0368e2fc8cf7d2b16a9e9fb22c18b317e2",
+  "final_P1S_file": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_red_shorts_v3\\final_3pct\\King_Shark_ALL_RED_SHORTS_ONLY_P1S_NON_AMS.3mf",
+  "final_P1S_sha256": "01bc1bc63c0b5db96e63e81bc257da0368e2fc8cf7d2b16a9e9fb22c18b317e2",
+  "exact_archive_copy": true,
+  "source_slice_entry_sha256": {
+    "3D/3dmodel.model": "56d687b6e111d0a9ca283d841a413eaa543d894a378515a062bc4f1ac5b93200",
+    "Metadata/model_settings.config": "e6b6e78be4fadc09b70e3d116fe1a19fcfe8cbe74f4a5fd68f9ade4889ccf499",
+    "Metadata/project_settings.config": "1a389a2e42e2be97b7b03b57df7472fb67ea0da9bb2e5f53114be30536a2a94f"
+  },
+  "final_P1S_slice_entry_sha256": {
+    "3D/3dmodel.model": "56d687b6e111d0a9ca283d841a413eaa543d894a378515a062bc4f1ac5b93200",
+    "Metadata/model_settings.config": "e6b6e78be4fadc09b70e3d116fe1a19fcfe8cbe74f4a5fd68f9ade4889ccf499",
+    "Metadata/project_settings.config": "1a389a2e42e2be97b7b03b57df7472fb67ea0da9bb2e5f53114be30536a2a94f"
+  },
+  "P2S_only_changed_archive_entry": "Metadata/project_settings.config"
+}

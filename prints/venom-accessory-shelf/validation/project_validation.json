@@ -1,0 +1,134 @@
+[
+  {
+    "file": "Venom_Shelf_P1S_NON_AMS.3mf",
+    "bytes": 5156574,
+    "sha256": "65895e35daa1081a38e0d8fe682f50e392de329730ddb150bca0656712c050ca",
+    "embedded_geometry": true,
+    "normal_parts": 5,
+    "joint_modifiers": 0,
+    "plates": 2,
+    "triangles": 135026,
+    "passes": true,
+    "sliced": false,
+    "desktop_GUI_import_verified": false,
+    "physical_print_test": false,
+    "embedded_mesh_checks": [
+      {
+        "object_id": "2",
+        "subtype": "normal_part",
+        "watertight": true,
+        "winding_consistent": true,
+        "triangles": 109122,
+        "vertices": 54557,
+        "volume_mm3": 146315.08863870593,
+        "manifold_status": "Error.NoError"
+      },
+      {
+        "object_id": "4",
+        "subtype": "normal_part",
+        "watertight": true,
+        "winding_consistent": true,
+        "triangles": 572,
+        "vertices": 288,
+        "volume_mm3": 38588.23543728152,
+        "manifold_status": "Error.NoError"
+      },
+      {
+        "object_id": "6",
+        "subtype": "normal_part",
+        "watertight": true,
+        "winding_consistent": true,
+        "triangles": 1494,
+        "vertices": 749,
+        "volume_mm3": 461.0665849286335,
+        "manifold_status": "Error.NoError"
+      },
+      {
+        "object_id": "8",
+        "subtype": "normal_part",
+        "watertight": true,
+        "winding_consistent": true,
+        "triangles": 1540,
+        "vertices": 772,
+        "volume_mm3": 333.82179588072404,
+        "manifold_status": "Error.NoError"
+      },
+      {
+        "object_id": "10",
+        "subtype": "normal_part",
+        "watertight": true,
+        "winding_consistent": true,
+        "triangles": 22298,
+        "vertices": 11151,
+        "volume_mm3": 6685.459152018717,
+        "manifold_status": "Error.NoError"
+      }
+    ]
+  },
+  {
+    "file": "Venom_Shelf_P2S_NON_AMS.3mf",
+    "bytes": 5158550,
+    "sha256": "e5040ec560417db2c84ca0d04b26a1cfeb52272115a8fa3c1c10eea573f32f7c",
+    "embedded_geometry": true,
+    "normal_parts": 5,
+    "joint_modifiers": 0,
+    "plates": 2,
+    "triangles": 135026,
+    "passes": true,
+    "sliced": false,
+    "desktop_GUI_import_verified": false,
+    "physical_print_test": false,
+    "embedded_mesh_checks": [
+      {
+        "object_id": "2",
+        "subtype": "normal_part",
+        "watertight": true,
+        "winding_consistent": true,
+        "triangles": 109122,
+        "vertices": 54557,
+        "volume_mm3": 146315.08863870593,
+        "manifold_status": "Error.NoError"
+      },
+      {
+        "object_id": "4",
+        "subtype": "normal_part",
+        "watertight": true,
+        "winding_consistent": true,
+        "triangles": 572,
+        "vertices": 288,
+        "volume_mm3": 38588.23543728152,
+        "manifold_status": "Error.NoError"
+      },
+      {
+        "object_id": "6",
+        "subtype": "normal_part",
+        "watertight": true,
+        "winding_consistent": true,
+        "triangles": 1494,
+        "vertices": 749,
+        "volume_mm3": 461.0665849286335,
+        "manifold_status": "Error.NoError"
+      },
+      {
+        "object_id": "8",
+        "subtype": "normal_part",
+        "watertight": true,
+        "winding_consistent": true,
+        "triangles": 1540,
+        "vertices": 772,
+        "volume_mm3": 333.82179588072404,
+        "manifold_status": "Error.NoError"
+      },
+      {
+        "object_id": "10",
+        "subtype": "normal_part",
+        "watertight": true,
+        "winding_consistent": true,
+        "triangles": 22298,
+        "vertices": 11151,
+        "volume_mm3": 6685.459152018717,
+        "manifold_status": "Error.NoError"
+      }
+    ]
+  }
+]

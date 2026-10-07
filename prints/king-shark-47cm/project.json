@@ -1,0 +1,40 @@
+{
+  "id": "king-shark-47cm",
+  "title": "King Shark realistic 47 cm statue",
+  "units": "millimeters",
+  "assembled_dimensions_mm": {
+    "height": 469.54079667996257,
+    "width": 323.2682,
+    "depth": 237.934
+  },
+  "printers": [
+    "Bambu Lab P1S",
+    "Bambu Lab P2S"
+  ],
+  "nozzle_mm": 0.4,
+  "material": "PLA",
+  "ams_required": false,
+  "recommended_assembly_parts": 9,
+  "variants": [
+    "original_v2",
+    "all_red_replacement_shorts",
+    "fast_legs_feet"
+  ],
+  "recommendation": "Original torso/arms/fin/teeth + all-red shorts + one fast-leg option; do not duplicate original shorts/panels/legs.",
+  "status": "digitally-checked-and-sliced-user-reported-torso-head-print-success",
+  "physical_testing": {
+    "torso_and_head": "user-reported-success",
+    "all_red_shorts": "not-reported",
+    "fast_leg_process": "not-reported",
+    "complete_revised_assembly": "not-reported"
+  },
+  "estimated_times_include_supports_and_preparation": true,
+  "source_service": "Microsoft TRELLIS.2",
+  "character": "King Shark / Nanaue; unofficial fan interpretation",
+  "blanket_mesh_license": "not-established",
+  "repository_visibility_at_staging": "private",
+  "makerworld_url": null,
+  "preview": "images/all_red_shorts/assembly_all_red_shorts.png",
+  "recommended": "README.md",
+  "dated": "2026-10-06"
+}

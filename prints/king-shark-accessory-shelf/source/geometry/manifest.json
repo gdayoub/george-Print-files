@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Body",
+    "color": "Black",
+    "triangles": 82536,
+    "volume_mm3": 167299.3823000864,
+    "dimensions_mm": [
+      148.0,
+      54.0,
+      156.0
+    ],
+    "settings": {
+      "enable_support": "0",
+      "brim_width": "2"
+    }
+  },
+  {
+    "name": "Tray",
+    "color": "Red",
+    "triangles": 572,
+    "volume_mm3": 38588.23543678392,
+    "dimensions_mm": [
+      150.0,
+      55.0,
+      9.0
+    ],
+    "settings": {
+      "enable_support": "0",
+      "brim_width": "2"
+    }
+  }
+]

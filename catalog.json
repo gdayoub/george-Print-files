@@ -2,6 +2,42 @@
   "title": "George Print Files",
   "projects": [
     {
+      "id": "king-shark-47cm",
+      "title": "King Shark realistic 47 cm statue",
+      "path": "prints/king-shark-47cm",
+      "preview": "prints/king-shark-47cm/images/all_red_shorts/assembly_all_red_shorts.png",
+      "status": "digitally-checked-and-sliced-user-reported-torso-head-print-success",
+      "recommended": "prints/king-shark-47cm/README.md",
+      "makerworld_url": null
+    },
+    {
+      "id": "king-shark-catchall-bowl",
+      "title": "King Shark catchall bowl",
+      "path": "prints/king-shark-catchall-bowl",
+      "preview": "prints/king-shark-catchall-bowl/images/three_quarter.png",
+      "status": "digitally-checked-and-sliced-physical-print-untested",
+      "recommended": "prints/king-shark-catchall-bowl/files/3mf/King_Shark_Catchall_Bowl_P1S_NON_AMS.3mf",
+      "makerworld_url": null
+    },
+    {
+      "id": "king-shark-accessory-shelf",
+      "title": "King Shark accessory shelf",
+      "path": "prints/king-shark-accessory-shelf",
+      "preview": "prints/king-shark-accessory-shelf/images/preview.png",
+      "status": "digitally-checked-and-sliced-physical-print-assembly-and-mount-untested",
+      "recommended": "prints/king-shark-accessory-shelf/files/3mf/King_Shark_Shelf_P1S_NON_AMS.3mf",
+      "makerworld_url": null
+    },
+    {
+      "id": "venom-accessory-shelf",
+      "title": "Venom accessory shelf",
+      "path": "prints/venom-accessory-shelf",
+      "preview": "prints/venom-accessory-shelf/images/preview.png",
+      "status": "digitally-checked-and-sliced-physical-print-assembly-and-mount-untested",
+      "recommended": "prints/venom-accessory-shelf/files/3mf/Venom_Shelf_P1S_NON_AMS.3mf",
+      "makerworld_url": null
+    },
+    {
       "id": "venom-muscular-statue",
       "title": "Venom muscular shelf statue — two sizes",
       "path": "prints/venom-muscular-statue",

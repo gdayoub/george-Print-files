@@ -1,0 +1,153 @@
+{
+  "bed_margin_mm": 3,
+  "max_height_mm": 250,
+  "palette": [
+    "#15171A",
+    "#EFEDE4",
+    "#BB1424"
+  ],
+  "plates": [
+    {
+      "label": "Black body and tray",
+      "instances": [
+        {
+          "name": "Body",
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              -1,
+              0
+            ]
+          ],
+          "xy_mm": [
+            54,
+            10
+          ]
+        },
+        {
+          "name": "Tray",
+          "rotation": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "xy_mm": [
+            53,
+            182
+          ]
+        }
+      ]
+    },
+    {
+      "label": "White eyes and chest emblem / flat backs",
+      "instances": [
+        {
+          "name": "Eye_L",
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              -1,
+              0
+            ]
+          ],
+          "xy_mm": [
+            45,
+            45
+          ],
+          "settings": {
+            "layer_height": ".16",
+            "brim_width": "2"
+          }
+        },
+        {
+          "name": "Eye_R",
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              -1,
+              0
+            ]
+          ],
+          "xy_mm": [
+            61.499054446816444,
+            45
+          ],
+          "settings": {
+            "layer_height": ".16",
+            "brim_width": "2"
+          }
+        },
+        {
+          "name": "Chest_Emblem",
+          "rotation": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              -1,
+              0
+            ]
+          ],
+          "xy_mm": [
+            77.99793139845133,
+            45
+          ],
+          "settings": {
+            "layer_height": ".16",
+            "brim_width": "2"
+          }
+        }
+      ]
+    }
+  ]
+}

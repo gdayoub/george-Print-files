@@ -1,0 +1,44 @@
+{
+  "selected": "3% Gyroid; waist down",
+  "geometry_unchanged_between_trials": true,
+  "local_connector_settings": "Original 15% Gyroid / 3 walls",
+  "trials": [
+    {
+      "label": "3% Gyroid; original 10 degree tilt",
+      "source_result": "slice_shorts_P1S/result.json",
+      "return_code": 0,
+      "seconds": 37045.18359375,
+      "filament_g": 221.60910034179688,
+      "support_seconds": 7394.117736816406
+    },
+    {
+      "label": "3% Gyroid; upright",
+      "source_result": "slice_upright_P1S/result.json",
+      "return_code": 0,
+      "seconds": 35928.8828125,
+      "filament_g": 223.05178833007812,
+      "support_seconds": 7906.02783203125
+    },
+    {
+      "label": "3% Gyroid; waist down; SELECTED",
+      "source_result": "slice_waistdown_P1S/result.json",
+      "return_code": 0,
+      "seconds": 35803.05859375,
+      "filament_g": 217.86106872558594,
+      "support_seconds": 7673.0947265625
+    },
+    {
+      "label": "2% Gyroid; waist down; rejected roof tradeoff",
+      "source_result": "slice_final_P1S/result.json",
+      "return_code": 0,
+      "seconds": 34471.08984375,
+      "filament_g": 198.897216796875,
+      "support_seconds": 7672.9481201171875
+    }
+  ],
+  "reason": "Waist-down used the least material of the tested 3% orientations. 2% saved about 19g and21min but gave much longer roof spans at the leg seam caps. Retain3% for these mating faces.",
+  "roof_check_scope": "Sampled generated toolpaths, not a physical bridging test. Gyroid phase means higher density does not shorten every internal bridge.",
+  "error_diagnosis": "Original Infill failed error was not reproduced in the available engine. Replacement is one closed manifold solid with Gyroid instead of Lightning.",
+  "stock_printers": "P1S and P2S, 0.4mm nozzle",
+  "physical_replacement_tested": false
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_fast_legs\\trials\\centered_028_default\\King_Shark_LEGS_centered_028_default_P1S.3mf",
+    "same_geometry_and_part_settings_as_delivered": {
+      "L_leg": true,
+      "R_leg": true,
+      "Reinforce J03": true,
+      "Reinforce J04": true
+    },
+    "passes": true
+  },
+  {
+    "file": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_fast_legs\\trials\\centered_028_default\\King_Shark_LEGS_centered_028_default_P2S.3mf",
+    "same_geometry_and_part_settings_as_delivered": {
+      "L_leg": true,
+      "R_leg": true,
+      "Reinforce J03": true,
+      "Reinforce J04": true
+    },
+    "passes": true
+  },
+  {
+    "file": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_fast_legs\\trials\\parallel_left\\King_Shark_LEGS_parallel_left_P1S.3mf",
+    "same_geometry_and_part_settings_as_delivered": {
+      "L_leg": true,
+      "Reinforce J03": true
+    },
+    "passes": true
+  },
+  {
+    "file": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_fast_legs\\trials\\parallel_right\\King_Shark_LEGS_parallel_right_P2S.3mf",
+    "same_geometry_and_part_settings_as_delivered": {
+      "R_leg": true,
+      "Reinforce J04": true
+    },
+    "passes": true
+  }
+]

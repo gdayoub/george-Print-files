@@ -1,0 +1,124 @@
+{
+  "character": "king_shark",
+  "unrated_mounting_prototype": true,
+  "flat_back_mm": [
+    148.0,
+    156.0
+  ],
+  "clear_strip_zones_mm": {
+    "size": [
+      25,
+      100
+    ],
+    "centers_x": [
+      -30,
+      30
+    ],
+    "z_start": 10
+  },
+  "strip_mount_note": "3M does not recommend picture-hanging strips for shelves. No adhesive load rating claimed.",
+  "screw_alternative": {
+    "entry_diameter_mm": 9.2,
+    "neck_width_mm": 4.7,
+    "centers_x_mm": [
+      -54,
+      54
+    ]
+  },
+  "tray_outer_mm": [
+    150,
+    55
+  ],
+  "tray_floor_mm": 4.2,
+  "tray_rim_height_mm": 4.8,
+  "two_gusset_thickness_mm": 6,
+  "key_side_clearance_mm": 0.22,
+  "sources": {
+    "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Torso.npz": "9d2985005dfa903b8ea87bd692416dada85b56428758de0b1bc06b47d616c365",
+    "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\L_arm.npz": "29af9420c505bb3e608891555db8a3c520a8b15275a5638447a596fa02a17367",
+    "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\R_arm.npz": "1a96f5ab0ddd05a7ebb2a414bdf44c29188bfeffa0019441cfef14052451d5b9",
+    "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Dorsal_fin.npz": "ed7aafbe48a4e4e07bcdab6b303ae248f3ad423c586186c4b34b535d67407ef9",
+    "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Upper_teeth.npz": "5bdeffcce4051f78ea2916f2cae112dc13ea35159e6c65acb1082bbdc15bbca1",
+    "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\final_parts\\Lower_teeth.npz": "1c0e2f9c84ec4c28a344134ca3de916e30b5b6cc17de6c0b63b02c6ea3986fdd"
+  },
+  "overlaps": [
+    {
+      "a": "Body",
+      "b": "Tray",
+      "overlap_mm3": 0.02326070979157585
+    }
+  ],
+  "tray_insertion_samples": [
+    {
+      "lift_mm": 0,
+      "overlap_mm3": 0.02326070979165401
+    },
+    {
+      "lift_mm": 0.2,
+      "overlap_mm3": 0.023688488149259203
+    },
+    {
+      "lift_mm": 0.5,
+      "overlap_mm3": 0.02432308865441173
+    },
+    {
+      "lift_mm": 1,
+      "overlap_mm3": 0.025360847550123636
+    },
+    {
+      "lift_mm": 2,
+      "overlap_mm3": 0.02735718341840276
+    },
+    {
+      "lift_mm": 3,
+      "overlap_mm3": 0.029247053356735594
+    },
+    {
+      "lift_mm": 4,
+      "overlap_mm3": 0.031030457364888908
+    },
+    {
+      "lift_mm": 8,
+      "overlap_mm3": 0.0370994140975673
+    },
+    {
+      "lift_mm": 16,
+      "overlap_mm3": 0.04412585617103496
+    }
+  ],
+  "parts": [
+    {
+      "name": "Body",
+      "color": "Black",
+      "triangles": 82536,
+      "volume_mm3": 167299.3823000864,
+      "dimensions_mm": [
+        148.0,
+        54.0,
+        156.0
+      ],
+      "settings": {
+        "enable_support": "0",
+        "brim_width": "2"
+      }
+    },
+    {
+      "name": "Tray",
+      "color": "Red",
+      "triangles": 572,
+      "volume_mm3": 38588.23543678392,
+      "dimensions_mm": [
+        150.0,
+        55.0,
+        9.0
+      ],
+      "settings": {
+        "enable_support": "0",
+        "brim_width": "2"
+      }
+    }
+  ],
+  "design_intent": "Light accessory catchall; prototype requires physical assembly and mounting verification.",
+  "accent_withdrawal_samples": [],
+  "serialization_validation": "serialization_validation.json"
+}

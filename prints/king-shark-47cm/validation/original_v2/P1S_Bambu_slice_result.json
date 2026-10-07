@@ -1,0 +1,424 @@
+{
+    "error_string": "Success.",
+    "export_time": 1,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 1596,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 10.47083854675293,
+                "Bridge": 1352.625244140625,
+                "Brim": 3.642336368560791,
+                "Custom": 360.03436279296875,
+                "Flush": 29.0,
+                "Gap infill": 151.86582946777344,
+                "Inner wall": 6065.29541015625,
+                "Internal solid infill": 4028.765869140625,
+                "Outer wall": 9098.8212890625,
+                "Overhang wall": 1314.799072265625,
+                "Sparse infill": 2706.7763671875,
+                "Support": 10631.3896484375,
+                "Support interface": 811.5753173828125,
+                "Top surface": 551.1260986328125,
+                "Travel": 10233.7568359375,
+                "Undefined": 10222.841796875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 263.1624450683594,
+                    "total_used_g": 263.1624450683594
+                }
+            ],
+            "generate_support_material_time": 106429,
+            "id": 1,
+            "infill_time": 18623,
+            "layer_filament_change": 0,
+            "main_predication": 46943.74609375,
+            "make_perimeters_time": 7542,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 295.23712158203125,
+                        "height": 194.0,
+                        "width": 287.2900390625,
+                        "x": 6.814961910247803,
+                        "y": -27.102603912353516,
+                        "z": -1.4210854715202004e-14
+                    },
+                    "id": 5,
+                    "name": "Torso",
+                    "triangle_count": 240848
+                }
+            ],
+            "sliced_time": 154310,
+            "sliced_time_with_cache": 18715,
+            "total_predication": 47350.8359375,
+            "triangle_count": 240848,
+            "warning_message": ""
+        },
+        {
+            "feature_type_times": {
+                "Bottom surface": 245.18460083007813,
+                "Bridge": 182.06629943847656,
+                "Brim": 56.55209732055664,
+                "Custom": 364.8567810058594,
+                "Flush": 29.0,
+                "Gap infill": 57.58573532104492,
+                "Inner wall": 1691.215087890625,
+                "Internal solid infill": 1944.11865234375,
+                "Outer wall": 2626.140869140625,
+                "Overhang wall": 320.99774169921875,
+                "Sparse infill": 642.3416748046875,
+                "Support": 1970.4853515625,
+                "Support interface": 88.23872375488281,
+                "Top surface": 250.3643341064453,
+                "Travel": 2457.545166015625,
+                "Undefined": 2441.929443359375
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 73.24816131591797,
+                    "total_used_g": 73.24815368652344
+                }
+            ],
+            "generate_support_material_time": 9255,
+            "id": 2,
+            "infill_time": 4740,
+            "layer_filament_change": 0,
+            "main_predication": 12504.326171875,
+            "make_perimeters_time": 1690,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 233.97067260742188,
+                        "height": 76.62095642089844,
+                        "width": 267.2203369140625,
+                        "x": 309.199951171875,
+                        "y": 15.300186157226563,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "L_arm",
+                    "triangle_count": 74984
+                }
+            ],
+            "sliced_time": 24804,
+            "sliced_time_with_cache": 7890,
+            "total_predication": 12911.5361328125,
+            "triangle_count": 74984,
+            "warning_message": ""
+        },
+        {
+            "feature_type_times": {
+                "Bottom surface": 258.3442687988281,
+                "Bridge": 279.111572265625,
+                "Brim": 59.65625762939453,
+                "Custom": 364.3419494628906,
+                "Flush": 29.0,
+                "Gap infill": 75.48871612548828,
+                "Inner wall": 1700.1693115234375,
+                "Internal solid infill": 1995.730712890625,
+                "Outer wall": 2608.73291015625,
+                "Overhang wall": 334.2928466796875,
+                "Sparse infill": 721.1973266601563,
+                "Support": 2143.358642578125,
+                "Support interface": 97.75926971435547,
+                "Top surface": 323.3459777832031,
+                "Travel": 2622.62451171875,
+                "Undefined": 2607.58056640625
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 76.16316986083984,
+                    "total_used_g": 76.16316986083984
+                }
+            ],
+            "generate_support_material_time": 12564,
+            "id": 3,
+            "infill_time": 5945,
+            "layer_filament_change": 0,
+            "main_predication": 13190.7431640625,
+            "make_perimeters_time": 1997,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 262.99676513671875,
+                        "height": 76.647216796875,
+                        "width": 238.0306854248047,
+                        "x": 627.0775146484375,
+                        "y": 4.993098735809326,
+                        "z": 0.0
+                    },
+                    "id": 13,
+                    "name": "R_arm",
+                    "triangle_count": 77276
+                }
+            ],
+            "sliced_time": 28877,
+            "sliced_time_with_cache": 7536,
+            "total_predication": 13598.0107421875,
+            "triangle_count": 77276,
+            "warning_message": ""
+        },
+        {
+            "feature_type_times": {
+                "Bottom surface": 440.5448913574219,
+                "Bridge": 1166.6209716796875,
+                "Brim": 170.9241180419922,
+                "Custom": 364.7958068847656,
+                "Flush": 29.0,
+                "Gap infill": 250.625,
+                "Inner wall": 3656.36181640625,
+                "Internal solid infill": 3209.916259765625,
+                "Outer wall": 5108.9052734375,
+                "Overhang wall": 937.6248779296875,
+                "Sparse infill": 2387.18115234375,
+                "Support": 6884.259765625,
+                "Support interface": 506.93939208984375,
+                "Top surface": 894.8787841796875,
+                "Travel": 6312.74365234375,
+                "Undefined": 6297.29638671875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 1,
+                    "main_used_g": 203.87835693359375,
+                    "total_used_g": 203.87835693359375
+                }
+            ],
+            "generate_support_material_time": 26795,
+            "id": 4,
+            "infill_time": 10615,
+            "layer_filament_change": 0,
+            "main_predication": 31899.669921875,
+            "make_perimeters_time": 4431,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 28.915937423706055,
+                        "height": 96.67317199707031,
+                        "width": 105.59571075439453,
+                        "x": 24.620370864868164,
+                        "y": -299.20001220703125,
+                        "z": -34.4829216003418
+                    },
+                    "id": 17,
+                    "name": "Dorsal_fin",
+                    "triangle_count": 9642
+                },
+                {
+                    "bbox": {
+                        "depth": 122.63850402832031,
+                        "height": 135.9344482421875,
+                        "width": 106.54219055175781,
+                        "x": 14.000004768371582,
+                        "y": -260.20001220703125,
+                        "z": 0.0
+                    },
+                    "id": 21,
+                    "name": "L_leg",
+                    "triangle_count": 61230
+                },
+                {
+                    "bbox": {
+                        "depth": 119.51020812988281,
+                        "height": 137.58389282226563,
+                        "width": 93.11943817138672,
+                        "x": 132.5421905517578,
+                        "y": -260.20001220703125,
+                        "z": 0.0
+                    },
+                    "id": 25,
+                    "name": "R_leg",
+                    "triangle_count": 59314
+                },
+                {
+                    "bbox": {
+                        "depth": 66.0,
+                        "height": 21.94788360595703,
+                        "width": 112.15972900390625,
+                        "x": 8.000005722045898,
+                        "y": -127.56150817871094,
+                        "z": 3.814697265625e-06
+                    },
+                    "id": 29,
+                    "name": "Shorts_panel_L",
+                    "triangle_count": 22154
+                },
+                {
+                    "bbox": {
+                        "depth": 66.0,
+                        "height": 24.629676818847656,
+                        "width": 109.90206909179688,
+                        "x": 126.15973663330078,
+                        "y": -127.56150817871094,
+                        "z": 3.814697265625e-06
+                    },
+                    "id": 33,
+                    "name": "Shorts_panel_R",
+                    "triangle_count": 23806
+                }
+            ],
+            "sliced_time": 72774,
+            "sliced_time_with_cache": 25572,
+            "total_predication": 32306.98828125,
+            "triangle_count": 176146,
+            "warning_message": ""
+        },
+        {
+            "feature_type_times": {
+                "Bridge": 1166.7012939453125,
+                "Brim": 8.561440467834473,
+                "Custom": 364.4790344238281,
+                "Flush": 29.0,
+                "Gap infill": 304.2301330566406,
+                "Inner wall": 4256.5,
+                "Internal solid infill": 2021.8765869140625,
+                "Outer wall": 5602.72705078125,
+                "Overhang wall": 1514.665771484375,
+                "Sparse infill": 2398.525146484375,
+                "Support": 5601.26171875,
+                "Support interface": 689.05908203125,
+                "Top surface": 924.1539306640625,
+                "Travel": 6243.2060546875,
+                "Undefined": 6227.884765625
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 3,
+                    "main_used_g": 168.82293701171875,
+                    "total_used_g": 168.82293701171875
+                }
+            ],
+            "generate_support_material_time": 46103,
+            "id": 5,
+            "infill_time": 7496,
+            "layer_filament_change": 0,
+            "main_predication": 30700.28125,
+            "make_perimeters_time": 6220,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 227.95538330078125,
+                        "height": 156.87095642089844,
+                        "width": 227.9553985595703,
+                        "x": 315.56787109375,
+                        "y": -287.9268798828125,
+                        "z": -14.819706916809082
+                    },
+                    "id": 37,
+                    "name": "Shorts",
+                    "triangle_count": 167888
+                }
+            ],
+            "sliced_time": 78980,
+            "sliced_time_with_cache": 16932,
+            "total_predication": 31107.408203125,
+            "triangle_count": 167888,
+            "warning_message": ""
+        },
+        {
+            "feature_type_times": {
+                "Bridge": 2.044386148452759,
+                "Brim": 2.593479871749878,
+                "Custom": 364.7534484863281,
+                "Flush": 29.0,
+                "Gap infill": 27.745586395263672,
+                "Inner wall": 86.51985168457031,
+                "Internal solid infill": 54.196205139160156,
+                "Outer wall": 205.51736450195313,
+                "Overhang wall": 66.89041900634766,
+                "Support": 246.5051727294922,
+                "Support interface": 24.919288635253906,
+                "Top surface": 18.653003692626953,
+                "Travel": 224.0081787109375,
+                "Undefined": 208.36390686035156
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFL99",
+                    "id": 2,
+                    "main_used_g": 2.9110405445098877,
+                    "total_used_g": 2.9110405445098877
+                }
+            ],
+            "generate_support_material_time": 1061,
+            "id": 6,
+            "infill_time": 141,
+            "layer_filament_change": 0,
+            "main_predication": 930.5880126953125,
+            "make_perimeters_time": 150,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 41.17137145996094,
+                        "height": 11.291534423828125,
+                        "width": 52.46956253051758,
+                        "x": 644.4000244140625,
+                        "y": -295.20001220703125,
+                        "z": 1.9896539015462622e-05
+                    },
+                    "id": 41,
+                    "name": "Upper_teeth",
+                    "triangle_count": 3210
+                },
+                {
+                    "bbox": {
+                        "depth": 26.633102416992188,
+                        "height": 9.688385009765625,
+                        "width": 47.67238998413086,
+                        "x": 704.8695678710938,
+                        "y": -295.20001220703125,
+                        "z": -2.0319179384387098e-05
+                    },
+                    "id": 45,
+                    "name": "Lower_teeth",
+                    "triangle_count": 2950
+                }
+            ],
+            "sliced_time": 2909,
+            "sliced_time_with_cache": 1452,
+            "total_predication": 1337.6666259765625,
+            "triangle_count": 6160,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 10.0,
+    "upward_compatible_machine": [
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 2
+}

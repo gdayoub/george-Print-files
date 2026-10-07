@@ -1,0 +1,179 @@
+{
+  "id": "venom-accessory-shelf",
+  "title": "Venom accessory shelf",
+  "dimensions_mm": [
+    150,
+    58.2,
+    156
+  ],
+  "colors": [
+    "Black",
+    "White"
+  ],
+  "status": "digitally-checked-and-sliced-physical-print-assembly-and-mount-untested",
+  "recommended": "files/3mf/Venom_Shelf_P1S_NON_AMS.3mf",
+  "printers": [
+    "Bambu P1S",
+    "Bambu P2S"
+  ],
+  "nozzle_mm": 0.4,
+  "ams_required": false,
+  "preview": "images/preview.png",
+  "mounting_load_rating": null,
+  "estimates": {
+    "P1S": {
+      "return_code": 0,
+      "seconds": 16495.025634765625,
+      "grams": 138.71892642974854,
+      "plates": [
+        {
+          "id": 1,
+          "names": [
+            "Body",
+            "Tray"
+          ],
+          "seconds": 13796.22265625,
+          "grams": 131.39578247070312,
+          "filaments": [
+            {
+              "filament_id": "GFL99",
+              "id": 1,
+              "main_used_g": 131.39578247070312,
+              "total_used_g": 131.39578247070312
+            }
+          ],
+          "feature_type_times": {
+            "Bottom surface": 781.1602172851562,
+            "Bridge": 1559.6912841796875,
+            "Brim": 79.76349639892578,
+            "Custom": 362.8042297363281,
+            "Flush": 29.0,
+            "Gap infill": 214.17779541015625,
+            "Inner wall": 1943.608642578125,
+            "Internal solid infill": 4591.357421875,
+            "Outer wall": 1351.7447509765625,
+            "Overhang wall": 13.815797805786133,
+            "Sparse infill": 869.7310180664062,
+            "Top surface": 1071.825439453125,
+            "Travel": 942.6431274414062,
+            "Undefined": 926.9656372070312
+          },
+          "warning": "",
+          "filament_changes": 0
+        },
+        {
+          "id": 2,
+          "names": [
+            "Eye_L",
+            "Eye_R",
+            "Chest_Emblem"
+          ],
+          "seconds": 2698.802978515625,
+          "grams": 7.32314395904541,
+          "filaments": [
+            {
+              "filament_id": "GFL99",
+              "id": 2,
+              "main_used_g": 7.32314395904541,
+              "total_used_g": 7.32314395904541
+            }
+          ],
+          "feature_type_times": {
+            "Bottom surface": 35.26089096069336,
+            "Bridge": 25.515300750732422,
+            "Brim": 74.7611083984375,
+            "Custom": 362.60693359375,
+            "Flush": 29.0,
+            "Gap infill": 90.0675277709961,
+            "Inner wall": 698.3916625976562,
+            "Internal solid infill": 245.55528259277344,
+            "Outer wall": 658.1822509765625,
+            "Sparse infill": 79.00944519042969,
+            "Top surface": 94.22047424316406,
+            "Travel": 321.9464111328125,
+            "Undefined": 306.2843322753906
+          },
+          "warning": "",
+          "filament_changes": 0
+        }
+      ]
+    },
+    "P2S": {
+      "return_code": 0,
+      "seconds": 16601.692138671875,
+      "grams": 138.52085065841675,
+      "plates": [
+        {
+          "id": 1,
+          "names": [
+            "Body",
+            "Tray"
+          ],
+          "seconds": 13829.548828125,
+          "grams": 131.29298400878906,
+          "filaments": [
+            {
+              "filament_id": "GFL99",
+              "id": 1,
+              "main_used_g": 131.29298400878906,
+              "total_used_g": 131.29298400878906
+            }
+          ],
+          "feature_type_times": {
+            "Bottom surface": 791.6973266601562,
+            "Bridge": 1562.291015625,
+            "Brim": 79.78234100341797,
+            "Custom": 401.4599304199219,
+            "Flush": 26.0,
+            "Gap infill": 214.2338104248047,
+            "Inner wall": 1950.5826416015625,
+            "Internal solid infill": 4605.68017578125,
+            "Outer wall": 1363.9683837890625,
+            "Overhang wall": 13.815815925598145,
+            "Sparse infill": 874.1984252929688,
+            "Top surface": 884.639892578125,
+            "Travel": 1068.242919921875,
+            "Undefined": 1062.947021484375
+          },
+          "warning": "",
+          "filament_changes": 0
+        },
+        {
+          "id": 2,
+          "names": [
+            "Eye_L",
+            "Eye_R",
+            "Chest_Emblem"
+          ],
+          "seconds": 2772.143310546875,
+          "grams": 7.2278666496276855,
+          "filaments": [
+            {
+              "filament_id": "GFL99",
+              "id": 2,
+              "main_used_g": 7.2278666496276855,
+              "total_used_g": 7.2278666496276855
+            }
+          ],
+          "feature_type_times": {
+            "Bottom surface": 37.36664962768555,
+            "Bridge": 25.66170310974121,
+            "Brim": 74.96235656738281,
+            "Custom": 403.427490234375,
+            "Flush": 26.0,
+            "Gap infill": 95.62913513183594,
+            "Inner wall": 700.787841796875,
+            "Internal solid infill": 249.51528930664062,
+            "Outer wall": 665.35791015625,
+            "Sparse infill": 80.10887908935547,
+            "Top surface": 68.12120819091797,
+            "Travel": 352.47491455078125,
+            "Undefined": 345.0309143066406
+          },
+          "warning": "",
+          "filament_changes": 0
+        }
+      ]
+    }
+  }
+}

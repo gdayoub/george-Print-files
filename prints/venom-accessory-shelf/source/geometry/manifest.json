@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Body",
+    "color": "Black",
+    "triangles": 109122,
+    "volume_mm3": 146315.08863859752,
+    "dimensions_mm": [
+      148.0,
+      54.0,
+      156.0
+    ],
+    "settings": {
+      "enable_support": "0",
+      "brim_width": "2"
+    }
+  },
+  {
+    "name": "Tray",
+    "color": "Black",
+    "triangles": 572,
+    "volume_mm3": 38588.23543678392,
+    "dimensions_mm": [
+      150.0,
+      55.0,
+      9.0
+    ],
+    "settings": {
+      "enable_support": "0",
+      "brim_width": "2"
+    }
+  },
+  {
+    "name": "Eye_L",
+    "color": "White",
+    "triangles": 1494,
+    "volume_mm3": 461.06658497257143,
+    "dimensions_mm": [
+      6.499054446816444,
+      10.574851857138011,
+      12.499527223408222
+    ],
+    "settings": {
+      "enable_support": "0",
+      "brim_width": "2"
+    }
+  },
+  {
+    "name": "Eye_R",
+    "color": "White",
+    "triangles": 1540,
+    "volume_mm3": 333.82179590836756,
+    "dimensions_mm": [
+      6.498876951634884,
+      8.335257608891357,
+      12.498876951634884
+    ],
+    "settings": {
+      "enable_support": "0",
+      "brim_width": "2"
+    }
+  },
+  {
+    "name": "Chest_Emblem",
+    "color": "White",
+    "triangles": 22298,
+    "volume_mm3": 6685.459153156867,
+    "dimensions_mm": [
+      68.74887695163488,
+      8.773182762296909,
+      50.748876951634884
+    ],
+    "settings": {
+      "enable_support": "0",
+      "brim_width": "2"
+    }
+  }
+]

@@ -1,0 +1,224 @@
+{
+  "passed": true,
+  "assembly_method": "With tray forward of the body, align it16mm above the seated location. Move straight toward the wall until aligned above the support keys, then lower16mm onto the seats. Reverse to remove.",
+  "max_overlap_mm3": 0.04412585617103496,
+  "numerical_overlap_tolerance_mm3": 0.05,
+  "samples": [
+    {
+      "stage": "lift_to_clear_keys",
+      "translation_mm": [
+        0,
+        0,
+        0
+      ],
+      "overlap_mm3": 0.02326070979165401
+    },
+    {
+      "stage": "lift_to_clear_keys",
+      "translation_mm": [
+        0,
+        0,
+        0.05
+      ],
+      "overlap_mm3": 0.023367998761785556
+    },
+    {
+      "stage": "lift_to_clear_keys",
+      "translation_mm": [
+        0,
+        0,
+        0.2
+      ],
+      "overlap_mm3": 0.023688488149259203
+    },
+    {
+      "stage": "lift_to_clear_keys",
+      "translation_mm": [
+        0,
+        0,
+        0.5
+      ],
+      "overlap_mm3": 0.02432308865441173
+    },
+    {
+      "stage": "lift_to_clear_keys",
+      "translation_mm": [
+        0,
+        0,
+        1
+      ],
+      "overlap_mm3": 0.025360847550123636
+    },
+    {
+      "stage": "lift_to_clear_keys",
+      "translation_mm": [
+        0,
+        0,
+        2
+      ],
+      "overlap_mm3": 0.02735718341840276
+    },
+    {
+      "stage": "lift_to_clear_keys",
+      "translation_mm": [
+        0,
+        0,
+        3
+      ],
+      "overlap_mm3": 0.029247053356735594
+    },
+    {
+      "stage": "lift_to_clear_keys",
+      "translation_mm": [
+        0,
+        0,
+        4
+      ],
+      "overlap_mm3": 0.031030457364888908
+    },
+    {
+      "stage": "lift_to_clear_keys",
+      "translation_mm": [
+        0,
+        0,
+        8
+      ],
+      "overlap_mm3": 0.0370994140975673
+    },
+    {
+      "stage": "lift_to_clear_keys",
+      "translation_mm": [
+        0,
+        0,
+        12
+      ],
+      "overlap_mm3": 0.04146491553961239
+    },
+    {
+      "stage": "lift_to_clear_keys",
+      "translation_mm": [
+        0,
+        0,
+        16
+      ],
+      "overlap_mm3": 0.04412585617103496
+    },
+    {
+      "stage": "forward_withdrawal",
+      "translation_mm": [
+        0,
+        0,
+        16
+      ],
+      "overlap_mm3": 0.04412585617103496
+    },
+    {
+      "stage": "forward_withdrawal",
+      "translation_mm": [
+        0,
+        -0.2,
+        16
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "stage": "forward_withdrawal",
+      "translation_mm": [
+        0,
+        -0.5,
+        16
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "stage": "forward_withdrawal",
+      "translation_mm": [
+        0,
+        -1,
+        16
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "stage": "forward_withdrawal",
+      "translation_mm": [
+        0,
+        -2,
+        16
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "stage": "forward_withdrawal",
+      "translation_mm": [
+        0,
+        -4,
+        16
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "stage": "forward_withdrawal",
+      "translation_mm": [
+        0,
+        -8,
+        16
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "stage": "forward_withdrawal",
+      "translation_mm": [
+        0,
+        -16,
+        16
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "stage": "forward_withdrawal",
+      "translation_mm": [
+        0,
+        -24,
+        16
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "stage": "forward_withdrawal",
+      "translation_mm": [
+        0,
+        -32,
+        16
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "stage": "forward_withdrawal",
+      "translation_mm": [
+        0,
+        -48,
+        16
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "stage": "forward_withdrawal",
+      "translation_mm": [
+        0,
+        -64,
+        16
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "stage": "forward_withdrawal",
+      "translation_mm": [
+        0,
+        -80,
+        16
+      ],
+      "overlap_mm3": 0.0
+    }
+  ]
+}

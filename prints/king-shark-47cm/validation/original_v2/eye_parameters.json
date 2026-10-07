@@ -1,0 +1,147 @@
+{
+  "status": "Small physical socket and integrated eyeball geometry; final head verification recorded below",
+  "units": "millimeters",
+  "coordinate_system": "Final repaired/polished coordinates; front -Y, up +Z, height470",
+  "raw_normalized_to_repaired_transform_applied": {
+    "scale": 0.9994207364391529,
+    "translation_mm": [
+      0.0,
+      0.0,
+      0.2376000968697206
+    ]
+  },
+  "source_likelihood": "Positions located from actual textured lateral renders and source BVH ray hits, then adjusted to the surrounding anatomy plane; not chosen from a broad dark-pixel threshold.",
+  "operation": "Subtract Eye_sockets.npz from repaired head, then union Eyeballs.npz. Do not add balls as separate print objects.",
+  "notes": [
+    "Eyes are 5.6mm diameter and mostly embedded, preserving small lateral shark eyes.",
+    "Original upper brow and eyelid region remain; an oval recess and shallow pupil depression provide real printed shadows.",
+    "Gray/charcoal head prints eyes in the same filament; no new pieces or AMS changes.",
+    "If whole-model coordinates change during repair normalization, apply the same rigid/scale transform to these NPZs before Boolean operations."
+  ],
+  "eyes": [
+    {
+      "side": "negative_X",
+      "source_iris_surface_mm": [
+        -19.2489,
+        -80.573,
+        402.375
+      ],
+      "surface_anchor_mm": [
+        -21.533525016915995,
+        -80.52332873490253,
+        402.384516025256
+      ],
+      "normal_outward": [
+        -0.800170746090867,
+        -0.3964788008885847,
+        -0.4500348181489241
+      ],
+      "local_basis_columns": [
+        [
+          0.4439797458581315,
+          -0.4032477679642309,
+          -0.800170746090867
+        ],
+        [
+          -0.8960368213794281,
+          -0.19980634418906973,
+          -0.3964788008885847
+        ],
+        [
+          0.0,
+          0.8930110091447165,
+          -0.4500348181489241
+        ]
+      ],
+      "socket_center_mm": [
+        -21.933378635083596,
+        -80.72145330248583,
+        402.1596289605672
+      ],
+      "socket_radii_mm": [
+        4.1475960562224845,
+        2.4485808042759247,
+        2.6984359883857127
+      ],
+      "eyeball_center_mm": [
+        -20.17402271514615,
+        -79.84970520511935,
+        403.14913204519803
+      ],
+      "eyeball_radius_mm": 2.7983780620296277,
+      "pupil_radius_mm": 0.9994207364391529,
+      "pupil_depth_mm": 0.34979725775370346,
+      "maximum_eyeball_projection_from_anchor_mm": 1.0993628100830681
+    },
+    {
+      "side": "positive_X",
+      "source_iris_surface_mm": [
+        35.6123,
+        -78.4171,
+        403.125
+      ],
+      "surface_anchor_mm": [
+        37.07771885696097,
+        -78.37457415155836,
+        403.1290844739032
+      ],
+      "normal_outward": [
+        0.8350913897478456,
+        -0.14156911265235736,
+        -0.5315830669912617
+      ],
+      "local_basis_columns": [
+        [
+          0.16714059302916778,
+          0.5241053261805972,
+          0.8350913897478456
+        ],
+        [
+          0.9859330718470998,
+          -0.08884910906118332,
+          -0.14156911265235736
+        ],
+        [
+          0.0,
+          0.8470061646104848,
+          -0.5315830669912617
+        ]
+      ],
+      "socket_center_mm": [
+        37.49502268282887,
+        -78.44531770497039,
+        402.8634469037577
+      ],
+      "socket_radii_mm": [
+        4.1475960562224845,
+        2.4485808042759247,
+        2.6984359883857127
+      ],
+      "eyeball_center_mm": [
+        35.65888584901013,
+        -78.13404606995748,
+        404.0322522123979
+      ],
+      "eyeball_radius_mm": 2.7983780620296277,
+      "pupil_radius_mm": 0.9994207364391529,
+      "pupil_depth_mm": 0.34979725775370346,
+      "maximum_eyeball_projection_from_anchor_mm": 1.0993628100830681
+    }
+  ],
+  "validation": {
+    "source_head_checked": true,
+    "intended_sequence": "(closed_head - Eye_sockets) + Eyeballs",
+    "eye_radius_mm": 2.8,
+    "socket_status": "Error.NoError",
+    "eyeball_status": "Error.NoError",
+    "socket_components": 2,
+    "eyeball_components": 2,
+    "source_head": "C:\\Users\\Panduh\\Documents\\Codex\\2026-10-02\\i-m-giving-you\\work\\king_shark_v2\\repaired_polished.npz",
+    "edited_status": "Error.NoError",
+    "components_before": 1,
+    "components_after": 1,
+    "socket_removed_mm3": 45.970781286463215,
+    "eyeball_overlap_remaining_head_mm3": 97.04134545584905,
+    "connected_to_head": true
+  }
+}

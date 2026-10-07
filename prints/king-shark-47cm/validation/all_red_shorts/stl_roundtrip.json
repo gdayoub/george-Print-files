@@ -1,0 +1,19 @@
+[
+  {
+    "file": "Shorts.stl",
+    "triangles": 202286,
+    "vertices": 101063,
+    "volume_mm3": 1582368.550953984,
+    "manifold_status": "Error.NoError",
+    "bytes": 10114384,
+    "sha256": "e6b4c2383769e1c35961cf7c4e9f26bff25a9b94d68c56de9dcf0ac66226082a",
+    "dimensions_mm": [
+      171.17581176757812,
+      173.94017028808594,
+      137.4623260498047
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  }
+]

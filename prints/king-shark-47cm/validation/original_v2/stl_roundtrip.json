@@ -1,0 +1,189 @@
+[
+  {
+    "file": "Torso.stl",
+    "triangles": 240848,
+    "vertices": 120402,
+    "volume_mm3": 4046386.4988430752,
+    "manifold_status": "Error.NoError",
+    "bytes": 12042484,
+    "sha256": "bbb7cab2f16e3cc9b416f63dddd4bc7375b2fd0cfc02973f863416e066d4c183",
+    "dimensions_mm": [
+      221.11672973632812,
+      221.47683715820312,
+      194.0
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  },
+  {
+    "file": "L_arm.stl",
+    "triangles": 74984,
+    "vertices": 37494,
+    "volume_mm3": 534779.5864427096,
+    "manifold_status": "Error.NoError",
+    "bytes": 3749284,
+    "sha256": "07aa541c701fdd0a64f3d57762819d0daa16fd00119f790a31f352f7e27cbdd0",
+    "dimensions_mm": [
+      204.80868530273438,
+      206.45367431640625,
+      76.62095642089844
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  },
+  {
+    "file": "R_arm.stl",
+    "triangles": 77276,
+    "vertices": 38640,
+    "volume_mm3": 531448.4501108603,
+    "manifold_status": "Error.NoError",
+    "bytes": 3863884,
+    "sha256": "ad45444670840d5d5aac90510895af95a39af0e8e92fb67692b680924307b928",
+    "dimensions_mm": [
+      202.19252014160156,
+      202.9685516357422,
+      76.64720916748047
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  },
+  {
+    "file": "Dorsal_fin.stl",
+    "triangles": 9642,
+    "vertices": 4823,
+    "volume_mm3": 30387.306031818673,
+    "manifold_status": "Error.NoError",
+    "bytes": 482184,
+    "sha256": "01f29d8a901a86d78268d0af8dbb54606f518a8c6cb60805dd4175c405e07b34",
+    "dimensions_mm": [
+      86.20733642578125,
+      28.915925979614258,
+      60.80723571777344
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  },
+  {
+    "file": "L_leg.stl",
+    "triangles": 61230,
+    "vertices": 30613,
+    "volume_mm3": 390921.0891344587,
+    "manifold_status": "Error.NoError",
+    "bytes": 3061584,
+    "sha256": "3ffdce152905434b92756a4ed19a2af32917bffbd4bd953fe8613acb1f44f888",
+    "dimensions_mm": [
+      106.54219818115234,
+      122.63848876953125,
+      135.9344482421875
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  },
+  {
+    "file": "R_leg.stl",
+    "triangles": 59314,
+    "vertices": 29657,
+    "volume_mm3": 383086.18319752347,
+    "manifold_status": "Error.NoError",
+    "bytes": 2965784,
+    "sha256": "5ccec37ae8c42fd43a4f5d153de917d354ae0af4dbc73e7aad17732ad627a7c3",
+    "dimensions_mm": [
+      93.11943054199219,
+      119.51019287109375,
+      137.58389282226562
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  },
+  {
+    "file": "Shorts_panel_L.stl",
+    "triangles": 22154,
+    "vertices": 11079,
+    "volume_mm3": 76678.30296014913,
+    "manifold_status": "Error.NoError",
+    "bytes": 1107784,
+    "sha256": "fd2a63d47e44d8402394a5d934a4c634d46ccec033a0e95a56262488e0221e41",
+    "dimensions_mm": [
+      112.15973663330078,
+      66.0,
+      21.9478816986084
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  },
+  {
+    "file": "Shorts_panel_R.stl",
+    "triangles": 23806,
+    "vertices": 11903,
+    "volume_mm3": 80658.71324588894,
+    "manifold_status": "Error.NoError",
+    "bytes": 1190384,
+    "sha256": "e44fe4382a61807290e45d498e78bd1139a708791d5059973d1178f018d405a3",
+    "dimensions_mm": [
+      109.90206909179688,
+      66.0,
+      24.629676818847656
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  },
+  {
+    "file": "Shorts.stl",
+    "triangles": 167888,
+    "vertices": 83864,
+    "volume_mm3": 1423347.5237951288,
+    "manifold_status": "Error.NoError",
+    "bytes": 8394484,
+    "sha256": "3d0a36de2b030a0b68fbb7adda61377c1950374b236800e4df89f9af2c8ebbdf",
+    "dimensions_mm": [
+      176.0683135986328,
+      176.0117645263672,
+      134.50735473632812
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  },
+  {
+    "file": "Upper_teeth.stl",
+    "triangles": 3210,
+    "vertices": 1607,
+    "volume_mm3": 731.4453189712798,
+    "manifold_status": "Error.NoError",
+    "bytes": 160584,
+    "sha256": "bc68ac39c25fe56271442136bad1d42e34c910ab9cc37abf50028c6d7b60b95e",
+    "dimensions_mm": [
+      52.46958923339844,
+      41.171356201171875,
+      11.291533470153809
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  },
+  {
+    "file": "Lower_teeth.stl",
+    "triangles": 2950,
+    "vertices": 1477,
+    "volume_mm3": 513.5741263686378,
+    "manifold_status": "Error.NoError",
+    "bytes": 147584,
+    "sha256": "53de578ca0163e4936d51306437bfd13a5a2ae83f3dbb5b72d41201e14e029a9",
+    "dimensions_mm": [
+      47.67237091064453,
+      26.633089065551758,
+      9.688385963439941
+    ],
+    "watertight": true,
+    "winding_consistent": true,
+    "geometry_repaired_during_export": false
+  }
+]

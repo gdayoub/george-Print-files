@@ -1,0 +1,97 @@
+{
+  "status": "Reconstructed one closed exterior solid; cuts, joints and print validation remain pending",
+  "source": "normalized_mesh.npz",
+  "output": "repaired_solid.npz",
+  "method": "Triangle surface voxelization, one six-neighbor closing, horizontal section enclosed-loop fill, 3D enclosed cavity flood fill, marching cubes, minimal Taubin smoothing, Manifold simplification",
+  "voxel_pitch_mm": 0.45,
+  "grid_shape": [
+    727,
+    537,
+    1054
+  ],
+  "closing_iterations": 1,
+  "closing_neighborhood": 6,
+  "taubin": {
+    "iterations": 4,
+    "lambda": 0.3,
+    "nu": 0.31
+  },
+  "simplification_tolerance_mm": 0.03,
+  "source_surface_occupied_voxels": 4349463,
+  "filled_voxels": 80300753,
+  "uniform_height_scale": 0.9994207364391529,
+  "bounds_before_height_normalization": [
+    [
+      -161.78850020416198,
+      -119.03890706575844,
+      -0.23773780971992697
+    ],
+    [
+      161.7736394007884,
+      119.03993842580296,
+      470.03467386203323
+    ]
+  ],
+  "original_bounds_mm": [
+    [
+      -161.34200405228466,
+      -118.72949600066806,
+      0.0
+    ],
+    [
+      161.34200405228466,
+      118.72949600066806,
+      470.0
+    ]
+  ],
+  "repaired_bounds_mm": [
+    [
+      -161.68020879901104,
+      -118.9655433533226,
+      0.0
+    ],
+    [
+      161.6799298263779,
+      118.9709829271874,
+      469.9947268769569
+    ]
+  ],
+  "bounds_difference_mm": [
+    [
+      -0.338204746726376,
+      -0.2360473526545377,
+      0.0
+    ],
+    [
+      0.337925774093236,
+      0.24148692651934311,
+      -0.005273123043082251
+    ]
+  ],
+  "dimensions_mm": [
+    323.3601386253889,
+    237.93652628051,
+    469.9947268769569
+  ],
+  "vertices": 968064,
+  "triangles": 1936188,
+  "volume_mm3": 7304667.822118273,
+  "manifold_status": "Error.NoError",
+  "watertight": true,
+  "winding_consistent": true,
+  "components": 1,
+  "discarded_isolated_components": [],
+  "surface_deviation": {
+    "method": "Sampled repaired vertices to closest original source triangle, exact BVH triangle distance",
+    "samples": 25000,
+    "median_mm": 0.27135084569454193,
+    "p95_mm": 0.4635517209768295,
+    "p99_mm": 0.578271257281303,
+    "maximum_mm": 24.99509620666504
+  },
+  "duration_seconds": 85.53632640838623,
+  "cautions": [
+    "Input inner shell intentionally removed; lightweight interior will be controlled by slicer walls and infill.",
+    "A watertight solid is not yet a printable assembly or proof of physical print success."
+  ]
+}

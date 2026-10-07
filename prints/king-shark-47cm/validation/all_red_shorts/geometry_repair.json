@@ -1,0 +1,32 @@
+{
+  "original_geometry_sha256": {
+    "Dorsal_fin.npz": "ed7aafbe48a4e4e07bcdab6b303ae248f3ad423c586186c4b34b535d67407ef9",
+    "Lower_teeth.npz": "1c0e2f9c84ec4c28a344134ca3de916e30b5b6cc17de6c0b63b02c6ea3986fdd",
+    "L_arm.npz": "29af9420c505bb3e608891555db8a3c520a8b15275a5638447a596fa02a17367",
+    "L_leg.npz": "5e99cb1bb26c613fdc839f22d6a727530d21c93a2d53b98d4ba3ff794a34aa7b",
+    "R_arm.npz": "1a96f5ab0ddd05a7ebb2a414bdf44c29188bfeffa0019441cfef14052451d5b9",
+    "R_leg.npz": "37bbf4bfbdcd0319e73867e3b4e1ec59c0f109b7a79f4c2ddecf7fd1971051a4",
+    "Shorts.npz": "5d9b48c965f216fa938d197517c464660c89baf63cc2d4067927139662022245",
+    "Shorts_panel_L.npz": "b4e299f57cc3381c455e21b5b12ffa96b351f23c79aa476ecd4b03ff229f40f4",
+    "Shorts_panel_R.npz": "aa09e01b1c7a9823bebdf9aaafebe5a4397f270294ddda9c30f736352cfe8b86",
+    "Torso.npz": "9d2985005dfa903b8ea87bd692416dada85b56428758de0b1bc06b47d616c365",
+    "Upper_teeth.npz": "5bdeffcce4051f78ea2916f2cae112dc13ea35159e6c65acb1082bbdc15bbca1"
+  },
+  "original_files_untouched": true,
+  "restored_side_region_abs_x_min_mm": 74.5,
+  "protected_center_abs_x_max_mm": 74,
+  "original_material_removed_mm3": 0.0,
+  "central_symmetric_difference_mm3": 0.0,
+  "new_shorts_volume_mm3": 1582368.5578979307,
+  "added_material_design_volume_mm3": 159021.04355083522,
+  "triangles": 202286,
+  "components": 1,
+  "dimensions_mm": [
+    196.57755899371358,
+    123.79619746764914,
+    137.46232381285125
+  ],
+  "manifold_status": "Error.NoError",
+  "other_eight_part_files_byte_identical": true,
+  "joint_definition_file_byte_identical": true
+}

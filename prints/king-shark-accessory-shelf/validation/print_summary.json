@@ -1,0 +1,54 @@
+{
+  "P1S": {
+    "return_code": 0,
+    "plates": [
+      {
+        "plate": 1,
+        "seconds": 10699.7646484375,
+        "filament_g": 97.82405853271484,
+        "support_seconds": 0,
+        "filament_changes": 0,
+        "warnings": ""
+      },
+      {
+        "plate": 2,
+        "seconds": 3107.4130859375,
+        "filament_g": 32.03908920288086,
+        "support_seconds": 0,
+        "filament_changes": 0,
+        "warnings": ""
+      }
+    ],
+    "total_seconds": 13807.177734375,
+    "total_filament_g": 129.8631477355957,
+    "all_slices_pass": true,
+    "supports_generated": false,
+    "physical_print_test": false
+  },
+  "P2S": {
+    "return_code": 0,
+    "plates": [
+      {
+        "plate": 1,
+        "seconds": 10671.330078125,
+        "filament_g": 97.71898651123047,
+        "support_seconds": 0,
+        "filament_changes": 0,
+        "warnings": ""
+      },
+      {
+        "plate": 2,
+        "seconds": 3148.867919921875,
+        "filament_g": 31.945295333862305,
+        "support_seconds": 0,
+        "filament_changes": 0,
+        "warnings": ""
+      }
+    ],
+    "total_seconds": 13820.197998046875,
+    "total_filament_g": 129.66428184509277,
+    "all_slices_pass": true,
+    "supports_generated": false,
+    "physical_print_test": false
+  }
+}

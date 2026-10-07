@@ -1,0 +1,250 @@
+{
+  "assembly_paths_pass": true,
+  "numerical_overlap_tolerance_mm3": 0.05,
+  "max_overlap_mm3": 0.04412585617103496,
+  "notes": "Tray path: lift 16mm, then slide forward away from the wall. Reverse to install. Lifting straight through the sculpt is not an assembly path. Submicron serialization cleanup can produce tiny numerical intersections along nominal contact planes. This checks rigid CAD travel, not a physical assembly.",
+  "samples": [
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 0,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "overlap_mm3": 0.02326070979165401
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 0.05,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "overlap_mm3": 0.023367998761785556
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 0.2,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "overlap_mm3": 0.023688488149259203
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 0.5,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "overlap_mm3": 0.02432308865441173
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 1,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "overlap_mm3": 0.025360847550123636
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 2,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "overlap_mm3": 0.02735718341840276
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 3,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "overlap_mm3": 0.029247053356735594
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 4,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "overlap_mm3": 0.031030457364888908
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 8,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "overlap_mm3": 0.0370994140975673
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 16,
+      "direction": [
+        0,
+        0,
+        1
+      ],
+      "overlap_mm3": 0.04412585617103496
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 0,
+      "lift_mm": 16,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "overlap_mm3": 0.04412585617103496
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 0.2,
+      "lift_mm": 16,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 0.5,
+      "lift_mm": 16,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 1,
+      "lift_mm": 16,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 2,
+      "lift_mm": 16,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 3,
+      "lift_mm": 16,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 4,
+      "lift_mm": 16,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 8,
+      "lift_mm": 16,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 16,
+      "lift_mm": 16,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 40,
+      "lift_mm": 16,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "overlap_mm3": 0.0
+    },
+    {
+      "part": "Tray",
+      "other": "Body",
+      "travel_mm": 80,
+      "lift_mm": 16,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "overlap_mm3": 0.0
+    }
+  ]
+}

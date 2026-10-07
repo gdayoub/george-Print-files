@@ -1,0 +1,41 @@
+{
+  "bed_margin_mm": 3,
+  "max_height_mm": 250,
+  "palette": [
+    "#777E83",
+    "#F0ECE2",
+    "#BE2333"
+  ],
+  "plates": [
+    {
+      "label": "King Shark Catchall Bowl - single gray",
+      "instances": [
+        {
+          "name": "King_Shark_Catchall_Bowl",
+          "rotation": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "xy_mm": [
+            58,
+            56
+          ]
+        }
+      ],
+      "preview": "three_quarter.png"
+    }
+  ]
+}
