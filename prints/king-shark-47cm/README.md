@@ -27,6 +27,8 @@ Already printed the chest/head? Keep it. The replacement shorts retain the exact
 
 [Original STL geometry](files/stl/original_v2/) · [All-red shorts STL](files/stl/all_red_shorts/Shorts_ALL_RED.stl?raw=true) · [Fast-leg STL backups](files/stl/fast_legs_feet/) · [Editable all-red Blender assembly](source/all_red_shorts/King_Shark_all_red_shorts_47cm.blend?raw=true) · [Original Blender/source](source/original_v2/)
 
+[**How this statue was made, from the approved image to printable parts**](docs/HOW_THIS_STATUE_WAS_MADE.md) records the generation settings, mesh repair, cuts, glue keys, print profiles and checks for another maker or agent.
+
 STLs contain geometry only; they do not retain support settings, color assignments, infill, local joint reinforcement, or optimized print time. Prefer the printer-specific 3MF files.
 
 ## Support-inclusive estimates

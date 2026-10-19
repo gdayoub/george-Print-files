@@ -18,6 +18,8 @@
 
 [Size 1 Blender source](source/Venom_Size1_Blender.zip?raw=true) · [Size 2 AMS Blender source](source/Venom_Size2_AMS_Blender.zip?raw=true) · [Printing and assembly](docs/PRINTING_ASSEMBLY.md) · [Per-plate estimates](validation/Plate_estimates.csv)
 
+[**How the full-size statue was made**](docs/HOW_THE_FULL_SIZE_STATUE_WAS_MADE.md) records the source-model extraction, tendril removal, whole-limb cuts, keyed joints, lightweight profile and validation. [Retained build scripts](source/build_record_scripts/README.md) are included as a research record for another maker or agent.
+
 Open a 3MF **as a project** and keep its custom process settings. Files contain full geometry, colors, support settings, sparse infill, and local joint reinforcement. A plain STL cannot carry those settings. All dimensions are millimeters. Use 0.4 mm standard-flow nozzle, PLA and Textured PEI; select your actual calibrated filament before slicing. Black = slot 1, white = slot 2, red = slot 3.
 
 ## Slicer estimates

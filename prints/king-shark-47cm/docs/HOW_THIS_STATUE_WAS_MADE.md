@@ -1,0 +1,50 @@
+# How the 47 cm King Shark statue was made
+
+This is a build record and a starting procedure for another large character statue. It describes the actual saved King Shark workflow, not an assertion that an image-to-3D service will produce the same mesh again. The printable mesh, original concept, raw GLB, Blender file, construction scripts and validation reports are in this statue folder. All dimensions below are millimeters.
+
+## 1. Lock the design target before generating geometry
+
+George selected a realistic, shirtless King Shark/Nanaue interpretation: projecting shark snout, dorsal fin, massive shoulders and arms, natural fingers, bulky torso, red shorts, dark skin and separate white teeth. The approved full-body concept is [the saved reference](../source/original_v2/approved_concept_not_mesh.png). It is a **reference image**, not a screenshot of the final printable geometry. The user explicitly approved that image and its upload for image-to-3D generation. The saved reference does not identify the exact image generator or its prompt, so those details cannot be recovered honestly from this package. For a new character, save the chosen image, prompt, seed and image-model version before proceeding.
+
+Target approximately 470 mm overall height, a 0.4 mm nozzle, PLA, Bambu P1S/P2S, non-AMS one-color plates, whole arms and lower legs where they fit, visible color separation by physical parts, light slicer infill and concealed glue seams. Examine reference front, sides and back; a single front image leaves hidden anatomy for the 3D generator to infer.
+
+## 2. Generate and freeze the base mesh
+
+The approved image was uploaded to [Microsoft TRELLIS.2 on Hugging Face](https://huggingface.co/spaces/microsoft/TRELLIS.2). The retained [generation record](../validation/original_v2/trellis_status.json) says resolution **1024**, fixed seed **20261006** (randomization off), target **500,000** faces and texture resolution **2048**. The successful result came through the signed-in browser session after the anonymous/guest attempt hit its quota. The session yielded [this raw GLB](../source/original_v2/King_Shark_raw_TRELLIS.glb?raw=true), SHA-256 `031a509823168c16d7e075fa9751d10552ac0909003afcba3b5858fab4c01d1b`. The [saved API driver](../source/original_v2/trellis_client.py) records the attempted API route and guidance/sampling values; it is **not** proof that its anonymous call generated the final GLB. The hosted service/API and output are not guaranteed to remain identical. The archived GLB in this folder is the reliable starting point for this exact statue.
+
+Treat the GLB as an **art source**, not as a print-ready solid. Inspect the generated actual surface without photographic texture. The concept's color, scars and pores are not proof that corresponding geometry exists. Render front, back, sides, head, hands and shorts from the actual mesh, then decide whether the likeness merits further engineering. An earlier procedural shark was rejected for poor realism; the accepted sculpt came from the approved image and TRELLIS result.
+
+## 3. Repair the sculpture before cutting it
+
+The mesh was normalized to millimeters, upright +Z with the front toward -Y, and about 470 mm high. The initial repair used 0.45 mm voxel sampling, one six-neighbor closing step, enclosed section/cavity filling, marching cubes, light Taubin smoothing and simplification. [Repair report](../validation/original_v2/repair_report.json) records the measurements. A further polishing pass reduced staircase artifacts without a new scale or translation; see [polish report](../validation/original_v2/polish_report.json).
+
+Crucial lesson: the first closed/manifold intermediates still contained hidden internal slit cavities. A protected 1.8 mm eroded-core union filled those while preserving the exterior skin and leaving the forward mouth and outside hand spaces alone. The [internal-core report](../validation/original_v2/internal_core_report.json) records the final one-component, watertight source with 659,904 triangles. In the original workspace the final pre-cut file was `work/king_shark_v2/repaired_polished_filled.npz`; similarly named earlier `repaired_solid.npz` and `repaired_polished.npz` were **not** final manufacturing inputs. For this published statue, use the already engineered [assembly-coordinate part meshes](../source/geometry/) rather than recutting the raw GLB. The archived repair scripts depend on workspace intermediates that are not all duplicated here.
+
+## 4. Cut at natural seams and engineer the assembly
+
+The saved [engineering script](../source/original_v2/engineer_v2.py) cut whole arms at the shoulders, whole lower legs at the shorts hems, the torso at the lower waistband, and the dorsal fin from the upper back. Shorts seams were derived from measured curved garment boundaries, with hidden central glue areas flattened for reliable keys. The waistband stays with the torso. The generated teeth were replaced by **two connected white dental arches** with hidden gum rails, and separate insertion paths; see [mouth geometry](../validation/original_v2/mouth_parameters.json). Small eye geometry was also rebuilt. Original v2 had eleven parts, including red shorts and two dark shorts side panels.
+
+Each structural joint is a **64-sided asymmetric rounded tapered peg plus a matching blind socket**, for super glue, not a snap clip. Root radial allowance is nominally **0.18 mm**; the peg narrows to **0.84** of its root profile at the tip; blind socket depth has extra clearance. The larger waist uses a 19 mm half-width / 16 mm peg length; shoulders and thighs use 13 mm half-width, with 12 mm and 16 mm peg lengths respectively; the fin has its own smaller key. Use the actual [joint definitions](../validation/original_v2/joints.json) for coordinates and final values, rather than measuring from a screenshot. Avoid any later remesh/smooth/scale operation that moves fitted male and female surfaces independently. Check manifold parts, seated intersections and the full insertion/withdrawal paths; [assembly validation](../validation/original_v2/assembly_validation.json) contains the saved checks.
+
+## 5. Assign colors as parts; prepare non-AMS plates
+
+Body, arms, legs and fin use dark gray/black; shorts are red; upper and lower dental arches are white. One material is printed per plate and loaded manually. [Original P1S/P2S 3MFs](../files/3mf/01_original_v2/) have six plates: torso/head, left arm, right arm, legs/fin/dark side panels, shorts, and teeth. The 3MF stores geometry, plate placement, supports, material slots, infill and local connector reinforcement; an STL stores geometry only. The [original packager](../source/original_v2/package_v2.py), [printer profiles](../source/original_v2/) and [plate layout](../validation/original_v2/layout.json) are retained. The original full P1S slice was about **38 h 31 min / 788 g** including supports; these are slicer estimates, not measured time.
+
+The later one-piece [all-red shorts](../files/3mf/02_all_red_shorts/) replaced the red/dark three-part group after the user reported an infill failure on the old shorts. It restored material in the side-panel region while preserving the original waist key and both leg sockets exactly; the exact slicer failure could not be reproduced, so do not claim a proven root cause. The [fast legs](../files/3mf/03_fast_legs_feet/) use **identical original leg meshes** with 0.28 mm layers, 2% gyroid and retained local joint reinforcement. They improve the P1S legs-only estimate from 6 h 38 min to 5 h 33 min, at visibly larger layer steps. The [fin-only projects](../files/3mf/04_fin_only/) isolate the original fin; the original plate 6 already prints both teeth alone. Do not print old and replacement shorts/legs twice.
+
+## 6. Validate the exported deliverable, not only the source mesh
+
+After exporting STL, reload the **binary float32 file** and check watertightness and nondegenerate triangles; inspect exact 3MF embedded meshes and build references. The original project required serialization fixes to avoid the Bambu “no geometry” failure. Then slice the named P1S and P2S projects, require successful engine results, no plate warning and no filament changes, and check actual model/support/brim extrusion paths against the bed and the P1S front-left exclusion. [Project validation](../validation/original_v2/project_validation.json), [STL roundtrip](../validation/original_v2/stl_roundtrip.json), [print estimates](../validation/original_v2/print_estimates.json) and [current status](VALIDATION_STATUS.md) are the saved evidence. The user reported the torso/chest and head physically printed well; the later replacement shorts, faster leg process and whole revised assembly have no equivalent reported physical result.
+
+## Reuse this approach for a different character
+
+1. Choose an image showing the intended silhouette, anatomy and clothes; save its prompt/model/seed and get visual approval.
+2. Generate a base mesh; save the raw output and exact generation settings; inspect **untextured actual geometry**.
+3. Repair to one sound exterior, but inspect hidden voids and openings instead of trusting only a “watertight” flag.
+4. Fix the target height and coordinate system; cut at clothing/anatomy seams; keep major limbs whole when bed fit allows.
+5. Put separate-color features on separate prints for non-AMS; keep tiny details on connected carrier rails where necessary.
+6. Engineer asymmetric glue keys and sockets with explicit clearance, then freeze mating surfaces and validate insertion paths.
+7. Orient and slice each part on both printers; compare total support-inclusive time/material, not just infill percentage.
+8. Export, reopen, inspect and slice the **delivered** STL/3MF; record hash, settings, previews and limits. Never claim physical success from digital checks alone.
+
+This is an unofficial fan interpretation, not a movie production asset. See [credits and provenance](../CREDITS.md) and [printing/assembly order](PRINTING_ASSEMBLY.md).
